@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.169.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://www[.]google[.]com/bot.html)"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "a235fe82ba570bd35b7c5ad02638e4c8b170c4b53c073db77076fb6708ffd873"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /tmp/.env HTTP/1.1"
+  },
+  {
+    "asn": "Dedik Services Limited",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "151.243.18.XXX"
+  }
+]
