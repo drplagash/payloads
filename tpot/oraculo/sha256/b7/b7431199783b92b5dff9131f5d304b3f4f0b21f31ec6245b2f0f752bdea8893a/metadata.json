@@ -1,0 +1,37 @@
+{
+  "artifact": {
+    "description": "DOS executable (COM), maybe with interrupt 22h, start instruction 0xb837d8e4 a450a911",
+    "entropy": 7.85,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "behaviors": [
+      "High entropy"
+    ],
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "e9ba87882bfe9cd390b327cbf60e9325",
+    "sha1": "989dfabc153452087d8610d52f3ff60654911bbf",
+    "sha256": "b7431199783b92b5dff9131f5d304b3f4f0b21f31ec6245b2f0f752bdea8893a"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T21:09:22+00:00",
+  "schema_version": "3.0"
+}
