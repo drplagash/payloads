@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "MPEG-4 LOAS",
+    "entropy": 7.87,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "76eca5f749c43406ea54ba3fa34c7856",
+    "sha1": "95ca4be37c7dcccfaf85ab3d22e547805cf1860a",
+    "sha256": "00cdd52c07412d6c66b252279543c022e260c2e9fd68d6fa538aaba6458d2515"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:17:11+00:00",
+  "schema_version": "3.0"
+}

