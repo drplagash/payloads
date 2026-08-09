@@ -1,51 +1,44 @@
 {
   "artifact": {
-    "entropy": "5.29",
-    "size": "2162",
-    "type": "payload"
+    "description": "ASCII text, with CRLF line terminators",
+    "entropy": 5.29,
+    "risk_level": "critical",
+    "size_bytes": 2162
   },
   "classification": {
+    "behaviors": [
+      "Descarga remota",
+      "Cambio de permisos"
+    ],
     "category": "botnet",
-    "confidence": "0.9",
-    "family": "mirai"
+    "confidence": "Alta",
+    "family": "mirai",
+    "family_confidence": "Alta",
+    "family_evidence": "YARA match: mirai"
+  },
+  "commands": {
+    "count": 12,
+    "file": "commands.txt"
   },
   "detections": {
-    "yara": [
-      "Suspicious_BusyBox_Mirai",
-      "0x124:$busy1:",
-      "0x1bd:$busy1:",
-      "0x259:$busy1:",
-      "0x2f5:$busy1:",
-      "0x391:$busy1:",
-      "0x42d:$busy1:",
-      "0x4c9:$busy1:",
-      "0x565:$busy1:",
-      "0x5fe:$busy1:",
-      "0x697:$busy1:",
-      "0x730:$busy1:",
-      "0x7c9:$busy1:",
-      "0x47d:$arch1:",
-      "0x4a0:$arch1:",
-      "0x4bb:$arch1:",
-      "0x780:$arch3:",
-      "0x7a2:$arch3:",
-      "0x7bc:$arch3:",
-      "0x819:$arch3:",
-      "0x83e:$arch3:",
-      "0x85b:$arch3:",
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+    "file": "detections.md",
+    "yara_count": 1
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "93f446ac3876b2660341a9e43ea32dbd",
     "sha256": "3291a318225afdbb36bbb57cdccc6a4712483acd394e5a6186ea5124b2e8b0e3"
+  },
+  "iocs": {
+    "count": 26,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:39:48+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:39:48.000000Z",
+  "schema_version": "3.0"
 }
