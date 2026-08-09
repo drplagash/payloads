@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "entropy": "5.52",
+    "size": "1006",
+    "type": "payload"
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "0"
+  },
+  "detections": {
+    "yara": [
+      "Big_Numbers1"
+    ]
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "sha256": "cd0e706f86d05c5b1df8ee6ae73f6123cf9c348a121e0852912594c5c558c561"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.0.0"
+  },
+  "registered_at": "2026-08-09T18:42:32+00:00",
+  "schema_version": "2.0"
+}
