@@ -1,0 +1,30 @@
+{
+  "artifact": {
+    "description": "Amiga Workbench",
+    "entropy": 7.86,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "2174a3d4ad372dfbadbe614d73091e72",
+    "sha1": "10a6b75b66562cf57f13a40929ce07398cd633c8",
+    "sha256": "3fa91774ca8db295417861d3f96e88a8e956553106a446a3e3f85af1661527c0"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T21:01:06+00:00",
+  "schema_version": "3.0"
+}
