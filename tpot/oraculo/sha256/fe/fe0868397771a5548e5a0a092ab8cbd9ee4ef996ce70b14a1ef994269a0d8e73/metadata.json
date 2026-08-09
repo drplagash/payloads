@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "SVr2 curses screen image, little-endian",
+    "entropy": 7.86,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "9870b28e99573e809989bd58613d25b0",
+    "sha1": "a44c25d84bfc7f1fd18be5443140857cd45c67ee",
+    "sha256": "fe0868397771a5548e5a0a092ab8cbd9ee4ef996ce70b14a1ef994269a0d8e73"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:42:32+00:00",
+  "schema_version": "3.0"
+}
