@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "Applesoft BASIC program data, first line number 55",
+    "entropy": 7.86,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "c5c2445a78c72c11917571b7f3b48bb8",
+    "sha1": "6d8b85ab6b889fc9a407957454d899f759108514",
+    "sha256": "376a2a77d980cbf9f3ec593d09b218598e68b0462900516f884ecf68592df621"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:06:31+00:00",
+  "schema_version": "3.0"
+}
