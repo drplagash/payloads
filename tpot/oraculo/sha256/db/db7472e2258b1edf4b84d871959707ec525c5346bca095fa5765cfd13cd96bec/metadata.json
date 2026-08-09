@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "description": "old Microsoft 8086 x.out relocatable",
+    "entropy": 3.69,
+    "risk_level": "info",
+    "size_bytes": 21
+  },
+  "classification": {
+    "category": "binary"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "90579b47a9aa82e343b5d18bbf9517b9",
+    "sha1": "de339ac4919799cd959334b3a2674c1fe6a273f3",
+    "sha256": "db7472e2258b1edf4b84d871959707ec525c5346bca095fa5765cfd13cd96bec"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:17:49+00:00",
+  "schema_version": "3.0"
+}
