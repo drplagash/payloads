@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "126.0.0.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://www[.]google[.]com/bot.html)"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://alfabienes[.]com[.]co/tag/wagering-7d747a-casino/page/135/?s=wagering&post_type=product&lang=en"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://www[.]reddit[.]com/r/gambling/"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "abade9c7b02910f1c6de354744928f5a0b47babee48f23455cba2eec6f03bbaa"
+  },
+  {
+    "asn": "Sai gon Postel Corporation",
+    "country": "Vietnam",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "180.93.109.XXX"
+  }
+]
