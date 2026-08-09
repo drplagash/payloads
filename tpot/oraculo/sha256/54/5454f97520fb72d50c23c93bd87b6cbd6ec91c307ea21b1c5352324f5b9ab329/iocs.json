@@ -1,0 +1,20 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://fonts[.]googleapis[.]com/c"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "5454f97520fb72d50c23c93bd87b6cbd6ec91c307ea21b1c5352324f5b9ab329"
+  },
+  {
+    "country": "private",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "[internal-ip-redacted]"
+  }
+]
