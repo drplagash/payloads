@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.140.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "2.26.124.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://2.26.124.XXX:99/gg"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://2.26.124.XXX:99/gg)"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "064788400ea7079401d89296f42ab865d445cf649ff88721b21923b18cfaab18"
+  },
+  {
+    "asn": "22927",
+    "country": "Argentina",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "94.154.43.XXX"
+  }
+]

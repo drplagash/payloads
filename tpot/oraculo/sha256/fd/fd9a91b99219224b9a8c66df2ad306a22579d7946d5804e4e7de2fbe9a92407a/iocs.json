@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.140.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "fd9a91b99219224b9a8c66df2ad306a22579d7946d5804e4e7de2fbe9a92407a"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.81.0"
+  },
+  {
+    "asn": "Google LLC",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "34.45.86.XXX"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "description": "Non-ISO extended-ASCII text, with NEL line terminators",
+    "entropy": 4.06,
+    "risk_level": "info",
+    "size_bytes": 18
+  },
+  "classification": {
+    "category": "binary"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "42a34788b54588ae4e5e2c4af6e34757",
+    "sha1": "0170f32bbccb2ece64c9d887579567ac1ea8360e",
+    "sha256": "6d4af9619b79712cceda0391004b76e504ed27d3a829eaeb03d8ae3c2718dac6"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:04:38+00:00",
+  "schema_version": "3.0"
+}

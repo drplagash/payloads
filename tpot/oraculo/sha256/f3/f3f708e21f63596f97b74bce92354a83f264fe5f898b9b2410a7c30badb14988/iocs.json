@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "f3f708e21f63596f97b74bce92354a83f264fe5f898b9b2410a7c30badb14988"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "Hathway IP Over Cable Internet",
+    "country": "India",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "116.73.82.XXX"
+  }
+]

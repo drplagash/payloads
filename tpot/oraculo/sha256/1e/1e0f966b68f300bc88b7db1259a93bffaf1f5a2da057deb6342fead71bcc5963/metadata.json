@@ -1,0 +1,35 @@
+{
+  "artifact": {
+    "description": "JavaScript source, ASCII text, with very long lines (696), with CRLF line terminators",
+    "entropy": 5.43,
+    "risk_level": "info",
+    "size_bytes": 1608
+  },
+  "classification": {
+    "behaviors": [
+      "Descarga remota",
+      "Comunicación remota",
+      "Cambio de permisos"
+    ],
+    "category": "downloader",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "c1cad1e8530257f4c8ad020ce06a3cee",
+    "sha1": "48fa61c59446973375495e8f2bd8a98fdc220611",
+    "sha256": "1e0f966b68f300bc88b7db1259a93bffaf1f5a2da057deb6342fead71bcc5963"
+  },
+  "iocs": {
+    "count": 6,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:04:38+00:00",
+  "schema_version": "3.0"
+}
