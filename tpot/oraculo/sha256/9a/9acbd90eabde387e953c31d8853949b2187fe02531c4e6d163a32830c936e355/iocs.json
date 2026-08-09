@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.168.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "9acbd90eabde387e953c31d8853949b2187fe02531c4e6d163a32830c936e355"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.64.0"
+  },
+  {
+    "asn": "TASCOM TELECOMUNICACOES LTDA",
+    "country": "Brazil",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "177.136.32.XXX"
+  }
+]

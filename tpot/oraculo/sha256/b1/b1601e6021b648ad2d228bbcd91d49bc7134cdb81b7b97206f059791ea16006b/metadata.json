@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "SHARC COFF binary",
+    "entropy": 7.94,
+    "risk_level": "info",
+    "size_bytes": 4095
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "160b360343004ed5cf08504c94299da8",
+    "sha1": "3b9b8f4efbc0341cf52714a649f25df871a2d835",
+    "sha256": "b1601e6021b648ad2d228bbcd91d49bc7134cdb81b7b97206f059791ea16006b"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:48:36+00:00",
+  "schema_version": "3.0"
+}
