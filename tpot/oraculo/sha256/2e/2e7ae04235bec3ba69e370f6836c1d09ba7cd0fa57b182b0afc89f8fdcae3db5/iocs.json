@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "196.251.121.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://196.251.121.XXX/a3f8d2/adb.sh;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/encoding/"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "2e7ae04235bec3ba69e370f6836c1d09ba7cd0fa57b182b0afc89f8fdcae3db5"
+  },
+  {
+    "asn": "CHT Compamy Ltd",
+    "country": "Vietnam",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "115.84.178.XXX"
+  }
+]

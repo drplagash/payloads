@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://ip-api[.]com/json/"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "a67b52784bc7981a79314727c5ca97d1c2bd51f984bd1651a3e5bcfe9d0aa272"
+  },
+  {
+    "asn": "22927",
+    "country": "Argentina",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "204.76.203.XXX"
+  }
+]
