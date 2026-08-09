@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "176.65.149.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://176.65.149.XXX/adb.sh;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/encoding/"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "d32b3d55f6f9dc9f6c7bd7340d7f6c0e10eaee963bfc837d1e399767e6c87994"
+  },
+  {
+    "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "39.104.63.XXX"
+  }
+]
