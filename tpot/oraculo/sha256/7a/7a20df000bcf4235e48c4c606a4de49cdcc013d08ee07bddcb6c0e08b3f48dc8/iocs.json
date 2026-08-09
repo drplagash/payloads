@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "7a20df000bcf4235e48c4c606a4de49cdcc013d08ee07bddcb6c0e08b3f48dc8"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apk,33261DATA"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY"
+  },
+  {
+    "asn": "Henan Mobile Communications Co.,Ltd",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "111.55.196.XXX"
+  }
+]
