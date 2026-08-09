@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "very old 16-bit-int little-endian archive",
+    "entropy": 7.94,
+    "risk_level": "info",
+    "size_bytes": 4095
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "9c5b0cb1d0983a376d02dee7aadb6037",
+    "sha1": "79604866ff9183a7030353b0f475a614c340d4a5",
+    "sha256": "9924245bdfaf70669120bd63cf32c524864035100eaf5baebd85f296da25aa78"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:26:17+00:00",
+  "schema_version": "3.0"
+}
