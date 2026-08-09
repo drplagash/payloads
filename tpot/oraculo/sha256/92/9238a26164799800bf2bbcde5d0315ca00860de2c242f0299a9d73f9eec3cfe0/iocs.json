@@ -1,0 +1,20 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "[internal-ip-redacted]"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://[internal-ip-redacted]/index.php?title=Main_Page&amp;oldid=1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "9238a26164799800bf2bbcde5d0315ca00860de2c242f0299a9d73f9eec3cfe0"
+  }
+]
