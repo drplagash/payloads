@@ -1,0 +1,31 @@
+{
+  "artifact": {
+    "entropy": 5.18,
+    "risk_level": "info",
+    "size_bytes": 6249
+  },
+  "classification": {
+    "behaviors": [
+      "Comunicación remota"
+    ],
+    "category": "downloader",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "fab4aa3bc10fe3020538e90252e9b8f3",
+    "sha256": "9c66f88b79ad60d6d5b63839bbb709b0cdfd591898c35ac187c3c272c47b52ae"
+  },
+  "iocs": {
+    "count": 8,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T21:10:53+00:00",
+  "schema_version": "3.0"
+}
