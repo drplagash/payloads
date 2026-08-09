@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "zlib compressed data",
+    "entropy": 7.87,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "c10f7cba76c83bdf66f98a8ad83ef97b",
+    "sha1": "86f541748b3bc4a55635986bddf5a93a3b80d159",
+    "sha256": "afc8fd3a13e438097a083c7b656df9f16e9a6ebabc253d3ba60a6fe222523616"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:15:17+00:00",
+  "schema_version": "3.0"
+}
