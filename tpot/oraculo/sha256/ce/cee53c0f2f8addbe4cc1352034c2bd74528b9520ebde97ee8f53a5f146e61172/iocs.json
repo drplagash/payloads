@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.144.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://190.179.144.XXX:80/cgi-bin/index2.asp"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "cee53c0f2f8addbe4cc1352034c2bd74528b9520ebde97ee8f53a5f146e61172"
+  },
+  {
+    "asn": "Vpsvault.host Ltd",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "45.198.224.XXX"
+  }
+]
