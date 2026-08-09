@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "416b49b9aafd77b78bbd8017839286c389655bbc067b1ec16f5d360bcddf3852"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "shell:rm -rf /data/local/tmp/*"
+  },
+  {
+    "asn": "Korea Telecom",
+    "country": "South Korea",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "203.229.224.XXX"
+  }
+]

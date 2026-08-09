@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://ogp[.]me/ns#"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "ed5217f0a297f7339f9e081ca1f1bb26f2d0c4e2fc012454334bd1ad3335b528"
+  },
+  {
+    "asn": "Korea Telecom",
+    "country": "South Korea",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "183.105.3.XXX"
+  }
+]
