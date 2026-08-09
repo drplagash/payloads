@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.144.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://umai[.]entelijan[.]com/methodology)"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "7bd35f28c38ff2e79f93620789966c6ef3339a6bc91d7e4ab75cc52ca2f48603"
+  },
+  {
+    "asn": "ReliableSite.Net LLC",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "185.150.191.XXX"
+  }
+]
