@@ -1,0 +1,66 @@
+# 🧬 Payload Analysis
+
+`cfc5959d9d7221861d51f5fc5f9fb6e150b53981aa73a7290290d01da1c501d0`
+
+## 📌 Resumen
+
+Artefacto clasificado como **Suspicious Payload** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Suspicious Payload`
+- **Confianza:** `Baja`
+- **Riesgo:** `Info`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T20:20:23+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `cfc5959d9d7221861d51f5fc5f9fb6e150b53981aa73a7290290d01da1c501d0`
+- **SHA1:** `0a9369df68433e7fcd6b66c8a6b5957a4bf178a0`
+- **MD5:** `0eb477c79906ef4ec95025c3ac19b737`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | OpenPGP Public Key |
+| Tamaño | 1.4 KiB |
+| Entropía | 7.88 |
+| Strings | 4 |
+
+## 🔬 Evidencia de clasificación
+
+- Motivos técnicos: mime=OpenPGP Public Key; high_entropy=7.9; iocs=1
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| hash | cfc5959d9d7221861d51f5fc5f9fb6e150b53981aa73a7290290d01da1c501d0 | static_analysis |
+| ip | [internal-ip-redacted] | artifact_source |
+
+## 🧬 Detecciones YARA
+
+| Regla | Familia | Severidad | Confianza |
+| --- | --- | --- | --- |
+| Suspicious_High_Entropy |  | medium | medium |
+
+Detalle completo: [`detections.md`](detections.md).
+
+## 🔎 Triage
+
+| Campo | Valor |
+| --- | --- |
+| Categoría | candidate malware unknown |
+| Prioridad | medium |
+| Score | 5.0 |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.
