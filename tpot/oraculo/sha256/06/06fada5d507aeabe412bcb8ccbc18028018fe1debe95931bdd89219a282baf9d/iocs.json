@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "06fada5d507aeabe412bcb8ccbc18028018fe1debe95931bdd89219a282baf9d"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apk,33261DATA"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY"
+  },
+  {
+    "asn": "China Mobile communications corporation",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "223.104.82.XXX"
+  }
+]

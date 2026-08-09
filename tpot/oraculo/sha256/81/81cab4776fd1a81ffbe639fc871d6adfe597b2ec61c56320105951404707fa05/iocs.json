@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.166.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "81cab4776fd1a81ffbe639fc871d6adfe597b2ec61c56320105951404707fa05"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.37.0"
+  },
+  {
+    "asn": "DigitalOcean, LLC",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "167.99.239.XXX"
+  }
+]
