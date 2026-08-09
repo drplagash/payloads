@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "17be29e9af72b9c32cb97e5dd667e573939164345d01dd5f14e5a87d45a31ecf"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "PT Telekomunikasi Indonesia",
+    "country": "Indonesia",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "180.244.187.XXX"
+  }
+]

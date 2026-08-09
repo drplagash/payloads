@@ -1,0 +1,30 @@
+{
+  "artifact": {
+    "description": "HTML document, Unicode text, UTF-8 text, with CRLF, LF line terminators",
+    "entropy": 5.1,
+    "risk_level": "info",
+    "size_bytes": 4095
+  },
+  "classification": {
+    "category": "downloader",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "1bc16ed471335a5053b8d88adfbfe4af",
+    "sha1": "700ea86b082f3e525d745c212d448c5b252dcea1",
+    "sha256": "ae0126296cd48a202ea7ea9df1f39888a247bbcd115042032070cd590bc1a8e3"
+  },
+  "iocs": {
+    "count": 3,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:49:11+00:00",
+  "schema_version": "3.0"
+}

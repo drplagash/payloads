@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "1425fbff1c1f57a73e5abe8c1669149a82f8386ec0b91ff7d27f02f95ada751a"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apk,33261DATA"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAYa="
+  },
+  {
+    "asn": "UNICOM JiangSu Suzhou IDC network",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "112.81.86.XXX"
+  }
+]

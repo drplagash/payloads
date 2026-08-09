@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "ed829b420a2edf5b80b9044c9556f59fe67b3cf0276e6d6593fd193d2f494adb"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "National WiMAX/IMS environment",
+    "country": "Pakistan",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "110.36.30.XXX"
+  }
+]
