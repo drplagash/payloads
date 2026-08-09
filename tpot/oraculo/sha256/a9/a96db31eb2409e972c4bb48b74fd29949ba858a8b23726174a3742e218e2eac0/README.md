@@ -1,0 +1,69 @@
+# 🧬 Payload Analysis
+
+`a96db31eb2409e972c4bb48b74fd29949ba858a8b23726174a3742e218e2eac0`
+
+## 📌 Resumen
+
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Botnet`
+- **Familia:** `mirai-like`
+- **Confianza de familia:** `Media`
+- **Riesgo:** `Medium`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T19:50:55+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `a96db31eb2409e972c4bb48b74fd29949ba858a8b23726174a3742e218e2eac0`
+- **SHA1:** `fa4daeea4a6cfddd8565add5169b24d6ef0ad826`
+- **MD5:** `36bc397e7fba4f5e408f4f32cc3a67df`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | ASCII text, with CRLF line terminators |
+| Tamaño | 94 B |
+| Entropía | 4.81 |
+| Strings | 4 |
+
+## 🧠 Comportamiento observado
+
+1. **Descarga remota**
+
+## 🔬 Evidencia de clasificación
+
+- Motivos técnicos: mime=ASCII text, with CRLF line terminators; iocs=3
+
+## 🖥️ Comandos observados / extraídos
+
+```text
+User-Agent: curl/7.61.1
+```
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 190.179.169.XXX | static_analysis |
+| hash | a96db31eb2409e972c4bb48b74fd29949ba858a8b23726174a3742e218e2eac0 | static_analysis |
+| command | User-Agent: curl/7.61.1 | strings |
+| ip | 187.17.228.XXX | artifact_source |
+
+## 🔎 Triage
+
+| Campo | Valor |
+| --- | --- |
+| Categoría | truncated download |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

@@ -1,0 +1,25 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.169.XXX"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "918977ec674e11403be1712d4d7f767306bf0a1b57edda768a0bdae42470c7a4"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.61.1"
+  },
+  {
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "187.17.228.XXX"
+  }
+]
