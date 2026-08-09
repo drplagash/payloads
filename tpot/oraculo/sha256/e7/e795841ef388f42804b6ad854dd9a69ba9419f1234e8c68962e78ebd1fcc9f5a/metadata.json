@@ -1,0 +1,30 @@
+{
+  "artifact": {
+    "description": "PGP symmetric key encrypted data -",
+    "entropy": 7.83,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "dcabc2436f01562d77f952d921bbd593",
+    "sha1": "1fe3a1f98c46227ded7f8d696881b3384d06fd7b",
+    "sha256": "e795841ef388f42804b6ad854dd9a69ba9419f1234e8c68962e78ebd1fcc9f5a"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T21:01:51+00:00",
+  "schema_version": "3.0"
+}
