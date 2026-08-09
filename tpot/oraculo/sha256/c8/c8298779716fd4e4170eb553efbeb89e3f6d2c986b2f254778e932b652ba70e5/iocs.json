@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://www[.]google[.]com/bot.html)"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://alfabienes[.]com[.]co/?s=deposit%20bonus+claim%20bonus+sportsbook&page=204&ref=8090e6799f96"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://www[.]google[.]com/"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "c8298779716fd4e4170eb553efbeb89e3f6d2c986b2f254778e932b652ba70e5"
+  },
+  {
+    "asn": "Sai gon Postel Corporation",
+    "country": "Vietnam",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "180.93.109.XXX"
+  }
+]
