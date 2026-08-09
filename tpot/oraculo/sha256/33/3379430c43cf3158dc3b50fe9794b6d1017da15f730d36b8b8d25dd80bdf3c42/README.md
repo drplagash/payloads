@@ -4,36 +4,57 @@
 
 ## 📌 Resumen
 
-Payload registrado por Oráculo SOC. 1 coincidencia YARA.
+Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
-- **Confianza:** `0.4`
+- **Categoría:** `Downloader / Dropper`
+- **Confianza:** `Baja`
+- **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:42:13+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:42:13.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `3379430c43cf3158dc3b50fe9794b6d1017da15f730d36b8b8d25dd80bdf3c42`
+- **MD5:** `574113c1a0c78c417ed7adab53dd8918`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 276 |
+| Descripción | data |
+| Tamaño | 276 B |
 | Entropía | 4.96 |
+| Strings | 6 |
 
-## 🧬 Detecciones
+## 🧠 Comportamiento observado
 
-- YARA: `__YARA_SENTINEL_NO_MATCH__`
+1. **Descarga remota**
+
+## 🔬 Evidencia de clasificación
+
+- Download indicators (wget/curl + /tmp)
+
+## 🖥️ Comandos observados / extraídos
+
+```text
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /
+```
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| hash | 3379430c43cf3158dc3b50fe9794b6d1017da15f730d36b8b8d25dd80bdf3c42 | static_analysis |
+| command | >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd / | strings |
+| ip | 223.123.124.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

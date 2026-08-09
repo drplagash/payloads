@@ -4,36 +4,58 @@
 
 ## 📌 Resumen
 
-Payload registrado por Oráculo SOC. 1 coincidencia YARA.
+Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
-- **Confianza:** `0.4`
+- **Categoría:** `Downloader / Dropper`
+- **Confianza:** `Baja`
+- **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:42:51+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:42:51.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `9f02b712467eb965c896c6c127a9658abc139a6a48c4274b1615a9f742e4e180`
+- **MD5:** `7d3f846326ad49db70f8a25b19f9237f`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 112 |
+| Descripción | ASCII text, with CRLF line terminators |
+| Tamaño | 112 B |
 | Entropía | 4.93 |
+| Strings | 5 |
 
-## 🧬 Detecciones
+## 🧠 Comportamiento observado
 
-- YARA: `__YARA_SENTINEL_NO_MATCH__`
+1. **Descarga remota**
+
+## 🔬 Evidencia de clasificación
+
+- Download indicators (wget/curl + /tmp)
+
+## 🖥️ Comandos observados / extraídos
+
+```text
+User-Agent: curl/7.74.0
+```
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 190.179.177.XXX | static_analysis |
+| hash | 9f02b712467eb965c896c6c127a9658abc139a6a48c4274b1615a9f742e4e180 | static_analysis |
+| command | User-Agent: curl/7.74.0 | strings |
+| ip | 47.77.234.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

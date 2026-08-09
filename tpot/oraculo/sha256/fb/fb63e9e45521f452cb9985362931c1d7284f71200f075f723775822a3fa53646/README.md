@@ -4,40 +4,52 @@
 
 ## 📌 Resumen
 
-Payload registrado por Oráculo SOC. 5 coincidencias YARA.
+Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida.
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
-- **Confianza:** `0`
+- **Categoría:** `Downloader / Dropper`
+- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:42:32+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:42:32.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `fb63e9e45521f452cb9985362931c1d7284f71200f075f723775822a3fa53646`
+- **MD5:** `85cfebaa46b170866aaf067bfcb7d3d2`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 1609 |
+| Descripción | JavaScript source, ASCII text, with very long lines (698), with CRLF line terminators |
+| Tamaño | 1.6 KiB |
 | Entropía | 5.44 |
+| Strings | 24 |
 
-## 🧬 Detecciones
+## 🌐 Indicadores
 
-- YARA: `Suspicious_Shell_Script`
-- YARA: `0x4d5:$curl1:`
-- YARA: `0x494:$wget1:`
-- YARA: `0x50d:$chmod:`
-- YARA: `__YARA_SENTINEL_NO_MATCH__`
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 190.179.177.XXX | static_analysis |
+| ip | 94.154.43.XXX | static_analysis |
+| url | hxxp://94.154.43.XXX/gg10 | strings |
+| url | hxxp://94.154.43.XXX/gg10) | strings |
+| hash | fb63e9e45521f452cb9985362931c1d7284f71200f075f723775822a3fa53646 | static_analysis |
+
+## 🧬 Detecciones YARA
+
+| Regla | Familia | Severidad | Confianza |
+| --- | --- | --- | --- |
+| Suspicious_Shell_Script |  | medium | medium |
+
+Detalle completo: [`detections.md`](detections.md).
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

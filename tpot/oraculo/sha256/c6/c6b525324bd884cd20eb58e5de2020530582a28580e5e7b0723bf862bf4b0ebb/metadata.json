@@ -1,29 +1,32 @@
 {
   "artifact": {
-    "entropy": "5.75",
-    "size": "548",
-    "type": "payload"
+    "description": "data",
+    "entropy": 5.75,
+    "risk_level": "high",
+    "size_bytes": 548
   },
   "classification": {
     "category": "webshell",
-    "confidence": "0.7",
-    "family": "webshell"
-  },
-  "detections": {
-    "yara": [
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+    "confidence": "Media",
+    "family": "webshell",
+    "family_confidence": "Media",
+    "family_evidence": "Webshell indicators (PHP eval/system)\nWebshell indicators (PHP eval/system)"
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "20195531d9f0bef8b923ccdf155feeea",
     "sha256": "c6b525324bd884cd20eb58e5de2020530582a28580e5e7b0723bf862bf4b0ebb"
+  },
+  "iocs": {
+    "count": 4,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:42:51+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:42:51.000000Z",
+  "schema_version": "3.0"
 }

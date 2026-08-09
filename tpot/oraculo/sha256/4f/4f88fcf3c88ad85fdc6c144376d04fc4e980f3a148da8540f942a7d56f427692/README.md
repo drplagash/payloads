@@ -4,36 +4,44 @@
 
 ## 📌 Resumen
 
-Payload registrado por Oráculo SOC. 1 coincidencia YARA.
+Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Payload`
-- **Confianza:** `0`
+- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:42:32+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:42:32.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `4f88fcf3c88ad85fdc6c144376d04fc4e980f3a148da8540f942a7d56f427692`
+- **MD5:** `822b65c0d0393dee08044ffc82520a5d`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 266 |
+| Descripción | ASCII text, with CRLF line terminators |
+| Tamaño | 266 B |
 | Entropía | 5.04 |
+| Strings | 5 |
 
-## 🧬 Detecciones
+## 🌐 Indicadores
 
-- YARA: `__YARA_SENTINEL_NO_MATCH__`
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 190.179.177.XXX | static_analysis |
+| url | hxxps://leakix[.]net/, | strings |
+| url | hxxps://twitter[.]com/HaboubiAnis) | strings |
+| hash | 4f88fcf3c88ad85fdc6c144376d04fc4e980f3a148da8540f942a7d56f427692 | static_analysis |
+| ip | 129.212.220.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

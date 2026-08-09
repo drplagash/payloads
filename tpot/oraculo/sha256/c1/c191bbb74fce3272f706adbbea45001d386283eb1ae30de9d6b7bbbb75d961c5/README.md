@@ -4,36 +4,43 @@
 
 ## 📌 Resumen
 
-Payload registrado por Oráculo SOC. 1 coincidencia YARA.
+Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Payload`
-- **Confianza:** `0`
+- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:44:28+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:44:28.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `c191bbb74fce3272f706adbbea45001d386283eb1ae30de9d6b7bbbb75d961c5`
+- **MD5:** `5c164c195b65656b22e7a5d929447f13`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 799 |
+| Descripción | ASCII text, with CRLF line terminators |
+| Tamaño | 799 B |
 | Entropía | 5.47 |
+| Strings | 23 |
 
-## 🧬 Detecciones
+## 🌐 Indicadores
 
-- YARA: `__YARA_SENTINEL_NO_MATCH__`
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 12.106.201.XXX | static_analysis |
+| ip | 190.179.164.XXX | static_analysis |
+| hash | c191bbb74fce3272f706adbbea45001d386283eb1ae30de9d6b7bbbb75d961c5 | static_analysis |
+| ip | 144.172.97.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

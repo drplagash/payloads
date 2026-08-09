@@ -4,36 +4,51 @@
 
 ## 📌 Resumen
 
-Payload registrado por Oráculo SOC. 1 coincidencia YARA.
+Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida.
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Payload`
-- **Confianza:** `0`
+- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:42:32+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:42:32.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `cd0e706f86d05c5b1df8ee6ae73f6123cf9c348a121e0852912594c5c558c561`
+- **MD5:** `cee9723b2aadc5a07fb96da3f2c1d0ee`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 1006 |
+| Descripción | ASCII text, with very long lines (403), with CRLF line terminators |
+| Tamaño | 1006 B |
 | Entropía | 5.52 |
+| Strings | 16 |
 
-## 🧬 Detecciones
+## 🌐 Indicadores
 
-- YARA: `Big_Numbers1`
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 190.179.177.XXX | static_analysis |
+| ip | 45.153.34.XXX | static_analysis |
+| hash | cd0e706f86d05c5b1df8ee6ae73f6123cf9c348a121e0852912594c5c558c561 | static_analysis |
+| ip | 141.98.10.XXX | artifact_source |
+
+## 🧬 Detecciones YARA
+
+| Regla | Familia | Severidad | Confianza |
+| --- | --- | --- | --- |
+| Big_Numbers1 |  | medium | medium |
+
+Detalle completo: [`detections.md`](detections.md).
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

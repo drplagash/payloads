@@ -4,37 +4,58 @@
 
 ## 📌 Resumen
 
-Payload registrado por Oráculo SOC. 2 coincidencias YARA.
+Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Alta entropía / posible empaquetado o cifrado. Se registró 1 detección YARA válida.
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Payload`
-- **Confianza:** `0.3`
+- **Confianza:** `Baja`
+- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:44:08+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:44:08.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `21a5affca4833310df749fdb7aaa819bc3a0a8009e3a16ae859411adaaa3978f`
+- **MD5:** `409e280729be771a438b6f06a700a028`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 1448 |
+| Descripción | data |
+| Tamaño | 1.4 KiB |
 | Entropía | 7.86 |
+| Strings | 4 |
 
-## 🧬 Detecciones
+## 🧠 Comportamiento observado
 
-- YARA: `Suspicious_High_Entropy`
-- YARA: `__YARA_SENTINEL_NO_MATCH__`
+1. **Alta entropía / posible empaquetado o cifrado**
+
+## 🔬 Evidencia de clasificación
+
+- High entropy (7.9) — posible packer/encrypted
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| hash | 21a5affca4833310df749fdb7aaa819bc3a0a8009e3a16ae859411adaaa3978f | static_analysis |
+| ip | [internal-ip-redacted] | artifact_source |
+
+## 🧬 Detecciones YARA
+
+| Regla | Familia | Severidad | Confianza |
+| --- | --- | --- | --- |
+| Suspicious_High_Entropy |  | medium | medium |
+
+Detalle completo: [`detections.md`](detections.md).
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

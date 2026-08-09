@@ -1,28 +1,28 @@
 {
   "artifact": {
-    "entropy": "4.33",
-    "size": "24",
-    "type": "payload"
+    "description": "OpenPGP Secret Key",
+    "entropy": 4.33,
+    "risk_level": "info",
+    "size_bytes": 24
   },
   "classification": {
-    "category": "payload",
-    "confidence": "0"
-  },
-  "detections": {
-    "yara": [
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+    "category": "payload"
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "ef80b3a2047aeb16a2bbd4d407f05d19",
     "sha256": "d5b71dca776109cdde9996f926b599f21d3bc5ef7e428be00d8b833789172f61"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:41:54+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:41:54.000000Z",
+  "schema_version": "3.0"
 }

@@ -4,37 +4,49 @@
 
 ## 📌 Resumen
 
-Botnet registrado por Oráculo SOC. 1 coincidencia YARA.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Botnet`
 - **Familia:** `mirai-like`
-- **Confianza:** `0.5`
+- **Confianza de familia:** `Media`
+- **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:41:54+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:41:54.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `4eb41baaf22353521a5e06b9b9f4b3a7927d1554c4416560685cac87c50251d0`
+- **MD5:** `092d5c124c0a2856c58fe3d223a38b6c`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 687 |
+| Descripción | ASCII text, with CRLF line terminators |
+| Tamaño | 687 B |
 | Entropía | 5.45 |
+| Strings | 21 |
 
-## 🧬 Detecciones
+## 🔬 Evidencia de clasificación
 
-- YARA: `__YARA_SENTINEL_NO_MATCH__`
+- Mirai-like indicators in strings
+Mirai-like indicators in strings
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 190.179.177.XXX | static_analysis |
+| hash | 4eb41baaf22353521a5e06b9b9f4b3a7927d1554c4416560685cac87c50251d0 | static_analysis |
+| ip | 89.190.156.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

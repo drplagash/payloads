@@ -1,77 +1,44 @@
 {
   "artifact": {
-    "entropy": "4.94",
-    "size": "2856",
-    "type": "payload"
+    "description": "ASCII text, with CRLF, LF line terminators",
+    "entropy": 4.94,
+    "risk_level": "critical",
+    "size_bytes": 2856
   },
   "classification": {
+    "behaviors": [
+      "Descarga remota",
+      "Cambio de permisos"
+    ],
     "category": "botnet",
-    "confidence": "0.9",
-    "family": "mirai"
+    "confidence": "Alta",
+    "family": "mirai",
+    "family_confidence": "Alta",
+    "family_evidence": "YARA match: mirai"
+  },
+  "commands": {
+    "count": 16,
+    "file": "commands.txt"
   },
   "detections": {
-    "yara": [
-      "Suspicious_BusyBox_Mirai",
-      "Suspicious_Shell_Script",
-      "0x15d:$wget1:",
-      "0x69f:$wget1:",
-      "__YARA_SENTINEL_NO_MATCH__",
-      "0x3f9:$wget1:",
-      "0x945:$wget1:",
-      "0x188:$curl1:",
-      "0x425:$curl1:",
-      "0x6cb:$curl1:",
-      "0x971:$curl1:",
-      "0x1cd:$chmod:",
-      "0x287:$chmod:",
-      "0x317:$chmod:",
-      "0x3a6:$chmod:",
-      "0x46c:$chmod:",
-      "0x529:$chmod:",
-      "0x5bb:$chmod:",
-      "0x64c:$chmod:",
-      "0x712:$chmod:",
-      "0x7cf:$chmod:",
-      "0x861:$chmod:",
-      "0x8f2:$chmod:",
-      "0x9b8:$chmod:",
-      "0xa75:$chmod:",
-      "0xb07:$chmod:",
-      "0xf7:$exec2:",
-      "0x120:$tmp:",
-      "0x118:$busy1:",
-      "0x41f:$arch1:",
-      "0x44e:$arch1:",
-      "0x45f:$arch1:",
-      "0x4fe:$arch1:",
-      "0x50b:$arch1:",
-      "0x51c:$arch1:",
-      "0x59d:$arch1:",
-      "0x5ae:$arch1:",
-      "0x61e:$arch1:",
-      "0x63f:$arch1:",
-      "0x183:$arch3:",
-      "0x1b1:$arch3:",
-      "0x1c1:$arch3:",
-      "0x25f:$arch3:",
-      "0x26b:$arch3:",
-      "0x27b:$arch3:",
-      "0x2fb:$arch3:",
-      "0x30b:$arch3:",
-      "0x37a:$arch3:",
-      "0x39a:$arch3:"
-    ]
+    "file": "detections.md",
+    "yara_count": 2
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "6d48cb48684c5d43547900374bca3fdd",
     "sha256": "86c09da1c21189d42a9de313c3399b982586f0e4116e2194bbfdd633dc31cf12"
+  },
+  "iocs": {
+    "count": 26,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:44:28+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:44:28.000000Z",
+  "schema_version": "3.0"
 }

@@ -1,35 +1,36 @@
 {
   "artifact": {
-    "entropy": "5.32",
-    "size": "4095",
-    "type": "payload"
+    "description": "HTML document, ASCII text, with very long lines (1485), with CRLF, LF line terminators",
+    "entropy": 5.32,
+    "risk_level": "critical",
+    "size_bytes": 4095
   },
   "classification": {
     "category": "botnet",
-    "confidence": "0.9",
-    "family": "mirai"
+    "confidence": "Alta",
+    "family": "mirai",
+    "family_confidence": "Alta",
+    "family_evidence": "YARA match: mirai\nYARA match: mirai"
   },
   "detections": {
-    "yara": [
-      "Suspicious_BusyBox_Mirai",
-      "0xa0f:$bot1:",
-      "0x584:$loader1:",
-      "0x6d3:$loader1:",
-      "0x78e:$loader1:",
-      "0x99b:$loader1:",
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+    "file": "detections.md",
+    "yara_count": 1
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "0d5a0bd5ab991fc866c5ee9462a72018",
     "sha256": "54e547992b5a2f2a4fb8292975109ca395c9a76ec108ed989d16c8cc12bcbbbd"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:44:48+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:44:48.000000Z",
+  "schema_version": "3.0"
 }

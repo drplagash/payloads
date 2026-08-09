@@ -1,29 +1,36 @@
 {
   "artifact": {
-    "entropy": "5.58",
-    "size": "444",
-    "type": "payload"
+    "description": "ASCII text",
+    "entropy": 5.58,
+    "risk_level": "medium",
+    "size_bytes": 444
   },
   "classification": {
     "category": "botnet",
-    "confidence": "0.5",
-    "family": "mirai-like"
+    "confidence": "Baja",
+    "family": "mirai-like",
+    "family_confidence": "Media",
+    "family_evidence": "clasificación persistida"
   },
   "detections": {
-    "yara": [
-      "Big_Numbers1"
-    ]
+    "file": "detections.md",
+    "yara_count": 1
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "31c7ffa6cad7673bd90c2b353db97e24",
     "sha256": "289f5bb67e780eb0608af531323c0168092afce53e5b7c434f6cb5d29b066c40"
+  },
+  "iocs": {
+    "count": 3,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:43:48+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:43:48.000000Z",
+  "schema_version": "3.0"
 }

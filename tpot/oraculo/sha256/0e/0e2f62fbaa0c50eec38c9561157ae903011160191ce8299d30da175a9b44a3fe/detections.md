@@ -1,3 +1,6 @@
-# Detections
+# Detecciones YARA
 
-- YARA: `Big_Numbers5`
+## Big_Numbers5
+- **Severidad:** medium
+- **Confianza:** medium
+- **Ruleset:** community

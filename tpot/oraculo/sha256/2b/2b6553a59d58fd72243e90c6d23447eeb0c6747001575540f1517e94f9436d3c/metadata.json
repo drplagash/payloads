@@ -1,29 +1,36 @@
 {
   "artifact": {
-    "entropy": "7.87",
-    "size": "1448",
-    "type": "payload"
+    "description": "DOS executable (COM), start instruction 0xb868c58c f08f7ed8",
+    "entropy": 7.87,
+    "risk_level": "info",
+    "size_bytes": 1448
   },
   "classification": {
-    "category": "binary",
-    "confidence": "0.3"
+    "behaviors": [
+      "Alta entropía / posible empaquetado o cifrado"
+    ],
+    "category": "payload",
+    "confidence": "Baja"
   },
   "detections": {
-    "yara": [
-      "Suspicious_High_Entropy",
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+    "file": "detections.md",
+    "yara_count": 1
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "933e7afc4c11229d1991d67b6b19266a",
     "sha256": "2b6553a59d58fd72243e90c6d23447eeb0c6747001575540f1517e94f9436d3c"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:41:35+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:41:35.000000Z",
+  "schema_version": "3.0"
 }

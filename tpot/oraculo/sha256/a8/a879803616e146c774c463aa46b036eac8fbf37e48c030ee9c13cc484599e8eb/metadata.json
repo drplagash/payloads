@@ -1,28 +1,37 @@
 {
   "artifact": {
-    "entropy": "5.12",
-    "size": "835",
-    "type": "payload"
+    "description": "ASCII text, with CRLF line terminators",
+    "entropy": 5.12,
+    "risk_level": "medium",
+    "size_bytes": 835
   },
   "classification": {
-    "category": "payload",
-    "confidence": "0.4"
+    "behaviors": [
+      "Descarga remota",
+      "Ejecución"
+    ],
+    "category": "downloader",
+    "confidence": "Baja"
   },
-  "detections": {
-    "yara": [
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+  "commands": {
+    "count": 2,
+    "file": "commands.txt"
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "e10172ec64087bb8d6bc51d85f72ab30",
     "sha256": "a879803616e146c774c463aa46b036eac8fbf37e48c030ee9c13cc484599e8eb"
+  },
+  "iocs": {
+    "count": 5,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:43:29+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:43:29.000000Z",
+  "schema_version": "3.0"
 }

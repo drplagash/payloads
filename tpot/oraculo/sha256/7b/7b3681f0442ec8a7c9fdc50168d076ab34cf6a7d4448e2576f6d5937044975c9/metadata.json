@@ -1,34 +1,44 @@
 {
   "artifact": {
-    "entropy": "5.67",
-    "size": "1329",
-    "type": "payload"
+    "description": "ASCII text, with CRLF line terminators",
+    "entropy": 5.67,
+    "risk_level": "critical",
+    "size_bytes": 1329
   },
   "classification": {
+    "behaviors": [
+      "Descarga remota",
+      "Ejecución"
+    ],
     "category": "webshell",
-    "confidence": "0.9",
-    "family": "webshell"
+    "confidence": "Alta",
+    "family": "webshell",
+    "family_confidence": "Alta",
+    "family_evidence": "YARA match: webshell"
+  },
+  "commands": {
+    "count": 1,
+    "file": "commands.txt"
   },
   "detections": {
-    "yara": [
-      "Suspicious_PHP_Webshell",
-      "0x43c:$php1:",
-      "0x448:$exec1:",
-      "0x442:$shell1:",
-      "0x44d:$base64d:",
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+    "file": "detections.md",
+    "yara_count": 1
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "bd54a7b2044c90fc7354ee75835ac2d6",
     "sha256": "7b3681f0442ec8a7c9fdc50168d076ab34cf6a7d4448e2576f6d5937044975c9"
+  },
+  "iocs": {
+    "count": 7,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:41:54+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:41:54.000000Z",
+  "schema_version": "3.0"
 }

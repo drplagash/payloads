@@ -1,28 +1,28 @@
 {
   "artifact": {
-    "entropy": "3.32",
-    "size": "78",
-    "type": "payload"
+    "description": "data",
+    "entropy": 3.32,
+    "risk_level": "info",
+    "size_bytes": 78
   },
   "classification": {
-    "category": "payload",
-    "confidence": "0"
-  },
-  "detections": {
-    "yara": [
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+    "category": "payload"
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "8c2503e6c623e817ebffbc7caa66f368",
     "sha256": "40819ec2cbc1316d00cefafc835f9b0e207a7718b224648830ca7255d1c642ec"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:42:51+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:42:51.000000Z",
+  "schema_version": "3.0"
 }

@@ -1,32 +1,32 @@
 {
   "artifact": {
-    "entropy": "5.44",
-    "size": "1609",
-    "type": "payload"
+    "description": "JavaScript source, ASCII text, with very long lines (698), with CRLF line terminators",
+    "entropy": 5.44,
+    "risk_level": "info",
+    "size_bytes": 1609
   },
   "classification": {
-    "category": "payload",
-    "confidence": "0"
+    "category": "downloader"
   },
   "detections": {
-    "yara": [
-      "Suspicious_Shell_Script",
-      "0x4d5:$curl1:",
-      "0x494:$wget1:",
-      "0x50d:$chmod:",
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+    "file": "detections.md",
+    "yara_count": 1
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "77ce5f7772cbfff013793aa79dade6d2",
     "sha256": "5b07e9669d006970cf43f2a93d318c841fb3e88fa436a28816021eb7bde66f5a"
+  },
+  "iocs": {
+    "count": 5,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:42:51+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:42:51.000000Z",
+  "schema_version": "3.0"
 }

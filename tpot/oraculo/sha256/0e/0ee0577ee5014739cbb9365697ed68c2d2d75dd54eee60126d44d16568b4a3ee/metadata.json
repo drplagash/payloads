@@ -1,105 +1,45 @@
 {
   "artifact": {
-    "entropy": "5.28",
-    "size": "4095",
-    "type": "payload"
+    "description": "ASCII text, with CRLF line terminators",
+    "entropy": 5.28,
+    "risk_level": "critical",
+    "size_bytes": 4095
   },
   "classification": {
+    "behaviors": [
+      "Descarga remota",
+      "Cambio de permisos",
+      "Ejecución"
+    ],
     "category": "botnet",
-    "confidence": "0.9",
-    "family": "mirai"
+    "confidence": "Alta",
+    "family": "mirai",
+    "family_confidence": "Alta",
+    "family_evidence": "YARA match: mirai"
+  },
+  "commands": {
+    "count": 24,
+    "file": "commands.txt"
   },
   "detections": {
-    "yara": [
-      "Suspicious_BusyBox_Mirai",
-      "Suspicious_Shell_Script",
-      "0x12c:$wget1:",
-      "0xcc4:$chmod:",
-      "0x124:$busy1:",
-      "0x179:$chmod:",
-      "0x1c5:$wget1:",
-      "0x261:$wget1:",
-      "0x2fd:$wget1:",
-      "0x399:$wget1:",
-      "0x435:$wget1:",
-      "0x4d1:$wget1:",
-      "0x56d:$wget1:",
-      "0x606:$wget1:",
-      "0x69f:$wget1:",
-      "0x738:$wget1:",
-      "0x7d1:$wget1:",
-      "0x995:$curl1:",
-      "0xa26:$curl1:",
-      "0xaba:$curl1:",
-      "0xb4e:$curl1:",
-      "0xbe2:$curl1:",
-      "0xc76:$curl1:",
-      "0xd0a:$curl1:",
-      "0xd9e:$curl1:",
-      "0xe2f:$curl1:",
-      "0xec0:$curl1:",
-      "0xf51:$curl1:",
-      "0xfe2:$curl1:",
-      "0x213:$chmod:",
-      "0x2af:$chmod:",
-      "0x34b:$chmod:",
-      "0x3e7:$chmod:",
-      "0x483:$chmod:",
-      "0x51f:$chmod:",
-      "0x5ba:$chmod:",
-      "0x653:$chmod:",
-      "0x6ec:$chmod:",
-      "0x785:$chmod:",
-      "0x821:$chmod:",
-      "0x9e2:$chmod:",
-      "0xa74:$chmod:",
-      "0xb08:$chmod:",
-      "0xb9c:$chmod:",
-      "0xc30:$chmod:",
-      "0xd58:$chmod:",
-      "0xdeb:$chmod:",
-      "0xe7c:$chmod:",
-      "0xf0d:$chmod:",
-      "0xf9e:$chmod:",
-      "0x1bd:$busy1:",
-      "0x259:$busy1:",
-      "0x2f5:$busy1:",
-      "0x391:$busy1:",
-      "0x42d:$busy1:",
-      "0x4c9:$busy1:",
-      "0x565:$busy1:",
-      "0x5fe:$busy1:",
-      "0x697:$busy1:",
-      "0x730:$busy1:",
-      "0x7c9:$busy1:",
-      "0x47d:$arch1:",
-      "0x4a0:$arch1:",
-      "0x4bb:$arch1:",
-      "0xcbe:$arch1:",
-      "0xce1:$arch1:",
-      "0xcfc:$arch1:",
-      "0x780:$arch3:",
-      "0x7a2:$arch3:",
-      "0x7bc:$arch3:",
-      "0x819:$arch3:",
-      "0x83e:$arch3:",
-      "0x85b:$arch3:",
-      "0xf99:$arch3:",
-      "0xfbb:$arch3:",
-      "0xfd5:$arch3:",
-      "__YARA_SENTINEL_NO_MATCH__"
-    ]
+    "file": "detections.md",
+    "yara_count": 2
   },
   "identity": {
     "algorithm": "sha256",
+    "md5": "b79af30c9836e4621de2d647860f074d",
     "sha256": "0ee0577ee5014739cbb9365697ed68c2d2d75dd54eee60126d44d16568b4a3ee"
+  },
+  "iocs": {
+    "count": 39,
+    "file": "iocs.json"
   },
   "publication": {
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.0.0"
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
   },
-  "registered_at": "2026-08-09T18:41:35+00:00",
-  "schema_version": "2.0"
+  "registered_at": "2026-08-09T18:41:35.000000Z",
+  "schema_version": "3.0"
 }

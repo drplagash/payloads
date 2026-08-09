@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "73399acebd0679e6d7e3d805cb01fc8cd4778d0348cf248966c303b806d4fd31"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apk,33261DATA"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY"
+  },
+  {
+    "asn": "Cable Onda",
+    "country": "Panama",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "181.197.183.XXX"
+  }
+]

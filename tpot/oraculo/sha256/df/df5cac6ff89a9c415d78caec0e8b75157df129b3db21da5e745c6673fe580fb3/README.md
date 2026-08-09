@@ -4,36 +4,50 @@
 
 ## 📌 Resumen
 
-Payload registrado por Oráculo SOC. 1 coincidencia YARA.
+Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida.
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Payload`
-- **Confianza:** `0`
+- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T18:44:48+00:00`
-- **Modo:** `automatic_snapshot`
+- **Registrado:** `2026-08-09T18:44:48.000000Z`
+- **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
 
 - **SHA256:** `df5cac6ff89a9c415d78caec0e8b75157df129b3db21da5e745c6673fe580fb3`
+- **MD5:** `527dc4b113dbb3ff2c8b9fbe9f658e94`
 
-## 🧪 Análisis del artefacto
+## 🧪 Análisis estático
 
 | Propiedad | Resultado |
 | --- | --- |
-| Tipo | payload |
-| Tamaño | 1018 |
+| Descripción | ASCII text, with CRLF line terminators |
+| Tamaño | 1018 B |
 | Entropía | 5.16 |
+| Strings | 30 |
 
-## 🧬 Detecciones
+## 🌐 Indicadores
 
-- YARA: `Big_Numbers3`
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 179.43.167.XXX | static_analysis |
+| ip | 190.179.164.XXX | static_analysis |
+| hash | df5cac6ff89a9c415d78caec0e8b75157df129b3db21da5e745c6673fe580fb3 | static_analysis |
+
+## 🧬 Detecciones YARA
+
+| Regla | Familia | Severidad | Confianza |
+| --- | --- | --- | --- |
+| Big_Numbers3 |  | medium | medium |
+
+Detalle completo: [`detections.md`](detections.md).
 
 ## 🛡️ Nota de publicación
 
-Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
 
-Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

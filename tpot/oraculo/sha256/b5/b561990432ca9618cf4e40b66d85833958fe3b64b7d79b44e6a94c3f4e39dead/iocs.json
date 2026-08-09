@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b561990432ca9618cf4e40b66d85833958fe3b64b7d79b44e6a94c3f4e39dead"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "MTS PJSC",
+    "country": "Russia",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "94.243.8.XXX"
+  }
+]

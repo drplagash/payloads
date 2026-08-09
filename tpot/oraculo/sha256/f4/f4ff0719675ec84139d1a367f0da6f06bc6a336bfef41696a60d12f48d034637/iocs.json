@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "f4ff0719675ec84139d1a367f0da6f06bc6a336bfef41696a60d12f48d034637"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "MODULE LOAD /tmp/exp.so"
+  },
+  {
+    "asn": "Shenzhen Tencent Computer Systems Company Limited",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "139.199.191.XXX"
+  }
+]

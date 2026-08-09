@@ -1,4 +1,6 @@
-# Detections
+# Detecciones YARA
 
-- YARA: `Suspicious_High_Entropy`
-- YARA: `__YARA_SENTINEL_NO_MATCH__`
+## Suspicious_High_Entropy
+- **Severidad:** medium
+- **Confianza:** medium
+- **Ruleset:** sabueso-inbound
