@@ -1,0 +1,38 @@
+{
+  "artifact": {
+    "description": "SVR2 pure executable (Amdahl-UTS) not stripped",
+    "entropy": 7.95,
+    "risk_level": "info",
+    "size_bytes": 4095
+  },
+  "classification": {
+    "behaviors": [
+      "High entropy obfuscation",
+      "Binary execution"
+    ],
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "ca8b0d052790eb428ed5abcbf7a9841a",
+    "sha1": "6ec92ef801b1927fe2ac7c3bfbb638ab048a9b1f",
+    "sha256": "936cc36522e8873168d1716b9fbfc68193054f3e9a91dd5cf29471dc3af7c9fa"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:59:10+00:00",
+  "schema_version": "3.0"
+}
