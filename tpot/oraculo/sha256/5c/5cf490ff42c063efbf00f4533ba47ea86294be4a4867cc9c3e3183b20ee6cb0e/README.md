@@ -1,0 +1,44 @@
+# 🧬 Payload Analysis
+
+`5cf490ff42c063efbf00f4533ba47ea86294be4a4867cc9c3e3183b20ee6cb0e`
+
+## 📌 Resumen
+
+Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Payload`
+- **Riesgo:** `Info`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T19:29:40+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `5cf490ff42c063efbf00f4533ba47ea86294be4a4867cc9c3e3183b20ee6cb0e`
+- **MD5:** `19be7dcec583a1c0573233c9f076b33b`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | data |
+| Tamaño | 517 B |
+| Entropía | 4.59 |
+| Strings | 2 |
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| hash | 5cf490ff42c063efbf00f4533ba47ea86294be4a4867cc9c3e3183b20ee6cb0e | static_analysis |
+| ip | [internal-ip-redacted] | artifact_source |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.
