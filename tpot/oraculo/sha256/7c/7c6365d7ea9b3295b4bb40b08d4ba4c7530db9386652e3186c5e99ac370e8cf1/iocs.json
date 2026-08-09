@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "7c6365d7ea9b3295b4bb40b08d4ba4c7530db9386652e3186c5e99ac370e8cf1"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "Xpress Net Solution",
+    "country": "India",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "103.181.160.XXX"
+  }
+]
