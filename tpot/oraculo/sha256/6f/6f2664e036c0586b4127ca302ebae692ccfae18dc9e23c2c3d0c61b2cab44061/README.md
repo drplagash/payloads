@@ -1,0 +1,61 @@
+# 🧬 Payload Analysis
+
+`6f2664e036c0586b4127ca302ebae692ccfae18dc9e23c2c3d0c61b2cab44061`
+
+## 📌 Resumen
+
+Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Downloader / Dropper`
+- **Confianza:** `Baja`
+- **Riesgo:** `Info`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T20:18:27+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `6f2664e036c0586b4127ca302ebae692ccfae18dc9e23c2c3d0c61b2cab44061`
+- **SHA1:** `a3542578907f7f003a45d5f28da2a9807bfa6fe2`
+- **MD5:** `3236641629b94f744872aea1efbdebfd`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | XML 1.0 document, ASCII text, with very long lines (696), with no line terminators |
+| Tamaño | 696 B |
+| Entropía | 5.2 |
+| Strings | 1 |
+
+## 🔬 Evidencia de clasificación
+
+- Capacidad detectada: Descarga remota
+- Motivos técnicos: mime=XML 1.0 document, ASCII text, with very long lines (696), with no line terminators; iocs=5
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 212.7.202.XXX | static_analysis |
+| url | hxxp://212.7.202.XXX:2025/adb; | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| hash | 6f2664e036c0586b4127ca302ebae692ccfae18dc9e23c2c3d0c61b2cab44061 | static_analysis |
+| ip | 51.158.97.XXX | artifact_source |
+
+## 🔎 Triage
+
+| Campo | Valor |
+| --- | --- |
+| Categoría | html response |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

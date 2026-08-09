@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "Linux jffs2 filesystem data big endian",
+    "entropy": 7.88,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "b94681c6f209dd7bef26361844f8f21d",
+    "sha1": "b57308be81773554eb624005ff439c6d54f9e55d",
+    "sha256": "d41e1b655228b453877d8b2b3044929e53884e8d29097c4b7a132b316f203160"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:18:27+00:00",
+  "schema_version": "3.0"
+}

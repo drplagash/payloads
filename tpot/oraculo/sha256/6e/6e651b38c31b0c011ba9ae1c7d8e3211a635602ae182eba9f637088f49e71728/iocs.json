@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "83.142.209.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://83.142.209.XXX/a3f8d2/adb.sh;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/encoding/"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "6e651b38c31b0c011ba9ae1c7d8e3211a635602ae182eba9f637088f49e71728"
+  },
+  {
+    "asn": "22927",
+    "country": "Brazil",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "177.22.44.XXX"
+  }
+]
