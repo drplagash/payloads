@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.169.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "6d809bad52912f01b21a0d2dec1acb6c2d91f92b2ba048da4f64d16921f16e33"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.76.1"
+  },
+  {
+    "asn": "Juweriyah Networks Private Limited",
+    "country": "India",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "103.123.226.XXX"
+  }
+]
