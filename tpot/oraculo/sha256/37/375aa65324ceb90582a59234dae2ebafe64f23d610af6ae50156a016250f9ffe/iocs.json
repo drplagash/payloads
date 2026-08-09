@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://ip/x86;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://return[.]st/?ref=Q7hw1uZ6pEz8LTEX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://return[.]st/?ref=Q7hw1uZ6pEz8LTEX;307;"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "375aa65324ceb90582a59234dae2ebafe64f23d610af6ae50156a016250f9ffe"
+  },
+  {
+    "asn": "Miteflux Technologies Ltd",
+    "country": "United Arab Emirates",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "31.59.160.XXX"
+  }
+]
