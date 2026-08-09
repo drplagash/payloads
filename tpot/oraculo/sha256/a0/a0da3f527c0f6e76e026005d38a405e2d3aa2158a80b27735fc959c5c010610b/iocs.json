@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.164.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "a0da3f527c0f6e76e026005d38a405e2d3aa2158a80b27735fc959c5c010610b"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.29.0"
+  },
+  {
+    "asn": "RouterHosting LLC",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "172.86.116.XXX"
+  }
+]

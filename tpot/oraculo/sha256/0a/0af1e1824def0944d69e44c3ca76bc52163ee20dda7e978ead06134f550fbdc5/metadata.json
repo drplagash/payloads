@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "description": "Bourne-Again shell script, ASCII text executable",
+    "entropy": 5.25,
+    "mime_type": "text/x-shellscript",
+    "risk_level": "info",
+    "size_bytes": 2326
+  },
+  "classification": {
+    "category": "downloader",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "sha256": "0af1e1824def0944d69e44c3ca76bc52163ee20dda7e978ead06134f550fbdc5"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:34:01+00:00",
+  "schema_version": "3.0"
+}

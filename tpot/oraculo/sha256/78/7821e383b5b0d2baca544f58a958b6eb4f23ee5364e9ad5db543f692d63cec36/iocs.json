@@ -1,0 +1,25 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "8.219.145.XXX"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "7821e383b5b0d2baca544f58a958b6eb4f23ee5364e9ad5db543f692d63cec36"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "config set dir /var/spool/cron/"
+  },
+  {
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "124.236.108.XXX"
+  }
+]
