@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://www[.]google[.]com/bot.html)"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://alfabienes[.]com[.]co/search?q=pragmatic%20play+no%20deposit&sort=popularity&order=asc&limit=773&_=1782128774390"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://www[.]facebook[.]com/"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "c10c91cd8a10f9d6618383a4be439f03d816af49b154358e5b4fc2bbd13965b4"
+  },
+  {
+    "asn": "Sai gon Postel Corporation",
+    "country": "Vietnam",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "180.93.109.XXX"
+  }
+]

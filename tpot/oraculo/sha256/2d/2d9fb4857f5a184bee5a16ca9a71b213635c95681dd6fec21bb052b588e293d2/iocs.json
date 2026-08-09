@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "66.249.91.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://www[.]google[.]com/bot.html)"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://alfabienes[.]com[.]co/gambling"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://www[.]google[.]com/"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "2d9fb4857f5a184bee5a16ca9a71b213635c95681dd6fec21bb052b588e293d2"
+  },
+  {
+    "asn": "Sai gon Postel Corporation",
+    "country": "Vietnam",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "180.93.109.XXX"
+  }
+]
