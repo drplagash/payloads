@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.168.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://www[.]nokia[.]com/genomecrawler)"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "42ef2a597743e2c652d155b5dd3fb2b3e354656b67f4f6bad27e8afb781abdc9"
+  },
+  {
+    "asn": "Google LLC",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "216.180.246.XXX"
+  }
+]
