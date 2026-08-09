@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "08949588d0fd1e39bff6ba7970c2ef85304dd82b1ece075401d3e7ad8920cf8e"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apk,33261DATA"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY"
+  },
+  {
+    "asn": "CHINANET Guangdong province network",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "14.152.90.XXX"
+  }
+]
