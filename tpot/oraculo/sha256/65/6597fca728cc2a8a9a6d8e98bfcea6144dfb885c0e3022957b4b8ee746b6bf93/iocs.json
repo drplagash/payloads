@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.175.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "45.153.34.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://45.153.34.XXX/rondo."
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "6597fca728cc2a8a9a6d8e98bfcea6144dfb885c0e3022957b4b8ee746b6bf93"
+  },
+  {
+    "asn": "Storm Industries LLC",
+    "country": "The Netherlands",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "94.154.43.XXX"
+  }
+]

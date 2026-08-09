@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "ebc84c2d9dfdde901404eac7769e7efec6c99b5da8c116ab8d816bc6d37cdf3b"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "National Telecommunication Corporation HQ,",
+    "country": "Pakistan",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "175.107.3.XXX"
+  }
+]
