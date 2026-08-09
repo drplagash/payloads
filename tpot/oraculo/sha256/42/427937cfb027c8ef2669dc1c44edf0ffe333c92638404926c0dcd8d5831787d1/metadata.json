@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "DOS executable (COM), start instruction 0x8c1ecb82 a01e9d19",
+    "entropy": 7.94,
+    "risk_level": "info",
+    "size_bytes": 4095
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "5ca8a6e83226cbba5e410ac08179980d",
+    "sha1": "c15c2dc8091cf7165f596c68038f49adac59927f",
+    "sha256": "427937cfb027c8ef2669dc1c44edf0ffe333c92638404926c0dcd8d5831787d1"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:01:36+00:00",
+  "schema_version": "3.0"
+}

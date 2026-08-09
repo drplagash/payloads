@@ -1,0 +1,32 @@
+{
+  "artifact": {
+    "description": "ASCII text, with CRLF line terminators",
+    "entropy": 5.56,
+    "risk_level": "medium",
+    "size_bytes": 1099
+  },
+  "classification": {
+    "category": "botnet",
+    "family": "mirai-like",
+    "family_confidence": "Media",
+    "family_evidence": "clasificación persistida"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "151c930ab0b709258bbd43eea12c577c",
+    "sha1": "c829284d2f3dab64da0028f2a1502eff03c05137",
+    "sha256": "5eca296d3e2677928595cc577ad56f60106212bb20c20af71209e659f9619bdf"
+  },
+  "iocs": {
+    "count": 3,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:01:36+00:00",
+  "schema_version": "3.0"
+}
