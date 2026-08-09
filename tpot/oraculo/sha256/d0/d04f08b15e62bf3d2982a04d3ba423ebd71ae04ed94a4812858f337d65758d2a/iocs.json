@@ -1,0 +1,20 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://ogp[.]me/ns#"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "d04f08b15e62bf3d2982a04d3ba423ebd71ae04ed94a4812858f337d65758d2a"
+  },
+  {
+    "country": "private",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "[internal-ip-redacted]"
+  }
+]

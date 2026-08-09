@@ -1,0 +1,32 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.168.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "94.154.43.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/gg2"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/gg2)"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "acddb1edb18cec25243b5632c46e3deb79fbad47b3af63bc69563393d9542550"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "203.101.186.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://203.101.186.XXX:60296/Mozi.m"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/encoding/"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "0a09e7af7341aa358d65441d1f564a1dd10b9cd1c299b7eadef5c343a7f05952"
+  }
+]

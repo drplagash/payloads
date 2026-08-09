@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "370c55bedefc9d1bbfb6bc7adb5c09443781de55175367b8e8d3197d8d5f1993"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apk,33261DATA"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY0"
+  },
+  {
+    "asn": "TIM",
+    "country": "Italy",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "2.193.129.XXX"
+  }
+]
