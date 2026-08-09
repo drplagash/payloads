@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "description": "Award BIOS Logo, 136 x 126",
+    "entropy": 5.0,
+    "risk_level": "info",
+    "size_bytes": 36
+  },
+  "classification": {
+    "category": "payload"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "f6e73bcc41cf44964bb226348c32cae5",
+    "sha256": "3cfada8303e21f965b4ddc37119a6651371e9f10be204a9e78bea4fd3e7b6914"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:36:46+00:00",
+  "schema_version": "3.0"
+}

