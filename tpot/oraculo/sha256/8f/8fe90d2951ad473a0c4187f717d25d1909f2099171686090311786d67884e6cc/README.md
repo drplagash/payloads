@@ -1,0 +1,67 @@
+# 🧬 Payload Analysis
+
+`8fe90d2951ad473a0c4187f717d25d1909f2099171686090311786d67884e6cc`
+
+## 📌 Resumen
+
+Artefacto clasificado como **Binary payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Binary payload`
+- **Riesgo:** `Medium`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T20:32:17+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `8fe90d2951ad473a0c4187f717d25d1909f2099171686090311786d67884e6cc`
+- **SHA1:** `b1decc545a9c35cc063c5faec29978802c9bd4f2`
+- **MD5:** `e07aa193c7a1767fc47bb7e434d93c13`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | ASCII text, with CRLF line terminators |
+| Tamaño | 83 B |
+| Entropía | 4.84 |
+| Strings | 4 |
+
+## 🧠 Comportamiento observado
+
+1. **Descarga remota**
+
+## 🔬 Evidencia de clasificación
+
+- Motivos técnicos: mime=ASCII text, with CRLF line terminators; iocs=3
+
+## 🖥️ Comandos observados / extraídos
+
+```text
+User-Agent: curl/7.68.0
+```
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 190.179.140.XXX | static_analysis |
+| hash | 8fe90d2951ad473a0c4187f717d25d1909f2099171686090311786d67884e6cc | static_analysis |
+| command | User-Agent: curl/7.68.0 | strings |
+| ip | 198.235.24.XXX | artifact_source |
+
+## 🔎 Triage
+
+| Campo | Valor |
+| --- | --- |
+| Categoría | truncated download |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

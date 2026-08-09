@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "256bf549c1bc6d0138bcd22836c0f39cdddcf20f8ee92119cc9ea4dcfa0aad6f"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apk,33261DATA"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY&"
+  },
+  {
+    "asn": "CHINA UNICOM China169 Backbone",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "112.224.193.XXX"
+  }
+]

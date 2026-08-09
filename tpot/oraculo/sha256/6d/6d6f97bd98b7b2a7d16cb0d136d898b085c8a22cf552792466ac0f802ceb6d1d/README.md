@@ -1,0 +1,64 @@
+# 🧬 Payload Analysis
+
+`6d6f97bd98b7b2a7d16cb0d136d898b085c8a22cf552792466ac0f802ceb6d1d`
+
+## 📌 Resumen
+
+Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Payload`
+- **Confianza:** `Baja`
+- **Riesgo:** `Info`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T20:32:17+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `6d6f97bd98b7b2a7d16cb0d136d898b085c8a22cf552792466ac0f802ceb6d1d`
+- **SHA1:** `29bfdfbba2a031554d2f07ec999cd5c8d5b78b1b`
+- **MD5:** `b6b72349396b45879a551d2f640f1ecf`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | data |
+| Tamaño | 1.4 KiB |
+| Entropía | 7.87 |
+| Strings | 3 |
+
+## 🔬 Evidencia de clasificación
+
+- Motivos técnicos: mime=data; high_entropy=7.9; iocs=1
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| hash | 6d6f97bd98b7b2a7d16cb0d136d898b085c8a22cf552792466ac0f802ceb6d1d | static_analysis |
+| ip | [internal-ip-redacted] | artifact_source |
+
+## 🧬 Detecciones YARA
+
+| Regla | Familia | Severidad | Confianza |
+| --- | --- | --- | --- |
+| Suspicious_High_Entropy |  | medium | medium |
+
+Detalle completo: [`detections.md`](detections.md).
+
+## 🔎 Triage
+
+| Campo | Valor |
+| --- | --- |
+| Categoría | unsupported format |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.
