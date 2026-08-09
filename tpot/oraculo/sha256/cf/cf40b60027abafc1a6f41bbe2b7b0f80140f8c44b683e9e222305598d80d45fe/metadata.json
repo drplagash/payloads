@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "Excel 3 BIFF 3",
+    "entropy": 7.94,
+    "risk_level": "info",
+    "size_bytes": 4095
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "30736d768296b5c8789fc05e0d1093b3",
+    "sha1": "bb5589dd3426bbf52da107efbb1b69f3be6c5cf0",
+    "sha256": "cf40b60027abafc1a6f41bbe2b7b0f80140f8c44b683e9e222305598d80d45fe"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:50:21+00:00",
+  "schema_version": "3.0"
+}

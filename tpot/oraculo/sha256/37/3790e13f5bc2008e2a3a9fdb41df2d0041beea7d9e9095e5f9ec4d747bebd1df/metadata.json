@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "MPEG ADTS, layer III, v1, 160 kbps, Stereo",
+    "entropy": 7.87,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "9d4521670f7595b7d8556a78645dccf4",
+    "sha1": "3a0f66bdc31a56b425d0937bf7fa6687775878f4",
+    "sha256": "3790e13f5bc2008e2a3a9fdb41df2d0041beea7d9e9095e5f9ec4d747bebd1df"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:50:21+00:00",
+  "schema_version": "3.0"
+}

@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "description": "Non-ISO extended-ASCII text, with CR line terminators",
+    "entropy": 5.06,
+    "risk_level": "info",
+    "size_bytes": 36
+  },
+  "classification": {
+    "category": "binary"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "853e6768be526adde8092a4852f69574",
+    "sha1": "e59d71dca14d793246175b01dadc6bc6cb7bab38",
+    "sha256": "64c766aeca46a8a9a93500690a126523b1a1c3e9f38714dd9e422e589f5ac82d"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:50:21+00:00",
+  "schema_version": "3.0"
+}

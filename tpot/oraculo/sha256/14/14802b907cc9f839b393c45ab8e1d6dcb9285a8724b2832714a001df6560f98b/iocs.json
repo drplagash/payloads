@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "14802b907cc9f839b393c45ab8e1d6dcb9285a8724b2832714a001df6560f98b"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/8"
+  },
+  {
+    "asn": "VIETSERVER SERVICES TECHNOLOGY COMPANY LIMITED",
+    "country": "Vietnam",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "103.176.111.XXX"
+  }
+]
