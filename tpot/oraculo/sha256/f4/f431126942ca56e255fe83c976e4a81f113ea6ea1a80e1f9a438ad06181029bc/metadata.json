@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "MS-DOS executable, MZ for MS-DOS",
+    "entropy": 7.88,
+    "mime_type": "application/x-dosexec",
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "behaviors": [
+      "High entropy"
+    ],
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "3210030c3c43d532120bbcfaaa0e8319",
+    "sha1": "95db22d029149d6da0b3de436f94a7f7df5743c3",
+    "sha256": "f431126942ca56e255fe83c976e4a81f113ea6ea1a80e1f9a438ad06181029bc"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T21:05:38+00:00",
+  "schema_version": "3.0"
+}
