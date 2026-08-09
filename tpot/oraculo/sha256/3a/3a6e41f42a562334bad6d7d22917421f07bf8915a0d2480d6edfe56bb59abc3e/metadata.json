@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "\"compact bitmap\" format (Poskanzer)",
+    "entropy": 7.87,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "ded616930ead0d5b90fcc3887c04acdc",
+    "sha1": "85dc91d5c7f5818c234808b9373e0c5861918254",
+    "sha256": "3a6e41f42a562334bad6d7d22917421f07bf8915a0d2480d6edfe56bb59abc3e"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:30:55+00:00",
+  "schema_version": "3.0"
+}

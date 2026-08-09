@@ -1,0 +1,30 @@
+{
+  "artifact": {
+    "description": "XML 1.0 document, ASCII text, with very long lines (624), with no line terminators",
+    "entropy": 5.38,
+    "risk_level": "info",
+    "size_bytes": 624
+  },
+  "classification": {
+    "category": "downloader",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "3e059bc435106674ae5faa322f328b0c",
+    "sha1": "9782f3cf206fc740b437262941e0a8b34261cc45",
+    "sha256": "7cf2e8290977dcf0881b4f4138f88fed46a5fba4dbd52ddd04fb8828c9a17e75"
+  },
+  "iocs": {
+    "count": 5,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:30:55+00:00",
+  "schema_version": "3.0"
+}
