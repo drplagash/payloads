@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.160.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "69055f48f965193e7f5f13b5e2314fe5ff588e180cf7cbfd9453149d124d2ec7"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.81.0"
+  },
+  {
+    "asn": "Scaleway SAS",
+    "country": "France",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "62.210.198.XXX"
+  }
+]
