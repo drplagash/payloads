@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b069c863e287bfafe16d4f5521272c85e2dbc7081a6e2d15efa7f377bc76c217"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "CMPak Limited",
+    "country": "Pakistan",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "115.42.75.XXX"
+  }
+]

