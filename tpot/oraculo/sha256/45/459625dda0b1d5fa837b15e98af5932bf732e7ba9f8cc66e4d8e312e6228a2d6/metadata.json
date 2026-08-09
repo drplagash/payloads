@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "description": "ASCII text, with CRLF line terminators",
+    "entropy": 5.52,
+    "risk_level": "info",
+    "size_bytes": 801
+  },
+  "classification": {
+    "category": "payload"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "b5b128a73280cff2283dafd0bc6de828",
+    "sha1": "a17c98bc18b0271ec209179f894f41eb1f773097",
+    "sha256": "459625dda0b1d5fa837b15e98af5932bf732e7ba9f8cc66e4d8e312e6228a2d6"
+  },
+  "iocs": {
+    "count": 4,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:46:54+00:00",
+  "schema_version": "3.0"
+}
