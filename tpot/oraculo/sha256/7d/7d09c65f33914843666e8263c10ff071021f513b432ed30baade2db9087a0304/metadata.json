@@ -1,0 +1,30 @@
+{
+  "artifact": {
+    "description": "PRCS packaged project",
+    "entropy": 7.88,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "9700837d1741c5f2ca2dc7d43edc90f8",
+    "sha1": "0943dc997d9e32009fcc6c411335bcbad3508405",
+    "sha256": "7d09c65f33914843666e8263c10ff071021f513b432ed30baade2db9087a0304"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:58:54+00:00",
+  "schema_version": "3.0"
+}

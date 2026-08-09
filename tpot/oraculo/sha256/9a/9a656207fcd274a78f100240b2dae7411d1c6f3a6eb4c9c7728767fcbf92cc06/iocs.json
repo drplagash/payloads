@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "9a656207fcd274a78f100240b2dae7411d1c6f3a6eb4c9c7728767fcbf92cc06"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "Nas Internet Services Private Limited",
+    "country": "India",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "202.9.122.XXX"
+  }
+]
