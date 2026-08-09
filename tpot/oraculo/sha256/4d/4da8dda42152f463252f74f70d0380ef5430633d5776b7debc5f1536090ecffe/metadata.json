@@ -1,0 +1,28 @@
+{
+  "artifact": {
+    "description": "HTML document, ASCII text, with very long lines (707)",
+    "entropy": 5.04,
+    "risk_level": "info",
+    "size_bytes": 1428
+  },
+  "classification": {
+    "category": "payload"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "4bdba06bcdbf56948e809c8786f655ae",
+    "sha256": "4da8dda42152f463252f74f70d0380ef5430633d5776b7debc5f1536090ecffe"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:44:36+00:00",
+  "schema_version": "3.0"
+}
