@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.140.XXX"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "af3fb5dd50099d18caddbc2ac20fb62b64da12360d2396d8d96a8c6fdbb34d41"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/8.5.0"
+  },
+  {
+    "asn": "22927",
+    "country": "Argentina",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "187.17.224.XXX"
+  }
+]

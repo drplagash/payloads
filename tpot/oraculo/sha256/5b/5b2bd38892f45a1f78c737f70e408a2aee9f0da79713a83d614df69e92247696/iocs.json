@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "5b2bd38892f45a1f78c737f70e408a2aee9f0da79713a83d614df69e92247696"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY=\""
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkWRTE=\""
+  },
+  {
+    "asn": "Chinanet",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "180.107.116.XXX"
+  }
+]
