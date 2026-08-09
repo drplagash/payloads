@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.164.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b39b23b63d2ad1d5b2a211bcc268457a0088f9d336f20f9b973a6e907a4a3caf"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /admin/modules//framework/amp_conf/var/www/html/admin/config.php HTTP/1.1"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/8.5.0"
+  },
+  {
+    "asn": "OVH SAS",
+    "country": "France",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "51.75.255.XXX"
+  }
+]
