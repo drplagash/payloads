@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "3d232d91eec77296f18096c3868d64ce0476336212ef7e883a6aa2c9c30b8a8b"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "Vmo Broadband Pvt Ltd",
+    "country": "India",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "103.98.189.XXX"
+  }
+]

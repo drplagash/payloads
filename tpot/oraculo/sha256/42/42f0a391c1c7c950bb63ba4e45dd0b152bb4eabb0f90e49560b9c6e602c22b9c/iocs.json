@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "42f0a391c1c7c950bb63ba4e45dd0b152bb4eabb0f90e49560b9c6e602c22b9c"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "PT Blip Integrator Provider",
+    "country": "Indonesia",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "43.252.159.XXX"
+  }
+]
