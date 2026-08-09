@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "Atari 68xxx CPX file (version 5f30)",
+    "entropy": 7.89,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "c3405e0f59e16d36061312aac7b42ab7",
+    "sha1": "b6de05e7d00d845415ea1b04db050c9c60f0149f",
+    "sha256": "5c422e238c136369a9c2bd12c44ef5fb934df22e27b815800c15145094446d42"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:39:05+00:00",
+  "schema_version": "3.0"
+}
