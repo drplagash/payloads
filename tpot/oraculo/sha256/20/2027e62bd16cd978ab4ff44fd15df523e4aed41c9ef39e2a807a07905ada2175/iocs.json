@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "2027e62bd16cd978ab4ff44fd15df523e4aed41c9ef39e2a807a07905ada2175"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "Mahanagar Telephone Nigam Limited",
+    "country": "India",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "59.180.152.XXX"
+  }
+]

