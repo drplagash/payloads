@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "25b3a3f5f06ff8260039bcdc1c5c1d76164f09a7b6c82b3f110c00be1992e99c"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "shell:rm -rf /data/local/tmp/*"
+  },
+  {
+    "asn": "Charter Communications Inc",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "173.198.143.XXX"
+  }
+]
