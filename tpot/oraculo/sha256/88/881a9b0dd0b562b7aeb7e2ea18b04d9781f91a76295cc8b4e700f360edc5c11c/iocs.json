@@ -1,0 +1,20 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://casper[.]ghost[.]org/v1.0.0/images/tags.jpg)"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "881a9b0dd0b562b7aeb7e2ea18b04d9781f91a76295cc8b4e700f360edc5c11c"
+  },
+  {
+    "country": "private",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "[internal-ip-redacted]"
+  }
+]

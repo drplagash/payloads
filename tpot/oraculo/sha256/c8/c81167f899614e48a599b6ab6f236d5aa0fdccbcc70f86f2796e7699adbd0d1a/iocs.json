@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.175.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "c81167f899614e48a599b6ab6f236d5aa0fdccbcc70f86f2796e7699adbd0d1a"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.64.1"
+  },
+  {
+    "asn": "Alibaba (US) Technology Co., Ltd.",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "47.251.17.XXX"
+  }
+]

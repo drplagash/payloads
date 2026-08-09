@@ -1,0 +1,32 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "[internal-ip-redacted]"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://[internal-ip-redacted]:80/"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://casper[.]ghost[.]org/v1.0.0/images/ghost-logo.svg"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://schema[.]org"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "ce81185f75ccfebba7b5d086e1522457fb03a7f847617beec7300b7e0ff9a2a1"
+  }
+]
