@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "C64 PCLink Image",
+    "entropy": 7.87,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "bdca79c074470acc61bff5ebf3f5ef83",
+    "sha1": "0553d3540228287a73f3529c50f33decb742ae1b",
+    "sha256": "59ccaf1f44d4a69dfec1249331329b279fa29034962c3b94f75d662b4a215f84"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:35:39+00:00",
+  "schema_version": "3.0"
+}
