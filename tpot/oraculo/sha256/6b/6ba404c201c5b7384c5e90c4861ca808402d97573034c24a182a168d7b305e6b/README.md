@@ -1,0 +1,54 @@
+# 🧬 Payload Analysis
+
+`6ba404c201c5b7384c5e90c4861ca808402d97573034c24a182a168d7b305e6b`
+
+## 📌 Resumen
+
+Artefacto clasificado como **Binary payload** a partir de la evidencia disponible en Oráculo SOC.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Binary payload`
+- **Riesgo:** `Info`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T20:34:19+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `6ba404c201c5b7384c5e90c4861ca808402d97573034c24a182a168d7b305e6b`
+- **SHA1:** `4dac28a024ad4db1ee4f31e6b7930871e89804fe`
+- **MD5:** `a823f887f2e3971c3a7434e44d2517d4`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | data |
+| Tamaño | 147 B |
+| Entropía | 6.22 |
+
+## 🔬 Evidencia de clasificación
+
+- Motivos técnicos: mime=data; iocs=1
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| hash | 6ba404c201c5b7384c5e90c4861ca808402d97573034c24a182a168d7b305e6b | static_analysis |
+| ip | 5.83.143.XXX | artifact_source |
+
+## 🔎 Triage
+
+| Campo | Valor |
+| --- | --- |
+| Categoría | truncated download |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.
