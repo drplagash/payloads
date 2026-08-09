@@ -1,0 +1,39 @@
+# 🧬 Payload Analysis
+
+`b2019b377befe2e7cecd852f8d18b023ff862b2771635c035cae26dccd8052da`
+
+## 📌 Resumen
+
+Payload registrado por Oráculo SOC. 1 coincidencia YARA.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Payload`
+- **Confianza:** `0`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T18:41:35+00:00`
+- **Modo:** `automatic_snapshot`
+
+## 🔐 Identidad
+
+- **SHA256:** `b2019b377befe2e7cecd852f8d18b023ff862b2771635c035cae26dccd8052da`
+
+## 🧪 Análisis del artefacto
+
+| Propiedad | Resultado |
+| --- | --- |
+| Tipo | payload |
+| Tamaño | 95 |
+| Entropía | 5.7 |
+
+## 🧬 Detecciones
+
+- YARA: `__YARA_SENTINEL_NO_MATCH__`
+
+## 🛡️ Nota de publicación
+
+Este informe es una **fotografía inmutable del momento de registro**. No se publican marcas temporales de observación ni contadores que requieran actualización posterior.
+
+Las direcciones IPv4 públicas se publican con el último octeto como `XXX`; las direcciones internas y material sensible se redactan antes de salir de Oráculo SOC.
