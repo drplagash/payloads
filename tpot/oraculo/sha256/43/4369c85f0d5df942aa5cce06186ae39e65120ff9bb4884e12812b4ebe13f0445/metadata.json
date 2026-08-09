@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "description": "OpenPGP Secret Key",
+    "entropy": 4.33,
+    "risk_level": "info",
+    "size_bytes": 24
+  },
+  "classification": {
+    "category": "binary"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "57f99215585c7ca92f76687b5e9ffaa0",
+    "sha1": "db832690740d2e31795c0b2bd494149279fb70fc",
+    "sha256": "4369c85f0d5df942aa5cce06186ae39e65120ff9bb4884e12812b4ebe13f0445"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:08:59+00:00",
+  "schema_version": "3.0"
+}

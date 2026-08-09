@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "basic-16 executable (TV) not stripped",
+    "entropy": 7.87,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "86f1c7e5aa38fb0ce9af974a95193242",
+    "sha1": "fe6990ee714ab77ecf8d3d85988b9f10220c73d9",
+    "sha256": "a3eba7d793231eb480cf9210ebcbbaae8c10e7f2df3c43937e2a9d06b457e9ed"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:08:59+00:00",
+  "schema_version": "3.0"
+}
