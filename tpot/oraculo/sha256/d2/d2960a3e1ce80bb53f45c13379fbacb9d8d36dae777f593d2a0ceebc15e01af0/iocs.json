@@ -1,0 +1,32 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://lists[.]wikimedia[.]org/mailm"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Manual:Configuration_settings"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Manual:FAQ"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "d2960a3e1ce80bb53f45c13379fbacb9d8d36dae777f593d2a0ceebc15e01af0"
+  },
+  {
+    "country": "private",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "[internal-ip-redacted]"
+  }
+]
