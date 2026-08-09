@@ -1,0 +1,59 @@
+# 🧬 Payload Analysis
+
+`a510b3ff1c7b01a8803533d9a094645b45587030b801755de73e3a494f234bfa`
+
+## 📌 Resumen
+
+Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Downloader / Dropper`
+- **Confianza:** `Baja`
+- **Riesgo:** `Info`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T20:28:55+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `a510b3ff1c7b01a8803533d9a094645b45587030b801755de73e3a494f234bfa`
+- **SHA1:** `d05d4ee37129c4aa2e6fa05615da8e019f015144`
+- **MD5:** `12939f40b6e4433aa620d27c51a560a1`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | data |
+| Tamaño | 548 B |
+| Entropía | 5.36 |
+| Strings | 12 |
+
+## 🔬 Evidencia de clasificación
+
+- Capacidad detectada: Descarga remota
+- Motivos técnicos: mime=data; iocs=3
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | [internal-ip-redacted] | static_analysis |
+| url | hxxp://[internal-ip-redacted]/Status_404 | strings |
+| hash | a510b3ff1c7b01a8803533d9a094645b45587030b801755de73e3a494f234bfa | static_analysis |
+
+## 🔎 Triage
+
+| Campo | Valor |
+| --- | --- |
+| Categoría | low interest unknown |
+| Prioridad | low |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.
