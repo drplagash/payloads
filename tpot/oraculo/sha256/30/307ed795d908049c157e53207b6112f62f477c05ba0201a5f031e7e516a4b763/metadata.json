@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "Solitaire Image Recorder format",
+    "entropy": 7.88,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "7e7359af4941cca79e96a1a11afd4042",
+    "sha1": "b861a3cdd4f86c8ac3f1ff817709ff82961f8c81",
+    "sha256": "307ed795d908049c157e53207b6112f62f477c05ba0201a5f031e7e516a4b763"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:05:52+00:00",
+  "schema_version": "3.0"
+}

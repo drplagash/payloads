@@ -1,0 +1,37 @@
+{
+  "artifact": {
+    "description": "DOS executable (COM), maybe with interrupt 22h, start instruction 0xeb2e8180 1d37297f",
+    "entropy": 7.87,
+    "risk_level": "medium",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "botnet",
+    "confidence": "Baja",
+    "family": "mirai-like",
+    "family_confidence": "Media",
+    "family_evidence": "clasificación persistida"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "9a83a05c985ff8ad379bb588e4ae6285",
+    "sha1": "db10ddd2457e5686cb930c9cde5f730b78a505a1",
+    "sha256": "3ffb80fa4ce58f1a09a7403f6054930d99673ec7cbb86700eb261fcc3f09c0ab"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:05:52+00:00",
+  "schema_version": "3.0"
+}

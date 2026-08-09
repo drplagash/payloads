@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "90c1c971a5d2c0340dcf881f0b0fe2f33e3b49709d3f569810d017238b3d34e5"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apk,33261DATA"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY"
+  },
+  {
+    "asn": "Korea Telecom",
+    "country": "South Korea",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "121.145.50.XXX"
+  }
+]
