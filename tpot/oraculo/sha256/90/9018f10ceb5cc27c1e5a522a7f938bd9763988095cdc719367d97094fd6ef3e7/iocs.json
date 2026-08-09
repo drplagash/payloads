@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.169.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "9018f10ceb5cc27c1e5a522a7f938bd9763988095cdc719367d97094fd6ef3e7"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.64.1"
+  },
+  {
+    "asn": "22927",
+    "country": "Malaysia",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "47.250.83.XXX"
+  }
+]
