@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "370 XA sysV pure executable not stripped - version 20664 - 5.2 format",
+    "entropy": 7.86,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "d4c3f3a3b00087be121d024532a3d7fd",
+    "sha1": "89246ff4c93add193e80d7e0eec17505e3f5c1f2",
+    "sha256": "967d16ee0ec54e403a3abc46b38c426e801ca29e7ba145f57487fecee7a576b4"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:11:29+00:00",
+  "schema_version": "3.0"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "Dyalog APL version -109.-78",
+    "entropy": 7.83,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "8c471c996f4555f497e2fe28a79a0878",
+    "sha1": "657967b3d5b4a36d7ea954c5df3c1ebf7a2b5a90",
+    "sha256": "a3151a72f292e3257088a6a34cf951ac744d1c6270ac2480b3441fd8bff1a6ab"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:11:29+00:00",
+  "schema_version": "3.0"
+}
