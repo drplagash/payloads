@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "4aaf109b085c73be0ebbd3e0ac5e5d27e0eeec42d55e39361c3d2d9c52ec972c"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/ || cd /var/run || cd /mnt || cd /root || cd /;/bin/busybox echo -ne '\\x45\\x4c\\x46'"
+  },
+  {
+    "asn": "China Unicom Guangzhou network",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "27.47.1.XXX"
+  }
+]

