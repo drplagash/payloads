@@ -1,0 +1,41 @@
+{
+  "artifact": {
+    "description": "PHP script, ASCII text, with no line terminators",
+    "entropy": 4.89,
+    "risk_level": "high",
+    "size_bytes": 171
+  },
+  "classification": {
+    "behaviors": [
+      "Descarga remota",
+      "Ejecución"
+    ],
+    "category": "downloader",
+    "confidence": "Baja",
+    "family": "webshell",
+    "family_confidence": "Media",
+    "family_evidence": "clasificación persistida"
+  },
+  "commands": {
+    "count": 1,
+    "file": "commands.txt"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "526f3ddf544a130aa900ce4dd21a1c0b",
+    "sha1": "8730d848bd150f2ef39a0c62c78055a622ebe773",
+    "sha256": "8c0d3036d8d57054b2eb0311d591094c9f44213f0c16208bc644831a3de0606e"
+  },
+  "iocs": {
+    "count": 5,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:51:31+00:00",
+  "schema_version": "3.0"
+}
