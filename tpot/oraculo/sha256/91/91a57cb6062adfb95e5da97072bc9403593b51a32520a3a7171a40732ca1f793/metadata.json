@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "Dyalog APL DFS component file 64-bit level 1 journaled checksummed version 18.87",
+    "entropy": 7.95,
+    "risk_level": "info",
+    "size_bytes": 4095
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "c038bee7ab8f832fc83b47fd4d6a39d9",
+    "sha1": "cfe6fa1095ffda4bc53cd8dc98d2343b971f1bee",
+    "sha256": "91a57cb6062adfb95e5da97072bc9403593b51a32520a3a7171a40732ca1f793"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:44:37+00:00",
+  "schema_version": "3.0"
+}

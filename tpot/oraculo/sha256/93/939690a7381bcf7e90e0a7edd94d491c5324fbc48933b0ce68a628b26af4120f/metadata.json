@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "description": "PDP-11 executable",
+    "entropy": 7.85,
+    "risk_level": "info",
+    "size_bytes": 1448
+  },
+  "classification": {
+    "category": "suspicious-payload",
+    "confidence": "Baja"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "fb5b2e9dd11c85e2f2a0e1d3be4b6695",
+    "sha1": "b01403540d96e932ac10a725c38aa7f4d97a25c3",
+    "sha256": "939690a7381bcf7e90e0a7edd94d491c5324fbc48933b0ce68a628b26af4120f"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:44:37+00:00",
+  "schema_version": "3.0"
+}
