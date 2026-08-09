@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.144.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "31.56.209.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.56.209.XXX/x86;wget"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://vitacocoyougoloco[.]potassium[.]st/x86"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "efcbf94bd549e0f3db8e8dbded8769ac5718ba727b4b1e3ad279de9f43f97fae"
+  },
+  {
+    "asn": "Vpsvault.host Ltd",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "45.198.224.XXX"
+  }
+]

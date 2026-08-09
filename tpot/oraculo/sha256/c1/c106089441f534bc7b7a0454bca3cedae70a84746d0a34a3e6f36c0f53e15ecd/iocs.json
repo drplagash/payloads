@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "c106089441f534bc7b7a0454bca3cedae70a84746d0a34a3e6f36c0f53e15ecd"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "Prime Networks",
+    "country": "Pakistan",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "45.194.15.XXX"
+  }
+]
