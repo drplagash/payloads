@@ -1,0 +1,44 @@
+{
+  "artifact": {
+    "description": "data",
+    "entropy": 5.39,
+    "risk_level": "critical",
+    "size_bytes": 2192
+  },
+  "classification": {
+    "behaviors": [
+      "Descarga remota",
+      "Ejecución"
+    ],
+    "category": "botnet",
+    "confidence": "Alta",
+    "family": "mirai",
+    "family_confidence": "Alta",
+    "family_evidence": "YARA match: mirai\nYARA match: mirai\nYARA match: mirai\nYARA match: mirai\nYARA match: mirai"
+  },
+  "commands": {
+    "count": 14,
+    "file": "commands.txt"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "9941f5b14af8f95faf39d236acef4c82",
+    "sha256": "21cc2903920c7ee446963e4e3c693cb39930e71028fe8a7da726168dca4ffc6f"
+  },
+  "iocs": {
+    "count": 19,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T19:30:44+00:00",
+  "schema_version": "3.0"
+}
