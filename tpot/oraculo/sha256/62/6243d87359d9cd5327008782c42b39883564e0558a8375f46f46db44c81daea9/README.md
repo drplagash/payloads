@@ -1,0 +1,68 @@
+# 🧬 Payload Analysis
+
+`6243d87359d9cd5327008782c42b39883564e0558a8375f46f46db44c81daea9`
+
+## 📌 Resumen
+
+Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Payload`
+- **Riesgo:** `Medium`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T19:47:28+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `6243d87359d9cd5327008782c42b39883564e0558a8375f46f46db44c81daea9`
+- **SHA1:** `143e160ed2f0ac1465f921f3a472818b6c51306b`
+- **MD5:** `ffe6bd8ffd06afa499421a7ef832b606`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | ASCII text, with CRLF line terminators |
+| Tamaño | 272 B |
+| Entropía | 5.09 |
+| Strings | 12 |
+
+## 🧠 Comportamiento observado
+
+1. **Descarga remota**
+
+## 🔬 Evidencia de clasificación
+
+- Motivos técnicos: mime=ASCII text, with CRLF line terminators; iocs=3
+
+## 🖥️ Comandos observados / extraídos
+
+```text
+User-Agent: curl/7.73.0
+```
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 94.154.43.XXX | static_analysis |
+| hash | 6243d87359d9cd5327008782c42b39883564e0558a8375f46f46db44c81daea9 | static_analysis |
+| command | User-Agent: curl/7.73.0 | strings |
+| ip | [internal-ip-redacted] | artifact_source |
+
+## 🔎 Triage
+
+| Campo | Valor |
+| --- | --- |
+| Categoría | low interest unknown |
+| Prioridad | low |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

