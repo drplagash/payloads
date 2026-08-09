@@ -6,18 +6,6 @@
     "value": "204.10.194.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "93e46a9782f71dd622930af16e23bb2863ecfa5162b8c950ecafee1cb99e53be"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "GET /rondo.bmv.sh%7C%7Ccurl HTTP/1.1"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
@@ -28,6 +16,18 @@
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.73.0"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /rondo.bmv.sh%7C%7Ccurl HTTP/1.1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "93e46a9782f71dd622930af16e23bb2863ecfa5162b8c950ecafee1cb99e53be"
   },
   {
     "country": "private",

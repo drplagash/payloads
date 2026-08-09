@@ -6,16 +6,16 @@
     "value": "190.179.169.XXX"
   },
   {
-    "context": "Inbound payload hash (mirai-like)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "1ac582d2a438f711bd77721ca1bb242d824d85f8116e051fa2cf2aa93fd46576"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.68.0"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "1ac582d2a438f711bd77721ca1bb242d824d85f8116e051fa2cf2aa93fd46576"
   },
   {
     "asn": "UpCloud Ltd",

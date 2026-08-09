@@ -4,17 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto de 1.4 KiB. Presenta entropía elevada (7.89), compatible con contenido empaquetado, cifrado o de alta aleatoriedad. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
-- **Confianza:** `Baja`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:04:53+00:00`
+- **Registrado:** `2026-08-09T21:04:53.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -46,8 +45,8 @@ _WGETVd
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 3c9efdddf255ed44492660692b5f9250ee2fa25f1656f5262c79639fd723b54a | static_analysis |
 | command | _WGETVd | strings |
+| hash | 3c9efdddf255ed44492660692b5f9250ee2fa25f1656f5262c79639fd723b54a | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🔎 Triage

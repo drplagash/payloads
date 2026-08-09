@@ -4,17 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida. Se asociaron 2 comandos observados o extraídos.
+Artefacto de 4.0 KiB. Presenta entropía elevada (7.78), compatible con contenido empaquetado, cifrado o de alta aleatoriedad. Las detecciones YARA incluyen `Suspicious_High_Entropy`. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 comandos observados o extraídos. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
-- **Confianza:** `Baja`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:11+00:00`
+- **Registrado:** `2026-08-09T19:49:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,17 +38,17 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-/data/local/tmp/ufo.apk,33261DATA
 /data/local/tmp/ufo.apkOKAYa=
+/data/local/tmp/ufo.apk,33261DATA
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 1425fbff1c1f57a73e5abe8c1669149a82f8386ec0b91ff7d27f02f95ada751a | static_analysis |
-| command | /data/local/tmp/ufo.apk,33261DATA | strings |
 | command | /data/local/tmp/ufo.apkOKAYa= | strings |
+| command | /data/local/tmp/ufo.apk,33261DATA | strings |
+| hash | 1425fbff1c1f57a73e5abe8c1669149a82f8386ec0b91ff7d27f02f95ada751a | static_analysis |
 | ip | 112.81.86.XXX | artifact_source |
 
 ## 🧬 Detecciones YARA

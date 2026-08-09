@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxp://[internal-ip-redacted]`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:35:06+00:00`
+- **Registrado:** `2026-08-09T19:35:06.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -40,8 +40,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | [internal-ip-redacted] | static_analysis |
 | url | hxxp://[internal-ip-redacted] | strings |
+| ip | [internal-ip-redacted] | static_analysis |
 | hash | 1abc4ead4a462ffcbf60cb52a32d028d7045d4eddabc333d0b4405af1aac8fa0 | static_analysis |
 | ip | 183.105.3.XXX | artifact_source |
 

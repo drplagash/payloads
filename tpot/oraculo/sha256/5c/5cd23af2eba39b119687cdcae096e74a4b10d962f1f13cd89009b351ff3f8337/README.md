@@ -4,17 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: High entropy obfuscation, Binary execution. Se registró 1 detección YARA válida.
+Artefacto de 4.0 KiB. Formato identificado como DOS executable (COM), start instruction 0xe92e0561 f023bf76. Presenta entropía elevada (7.94), compatible con contenido empaquetado, cifrado o de alta aleatoriedad. Las detecciones YARA incluyen `Suspicious_High_Entropy`. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Binary execution. Se identificó 1 indicador técnico adicional.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:43:14+00:00`
+- **Registrado:** `2026-08-09T20:43:14.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad

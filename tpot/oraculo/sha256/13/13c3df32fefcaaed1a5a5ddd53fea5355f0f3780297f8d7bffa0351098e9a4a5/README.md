@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 939 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.66. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:36:13+00:00`
+- **Registrado:** `2026-08-09T19:36:13.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -38,8 +34,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 134.0.0.XXX | static_analysis |
 | ip | 190.179.174.XXX | static_analysis |
+| ip | 134.0.0.XXX | static_analysis |
 | hash | 13c3df32fefcaaed1a5a5ddd53fea5355f0f3780297f8d7bffa0351098e9a4a5 | static_analysis |
 | ip | 45.198.224.XXX | artifact_source |
 

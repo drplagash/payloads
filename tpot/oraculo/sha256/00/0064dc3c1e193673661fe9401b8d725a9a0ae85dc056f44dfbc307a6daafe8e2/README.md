@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:08:22+00:00`
+- **Registrado:** `2026-08-09T20:08:22.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,9 +43,9 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://www[.]google[.]com/bot.html) | strings |
-| url | hxxps://alfabienes[.]com[.]co/download/parlay-app-88vip-v6.10?ref=17052497c5b7&_=1782129098061 | strings |
 | url | hxxps://t[.]me/ | strings |
+| url | hxxps://alfabienes[.]com[.]co/download/parlay-app-88vip-v6.10?ref=17052497c5b7&_=1782129098061 | strings |
+| url | hxxp://www[.]google[.]com/bot.html) | strings |
 | hash | 0064dc3c1e193673661fe9401b8d725a9a0ae85dc056f44dfbc307a6daafe8e2 | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

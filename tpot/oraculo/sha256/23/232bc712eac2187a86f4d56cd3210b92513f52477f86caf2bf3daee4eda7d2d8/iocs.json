@@ -1,9 +1,9 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "232bc712eac2187a86f4d56cd3210b92513f52477f86caf2bf3daee4eda7d2d8"
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -12,10 +12,10 @@
     "value": "/data/local/tmp/ufo.apk,33261DATA"
   },
   {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "/data/local/tmp/ufo.apkOKAY"
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "232bc712eac2187a86f4d56cd3210b92513f52477f86caf2bf3daee4eda7d2d8"
   },
   {
     "asn": "Korea Telecom",

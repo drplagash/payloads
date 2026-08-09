@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "edfd52f916ccf0db61d3781a9bc7feb19e6d6a340db3be95c0c8a66db649e7bc"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "[4lroot@DIR-859:~# >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "edfd52f916ccf0db61d3781a9bc7feb19e6d6a340db3be95c0c8a66db649e7bc"
   },
   {
     "country": "private",

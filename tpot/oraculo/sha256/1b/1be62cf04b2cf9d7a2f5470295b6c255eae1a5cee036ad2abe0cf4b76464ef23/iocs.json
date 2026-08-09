@@ -6,16 +6,16 @@
     "value": "190.179.139.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "1be62cf04b2cf9d7a2f5470295b6c255eae1a5cee036ad2abe0cf4b76464ef23"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.64.1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "1be62cf04b2cf9d7a2f5470295b6c255eae1a5cee036ad2abe0cf4b76464ef23"
   },
   {
     "asn": "Alibaba (US) Technology Co., Ltd.",

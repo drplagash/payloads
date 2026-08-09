@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with CRLF line terminators de 99 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `robertdavidgraham` en `hxxps://github[.]com/robertdavidgraham/`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:15:55+00:00`
+- **Registrado:** `2026-08-09T20:15:55.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad

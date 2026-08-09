@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with very long lines (551), with CRLF line terminators de 864 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `x86` en `hxxp://vitacocoyougoloco[.]potassium[.]st/x86`. Se extrajeron 2 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:47:25+00:00`
+- **Registrado:** `2026-08-09T20:47:25.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,9 +42,9 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 31.56.209.XXX | static_analysis |
-| url | hxxp://31.56.209.XXX/x86;wget | strings |
 | url | hxxp://vitacocoyougoloco[.]potassium[.]st/x86 | strings |
+| url | hxxp://31.56.209.XXX/x86;wget | strings |
+| ip | 31.56.209.XXX | static_analysis |
 | hash | e32cc0c352ea01c31c95cfa1079fcc3108ebe7671cd7481fcd984aa4c5c9b4c2 | static_analysis |
 | ip | 45.198.224.XXX | artifact_source |
 

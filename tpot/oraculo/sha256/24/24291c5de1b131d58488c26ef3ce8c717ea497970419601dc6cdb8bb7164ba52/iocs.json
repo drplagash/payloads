@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "24291c5de1b131d58488c26ef3ce8c717ea497970419601dc6cdb8bb7164ba52"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "cd /tmp || cd /var/ || cd /var/run || cd /mnt || cd /root || cd /;/bin/busybox echo -ne '\\x45\\x4c\\x46'"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "24291c5de1b131d58488c26ef3ce8c717ea497970419601dc6cdb8bb7164ba52"
   },
   {
     "asn": "China Unicom Guangzhou network",

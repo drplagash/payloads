@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxps://schema[.]org`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:41:47+00:00`
+- **Registrado:** `2026-08-09T19:41:47.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -40,10 +40,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | [internal-ip-redacted] | static_analysis |
+| url | hxxps://schema[.]org | strings |
 | url | hxxp://[internal-ip-redacted]:80/ | strings |
 | url | hxxps://casper[.]ghost[.]org/v1.0.0/images/ghost-logo.svg | strings |
-| url | hxxps://schema[.]org | strings |
+| ip | [internal-ip-redacted] | static_analysis |
 | hash | ce81185f75ccfebba7b5d086e1522457fb03a7f847617beec7300b7e0ff9a2a1 | static_analysis |
 
 ## 🛡️ Nota de publicación

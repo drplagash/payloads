@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "b73b41481af6b6862aef8d2e5fd8380fc2cc1d4555971860b6ae3a3f3fdb8f8c"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b73b41481af6b6862aef8d2e5fd8380fc2cc1d4555971860b6ae3a3f3fdb8f8c"
   },
   {
     "asn": "National Telecommunication Corporation HQ,",

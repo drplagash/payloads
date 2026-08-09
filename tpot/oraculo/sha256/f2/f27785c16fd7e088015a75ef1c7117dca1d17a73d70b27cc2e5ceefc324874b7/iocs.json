@@ -1,9 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "126.0.0.XXX"
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://190.179.177.XXX:443/cgi-bin/index2.asp"
   },
   {
     "context": "Embedded IP in inbound payload",
@@ -12,10 +12,10 @@
     "value": "190.179.177.XXX"
   },
   {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://190.179.177.XXX:443/cgi-bin/index2.asp"
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "126.0.0.XXX"
   },
   {
     "context": "Inbound payload hash (unknown)",

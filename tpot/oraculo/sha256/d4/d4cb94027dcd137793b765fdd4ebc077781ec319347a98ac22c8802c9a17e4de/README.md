@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos, Descarga remota, Process killing, Temp directory use.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos, Descarga remota, Process killing, Temp directory use. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:24:17+00:00`
+- **Registrado:** `2026-08-09T20:24:17.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,9 +51,9 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxp://91.92.40.XXX:67/sonnet.x86 | strings |
 | ip | 190.179.128.XXX | static_analysis |
 | ip | 91.92.40.XXX | static_analysis |
-| url | hxxp://91.92.40.XXX:67/sonnet.x86 | strings |
 | hash | d4cb94027dcd137793b765fdd4ebc077781ec319347a98ac22c8802c9a17e4de | static_analysis |
 
 ## 🔎 Triage

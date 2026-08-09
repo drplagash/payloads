@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:08:22+00:00`
+- **Registrado:** `2026-08-09T20:08:22.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,9 +43,9 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://www[.]google[.]com/bot.html) | strings |
 | url | hxxps://alfabienes[.]com[.]co/bonus/vip88-no-deposit-896-d632?ref=1c56b89860f6&_=1782128882496 | strings |
 | url | hxxps://www[.]facebook[.]com/groups/ | strings |
+| url | hxxp://www[.]google[.]com/bot.html) | strings |
 | hash | 4df91988f8d7d3cbe49d668b03cd0bce72cdead18eabd573c1624a3535423b7a | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

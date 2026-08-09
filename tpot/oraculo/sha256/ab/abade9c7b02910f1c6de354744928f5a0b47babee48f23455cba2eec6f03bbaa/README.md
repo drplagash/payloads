@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 5 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:10:14+00:00`
+- **Registrado:** `2026-08-09T20:10:14.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,10 +43,10 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 126.0.0.XXX | static_analysis |
 | url | hxxp://www[.]google[.]com/bot.html) | strings |
 | url | hxxps://alfabienes[.]com[.]co/tag/wagering-7d747a-casino/page/135/?s=wagering&post_type=product&lang=en | strings |
 | url | hxxps://www[.]reddit[.]com/r/gambling/ | strings |
+| ip | 126.0.0.XXX | static_analysis |
 | hash | abade9c7b02910f1c6de354744928f5a0b47babee48f23455cba2eec6f03bbaa | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

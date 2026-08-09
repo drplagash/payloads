@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 795 B. Identificación de formato: ASCII text, with CRLF line terminators. Entropía registrada: 5.54. Se asociaron 3 indicadores de infraestructura relacionado con el origen. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,8 +30,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 154.94.55.XXX | static_analysis |
 | ip | 190.179.164.XXX | static_analysis |
+| ip | 154.94.55.XXX | static_analysis |
 | hash | 6a0ffa3520149e38706a58f90ca29eca7abe4b1eb7349f81d0f403ebc66ec650 | static_analysis |
 | ip | 144.172.97.XXX | artifact_source |
 

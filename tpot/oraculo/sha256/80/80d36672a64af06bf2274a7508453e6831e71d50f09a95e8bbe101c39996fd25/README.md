@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 403 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.33. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:50:21+00:00`
+- **Registrado:** `2026-08-09T19:50:21.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,9 +35,9 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 1.1.1.XXX | static_analysis |
 | ip | 190.179.139.XXX | static_analysis |
 | ip | 51.68.34.XXX | static_analysis |
+| ip | 1.1.1.XXX | static_analysis |
 | hash | 80d36672a64af06bf2274a7508453e6831e71d50f09a95e8bbe101c39996fd25 | static_analysis |
 
 ## 🔎 Triage

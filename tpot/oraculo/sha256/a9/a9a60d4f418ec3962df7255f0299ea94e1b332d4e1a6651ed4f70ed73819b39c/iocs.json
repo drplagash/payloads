@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "a9a60d4f418ec3962df7255f0299ea94e1b332d4e1a6651ed4f70ed73819b39c"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "a9a60d4f418ec3962df7255f0299ea94e1b332d4e1a6651ed4f70ed73819b39c"
   },
   {
     "asn": "R G TECHNOSOLUTIONS PVT LTD",

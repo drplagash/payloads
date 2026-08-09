@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto de 258 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 4.84. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:45:11+00:00`
+- **Registrado:** `2026-08-09T19:45:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -44,8 +44,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | bae9d9bd47c608aa75ad22cb1d8b92bb7ce4c0e51a7017b99d9d6f452c72fe5e | static_analysis |
 | command | >/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd / | strings |
+| hash | bae9d9bd47c608aa75ad22cb1d8b92bb7ce4c0e51a7017b99d9d6f452c72fe5e | static_analysis |
 | ip | 182.121.76.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

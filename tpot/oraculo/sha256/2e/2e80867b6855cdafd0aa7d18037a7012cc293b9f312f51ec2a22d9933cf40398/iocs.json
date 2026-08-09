@@ -6,16 +6,16 @@
     "value": "190.179.140.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "2e80867b6855cdafd0aa7d18037a7012cc293b9f312f51ec2a22d9933cf40398"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.81.0"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "2e80867b6855cdafd0aa7d18037a7012cc293b9f312f51ec2a22d9933cf40398"
   },
   {
     "asn": "Scaleway SAS",

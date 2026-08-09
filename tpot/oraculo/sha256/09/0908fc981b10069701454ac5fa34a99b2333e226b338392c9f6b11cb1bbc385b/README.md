@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:26:29+00:00`
+- **Registrado:** `2026-08-09T19:26:29.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,8 +42,8 @@ Mirai-like indicators in strings
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.164.XXX | static_analysis |
 | ip | 73.165.118.XXX | static_analysis |
+| ip | 190.179.164.XXX | static_analysis |
 | hash | 0908fc981b10069701454ac5fa34a99b2333e226b338392c9f6b11cb1bbc385b | static_analysis |
 | ip | 144.172.97.XXX | artifact_source |
 

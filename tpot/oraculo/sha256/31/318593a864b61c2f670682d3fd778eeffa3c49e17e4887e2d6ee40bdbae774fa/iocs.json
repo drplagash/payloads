@@ -1,15 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "[internal-ip-redacted]"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://172[.]20[.]254[.]"
+    "value": "hxxps://casper[.]ghost[.]org/v1.0.0/images/ghost-logo.svg"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -21,13 +15,19 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxps://casper[.]ghost[.]org/v1.0.0/images/blog-cover.jpg"
+    "value": "hxxp://172[.]20[.]254[.]"
   },
   {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxps://casper[.]ghost[.]org/v1.0.0/images/ghost-logo.svg"
+    "value": "hxxps://casper[.]ghost[.]org/v1.0.0/images/blog-cover.jpg"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "[internal-ip-redacted]"
   },
   {
     "context": "Inbound payload hash (unknown)",

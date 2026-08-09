@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Alta entropía / posible empaquetado o cifrado. Se registró 1 detección YARA válida. Se asociaron 2 comandos observados o extraídos.
+Artefacto de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. Se observaron o extrajeron 2 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -43,17 +44,17 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-/data/local/tmp/ufo.apk,33261DATA
 /data/local/tmp/ufo.apkOKAY
+/data/local/tmp/ufo.apk,33261DATA
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 2ecb1df9c4fd04ceaf00e38e11f55bff0d547678c8865821e41f5c63b1fcefb2 | static_analysis |
-| command | /data/local/tmp/ufo.apk,33261DATA | strings |
 | command | /data/local/tmp/ufo.apkOKAY | strings |
+| command | /data/local/tmp/ufo.apk,33261DATA | strings |
+| hash | 2ecb1df9c4fd04ceaf00e38e11f55bff0d547678c8865821e41f5c63b1fcefb2 | static_analysis |
 | ip | 180.105.74.XXX | artifact_source |
 
 ## 🧬 Detecciones YARA

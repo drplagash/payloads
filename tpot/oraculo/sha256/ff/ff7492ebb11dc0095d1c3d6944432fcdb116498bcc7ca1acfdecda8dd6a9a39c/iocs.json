@@ -6,16 +6,16 @@
     "value": "190.179.169.XXX"
   },
   {
-    "context": "Inbound payload hash (mirai-like)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "ff7492ebb11dc0095d1c3d6944432fcdb116498bcc7ca1acfdecda8dd6a9a39c"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/8.14.1"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "ff7492ebb11dc0095d1c3d6944432fcdb116498bcc7ca1acfdecda8dd6a9a39c"
   },
   {
     "asn": "SK Broadband Co Ltd",

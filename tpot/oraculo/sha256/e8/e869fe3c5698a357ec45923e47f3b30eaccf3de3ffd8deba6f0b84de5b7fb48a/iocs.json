@@ -1,15 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "66.249.155.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://www[.]google[.]com/bot.html)"
+    "value": "hxxps://www[.]google[.]com/"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -21,7 +15,13 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxps://www[.]google[.]com/"
+    "value": "hxxp://www[.]google[.]com/bot.html)"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "66.249.155.XXX"
   },
   {
     "context": "Inbound payload hash (mirai-like)",

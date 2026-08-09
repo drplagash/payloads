@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with very long lines (677), with CRLF line terminators de 992 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `cumshotnews` en `hxxp://192.142.28.XXX/cumshotnews`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:51:31+00:00`
+- **Registrado:** `2026-08-09T19:51:31.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,8 +41,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 192.142.28.XXX | static_analysis |
 | url | hxxp://192.142.28.XXX/cumshotnews; | strings |
+| ip | 192.142.28.XXX | static_analysis |
 | hash | c3f4fd24dc13c328d0468b8647f2510488ac31cd8600c09f1a28965236ea9509 | static_analysis |
 
 ## 🔎 Triage

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asociaron 3 comandos observados o extraídos.
+Artefacto identificado como ASCII text, with CRLF line terminators de 464 B. La evidencia estática disponible identifica capacidad de descarga remota. Se observaron o extrajeron 3 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -13,7 +14,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:38:58+00:00`
+- **Registrado:** `2026-08-09T19:38:58.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,9 +43,9 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-GET /rondo.%5Cbmv.sh%7C%7Ccurl HTTP/1.1
 GET /rondo.%5Cbmv.sh%7C%7Cwget HTTP/1.1
 User-Agent: curl/7.73.0
+GET /rondo.%5Cbmv.sh%7C%7Ccurl HTTP/1.1
 ```
 
 ## 🌐 Indicadores
@@ -52,10 +53,10 @@ User-Agent: curl/7.73.0
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 45.153.34.XXX | static_analysis |
-| hash | c0673207bb830b0cd3f6cc1c7b511fa18a857ffadb28a19a4da0a1babfe50af9 | static_analysis |
-| command | GET /rondo.%5Cbmv.sh%7C%7Ccurl HTTP/1.1 | strings |
 | command | GET /rondo.%5Cbmv.sh%7C%7Cwget HTTP/1.1 | strings |
 | command | User-Agent: curl/7.73.0 | strings |
+| command | GET /rondo.%5Cbmv.sh%7C%7Ccurl HTTP/1.1 | strings |
+| hash | c0673207bb830b0cd3f6cc1c7b511fa18a857ffadb28a19a4da0a1babfe50af9 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🛡️ Nota de publicación

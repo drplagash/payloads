@@ -1,11 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "23.95.15.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -18,10 +12,16 @@
     "value": "hxxp://$h:8080/bin/dlr.x86_64)2"
   },
   {
-    "context": "Inbound payload hash (mirai)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "b33d2d14fb389b136e176dba1683872897232463edc6ab5f5072153fcdd96d14"
+    "type": "ip",
+    "value": "23.95.15.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "[4hroot@fedora-edge:~# cd /data/local/tmp 2>/dev/null||cd /tmp;rm -f /data/local/tmp/.d;for h in x9k4p7m2q5r8t3v6.mooo.c"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -30,10 +30,10 @@
     "value": "-bash: syntax error near unexpected token `(wget'\\n"
   },
   {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "[4hroot@fedora-edge:~# cd /data/local/tmp 2>/dev/null||cd /tmp;rm -f /data/local/tmp/.d;for h in x9k4p7m2q5r8t3v6.mooo.c"
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b33d2d14fb389b136e176dba1683872897232463edc6ab5f5072153fcdd96d14"
   },
   {
     "country": "private",

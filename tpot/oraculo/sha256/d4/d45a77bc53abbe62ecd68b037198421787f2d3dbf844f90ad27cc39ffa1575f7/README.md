@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Binary payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 76 B. Entropía registrada: 3.51. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Binary payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:01:51+00:00`
+- **Registrado:** `2026-08-09T21:01:51.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad

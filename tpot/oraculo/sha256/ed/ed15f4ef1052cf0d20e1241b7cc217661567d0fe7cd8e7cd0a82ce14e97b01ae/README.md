@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.39. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:11+00:00`
+- **Registrado:** `2026-08-09T19:49:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,8 +35,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
 | ip | 94.154.43.XXX | static_analysis |
+| ip | 190.179.168.XXX | static_analysis |
 | hash | ed15f4ef1052cf0d20e1241b7cc217661567d0fe7cd8e7cd0a82ce14e97b01ae | static_analysis |
 | ip | 141.98.11.XXX | artifact_source |
 

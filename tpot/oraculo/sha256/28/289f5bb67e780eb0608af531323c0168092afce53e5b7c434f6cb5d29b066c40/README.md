@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se registró 1 detección YARA válida.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 2 indicadores técnicos. Una detección YARA válida respalda el análisis.
+
 
 ## 🏷️ Clasificación
 

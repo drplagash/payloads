@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (531), with CRLF line terminators de 535 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `XMLSchema-instance` en `hxxp://www[.]w3[.]org/2001/XMLSchema-instance`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:07:07+00:00`
+- **Registrado:** `2026-08-09T21:07:07.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,10 +41,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://purenetworks[.]com/HNAP1/ | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
-| url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
 | url | hxxp://www[.]w3[.]org/2001/XMLSchema-instance | strings |
+| url | hxxp://purenetworks[.]com/HNAP1/ | strings |
+| url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
 | hash | b3492e796b4afc93d4080a87e1173b98030e2b1d18cf8c29d36db9505f8adae7 | static_analysis |
 | ip | 38.100.221.XXX | artifact_source |
 

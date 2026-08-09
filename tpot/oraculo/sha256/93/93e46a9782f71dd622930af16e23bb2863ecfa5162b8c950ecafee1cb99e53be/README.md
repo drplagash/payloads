@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asociaron 3 comandos observados o extraídos.
+Artefacto identificado como ASCII text, with CRLF line terminators de 312 B. La evidencia estática disponible identifica capacidad de descarga remota. Se observaron o extrajeron 3 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -13,7 +14,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:30:16+00:00`
+- **Registrado:** `2026-08-09T20:30:16.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -43,9 +44,9 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-GET /rondo.bmv.sh%7C%7Ccurl HTTP/1.1
 GET /rondo.bmv.sh%7C%7Cwget HTTP/1.1
 User-Agent: curl/7.73.0
+GET /rondo.bmv.sh%7C%7Ccurl HTTP/1.1
 ```
 
 ## 🌐 Indicadores
@@ -53,10 +54,10 @@ User-Agent: curl/7.73.0
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 204.10.194.XXX | static_analysis |
-| hash | 93e46a9782f71dd622930af16e23bb2863ecfa5162b8c950ecafee1cb99e53be | static_analysis |
-| command | GET /rondo.bmv.sh%7C%7Ccurl HTTP/1.1 | strings |
 | command | GET /rondo.bmv.sh%7C%7Cwget HTTP/1.1 | strings |
 | command | User-Agent: curl/7.73.0 | strings |
+| command | GET /rondo.bmv.sh%7C%7Ccurl HTTP/1.1 | strings |
+| hash | 93e46a9782f71dd622930af16e23bb2863ecfa5162b8c950ecafee1cb99e53be | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🔎 Triage

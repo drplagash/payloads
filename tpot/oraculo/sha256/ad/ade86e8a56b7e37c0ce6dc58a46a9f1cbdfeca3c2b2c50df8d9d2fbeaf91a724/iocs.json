@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "ade86e8a56b7e37c0ce6dc58a46a9f1cbdfeca3c2b2c50df8d9d2fbeaf91a724"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "ade86e8a56b7e37c0ce6dc58a46a9f1cbdfeca3c2b2c50df8d9d2fbeaf91a724"
   },
   {
     "asn": "Cyber Internet Services (Pvt) Ltd.",

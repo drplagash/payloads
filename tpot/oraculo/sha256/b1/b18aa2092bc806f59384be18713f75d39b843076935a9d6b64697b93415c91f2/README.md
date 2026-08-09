@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with CRLF line terminators de 343 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:51:31+00:00`
+- **Registrado:** `2026-08-09T19:51:31.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,10 +42,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.169.XXX | static_analysis |
-| ip | 91.92.40.XXX | static_analysis |
 | url | hxxp://91.92.40.XXX/wget.sh | strings |
 | url | hxxp://91.92.40.XXX/wget.sh;chmod | strings |
+| ip | 91.92.40.XXX | static_analysis |
+| ip | 190.179.169.XXX | static_analysis |
 | hash | b18aa2092bc806f59384be18713f75d39b843076935a9d6b64697b93415c91f2 | static_analysis |
 | ip | 45.153.34.XXX | artifact_source |
 

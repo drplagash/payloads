@@ -1,9 +1,9 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "bf6f17095611d91e55bf8a1416a521c27d6cdc9afd7299a08f1774329901602c"
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -12,10 +12,10 @@
     "value": "/data/local/tmp/ufo.apk,33261DATA"
   },
   {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "/data/local/tmp/ufo.apkOKAY"
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "bf6f17095611d91e55bf8a1416a521c27d6cdc9afd7299a08f1774329901602c"
   },
   {
     "asn": "Shaw Communications",

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 8 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:48:02+00:00`
+- **Registrado:** `2026-08-09T19:48:02.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -43,12 +44,12 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | url | hxxp://ogp[.]me/ns# | strings |
-| url | hxxp://purl[.]org/dc/terms/ | strings |
-| url | hxxp://purl[.]org/rss/1.0/modules/content/ | strings |
 | url | hxxp://rd | strings |
 | url | hxxp://schema[.]org/ | strings |
 | url | hxxp://www[.]w3[.]org/2000/01/rdf-schema# | strings |
 | url | hxxp://xmlns[.]com/foaf/0.1/ | strings |
+| url | hxxp://purl[.]org/dc/terms/ | strings |
+| url | hxxp://purl[.]org/rss/1.0/modules/content/ | strings |
 | hash | add288b339a135f5363a5c7b2d88810c3be48fd7d4e87e66756a87638f77f30e | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

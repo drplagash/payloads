@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:10:14+00:00`
+- **Registrado:** `2026-08-09T20:10:14.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,8 +43,8 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxps://alfabienes[.]com[.]co/category/megaways/california/king88/61683 | strings |
 | url | hxxps://www[.]reddit[.]com/r/sportsbook/ | strings |
+| url | hxxps://alfabienes[.]com[.]co/category/megaways/california/king88/61683 | strings |
 | hash | b6359c27949aefb13957a6839229b78e564680f6986d7dce48dbd78d139b38df | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

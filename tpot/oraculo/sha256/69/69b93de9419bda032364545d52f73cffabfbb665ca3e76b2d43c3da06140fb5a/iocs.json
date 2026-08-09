@@ -1,9 +1,9 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "69b93de9419bda032364545d52f73cffabfbb665ca3e76b2d43c3da06140fb5a"
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "/data/local/tmp/ufo.apkOKAY"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -12,10 +12,10 @@
     "value": "/data/local/tmp/ufo.apk,33261DATA"
   },
   {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "/data/local/tmp/ufo.apkOKAY"
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "69b93de9419bda032364545d52f73cffabfbb665ca3e76b2d43c3da06140fb5a"
   },
   {
     "asn": "China Telecom",

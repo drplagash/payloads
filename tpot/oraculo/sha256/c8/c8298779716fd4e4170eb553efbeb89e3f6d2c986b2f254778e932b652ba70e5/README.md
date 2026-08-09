@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:09:37+00:00`
+- **Registrado:** `2026-08-09T20:09:37.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -43,8 +44,8 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | url | hxxp://www[.]google[.]com/bot.html) | strings |
-| url | hxxps://alfabienes[.]com[.]co/?s=deposit%20bonus+claim%20bonus+sportsbook&page=204&ref=8090e6799f96 | strings |
 | url | hxxps://www[.]google[.]com/ | strings |
+| url | hxxps://alfabienes[.]com[.]co/?s=deposit%20bonus+claim%20bonus+sportsbook&page=204&ref=8090e6799f96 | strings |
 | hash | c8298779716fd4e4170eb553efbeb89e3f6d2c986b2f254778e932b652ba70e5 | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

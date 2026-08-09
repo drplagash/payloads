@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Text** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 173 B. Identificación de formato: ASCII text. Entropía registrada: 4.27. La clasificación local aporta como evidencia: Motivos técnicos: file_type=text; mime=text/plain; magic=ASCII text. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Text`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:34:01+00:00`
+- **Registrado:** `2026-08-09T19:34:01.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad

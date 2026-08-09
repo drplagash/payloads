@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto de 84 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 4.81. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:35:06+00:00`
+- **Registrado:** `2026-08-09T19:35:06.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -49,8 +49,8 @@ User-Agent: curl/7.64.1
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 190.179.174.XXX | static_analysis |
-| hash | c2e8f03686ef37f495a944b09cbc5e49d370f0598c8a4df35a828b1fe6b8b9a3 | static_analysis |
 | command | User-Agent: curl/7.64.1 | strings |
+| hash | c2e8f03686ef37f495a944b09cbc5e49d370f0598c8a4df35a828b1fe6b8b9a3 | static_analysis |
 | ip | 47.88.12.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

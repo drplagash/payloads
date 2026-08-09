@@ -1,5 +1,17 @@
 [
   {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://vitacocoyougoloco[.]potassium[.]st/x86"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.56.209.XXX/x86;wget"
+  },
+  {
     "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
     "type": "ip",
@@ -10,18 +22,6 @@
     "source": "static_analysis",
     "type": "ip",
     "value": "31.56.209.XXX"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://31.56.209.XXX/x86;wget"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://vitacocoyougoloco[.]potassium[.]st/x86"
   },
   {
     "context": "Inbound payload hash (unknown)",

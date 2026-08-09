@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 5 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:08:59+00:00`
+- **Registrado:** `2026-08-09T20:08:59.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,10 +43,10 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 66.249.155.XXX | static_analysis |
-| url | hxxp://www[.]google[.]com/bot.html) | strings |
-| url | hxxps://alfabienes[.]com[.]co/casino | strings |
 | url | hxxps://www[.]google[.]com/ | strings |
+| url | hxxps://alfabienes[.]com[.]co/casino | strings |
+| url | hxxp://www[.]google[.]com/bot.html) | strings |
+| ip | 66.249.155.XXX | static_analysis |
 | hash | e869fe3c5698a357ec45923e47f3b30eaccf3de3ffd8deba6f0b84de5b7fb48a | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

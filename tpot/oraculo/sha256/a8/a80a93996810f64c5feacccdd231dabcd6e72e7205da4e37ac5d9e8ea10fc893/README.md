@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with very long lines (480), with CRLF line terminators de 793 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `x86` en `hxxp://217.60.195.XXX:8080/x86`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:41:09+00:00`
+- **Registrado:** `2026-08-09T20:41:09.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,8 +41,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 217.60.195.XXX | static_analysis |
 | url | hxxp://217.60.195.XXX:8080/x86; | strings |
+| ip | 217.60.195.XXX | static_analysis |
 | hash | a80a93996810f64c5feacccdd231dabcd6e72e7205da4e37ac5d9e8ea10fc893 | static_analysis |
 | ip | 45.198.224.XXX | artifact_source |
 

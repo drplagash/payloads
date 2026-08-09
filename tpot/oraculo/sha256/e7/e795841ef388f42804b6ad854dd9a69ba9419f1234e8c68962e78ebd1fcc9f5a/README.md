@@ -4,17 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 1.4 KiB. Formato identificado como PGP symmetric key encrypted data -. Presenta entropía elevada (7.83), compatible con contenido empaquetado, cifrado o de alta aleatoriedad. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 indicador técnico adicional.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:01:51+00:00`
+- **Registrado:** `2026-08-09T21:01:51.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad

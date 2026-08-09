@@ -1,9 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "126.0.0.XXX"
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://t[.]me/"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -18,10 +18,10 @@
     "value": "hxxps://alfabienes[.]com[.]co/search?q=88gold+in+sweden+max88&location=sweden&page=443"
   },
   {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://t[.]me/"
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "126.0.0.XXX"
   },
   {
     "context": "Inbound payload hash (mirai-like)",

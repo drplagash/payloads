@@ -6,16 +6,16 @@
     "value": "190.179.153.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "45f364ff2bde82ee6330dcc7a3f28e104193aeeec2ec16305246f81172e5ec2a"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: Wget/1.21.4 (HelpMeEscapeFromBelarus@proton.me)"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "45f364ff2bde82ee6330dcc7a3f28e104193aeeec2ec16305246f81172e5ec2a"
   },
   {
     "asn": "CHINA UNICOM China169 Backbone",

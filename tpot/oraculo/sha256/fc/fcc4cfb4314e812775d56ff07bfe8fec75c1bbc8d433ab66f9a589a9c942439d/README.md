@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 3.4 KiB. Entropía registrada: 6.64. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:41:46+00:00`
+- **Registrado:** `2026-08-09T19:41:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -48,8 +48,8 @@ shell:rm -rf /data/local/tmp/*
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | fcc4cfb4314e812775d56ff07bfe8fec75c1bbc8d433ab66f9a589a9c942439d | static_analysis |
 | command | shell:rm -rf /data/local/tmp/* | strings |
+| hash | fcc4cfb4314e812775d56ff07bfe8fec75c1bbc8d433ab66f9a589a9c942439d | static_analysis |
 | ip | 42.55.169.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

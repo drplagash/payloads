@@ -1,15 +1,15 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "[internal-ip-redacted]"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
     "value": "hxxp://[internal-ip-redacted]/assets/no_avatar-849f9c04a3a0"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "[internal-ip-redacted]"
   },
   {
     "context": "Inbound payload hash (unknown)",

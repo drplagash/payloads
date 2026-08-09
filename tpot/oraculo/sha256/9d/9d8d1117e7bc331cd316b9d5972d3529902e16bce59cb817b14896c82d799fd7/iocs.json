@@ -6,16 +6,16 @@
     "value": "8.219.145.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "9d8d1117e7bc331cd316b9d5972d3529902e16bce59cb817b14896c82d799fd7"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "config set dir /var/spool/cron/"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "9d8d1117e7bc331cd316b9d5972d3529902e16bce59cb817b14896c82d799fd7"
   },
   {
     "role": "artifact_source",

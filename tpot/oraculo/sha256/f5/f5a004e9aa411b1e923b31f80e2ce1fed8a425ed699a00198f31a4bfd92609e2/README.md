@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with very long lines (856), with CRLF line terminators de 1.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `rondo` en `hxxp://45.153.34.XXX/rondo`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:46:19+00:00`
+- **Registrado:** `2026-08-09T19:46:19.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,9 +41,9 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
-| ip | 45.153.34.XXX | static_analysis |
 | url | hxxp://45.153.34.XXX/rondo. | strings |
+| ip | 45.153.34.XXX | static_analysis |
+| ip | 190.179.168.XXX | static_analysis |
 | hash | f5a004e9aa411b1e923b31f80e2ce1fed8a425ed699a00198f31a4bfd92609e2 | static_analysis |
 | ip | 94.154.43.XXX | artifact_source |
 

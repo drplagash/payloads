@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 801 B. Identificación de formato: ASCII text, with CRLF line terminators. Entropía registrada: 5.51. Se asociaron 3 indicadores de infraestructura relacionado con el origen. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:27:00+00:00`
+- **Registrado:** `2026-08-09T19:27:00.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -34,8 +30,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.164.XXX | static_analysis |
 | ip | 215.147.191.XXX | static_analysis |
+| ip | 190.179.164.XXX | static_analysis |
 | hash | 8f19a7df08dc0e7e01110813c5ced9b359e637a239569d93b76bc27196442de9 | static_analysis |
 | ip | 216.126.239.XXX | artifact_source |
 

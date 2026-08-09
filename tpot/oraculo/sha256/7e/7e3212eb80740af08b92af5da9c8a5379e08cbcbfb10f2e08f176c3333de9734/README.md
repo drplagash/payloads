@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 1.1 KiB. Formato identificado como Unicode text, UTF-8 text, with CRLF line terminators. Entropía registrada: 5.59. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:59:46+00:00`
+- **Registrado:** `2026-08-09T19:59:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,8 +35,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 1.0.11.XXX | static_analysis |
 | ip | 160.119.71.XXX | static_analysis |
+| ip | 1.0.11.XXX | static_analysis |
 | ip | 190.179.168.XXX | static_analysis |
 | hash | 7e3212eb80740af08b92af5da9c8a5379e08cbcbfb10f2e08f176c3333de9734 | static_analysis |
 

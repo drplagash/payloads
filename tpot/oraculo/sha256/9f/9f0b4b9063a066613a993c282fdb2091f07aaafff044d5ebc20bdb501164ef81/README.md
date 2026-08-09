@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asociaron 2 comandos observados o extraídos.
+Artefacto de 149 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.21. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Ejecución. Se identificaron 2 comandos observados o extraídos. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:45:45+00:00`
+- **Registrado:** `2026-08-09T19:45:45.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,9 +51,9 @@ User-Agent: curl/7.73.0
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 64.89.163.XXX | static_analysis |
-| hash | 9f0b4b9063a066613a993c282fdb2091f07aaafff044d5ebc20bdb501164ef81 | static_analysis |
 | command | GET /bins/busywget.sh HTTP/1.1 | strings |
 | command | User-Agent: curl/7.73.0 | strings |
+| hash | 9f0b4b9063a066613a993c282fdb2091f07aaafff044d5ebc20bdb501164ef81 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🛡️ Nota de publicación

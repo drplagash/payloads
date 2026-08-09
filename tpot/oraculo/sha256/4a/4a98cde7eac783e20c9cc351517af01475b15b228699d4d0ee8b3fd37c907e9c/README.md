@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Comunicación remota, Cambio de permisos.
+Script JavaScript de 1.4 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `gg` en `hxxp://2.26.124.XXX:99/gg`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:04:38+00:00`
+- **Registrado:** `2026-08-09T20:04:38.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -47,10 +47,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.140.XXX | static_analysis |
-| ip | 2.26.124.XXX | static_analysis |
-| url | hxxp://2.26.124.XXX:99/gg | strings |
 | url | hxxp://2.26.124.XXX:99/gg) | strings |
+| url | hxxp://2.26.124.XXX:99/gg | strings |
+| ip | 2.26.124.XXX | static_analysis |
+| ip | 190.179.140.XXX | static_analysis |
 | hash | 4a98cde7eac783e20c9cc351517af01475b15b228699d4d0ee8b3fd37c907e9c | static_analysis |
 | ip | 94.154.43.XXX | artifact_source |
 

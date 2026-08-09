@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (704), with no line terminators de 704 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `encoding` en `hxxp://schemas[.]xmlsoap[.]org/soap/encoding/`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:22:21+00:00`
+- **Registrado:** `2026-08-09T20:22:21.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,10 +41,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 176.65.149.XXX | static_analysis |
-| url | hxxp://176.65.149.XXX/adb.sh; | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| url | hxxp://176.65.149.XXX/adb.sh; | strings |
+| ip | 176.65.149.XXX | static_analysis |
 | hash | 0c15b7e92df83f7be71b54cf00ee2db9959f35eb17c313b3378e77e445b73efe | static_analysis |
 | ip | 39.104.63.XXX | artifact_source |
 

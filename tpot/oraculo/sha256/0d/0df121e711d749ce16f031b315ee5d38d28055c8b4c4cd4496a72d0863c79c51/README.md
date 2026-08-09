@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Binary payload** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto de 25 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 4.16. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -13,7 +14,7 @@ Artefacto clasificado como **Binary payload** a partir de la evidencia disponibl
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:34:59+00:00`
+- **Registrado:** `2026-08-09T20:34:59.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -45,8 +46,8 @@ MODULE LOAD /tmp/exp.so
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 0df121e711d749ce16f031b315ee5d38d28055c8b4c4cd4496a72d0863c79c51 | static_analysis |
 | command | MODULE LOAD /tmp/exp.so | strings |
+| hash | 0df121e711d749ce16f031b315ee5d38d28055c8b4c4cd4496a72d0863c79c51 | static_analysis |
 | ip | 124.236.108.XXX | artifact_source |
 
 ## 🔎 Triage

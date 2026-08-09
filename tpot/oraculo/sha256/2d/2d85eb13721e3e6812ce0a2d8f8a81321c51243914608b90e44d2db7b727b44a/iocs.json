@@ -12,16 +12,16 @@
     "value": "190.179.128.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "2d85eb13721e3e6812ce0a2d8f8a81321c51243914608b90e44d2db7b727b44a"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /var/.env HTTP/1.1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "2d85eb13721e3e6812ce0a2d8f8a81321c51243914608b90e44d2db7b727b44a"
   },
   {
     "asn": "Amazon.com, Inc.",

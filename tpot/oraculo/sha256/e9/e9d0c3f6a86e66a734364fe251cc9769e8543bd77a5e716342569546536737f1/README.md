@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Se identificaron 5 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:36:21+00:00`
+- **Registrado:** `2026-08-09T20:36:21.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,10 +43,10 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxps://gitlab[.]com/Kanedias/xmrig-static/-/releases/permalink/latest/downloads/xmrig-aarch64-static | strings |
 | url | hxxps://gitlab[.]com/Kanedias/xmrig-static/-/releases/permalink/latest/downloads/xmrig-armv7-static | strings |
-| url | hxxps://gitlab[.]com/Kanedias/xmrig-static/-/releases/permalink/latest/downloads/xmrig-i686-static | strings |
 | url | hxxps://gitlab[.]com/Kanedias/xmrig-static/-/releases/permalink/latest/downloads/xmrig-x86_64-static | strings |
+| url | hxxps://gitlab[.]com/Kanedias/xmrig-static/-/releases/permalink/latest/downloads/xmrig-aarch64-static | strings |
+| url | hxxps://gitlab[.]com/Kanedias/xmrig-static/-/releases/permalink/latest/downloads/xmrig-i686-static | strings |
 | hash | e9d0c3f6a86e66a734364fe251cc9769e8543bd77a5e716342569546536737f1 | static_analysis |
 | ip | 136.109.178.XXX | artifact_source |
 

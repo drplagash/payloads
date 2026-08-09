@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificó 1 comando observado o extraído. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:57:22+00:00`
+- **Registrado:** `2026-08-09T19:57:22.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -48,10 +49,10 @@ GET /tmp/.env HTTP/1.1
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.169.XXX | static_analysis |
 | url | hxxp://www[.]google[.]com/bot.html) | strings |
-| hash | a235fe82ba570bd35b7c5ad02638e4c8b170c4b53c073db77076fb6708ffd873 | static_analysis |
+| ip | 190.179.169.XXX | static_analysis |
 | command | GET /tmp/.env HTTP/1.1 | strings |
+| hash | a235fe82ba570bd35b7c5ad02638e4c8b170c4b53c073db77076fb6708ffd873 | static_analysis |
 | ip | 151.243.18.XXX | artifact_source |
 
 ## 🔎 Triage

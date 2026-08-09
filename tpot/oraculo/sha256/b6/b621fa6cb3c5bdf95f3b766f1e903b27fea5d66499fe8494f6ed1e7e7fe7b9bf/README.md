@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Script JavaScript de 1.6 KiB. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxps://return[.]st/`. Se extrajeron 2 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:43:29+00:00`
+- **Registrado:** `2026-08-09T19:43:29.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -40,10 +40,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
-| url | hxxp://ip/x86; | strings |
 | url | hxxps://return[.]st/?ref=Q7hw1uZ6pEz8LTEX | strings |
+| url | hxxp://ip/x86; | strings |
 | url | hxxps://return[.]st/?ref=Q7hw1uZ6pEz8LTEX;307; | strings |
+| ip | 190.179.168.XXX | static_analysis |
 | hash | b621fa6cb3c5bdf95f3b766f1e903b27fea5d66499fe8494f6ed1e7e7fe7b9bf | static_analysis |
 | ip | 31.59.160.XXX | artifact_source |
 

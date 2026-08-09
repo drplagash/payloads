@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `fbml` en `hxxp://www[.]facebook[.]com/2008/fbml`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:46:43+00:00`
+- **Registrado:** `2026-08-09T20:46:43.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,10 +41,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://opengraphprotocol[.]org/schema/ | strings |
 | url | hxxp://www[.]facebook[.]com/2008/fbml | strings |
-| url | hxxp://www[.]w3[.]org/1999/xhtml | strings |
 | url | hxxp://www[.]w3[.]org/TR/xhtml1/DTD/xhtml1-transitional.dtd | strings |
+| url | hxxp://www[.]w3[.]org/1999/xhtml | strings |
+| url | hxxp://opengraphprotocol[.]org/schema/ | strings |
 | hash | 72d28d75baf959d3190f70b728b17626edded5a2459fb2a2f1732e310e06943d | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 416 B. Identificación de formato: ASCII text, with CRLF line terminators. Entropía registrada: 5.38. Se asociaron 3 indicadores de infraestructura. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,9 +30,9 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 1.1.1.XXX | static_analysis |
 | ip | 162.217.103.XXX | static_analysis |
 | ip | 190.179.164.XXX | static_analysis |
+| ip | 1.1.1.XXX | static_analysis |
 | hash | 038b4b42f599850181ad3451ab19a01ed84ffbe6f4717535c7de8185d315f482 | static_analysis |
 
 ## 🛡️ Nota de publicación

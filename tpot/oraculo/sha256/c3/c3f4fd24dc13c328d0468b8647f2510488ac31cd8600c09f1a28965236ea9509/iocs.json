@@ -1,15 +1,15 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "192.142.28.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
     "value": "hxxp://192.142.28.XXX/cumshotnews;"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "192.142.28.XXX"
   },
   {
     "context": "Inbound payload hash (unknown)",

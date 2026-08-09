@@ -1,21 +1,15 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "103.211.206.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
     "value": "hxxp://103.211.206.XXX/main_$"
   },
   {
-    "context": "Inbound payload hash (mirai)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "2a924709fb52d53ce5b282b855c54475afc0ed788b7bdc23faa078800cbe5e56"
+    "type": "ip",
+    "value": "103.211.206.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -28,6 +22,12 @@
     "source": "strings",
     "type": "command",
     "value": "[4lchmod: cannot access '.sysd': No such file or directory"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "2a924709fb52d53ce5b282b855c54475afc0ed788b7bdc23faa078800cbe5e56"
   },
   {
     "country": "private",

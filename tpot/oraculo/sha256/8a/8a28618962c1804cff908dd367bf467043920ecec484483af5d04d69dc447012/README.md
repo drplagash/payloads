@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:05:52+00:00`
+- **Registrado:** `2026-08-09T20:05:52.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,8 +53,8 @@ User-Agent: curl/8.14.1
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 190.179.140.XXX | static_analysis |
-| hash | 8a28618962c1804cff908dd367bf467043920ecec484483af5d04d69dc447012 | static_analysis |
 | command | User-Agent: curl/8.14.1 | strings |
+| hash | 8a28618962c1804cff908dd367bf467043920ecec484483af5d04d69dc447012 | static_analysis |
 | ip | 110.10.176.XXX | artifact_source |
 
 ## 🔎 Triage

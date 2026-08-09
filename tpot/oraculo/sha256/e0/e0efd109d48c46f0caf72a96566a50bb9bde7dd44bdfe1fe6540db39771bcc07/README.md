@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with very long lines (485), with CRLF line terminators de 615 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:51:31+00:00`
+- **Registrado:** `2026-08-09T19:51:31.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,12 +42,12 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.169.XXX | static_analysis |
-| ip | 91.92.40.XXX | static_analysis |
 | url | hxxp://91.92.40.XXX/wget.sh | strings |
-| url | hxxp://91.92.40.XXX/wget.sh;chmod | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
 | url | hxxp://www[.]huawei[.]com/vehicle/nu | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| url | hxxp://91.92.40.XXX/wget.sh;chmod | strings |
+| ip | 91.92.40.XXX | static_analysis |
+| ip | 190.179.169.XXX | static_analysis |
 | hash | e0efd109d48c46f0caf72a96566a50bb9bde7dd44bdfe1fe6540db39771bcc07 | static_analysis |
 | ip | 45.153.34.XXX | artifact_source |
 

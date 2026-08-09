@@ -1,9 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "203.101.186.XXX"
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -18,10 +18,10 @@
     "value": "hxxp://schemas[.]xmlsoap[.]org/soap/encoding/"
   },
   {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "203.101.186.XXX"
   },
   {
     "context": "Inbound payload hash (unknown)",

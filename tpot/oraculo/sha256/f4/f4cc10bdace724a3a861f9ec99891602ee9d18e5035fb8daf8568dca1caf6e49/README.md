@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with CRLF, LF line terminators de 813 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `secext` en `hxxp://schemas[.]xmlsoap[.]org/ws/2002/04/secext`. Se extrajeron 2 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:48:36+00:00`
+- **Registrado:** `2026-08-09T19:48:36.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,9 +41,9 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/ws/2002/04/secext | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| ip | 190.179.168.XXX | static_analysis |
 | hash | f4cc10bdace724a3a861f9ec99891602ee9d18e5035fb8daf8568dca1caf6e49 | static_analysis |
 | ip | 185.16.38.XXX | artifact_source |
 

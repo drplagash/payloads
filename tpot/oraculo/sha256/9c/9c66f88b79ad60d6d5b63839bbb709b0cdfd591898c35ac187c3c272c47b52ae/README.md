@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Comunicación remota.
+Artefacto de 6.1 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `copyright-software-19980720` en `hxxp://www[.]w3[.]org/Consortium/Legal/copyright-software-19980720`. Se extrajeron 7 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:10:53+00:00`
+- **Registrado:** `2026-08-09T21:10:53.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -43,13 +43,13 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
-| url | hxxp://www[.]w3[.]org/2001/06/soap-envelope | strings |
-| url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
-| url | hxxp://www[.]w3[.]org/Consortium/Legal/ | strings |
 | url | hxxp://www[.]w3[.]org/Consortium/Legal/copyright-software-19980720 | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
 | url | hxxp://www[.]w3[.]org/Consortium/Legal/IPR-FAQ-20000620.html#DTD | strings |
+| url | hxxp://www[.]w3[.]org/2001/06/soap-envelope | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
+| url | hxxp://www[.]w3[.]org/Consortium/Legal/ | strings |
 | hash | 9c66f88b79ad60d6d5b63839bbb709b0cdfd591898c35ac187c3c272c47b52ae | static_analysis |
 
 ## 🔭 Enriquecimiento histórico local

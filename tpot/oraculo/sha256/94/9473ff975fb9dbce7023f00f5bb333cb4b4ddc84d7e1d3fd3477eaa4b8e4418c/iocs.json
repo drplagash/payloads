@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "9473ff975fb9dbce7023f00f5bb333cb4b4ddc84d7e1d3fd3477eaa4b8e4418c"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "9473ff975fb9dbce7023f00f5bb333cb4b4ddc84d7e1d3fd3477eaa4b8e4418c"
   },
   {
     "asn": "National WiMAX/IMS environment",

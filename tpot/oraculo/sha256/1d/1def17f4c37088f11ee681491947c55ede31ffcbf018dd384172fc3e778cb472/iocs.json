@@ -6,16 +6,16 @@
     "value": "190.179.140.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "1def17f4c37088f11ee681491947c55ede31ffcbf018dd384172fc3e778cb472"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /tmp/.env HTTP/1.1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "1def17f4c37088f11ee681491947c55ede31ffcbf018dd384172fc3e778cb472"
   },
   {
     "asn": "Google LLC",

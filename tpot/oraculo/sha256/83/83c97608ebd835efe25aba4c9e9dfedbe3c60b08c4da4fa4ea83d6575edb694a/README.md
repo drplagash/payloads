@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with CRLF line terminators de 132 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `index2.asp` en `hxxp://190.179.153.XXX/cgi-bin/index2.asp`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:11:29+00:00`
+- **Registrado:** `2026-08-09T20:11:29.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,8 +41,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.153.XXX | static_analysis |
 | url | hxxp://190.179.153.XXX/cgi-bin/index2.asp | strings |
+| ip | 190.179.153.XXX | static_analysis |
 | hash | 83c97608ebd835efe25aba4c9e9dfedbe3c60b08c4da4fa4ea83d6575edb694a | static_analysis |
 | ip | 204.76.203.XXX | artifact_source |
 

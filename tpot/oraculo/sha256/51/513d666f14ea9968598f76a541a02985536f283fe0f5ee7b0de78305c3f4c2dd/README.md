@@ -4,17 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se asociaron 2 comandos observados o extraídos.
+Artefacto de 4.0 KiB. Presenta entropía elevada (7.78), compatible con contenido empaquetado, cifrado o de alta aleatoriedad. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 comandos observados o extraídos. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
-- **Confianza:** `Baja`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:07:53+00:00`
+- **Registrado:** `2026-08-09T21:07:53.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,17 +38,17 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-/data/local/tmp/ufo.apk,33261DATA
 /data/local/tmp/ufo.apkOKAY
+/data/local/tmp/ufo.apk,33261DATA
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 513d666f14ea9968598f76a541a02985536f283fe0f5ee7b0de78305c3f4c2dd | static_analysis |
-| command | /data/local/tmp/ufo.apk,33261DATA | strings |
 | command | /data/local/tmp/ufo.apkOKAY | strings |
+| command | /data/local/tmp/ufo.apk,33261DATA | strings |
+| hash | 513d666f14ea9968598f76a541a02985536f283fe0f5ee7b0de78305c3f4c2dd | static_analysis |
 | ip | 220.83.108.XXX | artifact_source |
 
 ## 🔎 Triage

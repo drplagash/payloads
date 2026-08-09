@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Suspicious Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: High entropy.
+La evidencia técnica es compatible con **Suspicious Payload**. Comportamientos destacados: High entropy. Se identificó 1 indicador técnico adicional.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Suspicious Payload`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:07:53+00:00`
+- **Registrado:** `2026-08-09T21:07:53.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad

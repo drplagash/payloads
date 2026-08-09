@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "6ffa61f7ff22cbd9bb84bb0aa4527f3c4a91ebedf361d6a9e0764f07dcf1941b"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "/data/local/tmp/ufo.apk,33261DATA"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "6ffa61f7ff22cbd9bb84bb0aa4527f3c4a91ebedf361d6a9e0764f07dcf1941b"
   },
   {
     "asn": "UNICOM JiangSu Suzhou IDC network",

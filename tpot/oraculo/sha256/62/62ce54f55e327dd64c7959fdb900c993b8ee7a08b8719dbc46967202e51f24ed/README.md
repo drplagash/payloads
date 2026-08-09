@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:06:31+00:00`
+- **Registrado:** `2026-08-09T20:06:31.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,9 +43,9 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 199.178.143.XXX | static_analysis |
 | url | hxxps://qmhsex[.]com/ | strings |
 | url | hxxps://www[.]kkkkk[.]ph/?s=microgaming&ref=345907&aff=229&click=10601738&utm_source=vnsextop1.com&utm_medium=affiliate&utm_campaign=microgaming | strings |
+| ip | 199.178.143.XXX | static_analysis |
 | hash | 62ce54f55e327dd64c7959fdb900c993b8ee7a08b8719dbc46967202e51f24ed | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

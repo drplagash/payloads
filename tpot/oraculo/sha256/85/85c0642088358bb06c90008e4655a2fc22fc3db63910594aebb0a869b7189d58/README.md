@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asociaron 5 comandos observados o extraídos.
+Artefacto de 588 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.20. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Ejecución. Se identificaron 5 comandos observados o extraídos. Se identificaron 7 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:45:45+00:00`
+- **Registrado:** `2026-08-09T19:45:45.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,11 +42,11 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-GET /bins/busycurl.sh HTTP/1.1
 GET /bins/busywget.sh HTTP/1.1
-GET /bins/curl.sh HTTP/1.1
-GET /bins/wget.sh HTTP/1.1
 User-Agent: curl/7.73.0
+GET /bins/wget.sh HTTP/1.1
+GET /bins/busycurl.sh HTTP/1.1
+GET /bins/curl.sh HTTP/1.1
 ```
 
 ## 🌐 Indicadores
@@ -54,12 +54,12 @@ User-Agent: curl/7.73.0
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 64.89.163.XXX | static_analysis |
-| hash | 85c0642088358bb06c90008e4655a2fc22fc3db63910594aebb0a869b7189d58 | static_analysis |
-| command | GET /bins/busycurl.sh HTTP/1.1 | strings |
 | command | GET /bins/busywget.sh HTTP/1.1 | strings |
-| command | GET /bins/curl.sh HTTP/1.1 | strings |
-| command | GET /bins/wget.sh HTTP/1.1 | strings |
 | command | User-Agent: curl/7.73.0 | strings |
+| command | GET /bins/wget.sh HTTP/1.1 | strings |
+| command | GET /bins/busycurl.sh HTTP/1.1 | strings |
+| command | GET /bins/curl.sh HTTP/1.1 | strings |
+| hash | 85c0642088358bb06c90008e4655a2fc22fc3db63910594aebb0a869b7189d58 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🛡️ Nota de publicación

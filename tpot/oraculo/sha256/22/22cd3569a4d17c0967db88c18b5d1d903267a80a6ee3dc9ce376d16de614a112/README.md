@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with very long lines (624), with CRLF line terminators de 803 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Mozi.m` en `hxxp://103.213.112.XXX:58691/Mozi.m`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:05:52+00:00`
+- **Registrado:** `2026-08-09T20:05:52.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,10 +41,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 103.213.112.XXX | static_analysis |
 | url | hxxp://103.213.112.XXX:58691/Mozi.m | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
+| ip | 103.213.112.XXX | static_analysis |
 | hash | 22cd3569a4d17c0967db88c18b5d1d903267a80a6ee3dc9ce376d16de614a112 | static_analysis |
 
 ## 🔎 Triage

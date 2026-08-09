@@ -1,11 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "199.178.143.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -16,6 +10,12 @@
     "source": "strings",
     "type": "url",
     "value": "hxxps://www[.]kkkkk[.]ph/?s=microgaming&ref=345907&aff=229&click=10601738&utm_source=vnsextop1.com&utm_medium=affiliate&utm_campaign=microgaming"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "199.178.143.XXX"
   },
   {
     "context": "Inbound payload hash (mirai-like)",

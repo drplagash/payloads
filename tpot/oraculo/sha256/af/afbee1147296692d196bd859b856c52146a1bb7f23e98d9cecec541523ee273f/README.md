@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (338) de 627 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `devprof` en `hxxp://schemas[.]xmlsoap[.]org/ws/2006/02/devprof`. Se extrajeron 5 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:06:23+00:00`
+- **Registrado:** `2026-08-09T21:06:23.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,11 +41,11 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://schemas[.]xmlsoap[.]org/ws/2004/08/addressing | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/ws/2005/04/discovery | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/ws/2005/04/discovery/Probe | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/ws/2006/02/devprof | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/ws/2005/04/discovery | strings |
 | url | hxxp://www[.]w3[.]org/2003/05/soap-envelope | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/ws/2005/04/discovery/Probe | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/ws/2004/08/addressing | strings |
 | hash | afbee1147296692d196bd859b856c52146a1bb7f23e98d9cecec541523ee273f | static_analysis |
 | ip | 146.88.241.XXX | artifact_source |
 

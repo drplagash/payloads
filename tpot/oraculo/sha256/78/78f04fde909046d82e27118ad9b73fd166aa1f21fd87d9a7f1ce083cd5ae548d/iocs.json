@@ -6,22 +6,16 @@
     "value": "64.89.163.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "78f04fde909046d82e27118ad9b73fd166aa1f21fd87d9a7f1ce083cd5ae548d"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "GET /bins/busycurl.sh HTTP/1.1"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /bins/busywget.sh HTTP/1.1"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.73.0"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -33,7 +27,13 @@
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
-    "value": "User-Agent: curl/7.73.0"
+    "value": "GET /bins/busycurl.sh HTTP/1.1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "78f04fde909046d82e27118ad9b73fd166aa1f21fd87d9a7f1ce083cd5ae548d"
   },
   {
     "country": "private",

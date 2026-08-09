@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto de 206 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.37. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 4 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:23:38+00:00`
+- **Registrado:** `2026-08-09T20:23:38.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -47,8 +43,8 @@ GET /var/.env HTTP/1.1
 | --- | --- | --- |
 | ip | 136.0.0.XXX | static_analysis |
 | ip | 190.179.128.XXX | static_analysis |
-| hash | 2d85eb13721e3e6812ce0a2d8f8a81321c51243914608b90e44d2db7b727b44a | static_analysis |
 | command | GET /var/.env HTTP/1.1 | strings |
+| hash | 2d85eb13721e3e6812ce0a2d8f8a81321c51243914608b90e44d2db7b727b44a | static_analysis |
 | ip | 52.200.76.XXX | artifact_source |
 
 ## 🔎 Triage

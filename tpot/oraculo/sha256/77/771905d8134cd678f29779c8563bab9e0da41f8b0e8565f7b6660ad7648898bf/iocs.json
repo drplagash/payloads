@@ -6,16 +6,16 @@
     "value": "190.179.160.XXX"
   },
   {
-    "context": "Inbound payload hash (mirai-like)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "771905d8134cd678f29779c8563bab9e0da41f8b0e8565f7b6660ad7648898bf"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.76.1"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "771905d8134cd678f29779c8563bab9e0da41f8b0e8565f7b6660ad7648898bf"
   },
   {
     "asn": "Juweriyah Networks Private Limited",

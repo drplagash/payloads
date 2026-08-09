@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Suspicious Payload** a partir de la evidencia disponible en Oráculo SOC.
+La evidencia técnica es compatible con **Suspicious Payload**. Se identificó 1 indicador técnico adicional.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Suspicious Payload`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:58:55+00:00`
+- **Registrado:** `2026-08-09T20:58:55.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad

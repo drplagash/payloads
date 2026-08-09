@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 405 B. Identificación de formato: ASCII text, with CRLF line terminators. Entropía registrada: 5.37. Se asociaron 3 indicadores de infraestructura. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -35,8 +31,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 1.1.1.XXX | static_analysis |
-| ip | 190.179.177.XXX | static_analysis |
 | ip | 5.135.10.XXX | static_analysis |
+| ip | 190.179.177.XXX | static_analysis |
 | hash | 56a36859cfb613f7903df2fb15be8ff4792556d401685691cfe983420449cd8a | static_analysis |
 
 ## 🛡️ Nota de publicación

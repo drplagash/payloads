@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:49:32+00:00`
+- **Registrado:** `2026-08-09T20:49:32.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,8 +43,8 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.144.XXX | static_analysis |
 | url | hxxps://about[.]censys[.]io/) | strings |
+| ip | 190.179.144.XXX | static_analysis |
 | hash | ccf5bc9baeab238c58cb5748998329810ab96353b564a04baac6f45194b4141f | static_analysis |
 | ip | 66.132.195.XXX | artifact_source |
 

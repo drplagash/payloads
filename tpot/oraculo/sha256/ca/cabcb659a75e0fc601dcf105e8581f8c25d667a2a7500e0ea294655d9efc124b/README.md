@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 179 B. Formato identificado como ASCII text. Entropía registrada: 4.97. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:07:07+00:00`
+- **Registrado:** `2026-08-09T21:07:07.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,8 +35,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.160.XXX | static_analysis |
 | ip | 91.196.152.XXX | static_analysis |
+| ip | 190.179.160.XXX | static_analysis |
 | hash | cabcb659a75e0fc601dcf105e8581f8c25d667a2a7500e0ea294655d9efc124b | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

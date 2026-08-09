@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Binary payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto de 79 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 4.77. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -13,7 +14,7 @@ Artefacto clasificado como **Binary payload** a partir de la evidencia disponibl
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:24:57+00:00`
+- **Registrado:** `2026-08-09T20:24:57.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,8 +51,8 @@ User-Agent: curl/7.37.0
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 190.179.140.XXX | static_analysis |
-| hash | be2ffe65ee1a456cf694e2f3ea4f3f020ceaad332c1f3d82710032db91bac836 | static_analysis |
 | command | User-Agent: curl/7.37.0 | strings |
+| hash | be2ffe65ee1a456cf694e2f3ea4f3f020ceaad332c1f3d82710032db91bac836 | static_analysis |
 | ip | 167.99.239.XXX | artifact_source |
 
 ## 🔎 Triage

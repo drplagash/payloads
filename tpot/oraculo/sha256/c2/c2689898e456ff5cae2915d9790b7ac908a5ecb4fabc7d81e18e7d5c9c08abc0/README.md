@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asociaron 3 comandos observados o extraídos.
+Artefacto de 504 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.10. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota. Se identificaron 3 comandos observados o extraídos. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:01:36+00:00`
+- **Registrado:** `2026-08-09T20:01:36.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -43,18 +43,18 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 ```text
 GET /ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1
-GET /ubuntu/pool/main/c/curl/libcurl3t64-gnutls_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1
 GET /ubuntu/pool/main/c/curl/libcurl4t64_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1
+GET /ubuntu/pool/main/c/curl/libcurl3t64-gnutls_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | c2689898e456ff5cae2915d9790b7ac908a5ecb4fabc7d81e18e7d5c9c08abc0 | static_analysis |
 | command | GET /ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1 | strings |
-| command | GET /ubuntu/pool/main/c/curl/libcurl3t64-gnutls_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1 | strings |
 | command | GET /ubuntu/pool/main/c/curl/libcurl4t64_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1 | strings |
+| command | GET /ubuntu/pool/main/c/curl/libcurl3t64-gnutls_8.5.0-2ubuntu10.10_amd64.deb HTTP/1.1 | strings |
+| hash | c2689898e456ff5cae2915d9790b7ac908a5ecb4fabc7d81e18e7d5c9c08abc0 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🔎 Triage

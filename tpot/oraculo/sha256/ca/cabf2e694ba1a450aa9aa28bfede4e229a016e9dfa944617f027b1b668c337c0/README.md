@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 962 B. Formato identificado como ASCII text, with very long lines (404), with CRLF line terminators. Entropía registrada: 5.48. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:10:07+00:00`
+- **Registrado:** `2026-08-09T21:10:07.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,8 +35,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.166.XXX | static_analysis |
 | ip | 204.10.194.XXX | static_analysis |
+| ip | 190.179.166.XXX | static_analysis |
 | hash | cabf2e694ba1a450aa9aa28bfede4e229a016e9dfa944617f027b1b668c337c0 | static_analysis |
 | ip | 124.198.131.XXX | artifact_source |
 

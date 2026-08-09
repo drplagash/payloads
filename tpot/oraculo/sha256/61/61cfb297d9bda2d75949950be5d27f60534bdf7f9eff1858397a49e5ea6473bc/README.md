@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxp://172[.]20[.]254[.]`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:59:38+00:00`
+- **Registrado:** `2026-08-09T20:59:38.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,11 +41,11 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | [internal-ip-redacted] | static_analysis |
 | url | hxxp://172[.]20[.]254[.] | strings |
-| url | hxxp://[internal-ip-redacted]:80/ | strings |
-| url | hxxps://casper[.]ghost[.]org/v1.0.0/images/blog-cover.jpg | strings |
 | url | hxxps://casper[.]ghost[.]org/v1.0.0/images/ghost-logo.svg | strings |
+| url | hxxps://casper[.]ghost[.]org/v1.0.0/images/blog-cover.jpg | strings |
+| url | hxxp://[internal-ip-redacted]:80/ | strings |
+| ip | [internal-ip-redacted] | static_analysis |
 | hash | 61cfb297d9bda2d75949950be5d27f60534bdf7f9eff1858397a49e5ea6473bc | static_analysis |
 
 ## 🔎 Triage

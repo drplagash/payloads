@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Limpieza, Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:30:44+00:00`
+- **Registrado:** `2026-08-09T19:30:44.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,8 +51,8 @@ shell:rm -rf /data/local/tmp/*
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | b9186ecea935b48b0e732cad4ebb0a55b70599484d8bbf55bb2da9ff72598567 | static_analysis |
 | command | shell:rm -rf /data/local/tmp/* | strings |
+| hash | b9186ecea935b48b0e732cad4ebb0a55b70599484d8bbf55bb2da9ff72598567 | static_analysis |
 | ip | 218.205.95.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

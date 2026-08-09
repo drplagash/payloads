@@ -6,10 +6,10 @@
     "value": "91.92.42.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "b8df5bc301bd6dbd06a0582784c901b4478a618ff1e0fe5035ab9542700470a6"
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: Wget/1.25.0 (linux-gnu)"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -18,10 +18,10 @@
     "value": "User-Agent: curl/7.38.0"
   },
   {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "User-Agent: Wget/1.25.0 (linux-gnu)"
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b8df5bc301bd6dbd06a0582784c901b4478a618ff1e0fe5035ab9542700470a6"
   },
   {
     "country": "private",

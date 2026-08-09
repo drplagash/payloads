@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `mediawiki-announce` en `hxxps://lists[.]wikimedia[.]org/mailman/listinfo/mediawiki-announce`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:37:42+00:00`
+- **Registrado:** `2026-08-09T20:37:42.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,8 +42,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | url | hxxps://lists[.]wikimedia[.]org/mailman/listinfo/mediawiki-announce | strings |
-| url | hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Manual:Configuration_settings | strings |
 | url | hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Manual:FAQ | strings |
+| url | hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Manual:Configuration_settings | strings |
 | hash | 4df6c9d7a1f11358ca58596708113ce171bd2cb4f044c5c528f9f3eb58744383 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

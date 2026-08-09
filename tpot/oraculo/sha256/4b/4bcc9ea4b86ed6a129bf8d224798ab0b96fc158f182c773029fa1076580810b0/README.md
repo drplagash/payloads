@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `ns` en `hxxp://ogp[.]me/ns`. Se extrajeron 7 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:48:36+00:00`
+- **Registrado:** `2026-08-09T19:48:36.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,12 +42,12 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | url | hxxp://ogp[.]me/ns# | strings |
-| url | hxxp://purl[.]org/dc/terms/ | strings |
-| url | hxxp://purl[.]org/rss/1.0/modules/content/ | strings |
 | url | hxxp://rd | strings |
 | url | hxxp://schema[.]org/ | strings |
 | url | hxxp://www[.]w3[.]org/2000/01/rdf-schema# | strings |
 | url | hxxp://xmlns[.]com/foaf/0.1/ | strings |
+| url | hxxp://purl[.]org/dc/terms/ | strings |
+| url | hxxp://purl[.]org/rss/1.0/modules/content/ | strings |
 | hash | 4bcc9ea4b86ed6a129bf8d224798ab0b96fc158f182c773029fa1076580810b0 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

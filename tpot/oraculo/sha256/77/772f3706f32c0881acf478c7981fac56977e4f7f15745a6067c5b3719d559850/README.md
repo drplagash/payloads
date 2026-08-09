@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asociaron 2 comandos observados o extraídos.
+Artefacto de 309 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.09. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota. Se identificaron 2 comandos observados o extraídos. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:21:03+00:00`
+- **Registrado:** `2026-08-09T20:21:03.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,8 +42,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-User-Agent: curl/7.38.0
 User-Agent: Wget/1.25.0 (linux-gnu)
+User-Agent: curl/7.38.0
 ```
 
 ## 🌐 Indicadores
@@ -51,9 +51,9 @@ User-Agent: Wget/1.25.0 (linux-gnu)
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 104.251.181.XXX | static_analysis |
-| hash | 772f3706f32c0881acf478c7981fac56977e4f7f15745a6067c5b3719d559850 | static_analysis |
-| command | User-Agent: curl/7.38.0 | strings |
 | command | User-Agent: Wget/1.25.0 (linux-gnu) | strings |
+| command | User-Agent: curl/7.38.0 | strings |
+| hash | 772f3706f32c0881acf478c7981fac56977e4f7f15745a6067c5b3719d559850 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🔎 Triage

@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with CRLF line terminators de 195 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `genomecrawler` en `hxxps://www[.]nokia[.]com/genomecrawler`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:04:03+00:00`
+- **Registrado:** `2026-08-09T20:04:03.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,8 +41,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
 | url | hxxps://www[.]nokia[.]com/genomecrawler) | strings |
+| ip | 190.179.168.XXX | static_analysis |
 | hash | 42ef2a597743e2c652d155b5dd3fb2b3e354656b67f4f6bad27e8afb781abdc9 | static_analysis |
 | ip | 216.180.246.XXX | artifact_source |
 

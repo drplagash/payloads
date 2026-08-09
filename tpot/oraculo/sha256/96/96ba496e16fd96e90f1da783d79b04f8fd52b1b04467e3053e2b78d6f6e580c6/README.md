@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 803 B. Identificación de formato: ASCII text, with CRLF line terminators. Entropía registrada: 5.48. Se asociaron 3 indicadores de infraestructura relacionado con el origen. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:25:57+00:00`
+- **Registrado:** `2026-08-09T19:25:57.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -34,8 +30,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 145.131.233.XXX | static_analysis |
 | ip | 190.179.164.XXX | static_analysis |
+| ip | 145.131.233.XXX | static_analysis |
 | hash | 96ba496e16fd96e90f1da783d79b04f8fd52b1b04467e3053e2b78d6f6e580c6 | static_analysis |
 | ip | 144.172.97.XXX | artifact_source |
 

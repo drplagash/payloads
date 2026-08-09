@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 91 B. La evidencia estática disponible identifica capacidad de descarga remota. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -50,8 +51,8 @@ User-Agent: curl/7.68.0
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 190.179.177.XXX | static_analysis |
-| hash | bd92a7f4a97db992ea851e14ad7e75b42787e871dc1e999222d2060f1b9f5d3e | static_analysis |
 | command | User-Agent: curl/7.68.0 | strings |
+| hash | bd92a7f4a97db992ea851e14ad7e75b42787e871dc1e999222d2060f1b9f5d3e | static_analysis |
 | ip | 185.242.226.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

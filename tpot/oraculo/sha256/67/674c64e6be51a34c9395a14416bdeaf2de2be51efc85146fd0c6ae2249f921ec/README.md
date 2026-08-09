@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 957 B. Formato identificado como ASCII text, with very long lines (403), with CRLF line terminators. Entropía registrada: 5.48. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:19:44+00:00`
+- **Registrado:** `2026-08-09T20:19:44.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,8 +35,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.128.XXX | static_analysis |
 | ip | 45.153.34.XXX | static_analysis |
+| ip | 190.179.128.XXX | static_analysis |
 | hash | 674c64e6be51a34c9395a14416bdeaf2de2be51efc85146fd0c6ae2249f921ec | static_analysis |
 | ip | 124.198.131.XXX | artifact_source |
 

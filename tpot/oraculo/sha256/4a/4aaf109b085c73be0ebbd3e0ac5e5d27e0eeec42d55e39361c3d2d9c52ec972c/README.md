@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto de 188 B. Entropía registrada: 4.79. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:01:00+00:00`
+- **Registrado:** `2026-08-09T20:01:00.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -45,8 +41,8 @@ cd /tmp || cd /var/ || cd /var/run || cd /mnt || cd /root || cd /;/bin/busybox e
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 4aaf109b085c73be0ebbd3e0ac5e5d27e0eeec42d55e39361c3d2d9c52ec972c | static_analysis |
 | command | cd /tmp \|\| cd /var/ \|\| cd /var/run \|\| cd /mnt \|\| cd /root \|\| cd /;/bin/busybox echo -ne '\x45\x4c\x46' | strings |
+| hash | 4aaf109b085c73be0ebbd3e0ac5e5d27e0eeec42d55e39361c3d2d9c52ec972c | static_analysis |
 | ip | 27.47.1.XXX | artifact_source |
 
 ## 🔎 Triage

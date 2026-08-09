@@ -1,9 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "190.179.168.XXX"
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://return[.]st/?ref=Q7hw1uZ6pEz8LTEX"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -15,13 +15,13 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxps://return[.]st/?ref=Q7hw1uZ6pEz8LTEX"
+    "value": "hxxps://return[.]st/?ref=Q7hw1uZ6pEz8LTEX;307;"
   },
   {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxps://return[.]st/?ref=Q7hw1uZ6pEz8LTEX;307;"
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.168.XXX"
   },
   {
     "context": "Inbound payload hash (unknown)",

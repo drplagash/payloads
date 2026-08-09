@@ -6,16 +6,16 @@
     "value": "190.179.169.XXX"
   },
   {
-    "context": "Inbound payload hash (mirai-like)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "b569edf0d9b02fd04ec264f67dcef0b799cc01af0de689c60f9e65126be81a21"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.61.1"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b569edf0d9b02fd04ec264f67dcef0b799cc01af0de689c60f9e65126be81a21"
   },
   {
     "role": "artifact_source",

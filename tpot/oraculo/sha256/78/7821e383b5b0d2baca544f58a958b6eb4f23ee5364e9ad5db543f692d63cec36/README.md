@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:34:01+00:00`
+- **Registrado:** `2026-08-09T19:34:01.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -47,8 +48,8 @@ config set dir /var/spool/cron/
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 8.219.145.XXX | static_analysis |
-| hash | 7821e383b5b0d2baca544f58a958b6eb4f23ee5364e9ad5db543f692d63cec36 | static_analysis |
 | command | config set dir /var/spool/cron/ | strings |
+| hash | 7821e383b5b0d2baca544f58a958b6eb4f23ee5364e9ad5db543f692d63cec36 | static_analysis |
 | ip | 124.236.108.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

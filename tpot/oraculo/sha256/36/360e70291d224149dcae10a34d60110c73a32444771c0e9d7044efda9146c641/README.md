@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 964 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.66. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:56:46+00:00`
+- **Registrado:** `2026-08-09T19:56:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -39,8 +35,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 134.0.0.XXX | static_analysis |
 | ip | 190.179.169.XXX | static_analysis |
+| ip | 134.0.0.XXX | static_analysis |
 | hash | 360e70291d224149dcae10a34d60110c73a32444771c0e9d7044efda9146c641 | static_analysis |
 | ip | 160.119.71.XXX | artifact_source |
 

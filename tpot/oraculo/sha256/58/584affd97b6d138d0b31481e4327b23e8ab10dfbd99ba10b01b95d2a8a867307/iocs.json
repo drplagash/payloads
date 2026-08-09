@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "584affd97b6d138d0b31481e4327b23e8ab10dfbd99ba10b01b95d2a8a867307"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "shell:rm -rf /data/local/tmp/*"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "584affd97b6d138d0b31481e4327b23e8ab10dfbd99ba10b01b95d2a8a867307"
   },
   {
     "asn": "China Mobile communications corporation",

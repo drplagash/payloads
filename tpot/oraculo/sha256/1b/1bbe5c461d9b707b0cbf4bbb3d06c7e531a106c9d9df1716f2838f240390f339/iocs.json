@@ -6,10 +6,10 @@
     "value": "185.228.26.XXX"
   },
   {
-    "context": "Inbound payload hash (mirai)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "1bbe5c461d9b707b0cbf4bbb3d06c7e531a106c9d9df1716f2838f240390f339"
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: Wget/1.25.0 (linux-gnu)"
   },
   {
     "context": "Suspicious command in inbound payload",
@@ -18,10 +18,10 @@
     "value": "User-Agent: curl/7.38.0"
   },
   {
-    "context": "Suspicious command in inbound payload",
-    "source": "strings",
-    "type": "command",
-    "value": "User-Agent: Wget/1.25.0 (linux-gnu)"
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "1bbe5c461d9b707b0cbf4bbb3d06c7e531a106c9d9df1716f2838f240390f339"
   },
   {
     "country": "private",

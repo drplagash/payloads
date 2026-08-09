@@ -7,7 +7,9 @@
   },
   "classification": {
     "category": "suspicious-payload",
-    "confidence": "Baja"
+    "confidence": "Baja",
+    "evidence_score": 7,
+    "report_quality": "rich"
   },
   "identity": {
     "algorithm": "sha256",
@@ -23,8 +25,8 @@
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.1.1"
+    "publisher_version": "oraculo-payload-publisher-1.2.0"
   },
-  "registered_at": "2026-08-09T21:06:23+00:00",
-  "schema_version": "3.0"
+  "registered_at": "2026-08-09T21:06:23.000000Z",
+  "schema_version": "3.1"
 }

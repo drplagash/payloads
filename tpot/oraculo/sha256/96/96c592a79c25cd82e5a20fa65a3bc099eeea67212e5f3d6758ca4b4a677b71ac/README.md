@@ -4,13 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Alta entropía / posible empaquetado o cifrado. Se registró 1 detección YARA válida.
+Artefacto de 3.2 KiB. Presenta entropía elevada (7.52), compatible con contenido empaquetado, cifrado o de alta aleatoriedad. Las detecciones YARA incluyen `Suspicious_High_Entropy`. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 8 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -44,13 +39,13 @@ High entropy (7.5) — posible packer/encrypted
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://crl[.]globalsign[.]com/ca/gsatlasr3dvtlsca2025q4.crl0 | strings |
-| url | hxxp://crl[.]globalsign[.]com/root-r3.crl0! | strings |
-| url | hxxp://ocsp[.]globalsign[.]com/ca/gsatlasr3dvtlsca2025q40J | strings |
-| url | hxxp://ocsp2[.]globalsign[.]com/rootr30; | strings |
-| url | hxxp://secure[.]globalsign[.]com/cacert/gsatlasr3dvtlsca2025q4.crt0 | strings |
-| url | hxxp://secure[.]globalsign[.]com/cacert/root-r3.crt06 | strings |
 | url | hxxps://www[.]globalsign[.]com/repository/0 | strings |
+| url | hxxp://secure[.]globalsign[.]com/cacert/root-r3.crt06 | strings |
+| url | hxxp://secure[.]globalsign[.]com/cacert/gsatlasr3dvtlsca2025q4.crt0 | strings |
+| url | hxxp://crl[.]globalsign[.]com/root-r3.crl0! | strings |
+| url | hxxp://crl[.]globalsign[.]com/ca/gsatlasr3dvtlsca2025q4.crl0 | strings |
+| url | hxxp://ocsp2[.]globalsign[.]com/rootr30; | strings |
+| url | hxxp://ocsp[.]globalsign[.]com/ca/gsatlasr3dvtlsca2025q40J | strings |
 | hash | 96c592a79c25cd82e5a20fa65a3bc099eeea67212e5f3d6758ca4b4a677b71ac | static_analysis |
 | ip | 151.101.130.XXX | artifact_source |
 

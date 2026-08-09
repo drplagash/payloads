@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asociaron 2 comandos observados o extraídos.
+Artefacto identificado como ASCII text, with CRLF line terminators de 204 B. La evidencia estática disponible identifica capacidad de descarga remota. Se observaron o extrajeron 2 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:34:01+00:00`
+- **Registrado:** `2026-08-09T19:34:01.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -44,8 +45,8 @@ Download indicators (wget/curl + /tmp)
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-User-Agent: curl/7.38.0
 User-Agent: Wget/1.25.0 (linux-gnu)
+User-Agent: curl/7.38.0
 ```
 
 ## 🌐 Indicadores
@@ -53,9 +54,9 @@ User-Agent: Wget/1.25.0 (linux-gnu)
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 91.92.42.XXX | static_analysis |
-| hash | 592c299059f1b905c31e1b74dcd13a6d10ec475ebcc51a79553749cd279b2904 | static_analysis |
-| command | User-Agent: curl/7.38.0 | strings |
 | command | User-Agent: Wget/1.25.0 (linux-gnu) | strings |
+| command | User-Agent: curl/7.38.0 | strings |
+| hash | 592c299059f1b905c31e1b74dcd13a6d10ec475ebcc51a79553749cd279b2904 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🛡️ Nota de publicación

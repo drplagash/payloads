@@ -6,16 +6,16 @@
     "value": "190.179.175.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "b718d93532e5b5d40ac748fb2c36238d1a6fb6aeb9c05d1b38e16ee19a3a8a5f"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.68.0"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b718d93532e5b5d40ac748fb2c36238d1a6fb6aeb9c05d1b38e16ee19a3a8a5f"
   },
   {
     "asn": "22927",

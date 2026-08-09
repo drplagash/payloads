@@ -6,16 +6,16 @@
     "value": "190.179.160.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "d7235196a89d71a63d6eeff445accaba32e6e73429878aa96935531e43900439"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "d7235196a89d71a63d6eeff445accaba32e6e73429878aa96935531e43900439"
   },
   {
     "asn": "DigitalOcean, LLC",

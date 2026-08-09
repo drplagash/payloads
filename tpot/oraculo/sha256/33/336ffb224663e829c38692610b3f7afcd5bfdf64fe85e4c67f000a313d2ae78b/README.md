@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `mailm` en `hxxps://lists[.]wikimedia[.]org/mailm`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:37:42+00:00`
+- **Registrado:** `2026-08-09T20:37:42.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,8 +42,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | url | hxxps://lists[.]wikimedia[.]org/mailm | strings |
-| url | hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Manual:Configuration_settings | strings |
 | url | hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Manual:FAQ | strings |
+| url | hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Manual:Configuration_settings | strings |
 | hash | 336ffb224663e829c38692610b3f7afcd5bfdf64fe85e4c67f000a313d2ae78b | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

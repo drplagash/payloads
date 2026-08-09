@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 5 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:08:22+00:00`
+- **Registrado:** `2026-08-09T20:08:22.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,10 +43,10 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 126.0.0.XXX | static_analysis |
+| url | hxxps://t[.]me/ | strings |
 | url | hxxp://www[.]google[.]com/bot.html) | strings |
 | url | hxxps://alfabienes[.]com[.]co/search?q=88gold+in+sweden+max88&location=sweden&page=443 | strings |
-| url | hxxps://t[.]me/ | strings |
+| ip | 126.0.0.XXX | static_analysis |
 | hash | e43423452b562b8214c6b560cc830ceb5cf44a89c3687e51171595f525e2106b | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

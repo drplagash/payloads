@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota. Se asoció 1 comando observado o extraído.
+Artefacto de 504 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.15. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:35:06+00:00`
+- **Registrado:** `2026-08-09T19:35:06.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -48,8 +48,8 @@ GET /ubuntu/pool/main/w/wget/wget_1.21.4-1ubuntu4.4_amd64.deb HTTP/1.1
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| hash | 05a6ed5e03dfa6dd087e175b558a2320a65446fc19bc29114a970621f90134c1 | static_analysis |
 | command | GET /ubuntu/pool/main/w/wget/wget_1.21.4-1ubuntu4.4_amd64.deb HTTP/1.1 | strings |
+| hash | 05a6ed5e03dfa6dd087e175b558a2320a65446fc19bc29114a970621f90134c1 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🛡️ Nota de publicación

@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `root-r3.crt06` en `hxxp://secure[.]globalsign[.]com/cacert/root-r3.crt06`. Se extrajeron 7 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T21:08:37+00:00`
+- **Registrado:** `2026-08-09T21:08:37.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,13 +41,13 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxp://secure[.]globalsign[.]com/cacert/root-r3.crt06 | strings |
 | url | hxxp://crl[.]globalsign[.]com/ca/gsatlasr3dvtlsca2025q4.crl0 | strings |
 | url | hxxp://crl[.]globalsign[.]com/root-r3.crl0! | strings |
 | url | hxxp://ocsp[.]globalsign[.]com/ca/gsatlasr3dvtlsca2025q40J | strings |
-| url | hxxp://ocsp2[.]globalsign[.]com/rootr30; | strings |
-| url | hxxp://secure[.]globalsign[.]com/cacert/gsatlasr3dvtlsca2025q4.crt0 | strings |
-| url | hxxp://secure[.]globalsign[.]com/cacert/root-r3.crt06 | strings |
 | url | hxxps://www[.]globalsign[.]com/repository/0 | strings |
+| url | hxxp://secure[.]globalsign[.]com/cacert/gsatlasr3dvtlsca2025q4.crt0 | strings |
+| url | hxxp://ocsp2[.]globalsign[.]com/rootr30; | strings |
 | hash | cc3d321dec6c22096d589e8ff5b3275610a356b60121f42cc1d45fd357dfc6af | static_analysis |
 | ip | 151.101.130.XXX | artifact_source |
 

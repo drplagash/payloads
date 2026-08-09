@@ -6,16 +6,16 @@
     "value": "190.179.168.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "6935d33b023c856a0ab105408a6ddf10f4aacd117083ddc587518ffbd875d7e6"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.76.1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "6935d33b023c856a0ab105408a6ddf10f4aacd117083ddc587518ffbd875d7e6"
   },
   {
     "asn": "Juweriyah Networks Private Limited",

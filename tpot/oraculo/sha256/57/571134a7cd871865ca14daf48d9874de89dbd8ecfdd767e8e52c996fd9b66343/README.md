@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 1.2 KiB. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.36. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:38:25+00:00`
+- **Registrado:** `2026-08-09T19:38:25.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -38,8 +34,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 144.172.93.XXX | static_analysis |
 | ip | 190.179.175.XXX | static_analysis |
+| ip | 144.172.93.XXX | static_analysis |
 | hash | 571134a7cd871865ca14daf48d9874de89dbd8ecfdd767e8e52c996fd9b66343 | static_analysis |
 
 ## 🛡️ Nota de publicación

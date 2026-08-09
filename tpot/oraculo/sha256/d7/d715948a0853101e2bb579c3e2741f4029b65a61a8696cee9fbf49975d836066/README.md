@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -41,8 +42,8 @@ Webshell indicators (PHP eval/system)
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://www[.]w3[.]org/1999/xlink | strings |
 | url | hxxp://www[.]w3[.]org/2000/svg | strings |
+| url | hxxp://www[.]w3[.]org/1999/xlink | strings |
 | hash | d715948a0853101e2bb579c3e2741f4029b65a61a8696cee9fbf49975d836066 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

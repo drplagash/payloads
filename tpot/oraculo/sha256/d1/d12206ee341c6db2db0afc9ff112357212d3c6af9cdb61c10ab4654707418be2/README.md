@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como XML 1.0 document, ASCII text de 572 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `secext` en `hxxp://schemas[.]xmlsoap[.]org/ws/2002/04/secext`. Se extrajeron 2 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:48:36+00:00`
+- **Registrado:** `2026-08-09T19:48:36.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,8 +41,8 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/ws/2002/04/secext | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
 | hash | d12206ee341c6db2db0afc9ff112357212d3c6af9cdb61c10ab4654707418be2 | static_analysis |
 | ip | 185.16.38.XXX | artifact_source |
 

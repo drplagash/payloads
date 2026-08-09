@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida.
+Artefacto de 1018 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.16. Las detecciones YARA incluyen `Big_Numbers3`. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,8 +30,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 179.43.167.XXX | static_analysis |
 | ip | 190.179.164.XXX | static_analysis |
+| ip | 179.43.167.XXX | static_analysis |
 | hash | df5cac6ff89a9c415d78caec0e8b75157df129b3db21da5e745c6673fe580fb3 | static_analysis |
 
 ## 🧬 Detecciones YARA

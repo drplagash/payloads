@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como ASCII text, with very long lines (775), with CRLF line terminators de 916 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `icy.sh` en `hxxp://109.104.153.XXX/icy.sh`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:20:23+00:00`
+- **Registrado:** `2026-08-09T20:20:23.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,10 +41,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 109.104.153.XXX | static_analysis |
 | url | hxxp://109.104.153.XXX/icy.sh | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
+| ip | 109.104.153.XXX | static_analysis |
 | hash | e17f77c6d327440c95a728e9cc3cbc0026f57d4c94a1e2ef07dc9d366d83f7a3 | static_analysis |
 | ip | 103.96.140.XXX | artifact_source |
 

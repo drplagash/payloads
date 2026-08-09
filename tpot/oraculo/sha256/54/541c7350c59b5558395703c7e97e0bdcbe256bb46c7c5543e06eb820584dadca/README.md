@@ -4,17 +4,17 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (712), with no line terminators de 712 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `adb.sh` en `hxxp://196.251.121.XXX/a3f8d2/adb.sh`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
 - **Confianza:** `Baja`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:58:35+00:00`
+- **Registrado:** `2026-08-09T19:58:35.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -41,10 +41,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 196.251.121.XXX | static_analysis |
 | url | hxxp://196.251.121.XXX/a3f8d2/adb.sh; | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/soap/encoding/ | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| ip | 196.251.121.XXX | static_analysis |
 | hash | 541c7350c59b5558395703c7e97e0bdcbe256bb46c7c5543e06eb820584dadca | static_analysis |
 | ip | 115.84.178.XXX | artifact_source |
 

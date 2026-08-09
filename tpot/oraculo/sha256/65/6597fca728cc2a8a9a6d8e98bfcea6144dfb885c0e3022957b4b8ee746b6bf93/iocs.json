@@ -1,5 +1,11 @@
 [
   {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://45.153.34.XXX/rondo."
+  },
+  {
     "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
     "type": "ip",
@@ -10,12 +16,6 @@
     "source": "static_analysis",
     "type": "ip",
     "value": "45.153.34.XXX"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://45.153.34.XXX/rondo."
   },
   {
     "context": "Inbound payload hash (unknown)",

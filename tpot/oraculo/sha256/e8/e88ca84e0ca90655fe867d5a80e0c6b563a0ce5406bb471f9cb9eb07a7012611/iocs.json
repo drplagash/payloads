@@ -6,16 +6,16 @@
     "value": "190.179.168.XXX"
   },
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "e88ca84e0ca90655fe867d5a80e0c6b563a0ce5406bb471f9cb9eb07a7012611"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "User-Agent: curl/7.64.0"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "e88ca84e0ca90655fe867d5a80e0c6b563a0ce5406bb471f9cb9eb07a7012611"
   },
   {
     "asn": "TASCOM TELECOMUNICACOES LTDA",

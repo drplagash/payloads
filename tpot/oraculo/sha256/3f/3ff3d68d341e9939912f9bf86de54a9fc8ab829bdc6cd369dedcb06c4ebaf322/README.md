@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:08:59+00:00`
+- **Registrado:** `2026-08-09T20:08:59.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,9 +43,9 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://www[.]google[.]com/bot.html) | strings |
-| url | hxxps://alfabienes[.]com[.]co/api/v3/products?search=progressive&category=358&tag=progressive&page=423&per_page=945&orderby=date&_=1782138023703 | strings |
 | url | hxxps://www[.]google[.]com/ | strings |
+| url | hxxps://alfabienes[.]com[.]co/api/v3/products?search=progressive&category=358&tag=progressive&page=423&per_page=945&orderby=date&_=1782138023703 | strings |
+| url | hxxp://www[.]google[.]com/bot.html) | strings |
 | hash | 3ff3d68d341e9939912f9bf86de54a9fc8ab829bdc6cd369dedcb06c4ebaf322 | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

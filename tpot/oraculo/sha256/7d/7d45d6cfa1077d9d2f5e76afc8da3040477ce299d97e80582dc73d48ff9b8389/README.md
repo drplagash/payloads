@@ -4,12 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 1.4 KiB. Identificación de formato: XML 1.0 document, ASCII text, with very long lines (849). Entropía registrada: 5.25. Se asociaron 3 indicadores de infraestructura relacionado con el origen. No hay evidencia suficiente para atribuir una familia ni afirmar capacidades maliciosas concretas.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,8 +30,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://hl7[.]org/fhir | strings |
 | url | hxxp://www[.]w3[.]org/1999/xhtml | strings |
+| url | hxxp://hl7[.]org/fhir | strings |
 | hash | 7d45d6cfa1077d9d2f5e76afc8da3040477ce299d97e80582dc73d48ff9b8389 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 

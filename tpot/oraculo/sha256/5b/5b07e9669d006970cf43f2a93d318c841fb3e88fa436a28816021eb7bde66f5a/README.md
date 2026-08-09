@@ -4,12 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Se registró 1 detección YARA válida.
+Script JavaScript de 1.6 KiB. La referencia remota apunta al recurso `gg10` en `hxxp://94.154.43.XXX/gg10`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+
 
 ## 🏷️ Clasificación
 
 - **Categoría:** `Downloader / Dropper`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
@@ -34,10 +34,10 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.177.XXX | static_analysis |
-| ip | 94.154.43.XXX | static_analysis |
-| url | hxxp://94.154.43.XXX/gg10 | strings |
 | url | hxxp://94.154.43.XXX/gg10) | strings |
+| url | hxxp://94.154.43.XXX/gg10 | strings |
+| ip | 94.154.43.XXX | static_analysis |
+| ip | 190.179.177.XXX | static_analysis |
 | hash | 5b07e9669d006970cf43f2a93d318c841fb3e88fa436a28816021eb7bde66f5a | static_analysis |
 
 ## 🧬 Detecciones YARA

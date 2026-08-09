@@ -1,11 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "91.92.40.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -15,7 +9,7 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://91.92.40.XXX/wget.sh;chmod"
+    "value": "hxxp://www[.]huawei[.]com/vehicle/nu"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -27,7 +21,13 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://www[.]huawei[.]com/vehicle/nu"
+    "value": "hxxp://91.92.40.XXX/wget.sh;chmod"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "91.92.40.XXX"
   },
   {
     "context": "Inbound payload hash (unknown)",

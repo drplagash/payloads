@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC.
+Artefacto de 618 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.72. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:38:25+00:00`
+- **Registrado:** `2026-08-09T19:38:25.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -38,8 +34,8 @@ Artefacto clasificado como **Payload** a partir de la evidencia disponible en Or
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 172.110.223.XXX | static_analysis |
 | ip | 190.179.175.XXX | static_analysis |
+| ip | 172.110.223.XXX | static_analysis |
 | hash | 85ef020820567a35e14aa2e25d0353f034c4a9b3c63c651c15409f801468a861 | static_analysis |
 
 ## 🛡️ Nota de publicación

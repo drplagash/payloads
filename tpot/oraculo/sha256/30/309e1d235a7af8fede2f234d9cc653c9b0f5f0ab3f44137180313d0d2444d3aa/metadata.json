@@ -8,9 +8,11 @@
   "classification": {
     "category": "botnet",
     "confidence": "Baja",
+    "evidence_score": 11,
     "family": "mirai-like",
     "family_confidence": "Media",
-    "family_evidence": "clasificación persistida"
+    "family_evidence": "clasificación persistida",
+    "report_quality": "rich"
   },
   "detections": {
     "file": "detections.md",
@@ -30,8 +32,8 @@
     "generator": "oraculo-soc",
     "immutable": true,
     "mode": "automatic_snapshot",
-    "publisher_version": "oraculo-payload-publisher-1.1.1"
+    "publisher_version": "oraculo-payload-publisher-1.2.0"
   },
-  "registered_at": "2026-08-09T19:44:36+00:00",
-  "schema_version": "3.0"
+  "registered_at": "2026-08-09T19:44:36.000000Z",
+  "schema_version": "3.1"
 }

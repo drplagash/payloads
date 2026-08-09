@@ -4,16 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto de 1.1 KiB. Formato identificado como ASCII text, with very long lines (1044), with CRLF line terminators. Entropía registrada: 5.74. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
 
-## 🏷️ Clasificación
-
-- **Categoría:** `Payload`
-- **Riesgo:** `Info`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:34:01+00:00`
+- **Registrado:** `2026-08-09T19:34:01.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -45,8 +41,8 @@ config set dir /var/spool/cron/
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
 | ip | 8.219.145.XXX | static_analysis |
-| hash | 9d8d1117e7bc331cd316b9d5972d3529902e16bce59cb817b14896c82d799fd7 | static_analysis |
 | command | config set dir /var/spool/cron/ | strings |
+| hash | 9d8d1117e7bc331cd316b9d5972d3529902e16bce59cb817b14896c82d799fd7 | static_analysis |
 | ip | 124.236.108.XXX | artifact_source |
 
 ## 🛡️ Nota de publicación

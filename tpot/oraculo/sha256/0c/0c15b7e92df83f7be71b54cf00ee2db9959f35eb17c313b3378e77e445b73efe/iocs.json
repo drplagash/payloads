@@ -1,17 +1,5 @@
 [
   {
-    "context": "Embedded IP in inbound payload",
-    "source": "static_analysis",
-    "type": "ip",
-    "value": "176.65.149.XXX"
-  },
-  {
-    "context": "Embedded URL in inbound payload",
-    "source": "strings",
-    "type": "url",
-    "value": "hxxp://176.65.149.XXX/adb.sh;"
-  },
-  {
     "context": "Embedded URL in inbound payload",
     "source": "strings",
     "type": "url",
@@ -22,6 +10,18 @@
     "source": "strings",
     "type": "url",
     "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://176.65.149.XXX/adb.sh;"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "176.65.149.XXX"
   },
   {
     "context": "Inbound payload hash (unknown)",

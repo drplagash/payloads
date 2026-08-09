@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificaron 4 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T20:10:14+00:00`
+- **Registrado:** `2026-08-09T20:10:14.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -42,9 +43,9 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| url | hxxp://www[.]google[.]com/bot.html) | strings |
-| url | hxxps://alfabienes[.]com[.]co/api/v2/products?search=bookmaker&category=490&tag=bookmaker&page=957&per_page=711&orderby=id&_=1782095813222 | strings |
 | url | hxxps://www[.]bing[.]com/search?q=gambling+online+asia+88 | strings |
+| url | hxxps://alfabienes[.]com[.]co/api/v2/products?search=bookmaker&category=490&tag=bookmaker&page=957&per_page=711&orderby=id&_=1782095813222 | strings |
+| url | hxxp://www[.]google[.]com/bot.html) | strings |
 | hash | 951751e362e4bf856f728a147b93fc543f2ca667111cd5fe2c13c60164ccb16c | static_analysis |
 | ip | 180.93.109.XXX | artifact_source |
 

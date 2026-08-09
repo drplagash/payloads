@@ -1,15 +1,15 @@
 [
   {
-    "context": "Inbound payload hash (unknown)",
-    "source": "static_analysis",
-    "type": "hash",
-    "value": "b7fe75db8f439bd9746a053b7a29b8f65afe98fc0c6b9cb5a7136f01fc1f52f8"
-  },
-  {
     "context": "Suspicious command in inbound payload",
     "source": "strings",
     "type": "command",
     "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b7fe75db8f439bd9746a053b7a29b8f65afe98fc0c6b9cb5a7136f01fc1f52f8"
   },
   {
     "asn": "Nasstec Airnet Networks Private Limited",
