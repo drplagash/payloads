@@ -1,0 +1,37 @@
+{
+  "artifact": {
+    "description": "OpenPGP Public Key",
+    "entropy": 7.82,
+    "risk_level": "medium",
+    "size_bytes": 4095
+  },
+  "classification": {
+    "category": "botnet",
+    "confidence": "Baja",
+    "family": "mirai-like",
+    "family_confidence": "Media",
+    "family_evidence": "clasificación persistida"
+  },
+  "detections": {
+    "file": "detections.md",
+    "yara_count": 1
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "2eb6bab284493f215c55dc8eca0ab863",
+    "sha1": "c918a18a889e626c742e9592a7b84a983e1d0899",
+    "sha256": "19c3a286aaa5d390dce39a734184c3a3e506ec3feb9d9d33dc7f8323827cf594"
+  },
+  "iocs": {
+    "count": 2,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.1.1"
+  },
+  "registered_at": "2026-08-09T20:24:57+00:00",
+  "schema_version": "3.0"
+}
