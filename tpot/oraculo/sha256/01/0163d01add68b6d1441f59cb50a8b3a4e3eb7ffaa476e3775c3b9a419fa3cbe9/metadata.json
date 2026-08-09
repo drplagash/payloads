@@ -1,0 +1,34 @@
+{
+  "artifact": {
+    "entropy": "5.67",
+    "size": "1329",
+    "type": "payload"
+  },
+  "classification": {
+    "category": "webshell",
+    "confidence": "0.9",
+    "family": "webshell"
+  },
+  "detections": {
+    "yara": [
+      "Suspicious_PHP_Webshell",
+      "0x43c:$php1:",
+      "0x448:$exec1:",
+      "0x442:$shell1:",
+      "0x44d:$base64d:",
+      "__YARA_SENTINEL_NO_MATCH__"
+    ]
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "sha256": "0163d01add68b6d1441f59cb50a8b3a4e3eb7ffaa476e3775c3b9a419fa3cbe9"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.0.0"
+  },
+  "registered_at": "2026-08-09T18:44:08+00:00",
+  "schema_version": "2.0"
+}

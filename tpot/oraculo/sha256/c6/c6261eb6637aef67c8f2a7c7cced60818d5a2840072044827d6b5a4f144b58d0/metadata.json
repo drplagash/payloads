@@ -1,0 +1,29 @@
+{
+  "artifact": {
+    "entropy": "5.58",
+    "size": "444",
+    "type": "payload"
+  },
+  "classification": {
+    "category": "botnet",
+    "confidence": "0.5",
+    "family": "mirai-like"
+  },
+  "detections": {
+    "yara": [
+      "Big_Numbers1"
+    ]
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "sha256": "c6261eb6637aef67c8f2a7c7cced60818d5a2840072044827d6b5a4f144b58d0"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.0.0"
+  },
+  "registered_at": "2026-08-09T18:44:08+00:00",
+  "schema_version": "2.0"
+}
