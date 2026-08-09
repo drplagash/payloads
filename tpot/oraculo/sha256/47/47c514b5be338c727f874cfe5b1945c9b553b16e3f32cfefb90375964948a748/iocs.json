@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "47c514b5be338c727f874cfe5b1945c9b553b16e3f32cfefb90375964948a748"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": ">/var/run/.x&&cd /var/run;>/mnt/.x&&cd /mnt;>/usr/.x&&cd /usr;>/dev/.x&&cd /dev;>/dev/shm/.x&&cd /dev/shm;>/tmp/.x&&cd /"
+  },
+  {
+    "asn": "CHINA UNICOM China169 Backbone",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "123.13.4.XXX"
+  }
+]
