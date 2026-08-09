@@ -1,0 +1,52 @@
+{
+  "artifact": {
+    "entropy": "5.84",
+    "size": "4095",
+    "type": "payload"
+  },
+  "classification": {
+    "category": "webshell",
+    "confidence": "0.9",
+    "family": "webshell"
+  },
+  "detections": {
+    "yara": [
+      "Suspicious_PHP_Webshell",
+      "0x43c:$php1:",
+      "0x643:$php1:",
+      "0x448:$exec1:",
+      "0x64f:$exec1:",
+      "0x442:$shell1:",
+      "0x649:$shell1:",
+      "0x44d:$base64d:",
+      "0x654:$base64d:",
+      "__YARA_SENTINEL_NO_MATCH__",
+      "0x857:$php1:",
+      "0xa6c:$php1:",
+      "0xc7b:$php1:",
+      "0xe5b:$php1:",
+      "0xf63:$php1:",
+      "0x863:$exec1:",
+      "0xa78:$exec1:",
+      "0xc87:$exec1:",
+      "0x85d:$shell1:",
+      "0xa72:$shell1:",
+      "0xc81:$shell1:",
+      "0x868:$base64d:",
+      "0xa7d:$base64d:",
+      "0xc8c:$base64d:"
+    ]
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "sha256": "749451b9de3c9c40c39812a9c830dbdf9e649c056613104ae262717dcb81738a"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.0.0"
+  },
+  "registered_at": "2026-08-09T18:39:48+00:00",
+  "schema_version": "2.0"
+}

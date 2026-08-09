@@ -1,0 +1,51 @@
+{
+  "artifact": {
+    "entropy": "5.29",
+    "size": "2162",
+    "type": "payload"
+  },
+  "classification": {
+    "category": "botnet",
+    "confidence": "0.9",
+    "family": "mirai"
+  },
+  "detections": {
+    "yara": [
+      "Suspicious_BusyBox_Mirai",
+      "0x124:$busy1:",
+      "0x1bd:$busy1:",
+      "0x259:$busy1:",
+      "0x2f5:$busy1:",
+      "0x391:$busy1:",
+      "0x42d:$busy1:",
+      "0x4c9:$busy1:",
+      "0x565:$busy1:",
+      "0x5fe:$busy1:",
+      "0x697:$busy1:",
+      "0x730:$busy1:",
+      "0x7c9:$busy1:",
+      "0x47d:$arch1:",
+      "0x4a0:$arch1:",
+      "0x4bb:$arch1:",
+      "0x780:$arch3:",
+      "0x7a2:$arch3:",
+      "0x7bc:$arch3:",
+      "0x819:$arch3:",
+      "0x83e:$arch3:",
+      "0x85b:$arch3:",
+      "__YARA_SENTINEL_NO_MATCH__"
+    ]
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "sha256": "b3a24eeab9612229284480c958b2ef8d8f947d549219f7da424f87d8e2a7adcc"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.0.0"
+  },
+  "registered_at": "2026-08-09T18:39:48+00:00",
+  "schema_version": "2.0"
+}

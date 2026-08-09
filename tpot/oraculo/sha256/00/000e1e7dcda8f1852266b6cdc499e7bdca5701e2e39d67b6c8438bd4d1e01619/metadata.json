@@ -1,41 +1,17 @@
 {
-  "analysis": {
-    "malware_classification": "not_asserted",
-    "static_analysis": "not_available",
-    "yara": "not_available"
-  },
-  "artifact": {
-    "first_seen": "2026-07-03T23:07:27",
-    "last_seen": "2026-07-03T23:07:27",
-    "observed_event_count": 1,
-    "type": "unknown"
+  "classification": {
+    "category": "payload"
   },
   "identity": {
     "algorithm": "sha256",
     "sha256": "000e1e7dcda8f1852266b6cdc499e7bdca5701e2e39d67b6c8438bd4d1e01619"
   },
-  "materialization": {
-    "bytes_available": false,
-    "mode": "metadata_only",
-    "recoverability": "unrecoverable",
-    "sample_published": false
-  },
-  "observation": {
-    "event_types": [
-      "adbhoney.session.file_download"
-    ],
-    "protocols": [],
-    "sensors": [
-      "adbhoney"
-    ],
-    "source": "tpot_historical",
-    "source_event_reference_count": 1,
-    "source_index_count": 1
-  },
   "publication": {
-    "sample_content": false,
-    "scope": "defensive_metadata",
-    "source_project": "Oraculo SOC"
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.0.0"
   },
-  "schema_version": "1.0"
+  "registered_at": "2026-08-09T18:39:48+00:00",
+  "schema_version": "2.0"
 }
