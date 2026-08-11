@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Se identificó 1 indicador técnico adicional. Una detección YARA válida respalda el análisis.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Se identificó 1 indicador técnico adicional. Una detección YARA válida respalda el análisis. **Ficha malware:** [malware-like/oraculo/webshell/0a8abd5751bfac39b2a42b4bb4e64f2c1f8b1de784bf656a701f5689f1a5d2c8.md](../../../../../malware-like/oraculo/webshell/0a8abd5751bfac39b2a42b4bb4e64f2c1f8b1de784bf656a701f5689f1a5d2c8.md)
 
 
 ## 🏷️ Clasificación

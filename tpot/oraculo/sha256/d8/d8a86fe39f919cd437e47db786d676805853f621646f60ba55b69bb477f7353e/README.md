@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como HTML document, Unicode text, UTF-8 text, with CRLF, LF line terminators de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `css` en `hxxps://fonts[.]googleapis[.]com/css`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto Unicode de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `css` en `hxxps://fonts[.]googleapis[.]com/css`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/d8a86fe39f919cd437e47db786d676805853f621646f60ba55b69bb477f7353e.md](../../../../../malware-like/oraculo/downloader/d8a86fe39f919cd437e47db786d676805853f621646f60ba55b69bb477f7353e.md)
 
 
 ## 🏷️ Clasificación

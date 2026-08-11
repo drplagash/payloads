@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como HTML document, ASCII text, with very long lines (399), with CRLF, LF line terminators de 1.4 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `ns` en `hxxp://ogp[.]me/ns`. Se extrajeron 11 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 1.4 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `ns` en `hxxp://ogp[.]me/ns`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/d7953e6d3c4fb7060ecad84605b32486eca332178ba019e20842dcc07e5b21ca.md](../../../../../malware-like/oraculo/downloader/d7953e6d3c4fb7060ecad84605b32486eca332178ba019e20842dcc07e5b21ca.md)
 
 
 ## 🏷️ Clasificación

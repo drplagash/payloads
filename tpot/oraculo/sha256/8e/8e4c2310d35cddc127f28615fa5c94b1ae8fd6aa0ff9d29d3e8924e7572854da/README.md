@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos. **Ficha malware:** [malware-like/oraculo/botnet/8e4c2310d35cddc127f28615fa5c94b1ae8fd6aa0ff9d29d3e8924e7572854da.md](../../../../../malware-like/oraculo/botnet/8e4c2310d35cddc127f28615fa5c94b1ae8fd6aa0ff9d29d3e8924e7572854da.md)
 
 
 ## 🏷️ Clasificación

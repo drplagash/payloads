@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos, Descarga remota, Process killing, Temp directory use. Se identificaron 3 indicadores técnicos.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos, Descarga remota, Process killing, Temp directory use. Se identificaron 3 indicadores técnicos. **Ficha malware:** [malware-like/oraculo/botnet/d4cb94027dcd137793b765fdd4ebc077781ec319347a98ac22c8802c9a17e4de.md](../../../../../malware-like/oraculo/botnet/d4cb94027dcd137793b765fdd4ebc077781ec319347a98ac22c8802c9a17e4de.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `xhtml` en `hxxp://www[.]w3[.]org/1999/xhtml`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `xhtml` en `hxxp://www[.]w3[.]org/1999/xhtml`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/7badade8482a58d4bfbdb20b17e508ae4d06dfb1672bf965025949ddf49d9ed2.md](../../../../../malware-like/oraculo/downloader/7badade8482a58d4bfbdb20b17e508ae4d06dfb1672bf965025949ddf49d9ed2.md)
 
 
 ## 🏷️ Clasificación

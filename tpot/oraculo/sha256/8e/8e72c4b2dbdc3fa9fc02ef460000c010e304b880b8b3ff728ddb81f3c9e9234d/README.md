@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (696), with CRLF line terminators de 850 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `encoding` en `hxxp://schemas[.]xmlsoap[.]org/soap/encoding/`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 850 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `encoding` en `hxxp://schemas[.]xmlsoap[.]org/soap/encoding/`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/8e72c4b2dbdc3fa9fc02ef460000c010e304b880b8b3ff728ddb81f3c9e9234d.md](../../../../../malware-like/oraculo/downloader/8e72c4b2dbdc3fa9fc02ef460000c010e304b880b8b3ff728ddb81f3c9e9234d.md)
 
 
 ## 🏷️ Clasificación

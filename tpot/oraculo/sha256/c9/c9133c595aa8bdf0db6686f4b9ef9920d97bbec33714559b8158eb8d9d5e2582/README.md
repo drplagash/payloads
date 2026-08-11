@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 369 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `kaizen.x86_64` en `hxxp://176.65.149.XXX/bins/kaizen.x86_64`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 369 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `kaizen.x86_64` en `hxxp://176.65.149.XXX/bins/kaizen.x86_64`. Se dispone de 1 comando observado o extraído. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/c9133c595aa8bdf0db6686f4b9ef9920d97bbec33714559b8158eb8d9d5e2582.md](../../../../../malware-like/oraculo/downloader/c9133c595aa8bdf0db6686f4b9ef9920d97bbec33714559b8158eb8d9d5e2582.md)
 
 
 ## 🏷️ Clasificación

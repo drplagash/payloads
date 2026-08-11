@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Script JavaScript de 1.6 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `gg2` en `hxxp://94.154.43.XXX/gg2`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Script JavaScript de 1.6 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `gg2` en `hxxp://94.154.43.XXX/gg2`. **C2 / infraestructura de control:**
+
+- **Posible C2:** `190.179.168.XXX` — confianza Alto, evidencia hardcoded_in_payload
+- **Posible C2:** `94.154.43.XXX` — confianza Alto, evidencia hardcoded_in_payload Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/44dbceaabaf54bea757de118222bcd76c657b577c97c6990db4d5af0a0d61f8b.md](../../../../../malware-like/oraculo/downloader/44dbceaabaf54bea757de118222bcd76c657b577c97c6990db4d5af0a0d61f8b.md)
 
 
 ## 🏷️ Clasificación

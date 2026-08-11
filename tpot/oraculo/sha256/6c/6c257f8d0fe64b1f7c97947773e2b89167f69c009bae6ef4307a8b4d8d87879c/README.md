@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 426 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `ohshit.sh` en `hxxp://94.154.43.XXX:8080/ohshit.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 426 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `ohshit.sh` en `hxxp://94.154.43.XXX:8080/ohshit.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod 777 /tmp/ohshit.sh`
+2. `sh /tmp/ohshit.sh HTTP/` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/6c257f8d0fe64b1f7c97947773e2b89167f69c009bae6ef4307a8b4d8d87879c.md](../../../../../malware-like/oraculo/downloader/6c257f8d0fe64b1f7c97947773e2b89167f69c009bae6ef4307a8b4d8d87879c.md)
 
 
 ## 🏷️ Clasificación

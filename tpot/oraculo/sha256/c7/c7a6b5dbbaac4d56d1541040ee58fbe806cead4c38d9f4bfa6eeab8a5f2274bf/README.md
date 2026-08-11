@@ -4,7 +4,9 @@
 
 ## 📌 Resumen
 
-Artefacto de 208 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `rebirth.arm7` en `hxxp://94.154.43.XXX/rebirth.arm7`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Artefacto de 208 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `rebirth.arm7` en `hxxp://94.154.43.XXX/rebirth.arm7`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod 777 /data/local/t` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/downloader/c7a6b5dbbaac4d56d1541040ee58fbe806cead4c38d9f4bfa6eeab8a5f2274bf.md](../../../../../malware-like/oraculo/downloader/c7a6b5dbbaac4d56d1541040ee58fbe806cead4c38d9f4bfa6eeab8a5f2274bf.md)
 
 
 ## 🏷️ Clasificación

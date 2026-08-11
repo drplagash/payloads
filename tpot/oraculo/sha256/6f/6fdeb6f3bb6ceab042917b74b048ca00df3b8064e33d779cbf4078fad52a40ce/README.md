@@ -4,7 +4,9 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (483), with CRLF line terminators de 604 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 604 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/6fdeb6f3bb6ceab042917b74b048ca00df3b8064e33d779cbf4078fad52a40ce.md](../../../../../malware-like/oraculo/downloader/6fdeb6f3bb6ceab042917b74b048ca00df3b8064e33d779cbf4078fad52a40ce.md)
 
 
 ## 🏷️ Clasificación

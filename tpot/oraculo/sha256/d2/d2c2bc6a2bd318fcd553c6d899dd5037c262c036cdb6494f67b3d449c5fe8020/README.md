@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Alta entropía / posible empaquetado o cifrado. Se identificó 1 indicador técnico adicional. Una detección YARA válida respalda el análisis.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Alta entropía / posible empaquetado o cifrado. Se identificó 1 indicador técnico adicional. Una detección YARA válida respalda el análisis. **Ficha malware:** [malware-like/oraculo/botnet/d2c2bc6a2bd318fcd553c6d899dd5037c262c036cdb6494f67b3d449c5fe8020.md](../../../../../malware-like/oraculo/botnet/d2c2bc6a2bd318fcd553c6d899dd5037c262c036cdb6494f67b3d449c5fe8020.md)
 
 
 ## 🏷️ Clasificación

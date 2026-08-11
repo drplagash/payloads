@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (856), with CRLF line terminators de 1.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `rondo` en `hxxp://45.153.34.XXX/rondo`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 1.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `rondo` en `hxxp://45.153.34.XXX/rondo`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/f5a004e9aa411b1e923b31f80e2ce1fed8a425ed699a00198f31a4bfd92609e2.md](../../../../../malware-like/oraculo/downloader/f5a004e9aa411b1e923b31f80e2ce1fed8a425ed699a00198f31a4bfd92609e2.md)
 
 
 ## 🏷️ Clasificación

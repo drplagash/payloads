@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como HTML document, Unicode text, UTF-8 text, with very long lines (399), with CRLF, LF line terminators de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxps://www[.]drupal[.]org`. Se extrajeron 11 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto Unicode de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Infraestructura remota: `hxxps://www[.]drupal[.]org`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/2dc6fb6388967f661ebc98d00d84fd58fb91aafb5a89b2a4318b6bd5b31b0a4f.md](../../../../../malware-like/oraculo/downloader/2dc6fb6388967f661ebc98d00d84fd58fb91aafb5a89b2a4318b6bd5b31b0a4f.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 298 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `kozak.sh` en `hxxp://45.202.246.XXX/bins/kozak.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 298 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `kozak.sh` en `hxxp://45.202.246.XXX/bins/kozak.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod x /tmp/kozak.sh`
+2. `chmod x /tmp/ko` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/7f8e8ddd1997937aaf22289dbfabcbbcb46f751c29c902fc25bc6c63b9bea511.md](../../../../../malware-like/oraculo/downloader/7f8e8ddd1997937aaf22289dbfabcbbcb46f751c29c902fc25bc6c63b9bea511.md)
 
 
 ## 🏷️ Clasificación

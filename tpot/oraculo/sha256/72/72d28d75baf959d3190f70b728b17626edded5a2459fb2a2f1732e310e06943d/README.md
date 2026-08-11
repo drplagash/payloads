@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `fbml` en `hxxp://www[.]facebook[.]com/2008/fbml`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `fbml` en `hxxp://www[.]facebook[.]com/2008/fbml`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/72d28d75baf959d3190f70b728b17626edded5a2459fb2a2f1732e310e06943d.md](../../../../../malware-like/oraculo/downloader/72d28d75baf959d3190f70b728b17626edded5a2459fb2a2f1732e310e06943d.md)
 
 
 ## 🏷️ Clasificación

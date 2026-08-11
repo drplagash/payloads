@@ -4,7 +4,14 @@
 
 ## 📌 Resumen
 
-Artefacto de 277 B. La evidencia estática disponible identifica capacidad de descarga remota. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Artefacto de 277 B. La evidencia disponible identifica capacidad de descarga remota. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `cd /var/run`
+2. `cd /mnt`
+3. `cd /usr`
+4. `cd /dev`
+5. `cd /dev/shm`
+6. `cd /` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/24f3189e87881dee6b5f8b597aaa2f4020b93661d569f9525285811661a9c61a.md](../../../../../malware-like/oraculo/downloader/24f3189e87881dee6b5f8b597aaa2f4020b93661d569f9525285811661a9c61a.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `content` en `hxxp://purl[.]org/rss/1.0/modules/content/`. Se extrajeron 7 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `content` en `hxxp://purl[.]org/rss/1.0/modules/content/`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/c1914016a6fa0f1c3e6bc4ed0181e4638160739a74698ccb64a0bd56aeea3c72.md](../../../../../malware-like/oraculo/downloader/c1914016a6fa0f1c3e6bc4ed0181e4638160739a74698ccb64a0bd56aeea3c72.md)
 
 
 ## 🏷️ Clasificación

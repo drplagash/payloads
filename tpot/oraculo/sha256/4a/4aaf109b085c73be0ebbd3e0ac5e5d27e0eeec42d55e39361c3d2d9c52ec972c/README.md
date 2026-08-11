@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 188 B. Entropía registrada: 4.79. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos.
+Artefacto de 188 B. Entropía registrada: 4.79. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificó 1 comando observado o extraído. Se identificaron 2 indicadores técnicos. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT.
 
 
 ## 🗓️ Registro

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 99 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `robertdavidgraham` en `hxxps://github[.]com/robertdavidgraham/`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 99 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `robertdavidgraham` en `hxxps://github[.]com/robertdavidgraham/`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/195492d57cde4ccce01f197edf6159a548c1d213b1742709bda8ac09e03f51e4.md](../../../../../malware-like/oraculo/downloader/195492d57cde4ccce01f197edf6159a548c1d213b1742709bda8ac09e03f51e4.md)
 
 
 ## 🏷️ Clasificación

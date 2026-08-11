@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (597), with no line terminators de 597 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `soap-envelope` en `hxxp://www[.]w3[.]org/2003/05/soap-envelope`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 597 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `soap-envelope` en `hxxp://www[.]w3[.]org/2003/05/soap-envelope`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/c3d5970cc2a6cf3f8c10d759ab233175243e15dec60aca3eb4009cae409cef6a.md](../../../../../malware-like/oraculo/downloader/c3d5970cc2a6cf3f8c10d759ab233175243e15dec60aca3eb4009cae409cef6a.md)
 
 
 ## 🏷️ Clasificación

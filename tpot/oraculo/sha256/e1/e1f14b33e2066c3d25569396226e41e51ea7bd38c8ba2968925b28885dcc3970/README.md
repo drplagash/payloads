@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Binary execution. Se identificó 1 indicador técnico adicional.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Binary execution. Se identificó 1 indicador técnico adicional. **Ficha malware:** [malware-like/oraculo/botnet/e1f14b33e2066c3d25569396226e41e51ea7bd38c8ba2968925b28885dcc3970.md](../../../../../malware-like/oraculo/botnet/e1f14b33e2066c3d25569396226e41e51ea7bd38c8ba2968925b28885dcc3970.md)
 
 
 ## 🏷️ Clasificación

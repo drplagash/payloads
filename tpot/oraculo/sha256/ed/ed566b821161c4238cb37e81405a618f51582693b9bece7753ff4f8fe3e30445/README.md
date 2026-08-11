@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 83 B. La evidencia estática disponible identifica capacidad de descarga remota. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 83 B. La evidencia disponible identifica capacidad de descarga remota. Se dispone de 1 comando observado o extraído. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/ed566b821161c4238cb37e81405a618f51582693b9bece7753ff4f8fe3e30445.md](../../../../../malware-like/oraculo/downloader/ed566b821161c4238cb37e81405a618f51582693b9bece7753ff4f8fe3e30445.md)
 
 
 ## 🏷️ Clasificación

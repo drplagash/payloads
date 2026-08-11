@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (480), with CRLF line terminators de 793 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `x86` en `hxxp://217.60.195.XXX:8080/x86`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 793 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `x86` en `hxxp://217.60.195.XXX:8080/x86`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/a80a93996810f64c5feacccdd231dabcd6e72e7205da4e37ac5d9e8ea10fc893.md](../../../../../malware-like/oraculo/downloader/a80a93996810f64c5feacccdd231dabcd6e72e7205da4e37ac5d9e8ea10fc893.md)
 
 
 ## 🏷️ Clasificación

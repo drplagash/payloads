@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxps://umai[.]enteli`. Se extrajeron 2 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Infraestructura remota: `hxxps://umai[.]enteli`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/d0b530c7fca8a16b44be886e19dfb4a61a8580b846ed5b77ffc3a861191dcbc3.md](../../../../../malware-like/oraculo/downloader/d0b530c7fca8a16b44be886e19dfb4a61a8580b846ed5b77ffc3a861191dcbc3.md)
 
 
 ## 🏷️ Clasificación

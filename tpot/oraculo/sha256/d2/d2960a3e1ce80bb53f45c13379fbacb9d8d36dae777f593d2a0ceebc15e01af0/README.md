@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `mailm` en `hxxps://lists[.]wikimedia[.]org/mailm`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `mailm` en `hxxps://lists[.]wikimedia[.]org/mailm`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/d2960a3e1ce80bb53f45c13379fbacb9d8d36dae777f593d2a0ceebc15e01af0.md](../../../../../malware-like/oraculo/downloader/d2960a3e1ce80bb53f45c13379fbacb9d8d36dae777f593d2a0ceebc15e01af0.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 498 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `)@db12-web01:~$` en `hxxps://modat[.]io/)@db12-web01:~$`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 498 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `)@db12-web01:~$` en `hxxps://modat[.]io/)@db12-web01:~$`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/06f2a1788f9a6f05232e3ac66717330f29f2fe1342d2db0af27fa8554124e897.md](../../../../../malware-like/oraculo/downloader/06f2a1788f9a6f05232e3ac66717330f29f2fe1342d2db0af27fa8554124e897.md)
 
 
 ## 🏷️ Clasificación

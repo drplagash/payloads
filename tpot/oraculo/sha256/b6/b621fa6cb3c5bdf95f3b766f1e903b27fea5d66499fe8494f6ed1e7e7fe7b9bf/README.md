@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Script JavaScript de 1.6 KiB. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxps://return[.]st/`. Se extrajeron 2 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Script JavaScript de 1.6 KiB. La evidencia disponible identifica capacidad de descarga remota. Infraestructura remota: `hxxps://return[.]st/`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/b621fa6cb3c5bdf95f3b766f1e903b27fea5d66499fe8494f6ed1e7e7fe7b9bf.md](../../../../../malware-like/oraculo/downloader/b621fa6cb3c5bdf95f3b766f1e903b27fea5d66499fe8494f6ed1e7e7fe7b9bf.md)
 
 
 ## 🏷️ Clasificación

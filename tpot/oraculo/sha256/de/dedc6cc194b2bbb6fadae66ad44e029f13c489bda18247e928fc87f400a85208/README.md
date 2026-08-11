@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos. Se identificaron 3 comandos observados o extraídos. Se identificaron 7 indicadores técnicos.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Cambio de permisos. Se identificaron 3 comandos observados o extraídos. Se identificaron 7 indicadores técnicos. **Ficha malware:** [malware-like/oraculo/botnet/dedc6cc194b2bbb6fadae66ad44e029f13c489bda18247e928fc87f400a85208.md](../../../../../malware-like/oraculo/botnet/dedc6cc194b2bbb6fadae66ad44e029f13c489bda18247e928fc87f400a85208.md)
 
 
 ## 🏷️ Clasificación

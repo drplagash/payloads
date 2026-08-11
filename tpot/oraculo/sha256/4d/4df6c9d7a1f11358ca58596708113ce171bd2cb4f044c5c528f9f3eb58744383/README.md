@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `mediawiki-announce` en `hxxps://lists[.]wikimedia[.]org/mailman/listinfo/mediawiki-announce`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `mediawiki-announce` en `hxxps://lists[.]wikimedia[.]org/mailman/listinfo/mediawiki-announce`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/4df6c9d7a1f11358ca58596708113ce171bd2cb4f044c5c528f9f3eb58744383.md](../../../../../malware-like/oraculo/downloader/4df6c9d7a1f11358ca58596708113ce171bd2cb4f044c5c528f9f3eb58744383.md)
 
 
 ## 🏷️ Clasificación

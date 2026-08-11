@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. Se observaron o extrajeron 2 comandos relacionados con el artefacto.
+Artefacto de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Se dispone de 2 comandos observados o extraídos. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/f90032893bae00dc0db42c858b5f1565123f88723125229bce864f45edd42956.md](../../../../../malware-like/oraculo/downloader/f90032893bae00dc0db42c858b5f1565123f88723125229bce864f45edd42956.md)
 
 
 ## 🏷️ Clasificación

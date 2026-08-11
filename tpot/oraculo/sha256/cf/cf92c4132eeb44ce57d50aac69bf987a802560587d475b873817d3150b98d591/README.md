@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (624), with no line terminators de 624 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `encoding` en `hxxp://schemas[.]xmlsoap[.]org/soap/encoding/`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 624 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `encoding` en `hxxp://schemas[.]xmlsoap[.]org/soap/encoding/`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/cf92c4132eeb44ce57d50aac69bf987a802560587d475b873817d3150b98d591.md](../../../../../malware-like/oraculo/downloader/cf92c4132eeb44ce57d50aac69bf987a802560587d475b873817d3150b98d591.md)
 
 
 ## 🏷️ Clasificación

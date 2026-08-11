@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 267 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `HaboubiAnis` en `hxxps://twitter[.]com/HaboubiAnis`. Se extrajeron 2 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 267 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `HaboubiAnis` en `hxxps://twitter[.]com/HaboubiAnis`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/28dde47535e765c23b613d265db7d6afadad14714bca665b2fe2dda7fc9c98e7.md](../../../../../malware-like/oraculo/downloader/28dde47535e765c23b613d265db7d6afadad14714bca665b2fe2dda7fc9c98e7.md)
 
 
 ## 🏷️ Clasificación

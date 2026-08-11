@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF, LF line terminators de 813 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `secext` en `hxxp://schemas[.]xmlsoap[.]org/ws/2002/04/secext`. Se extrajeron 2 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 813 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `secext` en `hxxp://schemas[.]xmlsoap[.]org/ws/2002/04/secext`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/f4cc10bdace724a3a861f9ec99891602ee9d18e5035fb8daf8568dca1caf6e49.md](../../../../../malware-like/oraculo/downloader/f4cc10bdace724a3a861f9ec99891602ee9d18e5035fb8daf8568dca1caf6e49.md)
 
 
 ## 🏷️ Clasificación

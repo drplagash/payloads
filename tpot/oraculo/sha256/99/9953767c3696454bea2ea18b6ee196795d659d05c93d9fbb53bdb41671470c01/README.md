@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `c` en `hxxps://fonts[.]googleapis[.]com/c`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `c` en `hxxps://fonts[.]googleapis[.]com/c`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/9953767c3696454bea2ea18b6ee196795d659d05c93d9fbb53bdb41671470c01.md](../../../../../malware-like/oraculo/downloader/9953767c3696454bea2ea18b6ee196795d659d05c93d9fbb53bdb41671470c01.md)
 
 
 ## 🏷️ Clasificación

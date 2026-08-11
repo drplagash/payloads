@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 5 indicadores técnicos.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 5 indicadores técnicos. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/downloader/5b4c25be5c1c30c0db980e8825a9965c44b5741629361d4dfd269a5360134ac1.md](../../../../../malware-like/oraculo/downloader/5b4c25be5c1c30c0db980e8825a9965c44b5741629361d4dfd269a5360134ac1.md)
 
 
 ## 🏷️ Clasificación

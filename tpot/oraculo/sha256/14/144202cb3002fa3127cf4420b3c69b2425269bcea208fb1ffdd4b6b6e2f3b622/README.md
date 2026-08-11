@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como HTML document, Unicode text, UTF-8 text, with very long lines (1782), with CRLF, LF line terminators de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `html5.js` en `hxxp://[internal-ip-redacted]/wp-content/themes/twentyseventeen/assets/js/html5.js`. Se extrajeron 5 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto Unicode de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `html5.js` en `hxxp://[internal-ip-redacted]/wp-content/themes/twentyseventeen/assets/js/html5.js`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/144202cb3002fa3127cf4420b3c69b2425269bcea208fb1ffdd4b6b6e2f3b622.md](../../../../../malware-like/oraculo/downloader/144202cb3002fa3127cf4420b3c69b2425269bcea208fb1ffdd4b6b6e2f3b622.md)
 
 
 ## 🏷️ Clasificación

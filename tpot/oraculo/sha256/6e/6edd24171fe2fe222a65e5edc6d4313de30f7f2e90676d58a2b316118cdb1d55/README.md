@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Artefacto de 396 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.38. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos.
+Artefacto de 396 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.38. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Comportamientos destacados: Descarga remota, Cambio de permisos, Limpieza. Se identificó 1 comando observado o extraído. Se identificaron 3 indicadores técnicos. **C2 / infraestructura de control:**
+
+- **Posible C2:** `190.179.168.XXX` — confianza Alto, evidencia hardcoded_in_payload
+- **Posible C2:** `94.154.43.XXX` — confianza Descartado, evidencia hardcoded_in_payload
 
 
 ## 🏷️ Clasificación

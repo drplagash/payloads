@@ -4,7 +4,9 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (551), with CRLF line terminators de 864 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `x86` en `hxxp://vitacocoyougoloco[.]potassium[.]st/x86`. Se extrajeron 2 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 864 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `x86` en `hxxp://vitacocoyougoloco[.]potassium[.]st/x86`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `wget` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/e32cc0c352ea01c31c95cfa1079fcc3108ebe7671cd7481fcd984aa4c5c9b4c2.md](../../../../../malware-like/oraculo/downloader/e32cc0c352ea01c31c95cfa1079fcc3108ebe7671cd7481fcd984aa4c5c9b4c2.md)
 
 
 ## 🏷️ Clasificación

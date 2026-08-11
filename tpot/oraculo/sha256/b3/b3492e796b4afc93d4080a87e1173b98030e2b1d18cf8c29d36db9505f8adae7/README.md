@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (531), with CRLF line terminators de 535 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `XMLSchema-instance` en `hxxp://www[.]w3[.]org/2001/XMLSchema-instance`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 535 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `XMLSchema-instance` en `hxxp://www[.]w3[.]org/2001/XMLSchema-instance`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/b3492e796b4afc93d4080a87e1173b98030e2b1d18cf8c29d36db9505f8adae7.md](../../../../../malware-like/oraculo/downloader/b3492e796b4afc93d4080a87e1173b98030e2b1d18cf8c29d36db9505f8adae7.md)
 
 
 ## 🏷️ Clasificación

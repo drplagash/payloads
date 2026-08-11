@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `root-r3.crt06` en `hxxp://secure[.]globalsign[.]com/cacert/root-r3.crt06`. Se extrajeron 7 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `root-r3.crt06` en `hxxp://secure[.]globalsign[.]com/cacert/root-r3.crt06`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/cc3d321dec6c22096d589e8ff5b3275610a356b60121f42cc1d45fd357dfc6af.md](../../../../../malware-like/oraculo/downloader/cc3d321dec6c22096d589e8ff5b3275610a356b60121f42cc1d45fd357dfc6af.md)
 
 
 ## 🏷️ Clasificación

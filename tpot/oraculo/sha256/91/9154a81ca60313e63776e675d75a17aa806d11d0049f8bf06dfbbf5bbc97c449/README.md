@@ -4,7 +4,9 @@
 
 ## 📌 Resumen
 
-Artefacto de 184 B. Formato identificado como ASCII text. Entropía registrada: 5.10. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 indicadores técnicos.
+Artefacto de 184 B. Formato identificado como ASCII text. Entropía registrada: 5.10. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 indicadores técnicos. **C2 / infraestructura de control:**
+
+- **Posible C2:** `71.6.232.XXX` — confianza Descartado, evidencia hardcoded_in_payload
 
 
 ## 🗓️ Registro

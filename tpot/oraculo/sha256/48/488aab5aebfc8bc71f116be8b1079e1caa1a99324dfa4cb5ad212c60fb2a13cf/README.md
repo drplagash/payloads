@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificó 1 indicador técnico adicional. Una detección YARA válida respalda el análisis.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Se identificó 1 indicador técnico adicional. Una detección YARA válida respalda el análisis. **Ficha malware:** [malware-like/oraculo/botnet/488aab5aebfc8bc71f116be8b1079e1caa1a99324dfa4cb5ad212c60fb2a13cf.md](../../../../../malware-like/oraculo/botnet/488aab5aebfc8bc71f116be8b1079e1caa1a99324dfa4cb5ad212c60fb2a13cf.md)
 
 
 ## 🏷️ Clasificación

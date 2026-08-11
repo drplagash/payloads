@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución. Se identificaron 24 comandos observados o extraídos. Se identificaron 38 indicadores técnicos.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Cambio de permisos, Ejecución. Se identificaron 24 comandos observados o extraídos. Se identificaron 38 indicadores técnicos. **Perfil técnico:** `Linux embebido / IoT` (probable). La presencia de BusyBox, junto con la evidencia de familia Mirai, es consistente con malware orientado a sistemas embebidos e IoT. **Ficha malware:** [malware-like/oraculo/botnet/5d2836ede22331f6aa0fd17fda3afc56cd1bfe8f956a80a4f6ab35cdeb69b2fb.md](../../../../../malware-like/oraculo/botnet/5d2836ede22331f6aa0fd17fda3afc56cd1bfe8f956a80a4f6ab35cdeb69b2fb.md)
 
 
 ## 🏷️ Clasificación

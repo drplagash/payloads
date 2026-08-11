@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Script Bash de 2.3 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `$1` en `hxxps://217.60.195.XXX/test/$1`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Script Bash de 2.3 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `$1` en `hxxps://217.60.195.XXX/test/$1`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/0af1e1824def0944d69e44c3ca76bc52163ee20dda7e978ead06134f550fbdc5.md](../../../../../malware-like/oraculo/downloader/0af1e1824def0944d69e44c3ca76bc52163ee20dda7e978ead06134f550fbdc5.md)
 
 
 ## 🏷️ Clasificación

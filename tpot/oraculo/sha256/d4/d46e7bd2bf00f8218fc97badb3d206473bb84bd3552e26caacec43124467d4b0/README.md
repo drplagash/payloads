@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como XML 1.0 document, ASCII text de 551 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Probe` en `hxxp://schemas[.]xmlsoap[.]org/ws/2005/04/discovery/Probe`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 551 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `Probe` en `hxxp://schemas[.]xmlsoap[.]org/ws/2005/04/discovery/Probe`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/d46e7bd2bf00f8218fc97badb3d206473bb84bd3552e26caacec43124467d4b0.md](../../../../../malware-like/oraculo/downloader/d46e7bd2bf00f8218fc97badb3d206473bb84bd3552e26caacec43124467d4b0.md)
 
 
 ## 🏷️ Clasificación

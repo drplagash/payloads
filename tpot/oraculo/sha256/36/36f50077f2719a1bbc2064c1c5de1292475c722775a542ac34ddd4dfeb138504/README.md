@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (513), with no line terminators de 513 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Probe` en `hxxp://schemas[.]xmlsoap[.]org/ws/2005/04/discovery/Probe`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 513 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `Probe` en `hxxp://schemas[.]xmlsoap[.]org/ws/2005/04/discovery/Probe`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/36f50077f2719a1bbc2064c1c5de1292475c722775a542ac34ddd4dfeb138504.md](../../../../../malware-like/oraculo/downloader/36f50077f2719a1bbc2064c1c5de1292475c722775a542ac34ddd4dfeb138504.md)
 
 
 ## 🏷️ Clasificación

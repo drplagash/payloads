@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with no line terminators de 130 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `ger` en `hxxp://140.233.190.XXX/gpon+-O+/tmp/ger`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 130 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `ger` en `hxxp://140.233.190.XXX/gpon+-O+/tmp/ger`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `sh /tmp/ger`
+2. `sh /tmp/` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/downloader/5747a16f0eff4c3bb578a935ec59f7302d18664dc219ebffac383783d18d3758.md](../../../../../malware-like/oraculo/downloader/5747a16f0eff4c3bb578a935ec59f7302d18664dc219ebffac383783d18d3758.md)
 
 
 ## 🏷️ Clasificación

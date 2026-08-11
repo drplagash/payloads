@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (620), with CRLF line terminators de 799 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Mozi.m` en `hxxp://[internal-ip-redacted]:8088/Mozi.m`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 799 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `Mozi.m` en `hxxp://[internal-ip-redacted]:8088/Mozi.m`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/ce0f597e1b0e189e0bc2a73fe0f61bdde29a6944607a286a6d2dfbdaaf5c9d35.md](../../../../../malware-like/oraculo/downloader/ce0f597e1b0e189e0bc2a73fe0f61bdde29a6944607a286a6d2dfbdaaf5c9d35.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `tags.jpg` en `hxxps://casper[.]ghost[.]org/v1.0.0/images/tags.jpg`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `tags.jpg` en `hxxps://casper[.]ghost[.]org/v1.0.0/images/tags.jpg`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/881a9b0dd0b562b7aeb7e2ea18b04d9781f91a76295cc8b4e700f360edc5c11c.md](../../../../../malware-like/oraculo/downloader/881a9b0dd0b562b7aeb7e2ea18b04d9781f91a76295cc8b4e700f360edc5c11c.md)
 
 
 ## 🏷️ Clasificación

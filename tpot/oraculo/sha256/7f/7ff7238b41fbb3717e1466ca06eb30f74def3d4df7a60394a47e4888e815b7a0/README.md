@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `svg` en `hxxp://www[.]w3[.]org/2000/svg`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `svg` en `hxxp://www[.]w3[.]org/2000/svg`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/7ff7238b41fbb3717e1466ca06eb30f74def3d4df7a60394a47e4888e815b7a0.md](../../../../../malware-like/oraculo/downloader/7ff7238b41fbb3717e1466ca06eb30f74def3d4df7a60394a47e4888e815b7a0.md)
 
 
 ## 🏷️ Clasificación

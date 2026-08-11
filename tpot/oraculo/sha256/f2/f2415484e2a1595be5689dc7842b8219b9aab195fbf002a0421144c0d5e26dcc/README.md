@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como HTML document, Unicode text, UTF-8 text, with very long lines (1782), with CRLF, LF line terminators de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxps://fonts[.]gstatic[.]com`. Se extrajeron 5 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto Unicode de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Infraestructura remota: `hxxps://fonts[.]gstatic[.]com`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/f2415484e2a1595be5689dc7842b8219b9aab195fbf002a0421144c0d5e26dcc.md](../../../../../malware-like/oraculo/downloader/f2415484e2a1595be5689dc7842b8219b9aab195fbf002a0421144c0d5e26dcc.md)
 
 
 ## 🏷️ Clasificación

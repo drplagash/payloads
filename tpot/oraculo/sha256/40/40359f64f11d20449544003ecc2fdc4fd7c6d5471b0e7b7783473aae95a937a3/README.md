@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 194 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `genomecrawler` en `hxxps://www[.]nokia[.]com/genomecrawler`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 194 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `genomecrawler` en `hxxps://www[.]nokia[.]com/genomecrawler`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/40359f64f11d20449544003ecc2fdc4fd7c6d5471b0e7b7783473aae95a937a3.md](../../../../../malware-like/oraculo/downloader/40359f64f11d20449544003ecc2fdc4fd7c6d5471b0e7b7783473aae95a937a3.md)
 
 
 ## 🏷️ Clasificación

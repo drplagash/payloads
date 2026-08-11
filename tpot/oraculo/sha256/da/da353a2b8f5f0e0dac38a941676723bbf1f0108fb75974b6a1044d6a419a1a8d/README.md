@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como HTML document, Unicode text, UTF-8 text, with very long lines (1782), with CRLF, LF line terminators de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `11` en `hxxp://gmpg[.]org/xfn/11`. Se extrajeron 5 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto Unicode de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `11` en `hxxp://gmpg[.]org/xfn/11`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/da353a2b8f5f0e0dac38a941676723bbf1f0108fb75974b6a1044d6a419a1a8d.md](../../../../../malware-like/oraculo/downloader/da353a2b8f5f0e0dac38a941676723bbf1f0108fb75974b6a1044d6a419a1a8d.md)
 
 
 ## 🏷️ Clasificación

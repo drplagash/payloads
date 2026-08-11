@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 6 indicadores técnicos.
+Artefacto asociado a la familia **webshell** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución. Se identificó 1 comando observado o extraído. Se identificaron 6 indicadores técnicos. **Ficha malware:** [malware-like/oraculo/downloader/b520aad0120a7b13b892d757e724699d5b173ead1ce557c728cdf024072086d4.md](../../../../../malware-like/oraculo/downloader/b520aad0120a7b13b892d757e724699d5b173ead1ce557c728cdf024072086d4.md)
 
 
 ## 🏷️ Clasificación

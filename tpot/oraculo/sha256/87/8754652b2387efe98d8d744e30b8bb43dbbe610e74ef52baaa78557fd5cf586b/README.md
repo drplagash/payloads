@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Artefacto de 1.0 KiB. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.43. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 indicadores técnicos.
+Artefacto de 1.0 KiB. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.43. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 2 indicadores técnicos. **C2 / infraestructura de control:**
+
+- **Posible C2:** `172.86.119.XXX` — confianza Alto, evidencia hardcoded_in_payload
+- **Posible C2:** `190.179.140.XXX` — confianza Alto, evidencia hardcoded_in_payload
 
 
 ## 🗓️ Registro

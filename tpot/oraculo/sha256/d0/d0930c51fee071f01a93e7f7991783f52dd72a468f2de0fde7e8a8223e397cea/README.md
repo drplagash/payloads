@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 140 B. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxp://azenv[.]net/`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 140 B. La evidencia disponible identifica capacidad de descarga remota. Infraestructura remota: `hxxp://azenv[.]net/`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/d0930c51fee071f01a93e7f7991783f52dd72a468f2de0fde7e8a8223e397cea.md](../../../../../malware-like/oraculo/downloader/d0930c51fee071f01a93e7f7991783f52dd72a468f2de0fde7e8a8223e397cea.md)
 
 
 ## 🏷️ Clasificación

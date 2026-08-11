@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como XML 1.0 document, ASCII text, with very long lines (712), with no line terminators de 712 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `adb.sh` en `hxxp://196.251.121.XXX/a3f8d2/adb.sh`. Se extrajeron 3 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 712 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `adb.sh` en `hxxp://196.251.121.XXX/a3f8d2/adb.sh`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/541c7350c59b5558395703c7e97e0bdcbe256bb46c7c5543e06eb820584dadca.md](../../../../../malware-like/oraculo/downloader/541c7350c59b5558395703c7e97e0bdcbe256bb46c7c5543e06eb820584dadca.md)
 
 
 ## 🏷️ Clasificación

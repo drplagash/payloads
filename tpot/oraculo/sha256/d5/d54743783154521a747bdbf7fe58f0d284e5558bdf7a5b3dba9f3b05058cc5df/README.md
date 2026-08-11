@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto de 420 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.33. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos.
+Artefacto de 420 B. Formato identificado como ASCII text, with CRLF line terminators. Entropía registrada: 5.33. No existe evidencia suficiente para atribuir este artefacto a una familia concreta. Se identificaron 3 indicadores técnicos. **C2 / infraestructura de control:**
+
+- **Posible C2:** `190.179.168.XXX` — confianza Alto, evidencia hardcoded_in_payload
+- **Posible C2:** `1.1.1.XXX` — confianza Bajo, evidencia hardcoded_in_payload
+- **Posible C2:** `103.132.236.XXX` — confianza Descartado, evidencia hardcoded_in_payload
 
 
 ## 🗓️ Registro

@@ -4,7 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como JSON text data de 896 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `cumshotnews` en `hxxp://192.142.28.XXX/cumshotnews`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Artefacto identificado como JSON text data de 896 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `cumshotnews` en `hxxp://192.142.28.XXX/cumshotnews`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod`
+2. `curl`
+3. `cd /var/run`
+4. `cd /m` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/503b82ae05653b546ab03052c63b1648c65dd406dfad2155156a34b53f02aac4.md](../../../../../malware-like/oraculo/downloader/503b82ae05653b546ab03052c63b1648c65dd406dfad2155156a34b53f02aac4.md)
 
 
 ## 🏷️ Clasificación

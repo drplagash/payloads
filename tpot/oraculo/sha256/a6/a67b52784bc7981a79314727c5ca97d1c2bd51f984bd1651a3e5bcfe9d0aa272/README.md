@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 113 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `json` en `hxxp://ip-api[.]com/json/`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 113 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `json` en `hxxp://ip-api[.]com/json/`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/a67b52784bc7981a79314727c5ca97d1c2bd51f984bd1651a3e5bcfe9d0aa272.md](../../../../../malware-like/oraculo/downloader/a67b52784bc7981a79314727c5ca97d1c2bd51f984bd1651a3e5bcfe9d0aa272.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 467 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `)@fedora-edge:~$` en `hxxps://modat[.]io/)@fedora-edge:~$`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 467 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `)@fedora-edge:~$` en `hxxps://modat[.]io/)@fedora-edge:~$`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/318c774523ba85446eaae84d5907d69189aeb94bf18106f6dd21e40bf61fe1d5.md](../../../../../malware-like/oraculo/downloader/318c774523ba85446eaae84d5907d69189aeb94bf18106f6dd21e40bf61fe1d5.md)
 
 
 ## 🏷️ Clasificación

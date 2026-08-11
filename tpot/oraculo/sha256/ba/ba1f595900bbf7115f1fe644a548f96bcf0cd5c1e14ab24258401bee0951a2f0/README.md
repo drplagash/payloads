@@ -4,7 +4,12 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 368 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `GetDeviceSettings` en `hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`. Se extrajeron 2 referencias URL únicas. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 368 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `GetDeviceSettings` en `hxxp://purenetworks[.]com/HNAP1/GetDeviceSettings/`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod`
+2. `cd tmp`
+3. `cd /tmp`
+4. `wget http:/` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/ba1f595900bbf7115f1fe644a548f96bcf0cd5c1e14ab24258401bee0951a2f0.md](../../../../../malware-like/oraculo/downloader/ba1f595900bbf7115f1fe644a548f96bcf0cd5c1e14ab24258401bee0951a2f0.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `writing.jpg` en `hxxps://casper[.]ghost[.]org/v1.0.0/images/writing.jpg`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `writing.jpg` en `hxxps://casper[.]ghost[.]org/v1.0.0/images/writing.jpg`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/ad7776b1139c0231fc20171aa0ff53159341ea4a142fab34bbfc562118e6b356.md](../../../../../malware-like/oraculo/downloader/ad7776b1139c0231fc20171aa0ff53159341ea4a142fab34bbfc562118e6b356.md)
 
 
 ## 🏷️ Clasificación

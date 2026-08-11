@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Comunicación remota. Se identificaron 28 indicadores técnicos.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Comunicación remota. Se identificaron 28 indicadores técnicos. **Ficha malware:** [malware-like/oraculo/botnet/0d3204b246101f28abc4877ba77cb007de8d17df682ea60179f3a7ab69cdff9b.md](../../../../../malware-like/oraculo/botnet/0d3204b246101f28abc4877ba77cb007de8d17df682ea60179f3a7ab69cdff9b.md)
 
 
 ## 🏷️ Clasificación

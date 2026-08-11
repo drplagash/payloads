@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxps://wordpress[.]org/`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Infraestructura remota: `hxxps://wordpress[.]org/`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/3f957dbe90c15c5c997faf201f340ae34c25ab0c7e81ae7a40ab0aa87fd1120c.md](../../../../../malware-like/oraculo/downloader/3f957dbe90c15c5c997faf201f340ae34c25ab0c7e81ae7a40ab0aa87fd1120c.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Help:Contents` en `hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Help:Contents`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `Help:Contents` en `hxxps://www[.]mediawiki[.]org/wiki/Special:MyLanguage/Help:Contents`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/e4a3a99ece4148bcfff0a74408b11b5d90aa56f4d52e5883d9807aed7567967c.md](../../../../../malware-like/oraculo/downloader/e4a3a99ece4148bcfff0a74408b11b5d90aa56f4d52e5883d9807aed7567967c.md)
 
 
 ## 🏷️ Clasificación

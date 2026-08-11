@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Reconocimiento del sistema, Descarga remota, Cambio de permisos, Limpieza. Se identificaron 17 comandos observados o extraídos. Se identificaron 11 indicadores técnicos.
+Artefacto asociado a la familia **mirai-like** con evidencia suficiente para atribución. Comportamientos destacados: Reconocimiento del sistema, Descarga remota, Cambio de permisos, Limpieza. Se identificaron 17 comandos observados o extraídos. Se identificaron 11 indicadores técnicos. **Perfil técnico:** `Linux / BusyBox`, compatible con sistemas embebidos o IoT. BusyBox se trata como indicio de plataforma y no como prueba suficiente de que el dispositivo sea IoT. **Ficha malware:** [malware-like/oraculo/botnet/37a369285464f8de9c6c0f415202a1a2db7dc526614fb961420b48d10979a242.md](../../../../../malware-like/oraculo/botnet/37a369285464f8de9c6c0f415202a1a2db7dc526614fb961420b48d10979a242.md)
 
 
 ## 🏷️ Clasificación

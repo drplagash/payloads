@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 120 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `index2.asp` en `hxxp://190.179.144.XXX:80/cgi-bin/index2.asp`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 120 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `index2.asp` en `hxxp://190.179.144.XXX:80/cgi-bin/index2.asp`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/cee53c0f2f8addbe4cc1352034c2bd74528b9520ebde97ee8f53a5f146e61172.md](../../../../../malware-like/oraculo/downloader/cee53c0f2f8addbe4cc1352034c2bd74528b9520ebde97ee8f53a5f146e61172.md)
 
 
 ## 🏷️ Clasificación

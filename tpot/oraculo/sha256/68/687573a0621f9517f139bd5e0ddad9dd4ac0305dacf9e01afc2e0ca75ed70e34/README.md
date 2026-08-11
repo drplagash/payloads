@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 192 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Scanning-activity` en `hxxps://docs-cortex[.]paloaltonetworks[.]com/r/1/Cortex-Xpanse/Scanning-activity`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 192 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `Scanning-activity` en `hxxps://docs-cortex[.]paloaltonetworks[.]com/r/1/Cortex-Xpanse/Scanning-activity`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/687573a0621f9517f139bd5e0ddad9dd4ac0305dacf9e01afc2e0ca75ed70e34.md](../../../../../malware-like/oraculo/downloader/687573a0621f9517f139bd5e0ddad9dd4ac0305dacf9e01afc2e0ca75ed70e34.md)
 
 
 ## 🏷️ Clasificación

@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxp://172[.]20[.]254[.]`. Se extrajeron 4 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Infraestructura remota: `hxxp://172[.]20[.]254[.]`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/61cfb297d9bda2d75949950be5d27f60534bdf7f9eff1858397a49e5ea6473bc.md](../../../../../malware-like/oraculo/downloader/61cfb297d9bda2d75949950be5d27f60534bdf7f9eff1858397a49e5ea6473bc.md)
 
 
 ## 🏷️ Clasificación

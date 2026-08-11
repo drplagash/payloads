@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `root-r3.crl0!` en `hxxp://crl[.]globalsign[.]com/root-r3.crl0!`. Se extrajeron 7 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `root-r3.crl0!` en `hxxp://crl[.]globalsign[.]com/root-r3.crl0!`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/ecd802e156e1fafd2c1a26156c4c639dd48dd9d4d6a59bf9211a3b160eb9305c.md](../../../../../malware-like/oraculo/downloader/ecd802e156e1fafd2c1a26156c4c639dd48dd9d4d6a59bf9211a3b160eb9305c.md)
 
 
 ## 🏷️ Clasificación

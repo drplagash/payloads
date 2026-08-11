@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución, Limpieza, Yara signature match. Se identificaron 2 comandos observados o extraídos. Se identificaron 6 indicadores técnicos. Una detección YARA válida respalda el análisis.
+Artefacto asociado a la familia **mirai** con evidencia suficiente para atribución. Comportamientos destacados: Descarga remota, Ejecución, Limpieza, Yara signature match. Se identificaron 2 comandos observados o extraídos. Se identificaron 6 indicadores técnicos. Una detección YARA válida respalda el análisis. **Ficha malware:** [malware-like/oraculo/botnet/b33d2d14fb389b136e176dba1683872897232463edc6ab5f5072153fcdd96d14.md](../../../../../malware-like/oraculo/botnet/b33d2d14fb389b136e176dba1683872897232463edc6ab5f5072153fcdd96d14.md)
 
 
 ## 🏷️ Clasificación

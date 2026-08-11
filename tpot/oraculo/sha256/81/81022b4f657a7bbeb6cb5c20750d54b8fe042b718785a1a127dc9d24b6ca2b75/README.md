@@ -4,7 +4,9 @@
 
 ## 📌 Resumen
 
-Artefacto de 207 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `rebirth.arm7` en `hxxp://94.154.43.XXX/rebirth.arm7`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Artefacto de 207 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `rebirth.arm7` en `hxxp://94.154.43.XXX/rebirth.arm7`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod 777 /data/local/tm` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/81022b4f657a7bbeb6cb5c20750d54b8fe042b718785a1a127dc9d24b6ca2b75.md](../../../../../malware-like/oraculo/downloader/81022b4f657a7bbeb6cb5c20750d54b8fe042b718785a1a127dc9d24b6ca2b75.md)
 
 
 ## 🏷️ Clasificación

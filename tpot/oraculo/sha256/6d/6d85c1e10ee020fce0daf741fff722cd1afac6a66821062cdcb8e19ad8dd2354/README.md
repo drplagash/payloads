@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with very long lines (677), with CRLF line terminators de 1.3 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `cumshotnews` en `hxxp://192.142.28.XXX/cumshotnews`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Texto ASCII de 1.3 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `cumshotnews` en `hxxp://192.142.28.XXX/cumshotnews`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/6d85c1e10ee020fce0daf741fff722cd1afac6a66821062cdcb8e19ad8dd2354.md](../../../../../malware-like/oraculo/downloader/6d85c1e10ee020fce0daf741fff722cd1afac6a66821062cdcb8e19ad8dd2354.md)
 
 
 ## 🏷️ Clasificación

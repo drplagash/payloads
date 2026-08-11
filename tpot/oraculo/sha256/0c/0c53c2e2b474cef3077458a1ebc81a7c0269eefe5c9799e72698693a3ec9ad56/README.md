@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 4.0 KiB. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `gsatlasr3dvtlsca2025q40J` en `hxxp://ocsp[.]globalsign[.]com/ca/gsatlasr3dvtlsca2025q40J`. Se extrajeron 7 referencias URL únicas. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 4.0 KiB. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `gsatlasr3dvtlsca2025q40J` en `hxxp://ocsp[.]globalsign[.]com/ca/gsatlasr3dvtlsca2025q40J`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/0c53c2e2b474cef3077458a1ebc81a7c0269eefe5c9799e72698693a3ec9ad56.md](../../../../../malware-like/oraculo/downloader/0c53c2e2b474cef3077458a1ebc81a7c0269eefe5c9799e72698693a3ec9ad56.md)
 
 
 ## 🏷️ Clasificación

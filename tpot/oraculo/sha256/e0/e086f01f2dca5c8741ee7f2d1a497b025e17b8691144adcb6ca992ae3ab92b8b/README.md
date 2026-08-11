@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. La referencia remota apunta al recurso `Status_404` en `hxxp://[internal-ip-redacted]/Status_404`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Recurso remoto principal: `Status_404` en `hxxp://[internal-ip-redacted]/Status_404`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/e086f01f2dca5c8741ee7f2d1a497b025e17b8691144adcb6ca992ae3ab92b8b.md](../../../../../malware-like/oraculo/downloader/e086f01f2dca5c8741ee7f2d1a497b025e17b8691144adcb6ca992ae3ab92b8b.md)
 
 
 ## 🏷️ Clasificación

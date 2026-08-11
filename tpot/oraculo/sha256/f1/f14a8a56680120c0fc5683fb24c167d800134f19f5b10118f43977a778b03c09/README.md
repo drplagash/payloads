@@ -4,7 +4,7 @@
 
 ## 📌 Resumen
 
-Artefacto de 548 B. La evidencia estática disponible identifica capacidad de descarga remota. Se extrajo como destino remoto `hxxps://fon`. La evidencia es estática: este snapshot no demuestra por sí solo que la descarga llegara a ejecutarse.
+Artefacto de 548 B. La evidencia disponible identifica capacidad de descarga remota. Infraestructura remota: `hxxps://fon`. Los comandos se presentan como evidencia observada o extraída; no se afirma ejecución salvo que la relación registrada sea `executed`. **Ficha malware:** [malware-like/oraculo/downloader/f14a8a56680120c0fc5683fb24c167d800134f19f5b10118f43977a778b03c09.md](../../../../../malware-like/oraculo/downloader/f14a8a56680120c0fc5683fb24c167d800134f19f5b10118f43977a778b03c09.md)
 
 
 ## 🏷️ Clasificación
