@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/payloads.png" alt="Payloads" width="100%">
+</p>
+
 # Payload Analysis
 
 Defensive payload analysis, decoded samples, lab notes and detection context.
