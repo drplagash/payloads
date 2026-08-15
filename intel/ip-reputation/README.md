@@ -12,9 +12,9 @@ Passive rankings generated from observed honeypot/lab telemetry.
 
 | Scope | Sightings | Unique IPs | Unique ASNs | BPH ASNs |
 |---|---:|---:|---:|---:|
-| `24h` | 18 | 16 | 1 | 0 |
-| `month` | 18 | 16 | 1 | 0 |
-| `cumulative` | 18 | 16 | 1 | 0 |
+| `24h` | 18 | 16 | 13 | 0 |
+| `month` | 18 | 16 | 13 | 0 |
+| `cumulative` | 18 | 16 | 13 | 0 |
 
 ## Policy
 

@@ -1,7 +1,7 @@
 {
   "bph_asns": 0,
   "bph_ranking": [],
-  "generated_at_utc": "2026-08-15T18:38:28Z",
+  "generated_at_utc": "2026-08-15T18:41:24Z",
   "safety": "Passive ranking from observed honeypot/lab telemetry. No active scanning.",
   "schema": "oraculo.ip_intel.summary.v1",
   "scope": "cumulative",
@@ -11,23 +11,167 @@
   "title": "Cumulative",
   "top_asns": [
     {
-      "asn": "UNKNOWN",
+      "asn": "AS219502",
       "asn_name": "",
-      "attacks": 18,
+      "attacks": 3,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
       "spamhaus_asndrop": false,
-      "spamhaus_drop_hits": 4,
+      "spamhaus_drop_hits": 2,
       "tor_exit_ips": 0,
-      "unique_ips": 16
+      "unique_ips": 2
+    },
+    {
+      "asn": "AS197170",
+      "asn_name": "",
+      "attacks": 2,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 1,
+      "tor_exit_ips": 0,
+      "unique_ips": 2
+    },
+    {
+      "asn": "AS45102",
+      "asn_name": "",
+      "attacks": 2,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 2
+    },
+    {
+      "asn": "AS51396",
+      "asn_name": "",
+      "attacks": 2,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 1,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
+    },
+    {
+      "asn": "AS14061",
+      "asn_name": "",
+      "attacks": 1,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
+    },
+    {
+      "asn": "AS150273",
+      "asn_name": "",
+      "attacks": 1,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
+    },
+    {
+      "asn": "AS205463",
+      "asn_name": "",
+      "attacks": 1,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
+    },
+    {
+      "asn": "AS26042",
+      "asn_name": "",
+      "attacks": 1,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
+    },
+    {
+      "asn": "AS27947",
+      "asn_name": "",
+      "attacks": 1,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
+    },
+    {
+      "asn": "AS30036",
+      "asn_name": "",
+      "attacks": 1,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
+    },
+    {
+      "asn": "AS329440",
+      "asn_name": "",
+      "attacks": 1,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
+    },
+    {
+      "asn": "AS53667",
+      "asn_name": "",
+      "attacks": 1,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
+    },
+    {
+      "asn": "AS61138",
+      "asn_name": "",
+      "attacks": 1,
+      "bph_confidence": "",
+      "bph_flag": false,
+      "bph_label": "",
+      "spamhaus_asndrop": false,
+      "spamhaus_drop_hits": 0,
+      "tor_exit_ips": 0,
+      "unique_ips": 1
     }
   ],
   "top_ips": [
     {
-      "asn": "UNKNOWN",
+      "asn": "AS51396",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 2,
       "bph_confidence": "",
       "bph_flag": false,
@@ -40,9 +184,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS219502",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 2,
       "bph_confidence": "",
       "bph_flag": false,
@@ -55,9 +199,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS329440",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -70,9 +214,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS150273",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -85,9 +229,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS14061",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -100,9 +244,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS61138",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -115,9 +259,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS27947",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -130,9 +274,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS53667",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -145,9 +289,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS26042",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -160,9 +304,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS205463",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -175,9 +319,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS45102",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -190,9 +334,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS45102",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -205,9 +349,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS30036",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -220,9 +364,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS197170",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -235,9 +379,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS197170",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -250,9 +394,9 @@
       "tor_exit": false
     },
     {
-      "asn": "UNKNOWN",
+      "asn": "AS219502",
       "asn_name": "",
-      "asn_source": "none",
+      "asn_source": "team-cymru-dns",
       "attacks": 1,
       "bph_confidence": "",
       "bph_flag": false,
@@ -266,6 +410,6 @@
     }
   ],
   "tor_exit_ip_hits": 0,
-  "unique_asns": 1,
+  "unique_asns": 13,
   "unique_ips": 16
 }
