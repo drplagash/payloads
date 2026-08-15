@@ -14,7 +14,7 @@ Artifact `82064` was recovered by Oraculo safe-fetch and stored locally in quara
 | MD5 | `620c007093f64dfe672252c0bd483f25` |
 | Size | `448624` bytes |
 | Type | `payload` |
-| Magic | `ERROR: [Errno 8] Exec format error: '/usr/bin/file'` |
+| Magic | `ELF32 big-endian executable/shared object, machine=MIPS, entry=0x400260` |
 | Source URL | `hxxp://154[.]90[.]70[.]23/mips` |
 
 ## Observed context
