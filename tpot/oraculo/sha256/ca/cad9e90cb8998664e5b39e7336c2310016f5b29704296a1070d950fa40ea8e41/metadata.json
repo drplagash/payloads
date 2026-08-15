@@ -1,0 +1,30 @@
+{
+  "artifact": {
+    "risk_level": "high",
+    "size_bytes": 448624
+  },
+  "classification": {
+    "evidence_score": 1,
+    "report_quality": "identity_only"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "620c007093f64dfe672252c0bd483f25",
+    "sha1": "5e848778ec4fbfddc94b5a76e5a56bf2e5173ce3",
+    "sha256": "cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41"
+  },
+  "observation": {
+    "honeypots": [
+      "suricata_http",
+      "infra_safe_fetch"
+    ]
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.2.1"
+  },
+  "registered_at": "2026-08-15T15:58:49+00:00",
+  "schema_version": "3.1"
+}
