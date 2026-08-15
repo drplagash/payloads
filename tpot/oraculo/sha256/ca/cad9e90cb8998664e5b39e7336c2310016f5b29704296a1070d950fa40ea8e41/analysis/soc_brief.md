@@ -28,9 +28,9 @@ A quarantined payload was recovered from attacker-referenced infrastructure and 
 ## Observed execution chain
 
 1. HTTP request targeted a Boa/formPing6-style endpoint.
-3. Command attempted to change into `/tmp`.
-5. Command attempted to make the downloaded payload executable.
-7. Related loader activity attempts architecture detection and multi-method download fallback.
+2. Command attempted to change into `/tmp`.
+3. Command attempted to make the downloaded payload executable.
+4. Related loader activity attempts architecture detection and multi-method download fallback.
 
 Full raw command evidence is preserved in `analysis/command_trace.md` and `evidence/command_raw_defanged.txt`.
 
