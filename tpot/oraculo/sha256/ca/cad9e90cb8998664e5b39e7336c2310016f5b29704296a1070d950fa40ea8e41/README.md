@@ -26,16 +26,17 @@ This directory is a complete defensive reference entry for one captured payload.
 
 ## For humans
 
-1. `analysis/learning_notes.md`
-2. `analysis/human_readable.md`
-3. `analysis/command_trace.md`
-4. `analysis/strings_annotated.md`
+1. `analysis/executive_summary.md`
+2. `analysis/learning_notes.md`
+3. `analysis/human_readable.md`
+4. `analysis/command_trace.md`
+5. `analysis/strings_annotated.md`
 
 ## For SOC/admins
 
 1. `analysis/soc_brief.md`
 2. `analysis/iocs.json`
-3. `analysis/command_trace.md`
+4. `analysis/command_trace.md`
 4. `yara/`
 5. `metadata/artifact.json`
 
