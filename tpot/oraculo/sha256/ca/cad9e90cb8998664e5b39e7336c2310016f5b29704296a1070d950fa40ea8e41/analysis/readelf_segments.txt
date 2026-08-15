@@ -1,0 +1,15 @@
+El tipo del fichero elf es EXEC (Fichero ejecutable)
+Entry point 0x400260
+There are 3 program headers, starting at offset 52
+
+Encabezados de Programa:
+  Tipo           Desplaz  DirVirt    DirFísica  TamFich TamMem  Opt Alin
+  LOAD           0x000000 0x00400000 0x00400000 0x66b80 0x66b80 R E 0x10000
+  LOAD           0x066b84 0x004a6b84 0x004a6b84 0x06a58 0x271b4 RW  0x10000
+  GNU_STACK      0x000000 0x00000000 0x00000000 0x00000 0x00000 RWE 0x4
+
+ Asignación de Sección a Segmento:
+  Segmento Secciones...
+   00     .init .text .fini .rodata 
+   01     .ctors .dtors .data.rel.ro .data .got .sbss .bss 
+   02

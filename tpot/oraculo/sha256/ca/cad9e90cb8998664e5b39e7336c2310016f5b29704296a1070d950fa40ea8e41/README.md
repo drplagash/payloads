@@ -1,39 +1,48 @@
-# 🧬 Payload Analysis
+# Oraculo SOC Payload Analysis
 
-`cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41`
+## Summary
 
-## 📌 Resumen
+Artifact `82064` was recovered by Oraculo safe-fetch and stored locally in quarantine. This repository entry publishes defensive analysis material only. The raw executable sample is not included.
 
-Registro de identidad del artefacto. La evidencia disponible no permite atribuir familia, comportamiento o capacidades con suficiente fundamento.
+## Identifiers
 
+| Field | Value |
+|---|---|
+| Artifact ID | `82064` |
+| SHA256 | `cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41` |
+| SHA1 | `5e848778ec4fbfddc94b5a76e5a56bf2e5173ce3` |
+| MD5 | `620c007093f64dfe672252c0bd483f25` |
+| Size | `448624` bytes |
+| Type | `payload` |
+| Magic | `ERROR: [Errno 8] Exec format error: 'file'` |
+| Source URL | `hxxp://154[.]90[.]70[.]23/mips` |
 
-## 🏷️ Clasificación
+## Observed context
 
-- **Riesgo:** `High`
+| Field | Value |
+|---|---|
+| First seen | `2026-08-15 15:42:02` |
+| Last seen | `2026-08-15 16:08:03` |
+| Analysis state | `needs_review` |
+| Quarantined | `1` |
+| Payload observation | `3632` |
+| Novelty | `new_artifact` |
 
-## 🗓️ Registro
+## Defensive artifacts
 
-- **Registrado:** `2026-08-15T15:58:49+00:00`
-- **Tipo de registro:** `snapshot inmutable`
+- `metadata/artifact.json`
+- `metadata/observation.json`
+- `analysis/iocs.json`
+- `analysis/strings.txt`
+- `analysis/hexdump_head.txt`
+- `analysis/readelf_header.txt`
+- `analysis/readelf_segments.txt`
+- `yara/cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41.yar`
 
-## 🔐 Identidad
+## Safety note
 
-- **SHA256:** `cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41`
-- **SHA1:** `5e848778ec4fbfddc94b5a76e5a56bf2e5173ce3`
-- **MD5:** `620c007093f64dfe672252c0bd483f25`
+No raw executable malware is published here. Any text excerpts are defanged and non-complete. This entry is intended for defensive analysis, detection engineering, hunting, and incident response.
 
-## 🧪 Análisis estático
+## Initial assessment
 
-| Propiedad | Resultado |
-| --- | --- |
-| Tamaño | 438.1 KiB |
-
-## 🛰️ Contexto de observación
-
-- **Sensores/Honeypots:** `suricata_http`, `infra_safe_fetch`
-
-## 🛡️ Nota de publicación
-
-Este informe conserva una **fotografía del estado de análisis en la fecha de registro**. No se mantienen campos temporales de observación ni contadores vivos.
-
-Las IPv4 públicas se anonimizaron como `A.B.C.XXX`; las direcciones internas, credenciales, tokens y otros secretos se redactan antes de publicar.
+The artifact was recovered from an attacker-referenced URL and is treated as high-risk malware. Current automated handling keeps it quarantined, records hashes and observation metadata, and avoids execution. Any further dynamic analysis must remain inside an isolated malware-analysis environment.
