@@ -1,7 +1,33 @@
 {
   "bph_asns": 0,
   "bph_ranking": [],
-  "generated_at_utc": "2026-08-15T18:45:44Z",
+  "derived_reports": {
+    "asndrop_matches": 0,
+    "bph_matches": 0,
+    "drop_matches": 4,
+    "feed_matches": 4,
+    "files": [
+      "high-risk.csv",
+      "medium-risk.csv",
+      "feed-matches.csv",
+      "drop-matches.csv",
+      "tor-matches.csv",
+      "asndrop-matches.csv",
+      "bph-matches.csv",
+      "high-risk.jsonl",
+      "medium-risk.jsonl",
+      "feed-matches.jsonl",
+      "drop-matches.jsonl",
+      "tor-matches.jsonl",
+      "asndrop-matches.jsonl",
+      "bph-matches.jsonl"
+    ],
+    "high_risk": 0,
+    "medium_risk": 4,
+    "schema": "oraculo.ip_intel.derived_reports.v1",
+    "tor_matches": 0
+  },
+  "generated_at_utc": "2026-08-15T18:48:08Z",
   "high_or_critical_ips": 0,
   "risk_model": {
     "cap": 100,

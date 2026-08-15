@@ -1,6 +1,6 @@
 # IP / ASN / BPH Intel - Cumulative
 
-Generated UTC: `2026-08-15T18:45:47Z`
+Generated UTC: `2026-08-15T18:48:10Z`
 
 ## Summary
 
@@ -82,6 +82,14 @@ BPH tagging is curated from `/etc/oraculo/bph-asn.list`. ASN-DROP matches are sh
 - `asn_ranking.json`
 - `bph_ranking.csv`
 - `summary.json`
+- `high-risk.csv` / `high-risk.jsonl`
+- `medium-risk.csv` / `medium-risk.jsonl`
+- `feed-matches.csv` / `feed-matches.jsonl`
+- `drop-matches.csv` / `drop-matches.jsonl`
+- `tor-matches.csv` / `tor-matches.jsonl`
+- `asndrop-matches.csv` / `asndrop-matches.jsonl`
+- `bph-matches.csv` / `bph-matches.jsonl`
+- `derived_reports.json`
 
 ## Safety
 

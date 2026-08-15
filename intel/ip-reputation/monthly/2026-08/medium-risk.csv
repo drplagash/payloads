@@ -1,0 +1,5 @@
+ip,attacks,risk_score,risk_level,risk_reasons,asn,asn_name,asn_org,asn_source,rdap_source,tor_exit,spamhaus_drop,spamhaus_asndrop,feed_hits,bph_flag,bph_label,bph_confidence,bph_note
+176.65.148.93,2,40,medium,repeated_attacks_ge_2;spamhaus_drop_match,AS51396,,,team-cymru-dns,none,False,True,False,spamhaus_drop,False,,,
+94.154.43.230,2,40,medium,repeated_attacks_ge_2;spamhaus_drop_match,AS219502,STORMCLOUD-AS,Storm Industries LLC,team-cymru-dns,rdap.org,False,True,False,spamhaus_drop,False,,,
+91.92.40.18,1,30,medium,spamhaus_drop_match,AS197170,TECHTIES-AS,TechTies Inc.,team-cymru-dns,rdap.org,False,True,False,spamhaus_drop,False,,,
+94.154.43.158,1,30,medium,spamhaus_drop_match,AS219502,STORMCLOUD-AS,Storm Industries LLC,team-cymru-dns,rdap.org,False,True,False,spamhaus_drop,False,,,
