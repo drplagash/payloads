@@ -33,6 +33,7 @@ Artifact `82064` was recovered by Oraculo safe-fetch and stored locally in quara
 - `metadata/artifact.json`
 - `metadata/observation.json`
 - `analysis/iocs.json`
+- `analysis/enrichment.json`
 - `analysis/strings.txt`
 - `analysis/hexdump_head.txt`
 - `analysis/readelf_header.txt`
