@@ -1,10 +1,14 @@
 # Oraculo SOC Payload Analysis
 
-## Summary
+## Start here
 
-Artifact `82064` was recovered by Oraculo safe-fetch and stored locally in quarantine. This repository entry publishes defensive analysis material only. The raw executable sample is not included.
+This directory is a complete defensive reference entry for one captured payload. It is designed for three audiences:
 
-## Identifiers
+- Humans learning how the payload and attack chain work.
+- SOC/admin operators who need triage, IOCs and detection context.
+- Tools and AI systems that need structured machine-readable context.
+
+## Identity
 
 | Field | Value |
 |---|---|
@@ -14,36 +18,54 @@ Artifact `82064` was recovered by Oraculo safe-fetch and stored locally in quara
 | MD5 | `620c007093f64dfe672252c0bd483f25` |
 | Size | `448624` bytes |
 | Type | `payload` |
-| Magic | `ELF32 big-endian executable/shared object, machine=MIPS, entry=0x400260` |
+| Format | `ELF32 big-endian executable/shared object, machine=MIPS, entry=0x400260` |
 | Source URL | `hxxp://154[.]90[.]70[.]23/mips` |
-
-## Observed context
-
-| Field | Value |
-|---|---|
-| First seen | `2026-08-15 15:42:02` |
-| Last seen | `2026-08-15 16:08:03` |
 | Analysis state | `needs_review` |
 | Quarantined | `1` |
-| Payload observation | `3632` |
-| Novelty | `new_artifact` |
+| Command sightings | `9` |
 
-## Defensive artifacts
+## For humans
 
-- `metadata/artifact.json`
-- `metadata/observation.json`
-- `analysis/iocs.json`
-- `analysis/enrichment.json`
-- `analysis/strings.txt`
-- `analysis/hexdump_head.txt`
-- `analysis/readelf_header.txt`
-- `analysis/readelf_segments.txt`
-- `yara/cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41.yar`
+1. `analysis/executive_summary.md`
+2. `analysis/learning_notes.md`
+3. `analysis/human_readable.md`
+4. `analysis/command_trace.md`
+5. `analysis/strings_annotated.md`
+
+## For SOC/admins
+
+1. `analysis/soc_brief.md`
+2. `analysis/iocs.json`
+4. `analysis/command_trace.md`
+4. `yara/`
+5. `metadata/artifact.json`
+
+## For AI/tools
+
+1. `metadata/ai_context.json`
+2. `metadata/artifact.json`
+3. `metadata/observation.json`
+4. `metadata/command_trace.json`
+5. `evidence/sightings.json`
+6. `analysis/enrichment.json`
+
+## For raw forensic archive
+
+Raw bytes are not published as a directly executable binary. The captured bytes are stored as base64 text.
+
+1. `raw/README.md`
+2. `raw/manifest.json`
+3. `raw/sample.b64.txt`
+4. `raw/sample.sha256.txt`
+
+## Evidence vs analysis
+
+- `evidence/`: observed material, defanged where needed.
+- `analysis/`: analyst interpretation and readable summaries.
+- `metadata/`: structured machine-readable context.
+- `raw/`: inert base64 archive of captured bytes.
+- `yara/`: detection material.
 
 ## Safety note
 
-No raw executable malware is published here. Any text excerpts are defanged and non-complete. This entry is intended for defensive analysis, detection engineering, hunting, and incident response.
-
-## Initial assessment
-
-The artifact was recovered from an attacker-referenced URL and is treated as high-risk malware. Current automated handling keeps it quarantined, records hashes and observation metadata, and avoids execution. Any further dynamic analysis must remain inside an isolated malware-analysis environment.
+This entry is for defensive research, SOC triage, detection engineering and malware-analysis education. Do not execute decoded samples outside isolated malware-analysis infrastructure.
