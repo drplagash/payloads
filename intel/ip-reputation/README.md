@@ -10,15 +10,17 @@ Passive rankings generated from observed honeypot/lab telemetry.
 
 ## Current summaries
 
-| Scope | Sightings | Unique IPs | Unique ASNs | BPH ASNs |
-|---|---:|---:|---:|---:|
-| `24h` | 18 | 16 | 13 | 0 |
-| `month` | 18 | 16 | 13 | 0 |
-| `cumulative` | 18 | 16 | 13 | 0 |
+| Scope | Sightings | Unique IPs | Unique ASNs | DROP IP hits | Tor exit hits | High/Critical IPs |
+|---|---:|---:|---:|---:|---:|---:|
+| `24h` | 18 | 16 | 13 | 4 | 0 | 0 |
+| `month` | 18 | 16 | 13 | 4 | 0 | 0 |
+| `cumulative` | 18 | 16 | 13 | 4 | 0 | 0 |
 
 ## Policy
 
 - Passive telemetry only.
 - No active scanning.
+- External lists are local reference feeds only.
+- The repository publishes only matches against Oraculo-observed IPs.
 - ASN/BPH tags are context, not legal attribution.
 - BPH labels require explicit curation in `/etc/oraculo/bph-asn.list`.
