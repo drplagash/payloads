@@ -1,15 +1,15 @@
 # IP / ASN / BPH Intel - Monthly 2026-08
 
-Generated UTC: `2026-08-16T12:40:42Z`
+Generated UTC: `2026-08-16T14:35:50Z`
 
 ## Summary
 
 | Metric | Value |
 |---|---:|
-| Sightings | `1518594` |
-| Unique IPs | `5098` |
-| Unique ASNs | `979` |
-| DROP IP hits | `184` |
+| Sightings | `1583917` |
+| Unique IPs | `5203` |
+| Unique ASNs | `989` |
+| DROP IP hits | `187` |
 | Tor exit IP hits | `0` |
 | ASN-DROP ASNs | `0` |
 | BPH / suspicious ASNs | `0` |
@@ -19,8 +19,8 @@ Generated UTC: `2026-08-16T12:40:42Z`
 
 | Rank | IP | Attacks | Risk | Level | Reasons | ASN | ASN org | Tor | DROP | ASN-DROP | BPH |
 |---:|---|---:|---:|---|---|---|---|---|---|---|---|
-| 1 | `77.90.185.30` | 13668 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `False` | `True` | `False` | `False` |
-| 2 | `213.209.159.175` | 12675 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS208137` | `Aneta Kovarova` | `False` | `True` | `False` | `False` |
+| 1 | `77.90.185.30` | 14676 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `False` | `True` | `False` | `False` |
+| 2 | `213.209.159.175` | 12707 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS208137` | `Aneta Kovarova` | `False` | `True` | `False` | `False` |
 | 3 | `45.153.34.144` | 8537 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `False` | `True` | `False` | `False` |
 | 4 | `45.156.87.13` | 8447 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `False` | `True` | `False` | `False` |
 | 5 | `45.153.34.137` | 8434 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `False` | `True` | `False` | `False` |
@@ -36,7 +36,7 @@ Generated UTC: `2026-08-16T12:40:42Z`
 | 15 | `77.90.185.21` | 1806 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `False` | `True` | `False` | `False` |
 | 16 | `45.148.10.240` | 1669 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
 | 17 | `80.94.92.55` | 1586 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `False` | `True` | `False` | `False` |
-| 18 | `195.178.110.137` | 1411 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
+| 18 | `195.178.110.137` | 1490 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
 | 19 | `213.209.159.115` | 1390 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS208137` | `Aneta Kovarova` | `False` | `True` | `False` | `False` |
 | 20 | `45.142.193.164` | 1149 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213388` | `` | `False` | `True` | `False` | `False` |
 | 21 | `195.178.110.217` | 1093 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
@@ -49,21 +49,21 @@ Generated UTC: `2026-08-16T12:40:42Z`
 
 | Rank | ASN | ASN org/name | Attacks | Unique IPs | Max risk | Level | DROP hits | Tor exits | ASN-DROP | BPH |
 |---:|---|---|---:|---:|---:|---|---:|---:|---|---|
-| 1 | `AS197170` | `TechTies Inc.` | 81316 | 35 | 55 | `medium` | 24 | 0 | `False` | `False` |
-| 2 | `AS213790` | `` | 15678 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
-| 3 | `AS208137` | `Aneta Kovarova` | 15134 | 8 | 55 | `medium` | 8 | 0 | `False` | `False` |
+| 1 | `AS197170` | `TechTies Inc.` | 81322 | 35 | 55 | `medium` | 24 | 0 | `False` | `False` |
+| 2 | `AS213790` | `` | 16686 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
+| 3 | `AS208137` | `Aneta Kovarova` | 15166 | 8 | 55 | `medium` | 8 | 0 | `False` | `False` |
 | 4 | `AS47890` | `UNMANAGED LTD` | 13808 | 19 | 55 | `medium` | 17 | 0 | `False` | `False` |
-| 5 | `AS48090` | `AD-Tech` | 12346 | 16 | 55 | `medium` | 16 | 0 | `False` | `False` |
-| 6 | `AS215925` | `Administration` | 7423 | 24 | 55 | `medium` | 1 | 0 | `False` | `False` |
-| 7 | `AS135377` | `` | 3209 | 36 | 55 | `medium` | 3 | 0 | `False` | `False` |
-| 8 | `AS202412` | `` | 2335 | 4 | 55 | `medium` | 4 | 0 | `False` | `False` |
-| 9 | `AS213388` | `` | 1568 | 6 | 55 | `medium` | 6 | 0 | `False` | `False` |
-| 10 | `AS219502` | `Storm Industries LLC` | 1421 | 24 | 55 | `medium` | 24 | 0 | `False` | `False` |
-| 11 | `AS204428` | `` | 1046 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
-| 12 | `AS51396` | `` | 951 | 11 | 55 | `medium` | 11 | 0 | `False` | `False` |
-| 13 | `AS207812` | `MNT-LIR-BG` | 316 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
-| 14 | `AS401626` | `` | 270 | 19 | 55 | `medium` | 19 | 0 | `False` | `False` |
-| 15 | `AS205759` | `Administration` | 191 | 13 | 55 | `medium` | 13 | 0 | `False` | `False` |
+| 5 | `AS48090` | `AD-Tech` | 12585 | 17 | 55 | `medium` | 17 | 0 | `False` | `False` |
+| 6 | `AS215925` | `Administration` | 7570 | 24 | 55 | `medium` | 1 | 0 | `False` | `False` |
+| 7 | `AS135377` | `` | 3210 | 36 | 55 | `medium` | 3 | 0 | `False` | `False` |
+| 8 | `AS202412` | `` | 2341 | 4 | 55 | `medium` | 4 | 0 | `False` | `False` |
+| 9 | `AS213388` | `` | 1575 | 6 | 55 | `medium` | 6 | 0 | `False` | `False` |
+| 10 | `AS219502` | `Storm Industries LLC` | 1432 | 25 | 55 | `medium` | 25 | 0 | `False` | `False` |
+| 11 | `AS204428` | `` | 1066 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
+| 12 | `AS51396` | `` | 970 | 11 | 55 | `medium` | 11 | 0 | `False` | `False` |
+| 13 | `AS207812` | `MNT-LIR-BG` | 324 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
+| 14 | `AS401626` | `` | 276 | 20 | 55 | `medium` | 20 | 0 | `False` | `False` |
+| 15 | `AS205759` | `Administration` | 195 | 13 | 55 | `medium` | 13 | 0 | `False` | `False` |
 | 16 | `AS215930` | `` | 148 | 3 | 55 | `medium` | 3 | 0 | `False` | `False` |
 | 17 | `AS211736` | `Dmytro Nedilskyi` | 63 | 3 | 55 | `medium` | 3 | 0 | `False` | `False` |
 | 18 | `AS197769` | `` | 61 | 1 | 55 | `medium` | 1 | 0 | `False` | `False` |
