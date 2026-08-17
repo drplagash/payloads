@@ -4,8 +4,8 @@
   "derived_reports": {
     "asndrop_matches": 0,
     "bph_matches": 0,
-    "drop_matches": 1231,
-    "feed_matches": 1277,
+    "drop_matches": 1235,
+    "feed_matches": 1281,
     "files": [
       "high-risk.csv",
       "medium-risk.csv",
@@ -23,11 +23,11 @@
       "bph-matches.jsonl"
     ],
     "high_risk": 0,
-    "medium_risk": 1272,
+    "medium_risk": 1276,
     "schema": "oraculo.ip_intel.derived_reports.v1",
     "tor_matches": 46
   },
-  "generated_at_utc": "2026-08-16T22:38:17Z",
+  "generated_at_utc": "2026-08-17T02:37:41Z",
   "high_or_critical_ips": 0,
   "risk_model": {
     "cap": 100,
@@ -42,21 +42,21 @@
   "safety": "Passive ranking from observed honeypot/lab telemetry. Feeds are used locally for enrichment. No active scanning. No third-party feed mirroring.",
   "schema": "oraculo.ip_intel.summary.v2",
   "scope": "cumulative",
-  "sightings": 3574021,
+  "sightings": 3656628,
   "source_info": {
     "aggregation": "count_by_observed_ip",
     "limit_unique_ips": 50000,
     "source": "event_summaries_join_observed_ips"
   },
   "spamhaus_asndrop_asns": 0,
-  "spamhaus_drop_ip_hits": 1231,
+  "spamhaus_drop_ip_hits": 1235,
   "title": "Cumulative",
   "top_asns": [
     {
       "asn": "AS197170",
       "asn_name": "TECHTIES-AS",
       "asn_org": "TechTies Inc.",
-      "attacks": 265150,
+      "attacks": 265207,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -88,7 +88,7 @@
       "asn": "AS47890",
       "asn_name": "UNMANAGED-DEDICATED-SERVERS",
       "asn_org": "UNMANAGED LTD",
-      "attacks": 46907,
+      "attacks": 46924,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -104,7 +104,7 @@
       "asn": "AS213790",
       "asn_name": "",
       "asn_org": "",
-      "attacks": 35622,
+      "attacks": 36204,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -112,15 +112,15 @@
       "risk_level": "medium",
       "risk_reasons": "repeated_attacks_ge_10;repeated_attacks_ge_2;repeated_attacks_ge_5;spamhaus_drop_match",
       "spamhaus_asndrop": false,
-      "spamhaus_drop_hits": 26,
+      "spamhaus_drop_hits": 27,
       "tor_exit_ips": 0,
-      "unique_ips": 26
+      "unique_ips": 27
     },
     {
       "asn": "AS208137",
       "asn_name": "FPS12",
       "asn_org": "Aneta Kovarova",
-      "attacks": 29964,
+      "attacks": 29971,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -136,7 +136,7 @@
       "asn": "AS135377",
       "asn_name": "",
       "asn_org": "",
-      "attacks": 26795,
+      "attacks": 27058,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -146,13 +146,13 @@
       "spamhaus_asndrop": false,
       "spamhaus_drop_hits": 37,
       "tor_exit_ips": 0,
-      "unique_ips": 512
+      "unique_ips": 513
     },
     {
       "asn": "AS25369",
       "asn_name": "BANDWIDTH-AS",
       "asn_org": "HYDRA-MNT",
-      "attacks": 26173,
+      "attacks": 26255,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -162,13 +162,13 @@
       "spamhaus_asndrop": false,
       "spamhaus_drop_hits": 562,
       "tor_exit_ips": 0,
-      "unique_ips": 1714
+      "unique_ips": 1716
     },
     {
       "asn": "AS48090",
       "asn_name": "DMZHOST",
       "asn_org": "AD-Tech",
-      "attacks": 25946,
+      "attacks": 25954,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -184,7 +184,7 @@
       "asn": "AS49870",
       "asn_name": "AS49870-BV",
       "asn_org": "AS49870 B.V.",
-      "attacks": 21181,
+      "attacks": 21216,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -200,7 +200,7 @@
       "asn": "AS219502",
       "asn_name": "STORMCLOUD-AS",
       "asn_org": "Storm Industries LLC",
-      "attacks": 18909,
+      "attacks": 18980,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -208,15 +208,15 @@
       "risk_level": "medium",
       "risk_reasons": "repeated_attacks_ge_10;repeated_attacks_ge_2;repeated_attacks_ge_5;spamhaus_drop_match",
       "spamhaus_asndrop": false,
-      "spamhaus_drop_hits": 96,
+      "spamhaus_drop_hits": 97,
       "tor_exit_ips": 0,
-      "unique_ips": 96
+      "unique_ips": 97
     },
     {
       "asn": "AS215925",
       "asn_name": "VPSVAULTHOST",
       "asn_org": "Administration",
-      "attacks": 14412,
+      "attacks": 14571,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -232,7 +232,7 @@
       "asn": "AS202412",
       "asn_name": "",
       "asn_org": "",
-      "attacks": 5211,
+      "attacks": 5219,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -248,7 +248,7 @@
       "asn": "AS213388",
       "asn_name": "",
       "asn_org": "",
-      "attacks": 3812,
+      "attacks": 3826,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -256,15 +256,15 @@
       "risk_level": "medium",
       "risk_reasons": "repeated_attacks_ge_10;repeated_attacks_ge_5;spamhaus_drop_match",
       "spamhaus_asndrop": false,
-      "spamhaus_drop_hits": 13,
+      "spamhaus_drop_hits": 14,
       "tor_exit_ips": 0,
-      "unique_ips": 13
+      "unique_ips": 14
     },
     {
       "asn": "AS205759",
       "asn_name": "GHOSTYNETWORKS",
       "asn_org": "Administration",
-      "attacks": 3463,
+      "attacks": 3476,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -280,7 +280,7 @@
       "asn": "AS215930",
       "asn_name": "",
       "asn_org": "",
-      "attacks": 3183,
+      "attacks": 3190,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -296,7 +296,7 @@
       "asn": "AS51396",
       "asn_name": "",
       "asn_org": "",
-      "attacks": 2974,
+      "attacks": 3049,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -312,7 +312,7 @@
       "asn": "AS209605",
       "asn_name": "",
       "asn_org": "",
-      "attacks": 2399,
+      "attacks": 2414,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -320,9 +320,9 @@
       "risk_level": "medium",
       "risk_reasons": "repeated_attacks_ge_10;repeated_attacks_ge_2;repeated_attacks_ge_5;spamhaus_drop_match",
       "spamhaus_asndrop": false,
-      "spamhaus_drop_hits": 39,
+      "spamhaus_drop_hits": 40,
       "tor_exit_ips": 0,
-      "unique_ips": 39
+      "unique_ips": 40
     },
     {
       "asn": "AS204428",
@@ -344,7 +344,7 @@
       "asn": "AS401626",
       "asn_name": "",
       "asn_org": "",
-      "attacks": 1889,
+      "attacks": 1912,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -380,7 +380,7 @@
       "asn_name": "",
       "asn_org": "",
       "asn_source": "team-cymru-dns",
-      "attacks": 28701,
+      "attacks": 29253,
       "bph_confidence": "",
       "bph_flag": false,
       "bph_label": "",
@@ -777,6 +777,6 @@
     }
   ],
   "tor_exit_ip_hits": 46,
-  "unique_asns": 2035,
-  "unique_ips": 22782
+  "unique_asns": 2047,
+  "unique_ips": 22904
 }
