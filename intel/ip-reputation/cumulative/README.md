@@ -1,15 +1,15 @@
 # IP / ASN / BPH Intel - Cumulative
 
-Generated UTC: `2026-08-17T14:37:24Z`
+Generated UTC: `2026-08-17T18:38:09Z`
 
 ## Summary
 
 | Metric | Value |
 |---|---:|
-| Sightings | `3883132` |
-| Unique IPs | `23293` |
-| Unique ASNs | `2087` |
-| DROP IP hits | `1240` |
+| Sightings | `3952809` |
+| Unique IPs | `23409` |
+| Unique ASNs | `2105` |
+| DROP IP hits | `1244` |
 | Tor exit IP hits | `47` |
 | ASN-DROP ASNs | `0` |
 | BPH / suspicious ASNs | `0` |
@@ -49,26 +49,26 @@ Generated UTC: `2026-08-17T14:37:24Z`
 
 | Rank | ASN | ASN org/name | Attacks | Unique IPs | Max risk | Level | DROP hits | Tor exits | ASN-DROP | BPH |
 |---:|---|---|---:|---:|---:|---|---:|---:|---|---|
-| 1 | `AS197170` | `TechTies Inc.` | 281850 | 132 | 55 | `medium` | 95 | 0 | `False` | `False` |
+| 1 | `AS197170` | `TechTies Inc.` | 285837 | 132 | 55 | `medium` | 95 | 0 | `False` | `False` |
 | 2 | `UNKNOWN` | `` | 166117 | 46 | 55 | `medium` | 3 | 0 | `False` | `False` |
-| 3 | `AS47890` | `UNMANAGED LTD` | 47720 | 36 | 55 | `medium` | 34 | 0 | `False` | `False` |
-| 4 | `AS213790` | `` | 38586 | 28 | 55 | `medium` | 28 | 0 | `False` | `False` |
-| 5 | `AS208137` | `Aneta Kovarova` | 31169 | 13 | 55 | `medium` | 13 | 0 | `False` | `False` |
-| 6 | `AS135377` | `` | 27120 | 513 | 55 | `medium` | 37 | 0 | `False` | `False` |
-| 7 | `AS25369` | `HYDRA-MNT` | 26476 | 1718 | 55 | `medium` | 562 | 0 | `False` | `False` |
-| 8 | `AS48090` | `AD-Tech` | 26259 | 29 | 55 | `medium` | 29 | 0 | `False` | `False` |
-| 9 | `AS49870` | `AS49870 B.V.` | 21304 | 17 | 55 | `medium` | 1 | 0 | `False` | `False` |
-| 10 | `AS219502` | `Storm Industries LLC` | 19354 | 97 | 55 | `medium` | 97 | 0 | `False` | `False` |
-| 11 | `AS215925` | `Administration` | 15356 | 50 | 55 | `medium` | 3 | 1 | `False` | `False` |
-| 12 | `AS202412` | `` | 5260 | 27 | 55 | `medium` | 27 | 0 | `False` | `False` |
-| 13 | `AS213388` | `` | 4131 | 14 | 55 | `medium` | 14 | 0 | `False` | `False` |
-| 14 | `AS205759` | `Administration` | 3506 | 44 | 55 | `medium` | 44 | 0 | `False` | `False` |
-| 15 | `AS215930` | `` | 3209 | 4 | 55 | `medium` | 4 | 0 | `False` | `False` |
-| 16 | `AS51396` | `` | 3171 | 51 | 55 | `medium` | 51 | 0 | `False` | `False` |
+| 3 | `AS47890` | `UNMANAGED LTD` | 48156 | 37 | 55 | `medium` | 35 | 0 | `False` | `False` |
+| 4 | `AS213790` | `` | 38596 | 28 | 55 | `medium` | 28 | 0 | `False` | `False` |
+| 5 | `AS208137` | `Aneta Kovarova` | 31176 | 13 | 55 | `medium` | 13 | 0 | `False` | `False` |
+| 6 | `AS135377` | `` | 27208 | 513 | 55 | `medium` | 37 | 0 | `False` | `False` |
+| 7 | `AS25369` | `HYDRA-MNT` | 26612 | 1719 | 55 | `medium` | 562 | 0 | `False` | `False` |
+| 8 | `AS48090` | `AD-Tech` | 26426 | 29 | 55 | `medium` | 29 | 0 | `False` | `False` |
+| 9 | `AS49870` | `AS49870 B.V.` | 21325 | 17 | 55 | `medium` | 1 | 0 | `False` | `False` |
+| 10 | `AS219502` | `Storm Industries LLC` | 19659 | 97 | 55 | `medium` | 97 | 0 | `False` | `False` |
+| 11 | `AS215925` | `Administration` | 15520 | 50 | 55 | `medium` | 3 | 1 | `False` | `False` |
+| 12 | `AS202412` | `` | 5268 | 27 | 55 | `medium` | 27 | 0 | `False` | `False` |
+| 13 | `AS213388` | `` | 4167 | 14 | 55 | `medium` | 14 | 0 | `False` | `False` |
+| 14 | `AS205759` | `Administration` | 3532 | 45 | 55 | `medium` | 45 | 0 | `False` | `False` |
+| 15 | `AS51396` | `` | 3330 | 52 | 55 | `medium` | 52 | 0 | `False` | `False` |
+| 16 | `AS215930` | `` | 3216 | 4 | 55 | `medium` | 4 | 0 | `False` | `False` |
 | 17 | `AS209605` | `` | 2469 | 40 | 55 | `medium` | 40 | 0 | `False` | `False` |
-| 18 | `AS401626` | `` | 2097 | 59 | 55 | `medium` | 59 | 0 | `False` | `False` |
-| 19 | `AS204428` | `` | 1977 | 9 | 55 | `medium` | 9 | 0 | `False` | `False` |
-| 20 | `AS207812` | `MNT-LIR-BG` | 691 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
+| 18 | `AS401626` | `` | 2129 | 60 | 55 | `medium` | 60 | 0 | `False` | `False` |
+| 19 | `AS204428` | `` | 1990 | 9 | 55 | `medium` | 9 | 0 | `False` | `False` |
+| 20 | `AS207812` | `MNT-LIR-BG` | 713 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
 | 21 | `AS197769` | `` | 634 | 17 | 55 | `medium` | 17 | 0 | `False` | `False` |
 | 22 | `AS198584` | `Marcel Edler` | 394 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
 | 23 | `AS210558` | `lir-de-1337services-1-MNT` | 354 | 9 | 55 | `medium` | 9 | 0 | `False` | `False` |
