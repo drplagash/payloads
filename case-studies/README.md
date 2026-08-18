@@ -25,3 +25,9 @@ What remains uncertain?
 ```
 
 The goal is to show analyst judgment, not just store files.
+
+
+## Campaign case studies
+
+- [](tpot-router-downloader-campaign-91-92-40/)  
+  Multi-surface router/IoT downloader campaign observed through T-Pot telemetry and grouped from 517 high-signal artifacts.

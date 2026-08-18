@@ -139,3 +139,9 @@ This repository is the public-facing payload and malware evidence library for th
 ## License
 
 MIT License, unless a specific file or directory states otherwise.
+
+
+## Featured T-Pot campaign analysis
+
+- [](case-studies/tpot-router-downloader-campaign-91-92-40/)  
+  Campaign-level analysis of 517 high-signal downloader payloads abusing HNAP, JNAP, Netgear setup.cgi, ping_test, syscmd.htm, ttcp_ip and weblogin.cgi surfaces.

