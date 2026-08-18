@@ -6,7 +6,7 @@
 
 Payloads, malware samples, IOCs and analysis collected from controlled honeypot and SOC lab environments.
 
-This repository is part of **Oráculo SOC**. It is not just storage. It is the public evidence layer for a T-Pot based detection and analysis workflow: capture, triage, classify, extract IOCs, document behavior, and turn noisy honeypot telemetry into defensive intelligence.
+This repository is part of **Oraculo SOC**. It is not just storage. It is the public evidence layer for a T-Pot based detection and analysis workflow: capture, triage, classify, extract IOCs, document behavior, and turn noisy honeypot telemetry into defensive intelligence.
 
 ## What this repository demonstrates
 
@@ -33,6 +33,11 @@ It demonstrates:
 | `detections/` | Detection engineering material and rule locations |
 | `intel/` | CTI context: IPs, URLs, domains, ASNs and related indicators |
 | `docs/` | Cleanup status, structure notes and publishing policy |
+
+## Featured T-Pot campaign analysis
+
+- [`T-Pot router downloader campaign`](case-studies/tpot-router-downloader-campaign-91-92-40/)  
+  Campaign-level analysis of 517 high-signal downloader payloads abusing HNAP, JNAP, Netgear setup.cgi, ping_test, syscmd.htm, ttcp_ip and weblogin.cgi surfaces.
 
 ## Current repository state
 
@@ -132,16 +137,10 @@ git ls-tree -r origin/legacy-bulk-archive | head
 
 ## Project context
 
-Oráculo SOC is a controlled lab ecosystem for honeypots, CTI, malware triage, IOC enrichment, payload analysis and defensive automation.
+Oraculo SOC is a controlled lab ecosystem for honeypots, CTI, malware triage, IOC enrichment, payload analysis and defensive automation.
 
 This repository is the public-facing payload and malware evidence library for that ecosystem.
 
 ## License
 
 MIT License, unless a specific file or directory states otherwise.
-
-
-## Featured T-Pot campaign analysis
-
-- [](case-studies/tpot-router-downloader-campaign-91-92-40/)  
-  Campaign-level analysis of 517 high-signal downloader payloads abusing HNAP, JNAP, Netgear setup.cgi, ping_test, syscmd.htm, ttcp_ip and weblogin.cgi surfaces.
