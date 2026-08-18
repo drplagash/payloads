@@ -2,263 +2,90 @@
   <img src="assets/payloads.png" alt="Payloads" width="100%">
 </p>
 
-# Payload Analysis
+# Payloads
 
-Defensive payload analysis, decoded samples, lab notes and detection context.
+Payloads, malware samples, IOCs and analysis collected from controlled honeypot and SOC lab environments.
 
-## Purpose
+This repository is part of **Oráculo SOC**. It preserves evidence from honeypots, controlled experiments and defensive research workflows, then separates actual payloads from noise, review material and plain intelligence.
 
-This repository contains defensive analysis of suspicious payloads observed in labs, honeypots, CTFs and controlled environments.
+The goal is simple: keep useful evidence, make it understandable, and avoid turning a malware repository into a landfill with a README.
 
-The goal is to document behavior, decoding steps, indicators, detection logic, mitigation ideas and defensive lessons.
+## What belongs here
 
-## Structure
+| Area | Purpose |
+|---|---|
+| `payloads/samples/` | Confirmed payloads and malware samples |
+| `review/` | Legacy material that still needs analyst review |
+| `archive/` | Preserved low-value or noisy legacy material |
+| `intel/` | IPs, domains, URLs, ASNs and CTI context |
+| `detections/` | YARA, Sigma, Suricata and detection logic |
+| `audit/` | Migration logs and triage manifests |
+| `docs/` | Policy, structure and cleanup notes |
 
-```text
-payload-analysis/
-├── templates/
-├── tpot/
-├── web/
-├── malware-like/
-├── encoded/
-├── yara/
-├── sigma/
-├── suricata/
-├── scripts/
-├── reports/
-└── sanitized-samples/
-```
-
-## Categories
-
-- `tpot`: payloads observed in honeypot/lab telemetry.
-- `web`: SQLi, XSS, LFI, RFI, command injection and web attack payloads.
-- `malware-like`: suspicious payloads analyzed safely without publishing live malware.
-- `encoded`: encoded or obfuscated samples.
-- `yara`: YARA rules.
-- `sigma`: Sigma detection rules.
-- `suricata`: IDS/IPS rules.
-- `scripts`: helper scripts for decoding and parsing.
-- `reports`: Markdown analysis reports.
-- `sanitized-samples`: neutralized, redacted or safely represented examples.
-
-## Templates
-
-Available templates:
-
-- `templates/payload_analysis_full_template.md`  
-  Full template for defensive payload analysis, decoding, IOC extraction, detection logic and mitigation notes.
-
-Use this template when documenting payloads under:
+## Current repository state
 
 ```text
-payload-analysis/tpot/
-payload-analysis/web/
-payload-analysis/encoded/
-payload-analysis/malware-like/
-payload-analysis/reports/
+Confirmed payload samples:        1
+Legacy review entries:        24739
+Archived weak/noise entries:  14998
+Archived unknown/noise:        4370
+Archived false-useful noise:    454
+Legacy SHA tree remaining:        0
 ```
 
-## Analysis folder format
+The old `tpot/oraculo/sha256` sprawl was migrated into explicit zones. Confirmed payloads now live in the canonical structure. Review material is preserved but no longer presented as finished analysis.
 
-Each payload analysis can use this structure when needed:
+## Canonical sample format
+
+Confirmed samples live under:
 
 ```text
-payload-name-or-date/
-├── README.md
-├── raw-redacted/
-├── decoded/
-├── iocs/
-├── rules/
-├── screenshots/
-└── notes.md
+payloads/samples/<sha256>/
 ```
 
-## Analysis sections
-
-Each payload report should include:
+A complete sample can include:
 
 ```text
-# Payload Analysis - Title
-
-## Summary
-Brief description of the observed payload.
-
-## Source
-Where the payload came from: T-Pot, CTF, web log, lab or controlled source.
-
-## Scope
-Defensive analysis only.
-
-## Raw Payload
-Sanitized, redacted or neutralized payload content.
-
-## Decoding Steps
-Encoding type, transformations and tools used.
-
-## Decoded Content
-Decoded or partially decoded payload.
-
-## Behavior
-Intent, technique, targeted service and expected behavior.
-
-## Indicators
-IPs, domains, URLs, hashes, user agents, filenames or paths.
-
-## Detection
-YARA, Sigma, Suricata, log queries or search patterns.
-
-## Mitigation
-Controls, blocking options, hardening and monitoring.
-
-## Confidence
-Analyst confidence and limitations.
-
-## Conclusion
-Final assessment and recommended actions.
+README.md
+analysis/
+evidence/
+metadata/
+raw/
+yara/
 ```
 
-## Rules
+Raw bytes must remain inert and safe for repository storage. Use controlled representations such as base64 text. Do not publish directly executable live malware.
 
-- Defensive and educational use only.
-- Authorized labs only.
-- No live malware binaries.
-- No weaponized payloads.
-- No credentials, tokens, dumps or sensitive data.
-- No third-party targeting.
-- No unsafe samples.
-- No private infrastructure details.
-- Samples must be sanitized, redacted, neutralized or represented safely.
-- Include detection and mitigation context whenever possible.
+## Safety model
 
-## Payload handling policy
+This repository is for defensive research, malware analysis, SOC workflows and lab-only validation.
 
-Do not publish:
+Do not execute samples on production systems. Do not run payloads outside an isolated lab. Do not use this material for unauthorized activity.
 
-- Live malware binaries.
-- Real credentials.
-- API keys.
-- Tokens.
-- Session cookies.
-- Private keys.
-- Dumps.
-- Leaked data.
-- Personal data.
-- Sensitive screenshots.
-- Private infrastructure details.
-- Payloads ready for direct abuse against third-party systems.
+Captured artifacts are preserved for analysis, detection engineering and incident understanding. They are evidence, not operational tooling.
 
-Prefer publishing:
+## Promotion policy
 
-- Hashes.
-- Redacted logs.
-- Sanitized snippets.
-- Decoded explanations.
-- Behavioral summaries.
-- Detection rules.
-- Mitigation guidance.
-- Defensive context.
+A directory is promoted into `payloads/samples/` only when there is enough evidence to treat it as a real payload or malware sample.
 
-## Recommended commands
+Useful evidence can include:
 
-### URL decode
+- inert raw sample material;
+- command sightings;
+- decoded behavior;
+- IOCs;
+- analysis notes;
+- metadata;
+- YARA or other detection logic.
 
-```bash
-python3 - <<'PY'
-from urllib.parse import unquote
-payload = '''PASTE_PAYLOAD_HERE'''
-print(unquote(payload))
-PY
-```
+Everything else stays in `review/`, moves to `intel/`, or gets preserved in `archive/`.
 
-### Base64 decode
+## Project context
 
-```bash
-echo 'BASE64_HERE' | base64 -d
-```
+Oráculo SOC is a controlled lab ecosystem for honeypots, CTI, malware triage, IOC enrichment, payload analysis and defensive automation.
 
-### Hex decode
+This repository is the public-facing payload and malware evidence library for that ecosystem.
 
-```bash
-echo 'HEX_HERE' | xxd -r -p
-```
+## License
 
-### Strings
-
-```bash
-strings sample.bin
-```
-
-### Hashing
-
-```bash
-sha256sum sample
-```
-
-### Grep search
-
-```bash
-grep -R "PATTERN" /path/to/logs/
-```
-
-### JSON filtering
-
-```bash
-jq 'select(.url | contains("PATTERN"))' events.json
-```
-
-## Detection rule locations
-
-Store detection logic in the correct folder:
-
-```text
-payload-analysis/yara/
-payload-analysis/sigma/
-payload-analysis/suricata/
-```
-
-Use `reports/` for written analysis and `sanitized-samples/` for safe examples.
-
-## Analysis goals
-
-Each analysis should try to answer:
-
-- What does the payload attempt to do?
-- Where was it observed?
-- How is it encoded or obfuscated?
-- What technique does it suggest?
-- What service or component is targeted?
-- What indicators can be extracted?
-- How could it be detected?
-- How could it be mitigated?
-- What is the confidence level?
-- What limitations exist?
-
-## Publishing checklist
-
-Before publishing a payload analysis:
-
-- [ ] Payload is sanitized.
-- [ ] No secrets are included.
-- [ ] No credentials are included.
-- [ ] No tokens or cookies are included.
-- [ ] No live malware is included.
-- [ ] No sensitive screenshots are included.
-- [ ] Internal infrastructure is redacted if needed.
-- [ ] Source is described.
-- [ ] Decoding steps are documented.
-- [ ] Behavior is explained.
-- [ ] IOCs are extracted when available.
-- [ ] Detection ideas are included.
-- [ ] Mitigation notes are included.
-- [ ] Confidence level is stated.
-
-## Disclaimer
-
-This repository is for educational, defensive and authorized analysis only.
-
-Do not use any material from this repository against systems you do not own or do not have explicit permission to test.
-
-Do not publish or execute live malware, weaponized payloads, stolen credentials, dumps, tokens or sensitive data.
-
-**Menos humo, más evidencia.**
+MIT License, unless a specific file or directory states otherwise.
