@@ -4,57 +4,41 @@
 
 # Payloads
 
-Payloads, malware samples, IOCs and analysis collected from controlled honeypot and SOC lab environments.
+Public evidence library for Oraculo SOC payload and malware analysis.
 
-This repository is part of **Oraculo SOC**. It is not just storage. It is the public evidence layer for a T-Pot based detection and analysis workflow: capture, triage, classify, extract IOCs, document behavior, and turn noisy honeypot telemetry into defensive intelligence.
+This repository is meant to be readable by a human visitor in less than one minute. The front page points to the work first: confirmed payloads, malware evidence, and campaign case studies. Bulk review material stays out of the way.
+
+## Quick access
+
+| I want to see | Go here | What it shows |
+|---|---|---|
+| Confirmed payloads and malware samples | [`payloads/samples/`](payloads/samples/) | Promoted artifacts with structured evidence |
+| Malware/payload index | [`payloads/README.md`](payloads/README.md) | Short human map of the active sample area |
+| Campaign analysis | [`case-studies/`](case-studies/) | Human-readable writeups from T-Pot telemetry |
+| Featured campaign | [`T-Pot router downloader campaign`](case-studies/tpot-router-downloader-campaign-91-92-40/) | 517 high-signal downloader artifacts grouped into one analysis |
+| Confirmed MIPS sample | [`cad9e90...`](payloads/samples/cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41/) | ELF32 MIPS payload evidence and notes |
+| Detection material | [`detections/`](detections/) | Detection engineering area |
+| CTI context | [`intel/`](intel/) | IP, URL, ASN and related intelligence |
 
 ## What this repository demonstrates
 
-This repository is meant to show practical capabilities, not dump raw folders at people and hope they clap.
-
-It demonstrates:
-
-- T-Pot telemetry review;
-- payload and malware triage;
-- SHA-based artifact classification;
-- IOC extraction;
-- command and behavior analysis;
-- detection engineering with YARA, Sigma and Suricata style outputs;
-- separation of confirmed samples, review material, CTI-only indicators and noise;
-- safe handling of captured malware material using inert representations.
-
-## Human-facing areas
-
-| Area | What visitors should look at |
-|---|---|
-| `showcase/` | Portfolio-style overview of the T-Pot detection and analysis work |
-| `case-studies/` | Human-readable examples of analyzed artifacts and triage decisions |
-| `payloads/samples/` | Confirmed payload or malware samples with structured evidence |
-| `detections/` | Detection engineering material and rule locations |
-| `intel/` | CTI context: IPs, URLs, domains, ASNs and related indicators |
-| `docs/` | Cleanup status, structure notes and publishing policy |
+- T-Pot telemetry review.
+- Payload and malware triage.
+- SHA-based artifact classification.
+- IOC extraction.
+- Command and behavior analysis.
+- Detection engineering with YARA, Sigma and Suricata-style outputs.
+- Separation of confirmed samples, review material, CTI-only indicators and noise.
+- Safe handling of captured malware material using inert representations.
 
 ## Featured T-Pot campaign analysis
 
 - [`T-Pot router downloader campaign`](case-studies/tpot-router-downloader-campaign-91-92-40/)  
   Campaign-level analysis of 517 high-signal downloader payloads abusing HNAP, JNAP, Netgear setup.cgi, ping_test, syscmd.htm, ttcp_ip and weblogin.cgi surfaces.
 
-## Current repository state
+## Confirmed payload / malware sample
 
-```text
-Confirmed payload samples:        1
-Legacy review entries:        24739
-Archived weak/noise entries:  14998
-Archived unknown/noise:        4370
-Archived false-useful noise:    454
-Legacy SHA tree remaining:        0
-```
-
-The old `tpot/oraculo/sha256` sprawl was migrated into explicit zones. The main branch now shows the curated, human-readable portfolio. The historical bulk dataset is preserved in the `legacy-bulk-archive` branch for audit and later review.
-
-## Confirmed sample
-
-The first confirmed payload currently promoted into the canonical structure is:
+Current promoted sample:
 
 ```text
 payloads/samples/cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41/
@@ -70,70 +54,26 @@ Status: needs_review, quarantined
 Evidence: metadata, IOCs, command sightings, raw inert representation, analysis notes
 ```
 
-## Canonical sample format
-
-Confirmed samples live under:
+## Repository state
 
 ```text
-payloads/samples/<sha256>/
+Confirmed payload samples:        1
+Legacy review entries:        24739
+Archived weak/noise entries:  14998
+Archived unknown/noise:        4370
+Archived false-useful noise:    454
+Legacy SHA tree remaining:        0
 ```
 
-A complete sample can include:
-
-```text
-README.md
-analysis/
-evidence/
-metadata/
-raw/
-yara/
-```
-
-Raw bytes must remain inert and safe for repository storage. Use controlled representations such as base64 text. Do not publish directly executable live malware.
+The old SHA sprawl was moved out of the main visitor path. The main branch shows the curated portfolio. The historical bulk dataset remains in `legacy-bulk-archive` for audit and re-triage.
 
 ## Safety model
 
 This repository is for defensive research, malware analysis, SOC workflows and lab-only validation.
 
-Do not execute samples on production systems. Do not run payloads outside an isolated lab. Do not use this material for unauthorized activity.
+Do not execute samples on production systems. Do not run payloads outside an isolated lab. Captured artifacts are evidence, not operational tooling.
 
-Captured artifacts are preserved for analysis, detection engineering and incident understanding. They are evidence, not operational tooling.
-
-## Promotion policy
-
-A directory is promoted into `payloads/samples/` only when there is enough evidence to treat it as a real payload or malware sample.
-
-Useful evidence can include:
-
-- inert raw sample material;
-- command sightings;
-- decoded behavior;
-- IOCs;
-- analysis notes;
-- metadata;
-- YARA or other detection logic.
-
-Everything else stays in the historical branch, moves into `intel/`, or gets preserved as archived review material.
-
-## Where the work is visible
-
-Start here:
-
-```text
-showcase/
-case-studies/
-payloads/samples/
-detections/
-intel/
-docs/CLEANUP_STATUS.md
-```
-
-Use the historical branch only when the goal is audit, re-triage or forensic review of the old bulk dataset:
-
-```bash
-git fetch origin '+refs/heads/*:refs/remotes/origin/*'
-git ls-tree -r origin/legacy-bulk-archive | head
-```
+Raw bytes must remain inert and safe for repository storage, such as base64 text or other controlled representations.
 
 ## Project context
 
