@@ -52,8 +52,8 @@ The payloads consistently show:
 | Linksys JNAP Diagnostics / SetupWizard | JSON command field abuse with shell injection |
 | Netgear setup.cgi | `todo=syscmd` execution leading to Mozi downloader retrieval |
 | ping_test | ping parameter injection followed by downloader execution |
-| syscmd.htm | direct command execution through sysCmd |
-| ttcp_ip | TTCP parameter injection with `wget | sh` |
+| syscmd.htm | direct command execution through `sysCmd` |
+| ttcp_ip | TTCP parameter injection with pipe-to-shell downloader execution |
 | weblogin.cgi | username parameter injection with downloader staging |
 
 ## Downloader infrastructure
@@ -63,7 +63,7 @@ The most repeated downloader infrastructure in this case uses:
 - `91.92.40.XXX/wget.sh`
 - `160.30.142.XXX:60115/Mozi.m`
 
-The public repository intentionally keeps IPs partially redacted when needed. The goal is defensive evidence without turning the repository into an operational abuse feed for bored goblins with keyboards.
+The public repository intentionally keeps IPs partially redacted when needed. The goal is defensive evidence without turning the repository into an operational abuse feed.
 
 ## Detection pivots
 
@@ -86,11 +86,34 @@ chmod 777
 sh .s
 wget.sh
 Mozi.m
+```
 
+## Defensive interpretation
 
+This campaign is consistent with automated router and IoT exploitation. The payloads are lightweight inbound command strings, not always full binary malware samples. Their value is in the observable exploitation chain:
 
+1. probe or exploit exposed management endpoint,
+2. inject shell command,
+3. download script or binary,
+4. execute payload,
+5. clean up temporary file.
 
+That chain is directly useful for detection engineering, SOC triage, threat intelligence enrichment and honeypot reporting.
 
+## Evidence
 
+Representative sanitized evidence is stored in:
 
+- `evidence/hnap-getdevicesettings.txt`
+- `evidence/jnap-setupwizard.txt`
+- `evidence/netgear-setup-cgi-mozi.txt`
+- `evidence/ping-test.txt`
+- `evidence/syscmd-boa.txt`
+- `evidence/ttcp-ip.txt`
+- `evidence/weblogin-cgi.txt`
 
+## Analyst note
+
+The original automatic publisher produced many hash-based records. For public reporting, those records were grouped into campaign-level evidence instead of exposing thousands of low-context directories.
+
+That grouping is the actual analyst work: separating useful defensive patterns from honeypot noise.
