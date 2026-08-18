@@ -16,6 +16,7 @@ Este repositorio está pensado para humanos: abrir, entender, hacer clic y ver e
 | Firmas y payloads confirmados | [`firmas/`](firmas/) |
 | Detecciones | [`detecciones/`](detecciones/) |
 | Inteligencia / CTI | [`intel/`](intel/) |
+| Volumen procesado / hallazgos | [`hallazgos/`](hallazgos/) |
 
 ## Casos principales
 
