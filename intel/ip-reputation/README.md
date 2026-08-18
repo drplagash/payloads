@@ -2,15 +2,15 @@
 
 Passive telemetry dashboard generated from Oraculo-observed attacks.
 
-**Last generated UTC:** `2026-08-17T22:37:16Z`
+**Last generated UTC:** `2026-08-18T02:36:54Z`
 
 ## Quick status
 
 | Window | Sightings | Unique IPs | Unique ASNs | DROP hits | Tor hits | High/Critical |
 |---|---:|---:|---:|---:|---:|---:|
-| Latest 24h | 450895 | 1402 | 363 | 95 | 3 | 0 |
-| Current month | 2166474 | 6540 | 1159 | 242 | 3 | 0 |
-| Cumulative | 4025074 | 23512 | 2117 | 1246 | 47 | 0 |
+| Latest 24h | 423264 | 1343 | 355 | 96 | 3 | 0 |
+| Current month | 2221971 | 6641 | 1168 | 248 | 3 | 0 |
+| Cumulative | 4080571 | 23586 | 2125 | 1248 | 49 | 0 |
 
 ## Download lists
 
@@ -29,9 +29,9 @@ Passive telemetry dashboard generated from Oraculo-observed attacks.
 | Metric | Count |
 |---|---:|
 | High risk | 0 |
-| Medium risk | 98 |
-| Feed matches | 98 |
-| DROP matches | 95 |
+| Medium risk | 99 |
+| Feed matches | 99 |
+| DROP matches | 96 |
 | Tor matches | 3 |
 | ASN-DROP matches | 0 |
 | Curated BPH matches | 0 |
@@ -45,11 +45,11 @@ Passive telemetry dashboard generated from Oraculo-observed attacks.
 | `91.92.40.46` | 4272 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `True` | `False` | `False` |
 | `213.209.159.115` | 1790 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS208137` | `Aneta Kovarova` | `True` | `False` | `False` |
 | `77.90.185.21` | 1597 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `True` | `False` | `False` |
-| `77.90.185.30` | 1028 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `True` | `False` | `False` |
 | `77.90.185.20` | 772 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `True` | `False` | `False` |
 | `80.94.92.179` | 725 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `True` | `False` | `False` |
 | `94.154.43.210` | 542 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS219502` | `Storm Industries LLC` | `True` | `False` | `False` |
 | `195.178.110.217` | 514 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `True` | `False` | `False` |
+| `77.90.185.30` | 476 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `True` | `False` | `False` |
 
 ## Latest 24h feed matches
 
@@ -60,26 +60,26 @@ Passive telemetry dashboard generated from Oraculo-observed attacks.
 | `91.92.40.46` | 4272 | 55 | `AS197170` | `TechTies Inc.` | `spamhaus_drop` |
 | `213.209.159.115` | 1790 | 55 | `AS208137` | `Aneta Kovarova` | `spamhaus_drop` |
 | `77.90.185.21` | 1597 | 55 | `AS213790` | `` | `spamhaus_drop` |
-| `77.90.185.30` | 1028 | 55 | `AS213790` | `` | `spamhaus_drop` |
 | `77.90.185.20` | 772 | 55 | `AS213790` | `` | `spamhaus_drop` |
 | `80.94.92.179` | 725 | 55 | `AS47890` | `UNMANAGED LTD` | `spamhaus_drop` |
 | `94.154.43.210` | 542 | 55 | `AS219502` | `Storm Industries LLC` | `spamhaus_drop` |
 | `195.178.110.217` | 514 | 55 | `AS48090` | `AD-Tech` | `spamhaus_drop` |
+| `77.90.185.30` | 476 | 55 | `AS213790` | `` | `spamhaus_drop` |
 
 ## Latest 24h ASN ranking
 
 | ASN | Org/name | Attacks | Unique IPs | Max risk | DROP hits | Tor exits | BPH |
 |---|---|---:|---:|---:|---:|---:|---|
-| `AS197170` | `TechTies Inc.` | 26813 | 16 | 55 | 11 | 0 | `False` |
-| `AS213790` | `` | 3490 | 7 | 55 | 7 | 0 | `False` |
-| `AS208137` | `Aneta Kovarova` | 1818 | 3 | 55 | 3 | 0 | `False` |
-| `AS215925` | `Administration` | 1514 | 15 | 55 | 2 | 0 | `False` |
-| `AS47890` | `UNMANAGED LTD` | 1272 | 8 | 55 | 8 | 0 | `False` |
-| `AS48090` | `AD-Tech` | 1214 | 7 | 55 | 7 | 0 | `False` |
-| `AS219502` | `Storm Industries LLC` | 768 | 13 | 55 | 13 | 0 | `False` |
-| `AS135377` | `` | 413 | 7 | 55 | 1 | 0 | `False` |
-| `AS213388` | `` | 392 | 7 | 55 | 7 | 0 | `False` |
-| `AS51396` | `` | 356 | 7 | 55 | 7 | 0 | `False` |
+| `AS197170` | `TechTies Inc.` | 32773 | 13 | 55 | 8 | 0 | `False` |
+| `AS213790` | `` | 2915 | 6 | 55 | 6 | 0 | `False` |
+| `AS208137` | `Aneta Kovarova` | 1811 | 3 | 55 | 3 | 0 | `False` |
+| `AS48090` | `AD-Tech` | 1680 | 10 | 55 | 10 | 0 | `False` |
+| `AS47890` | `UNMANAGED LTD` | 1273 | 7 | 55 | 7 | 0 | `False` |
+| `AS219502` | `Storm Industries LLC` | 732 | 13 | 55 | 13 | 0 | `False` |
+| `AS213388` | `` | 399 | 6 | 55 | 6 | 0 | `False` |
+| `AS51396` | `` | 307 | 7 | 55 | 7 | 0 | `False` |
+| `AS401626` | `` | 247 | 10 | 55 | 10 | 0 | `False` |
+| `AS135377` | `` | 150 | 6 | 55 | 1 | 0 | `False` |
 
 ## Machine-readable views
 
