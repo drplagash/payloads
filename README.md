@@ -6,21 +6,33 @@
 
 Payloads, malware samples, IOCs and analysis collected from controlled honeypot and SOC lab environments.
 
-This repository is part of **Oráculo SOC**. It preserves evidence from honeypots, controlled experiments and defensive research workflows, then separates actual payloads from noise, review material and plain intelligence.
+This repository is part of **Oráculo SOC**. It is not just storage. It is the public evidence layer for a T-Pot based detection and analysis workflow: capture, triage, classify, extract IOCs, document behavior, and turn noisy honeypot telemetry into defensive intelligence.
 
-The goal is simple: keep useful evidence, make it understandable, and avoid turning a malware repository into a landfill with a README.
+## What this repository demonstrates
 
-## What belongs here
+This repository is meant to show practical capabilities, not dump raw folders at people and hope they clap.
 
-| Area | Purpose |
+It demonstrates:
+
+- T-Pot telemetry review;
+- payload and malware triage;
+- SHA-based artifact classification;
+- IOC extraction;
+- command and behavior analysis;
+- detection engineering with YARA, Sigma and Suricata style outputs;
+- separation of confirmed samples, review material, CTI-only indicators and noise;
+- safe handling of captured malware material using inert representations.
+
+## Human-facing areas
+
+| Area | What visitors should look at |
 |---|---|
-| `payloads/samples/` | Confirmed payloads and malware samples |
-| `review/` | Legacy material that still needs analyst review |
-| `archive/` | Preserved low-value or noisy legacy material |
-| `intel/` | IPs, domains, URLs, ASNs and CTI context |
-| `detections/` | YARA, Sigma, Suricata and detection logic |
-| `audit/` | Migration logs and triage manifests |
-| `docs/` | Policy, structure and cleanup notes |
+| `showcase/` | Portfolio-style overview of the T-Pot detection and analysis work |
+| `case-studies/` | Human-readable examples of analyzed artifacts and triage decisions |
+| `payloads/samples/` | Confirmed payload or malware samples with structured evidence |
+| `detections/` | Detection engineering material and rule locations |
+| `intel/` | CTI context: IPs, URLs, domains, ASNs and related indicators |
+| `docs/` | Cleanup status, structure notes and publishing policy |
 
 ## Current repository state
 
@@ -33,7 +45,25 @@ Archived false-useful noise:    454
 Legacy SHA tree remaining:        0
 ```
 
-The old `tpot/oraculo/sha256` sprawl was migrated into explicit zones. Confirmed payloads now live in the canonical structure. Review material is preserved but no longer presented as finished analysis.
+The old `tpot/oraculo/sha256` sprawl was migrated into explicit zones. The main branch now shows the curated, human-readable portfolio. The historical bulk dataset is preserved in the `legacy-bulk-archive` branch for audit and later review.
+
+## Confirmed sample
+
+The first confirmed payload currently promoted into the canonical structure is:
+
+```text
+payloads/samples/cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41/
+```
+
+Summary:
+
+```text
+Type: ELF32 MIPS payload / malware-like artifact
+Size: 448624 bytes
+Source: controlled honeypot/lab telemetry
+Status: needs_review, quarantined
+Evidence: metadata, IOCs, command sightings, raw inert representation, analysis notes
+```
 
 ## Canonical sample format
 
@@ -78,7 +108,27 @@ Useful evidence can include:
 - metadata;
 - YARA or other detection logic.
 
-Everything else stays in `review/`, moves to `intel/`, or gets preserved in `archive/`.
+Everything else stays in the historical branch, moves into `intel/`, or gets preserved as archived review material.
+
+## Where the work is visible
+
+Start here:
+
+```text
+showcase/
+case-studies/
+payloads/samples/
+detections/
+intel/
+docs/CLEANUP_STATUS.md
+```
+
+Use the historical branch only when the goal is audit, re-triage or forensic review of the old bulk dataset:
+
+```bash
+git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+git ls-tree -r origin/legacy-bulk-archive | head
+```
 
 ## Project context
 
