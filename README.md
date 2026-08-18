@@ -1,54 +1,27 @@
-<p align="center">
-  <img src="assets/payloads.png" alt="Payloads" width="100%">
-</p>
-
 # Payloads
 
-Biblioteca pública de evidencia de Oraculo SOC para payloads, malware y campañas observadas en T-Pot.
+Evidencia pública de Oraculo SOC obtenida desde T-Pot.
 
-Este repositorio está pensado para humanos: abrir, entender, hacer clic y ver evidencia. No es un depósito de hashes tirados en una zanja digital.
+Este repositorio muestra payloads detectados, malware confirmado y casos explicados. La idea es simple: abrir, hacer clic y ver evidencia útil.
 
-## Acceso rápido
+## Entrar
 
-| Quiero ver | Entrar acá |
+| Quiero ver | Link |
 |---|---|
+| Payloads detectados | [`payloads/detectados/`](payloads/detectados/) |
+| Payloads confirmados | [`payloads/confirmados/`](payloads/confirmados/) |
+| Malware confirmado | [`malware/confirmados/`](malware/confirmados/) |
 | Casos explicados | [`casos/`](casos/) |
-| Firmas y payloads confirmados | [`firmas/`](firmas/) |
-| Detecciones | [`detecciones/`](detecciones/) |
-| Inteligencia / CTI | [`intel/`](intel/) |
-| Volumen procesado / hallazgos | [`hallazgos/`](hallazgos/) |
 
-## Casos principales
+## Resumen
 
-- [`router-downloader-91-92-40`](casos/tpot-router-downloader-campaign-91-92-40/)  
-  Campaña router/IoT downloader agrupada desde 517 artefactos high-signal de T-Pot.
-
-- [`mips-cad9e90`](casos/tpot-mips-payload-cad9e90/)  
-  Payload ELF32 MIPS promovido como muestra confirmada con evidencia y análisis.
-
-## Firmas high-signal publicadas
-
-- [`517 artifacts high-signal`](firmas/high-signal/) publicados como carpetas visibles.
-
-Cada carpeta tiene README humano y evidencia defangueada cuando está disponible.
-
-## Firma confirmada
-
-- [`cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41`](firmas/cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41/)  
-  Payload ELF32 MIPS capturado desde telemetría controlada de honeypot.
-
-## Regla humana
-
-Primero se ven los casos.
-
-Después se ven las firmas.
-
-Cada firma debe abrir en una carpeta con toda la información posible: README, evidencia, metadata, IOCs, análisis y material inerte.
-
-El material histórico, ruido, review masivo y basura de hashes no va en la cara del visitante.
+- 517 payloads detectados publicados.
+- 1 payload/malware ELF32 MIPS confirmado.
+- 1 campaña router/IoT downloader explicada.
+- Evidencia con comandos, IOCs, metadata y detecciones cuando existen.
 
 ## Seguridad
 
-Este repositorio es para investigación defensiva, análisis de malware, SOC y laboratorio controlado.
+Material publicado para investigación defensiva, SOC, threat hunting y laboratorio controlado.
 
-No ejecutar muestras en producción. No usar este material para actividad no autorizada. Los payloads deben mantenerse inertes.
+No ejecutar payloads. No usar este material para actividad no autorizada.

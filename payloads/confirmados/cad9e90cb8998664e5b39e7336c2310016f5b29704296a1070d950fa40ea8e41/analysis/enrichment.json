@@ -1,0 +1,37 @@
+{
+  "artifact": {
+    "created_at": "2026-08-15 15:42:02",
+    "id": "82064",
+    "md5": "620c007093f64dfe672252c0bd483f25",
+    "sha1": "5e848778ec4fbfddc94b5a76e5a56bf2e5173ce3",
+    "sha256": "cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41",
+    "size_bytes": "448624",
+    "source_url": "http://154.90.70.23/mips",
+    "updated_at": "2026-08-15 16:08:03"
+  },
+  "mode": "passive_enrichment",
+  "network_used": false,
+  "providers": {
+    "abuseipdb": {
+      "enabled": false
+    },
+    "censys": {
+      "enabled": false
+    },
+    "greynoise": {
+      "enabled": false
+    },
+    "malwarebazaar": {
+      "enabled": true
+    },
+    "shodan": {
+      "enabled": false
+    },
+    "urlhaus": {
+      "enabled": true
+    },
+    "virustotal": {
+      "enabled": false
+    }
+  }
+}
