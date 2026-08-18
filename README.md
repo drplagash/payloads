@@ -19,10 +19,10 @@ Este repositorio está pensado para humanos: abrir, entender, hacer clic y ver e
 
 ## Casos principales
 
-- [`router-downloader-91-92-40`](casos/router-downloader-91-92-40/)  
+- [`router-downloader-91-92-40`](casos/tpot-router-downloader-campaign-91-92-40/)  
   Campaña router/IoT downloader agrupada desde 517 artefactos high-signal de T-Pot.
 
-- [`mips-cad9e90`](casos/mips-cad9e90/)  
+- [`mips-cad9e90`](casos/tpot-mips-payload-cad9e90/)  
   Payload ELF32 MIPS promovido como muestra confirmada con evidencia y análisis.
 
 ## Firma confirmada
