@@ -2,17 +2,18 @@
 
 Casos humanos de análisis de payloads, malware y campañas observadas con T-Pot.
 
-Acá se entra para entender la historia completa: qué se vio, por qué importa, qué evidencia existe y qué detección se puede construir.
+Un caso no es una carpeta con un hash. Un caso es una historia técnica: qué se vio, por qué importa, qué evidencia existe, qué patrones aparecen y qué detección se puede construir.
 
-## Lista de casos
+## Casos principales
 
 | Caso | Qué muestra |
 |---|---|
-| [`router-downloader-91-92-40`](router-downloader-91-92-40/) | Campaña router/IoT downloader con abuso de HNAP, JNAP, Netgear setup.cgi, ping_test, syscmd.htm, ttcp_ip y weblogin.cgi |
-| [`mips-cad9e90`](mips-cad9e90/) | Payload ELF32 MIPS confirmado, con evidencia, metadata, IOCs y notas |
+| [`tpot-router-downloader-campaign-91-92-40`](tpot-router-downloader-campaign-91-92-40/) | Campaña router/IoT downloader agrupada desde 517 firmas high-signal. Incluye superficies HNAP, JNAP, Netgear setup.cgi, ping_test, syscmd.htm, ttcp_ip y weblogin.cgi. |
 
-## Regla
+## Firmas relacionadas
 
-Un caso tiene que poder leerse como informe.
+Las firmas/payloads individuales viven en:
 
-No es una carpeta para tirar archivos. Es una historia técnica con evidencia.
+- [`../firmas/`](../firmas/)
+
+El payload MIPS `cad9e90...` está documentado como firma confirmada, no como campaña.
