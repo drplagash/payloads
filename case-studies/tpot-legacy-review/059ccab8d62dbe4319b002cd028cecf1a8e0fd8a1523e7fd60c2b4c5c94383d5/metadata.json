@@ -1,0 +1,33 @@
+{
+  "artifact": {
+    "description": "data",
+    "entropy": 4.87,
+    "risk_level": "medium",
+    "size_bytes": 273
+  },
+  "classification": {
+    "evidence_score": 8,
+    "report_quality": "rich"
+  },
+  "commands": {
+    "count": 1,
+    "file": "commands.txt"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "e089080199b14339e6cb24478ee8d535",
+    "sha256": "059ccab8d62dbe4319b002cd028cecf1a8e0fd8a1523e7fd60c2b4c5c94383d5"
+  },
+  "iocs": {
+    "count": 3,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.2.1"
+  },
+  "registered_at": "2026-08-09T19:44:03.000000Z",
+  "schema_version": "3.1"
+}

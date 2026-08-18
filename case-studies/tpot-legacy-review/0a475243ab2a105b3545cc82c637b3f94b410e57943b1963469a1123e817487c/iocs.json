@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.164.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/7.64.1"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "0a475243ab2a105b3545cc82c637b3f94b410e57943b1963469a1123e817487c"
+  },
+  {
+    "asn": "Hangzhou Alibaba Advertising Co.,Ltd.",
+    "country": "China",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "101.200.243.XXX"
+  }
+]

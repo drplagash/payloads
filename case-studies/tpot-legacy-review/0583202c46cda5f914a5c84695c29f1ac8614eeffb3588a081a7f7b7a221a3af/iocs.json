@@ -1,0 +1,27 @@
+[
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190.179.164.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "User-Agent: curl/8.5.0"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "0583202c46cda5f914a5c84695c29f1ac8614eeffb3588a081a7f7b7a221a3af"
+  },
+  {
+    "asn": "OVH SAS",
+    "country": "France",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "51.75.255.XXX"
+  }
+]
