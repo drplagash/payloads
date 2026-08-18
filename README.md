@@ -139,13 +139,3 @@ This repository is the public-facing payload and malware evidence library for th
 ## License
 
 MIT License, unless a specific file or directory states otherwise.
-
-## Visible T-Pot findings
-
-The public branch exposes the defensive output of the T-Pot pipeline without dumping the full legacy tree into the root.
-
-- `findings/tpot/`: counts, SHA lists and evidence indexes from legacy T-Pot review.
-- `case-studies/tpot-legacy-review/`: curated review cases with command evidence, IOCs, metadata and detection notes.
-- `payloads/samples/`: confirmed promoted malware or payload samples.
-- `origin/legacy-bulk-archive`: preserved heavy historical tree for audit and recovery.
-
