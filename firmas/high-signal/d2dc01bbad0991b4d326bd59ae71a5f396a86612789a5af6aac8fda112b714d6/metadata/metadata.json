@@ -1,0 +1,36 @@
+{
+  "artifact": {
+    "description": "JSON text data",
+    "entropy": 5.09,
+    "risk_level": "medium",
+    "size_bytes": 307
+  },
+  "classification": {
+    "category": "downloader",
+    "confidence": "Baja",
+    "evidence_score": 10,
+    "report_quality": "rich"
+  },
+  "commands": {
+    "count": 1,
+    "file": "commands.txt"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "0a6f05d68d5b42f177baf46d2e4a24de",
+    "sha1": "02f6e065acdf2c914760ec1b8e53c218a8457341",
+    "sha256": "d2dc01bbad0991b4d326bd59ae71a5f396a86612789a5af6aac8fda112b714d6"
+  },
+  "iocs": {
+    "count": 6,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.2.1"
+  },
+  "registered_at": "2026-08-09T19:49:46.000000Z",
+  "schema_version": "3.1"
+}

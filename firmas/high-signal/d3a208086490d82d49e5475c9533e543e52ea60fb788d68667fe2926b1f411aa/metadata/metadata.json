@@ -1,0 +1,40 @@
+{
+  "artifact": {
+    "description": "ASCII text, with CRLF line terminators",
+    "entropy": 5.38,
+    "risk_level": "medium",
+    "size_bytes": 316
+  },
+  "classification": {
+    "behaviors": [
+      "Descarga remota",
+      "Ejecución"
+    ],
+    "category": "downloader",
+    "confidence": "Baja",
+    "evidence_score": 10,
+    "report_quality": "rich"
+  },
+  "commands": {
+    "count": 1,
+    "file": "commands.txt"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "8abb17c9f1d99c732e3b4bbe92d3a915",
+    "sha1": "51c0a6c4590c75ed91435509945fd35c97e0b6e2",
+    "sha256": "d3a208086490d82d49e5475c9533e543e52ea60fb788d68667fe2926b1f411aa"
+  },
+  "iocs": {
+    "count": 4,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.2.1"
+  },
+  "registered_at": "2026-08-09T19:44:03.000000Z",
+  "schema_version": "3.1"
+}

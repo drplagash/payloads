@@ -1,0 +1,44 @@
+{
+  "artifact": {
+    "description": "ASCII text, with CRLF line terminators",
+    "entropy": 5.01,
+    "risk_level": "critical",
+    "size_bytes": 4011
+  },
+  "classification": {
+    "behaviors": [
+      "Descarga remota",
+      "Cambio de permisos",
+      "Ejecución"
+    ],
+    "category": "botnet",
+    "confidence": "Baja",
+    "evidence_score": 14,
+    "family": "mirai",
+    "family_confidence": "Media",
+    "family_evidence": "clasificación persistida",
+    "report_quality": "rich"
+  },
+  "commands": {
+    "count": 24,
+    "file": "commands.txt"
+  },
+  "identity": {
+    "algorithm": "sha256",
+    "md5": "bae2a45cdb197931de58dbe79469478c",
+    "sha1": "3853ea21e1172b077cb9613379d541711e748e58",
+    "sha256": "67ea9188f82ea69ff63241d76861b96038a8f6a558a2c6ac3673c611aa81a2af"
+  },
+  "iocs": {
+    "count": 38,
+    "file": "iocs.json"
+  },
+  "publication": {
+    "generator": "oraculo-soc",
+    "immutable": true,
+    "mode": "automatic_snapshot",
+    "publisher_version": "oraculo-payload-publisher-1.2.1"
+  },
+  "registered_at": "2026-08-09T19:47:28.000000Z",
+  "schema_version": "3.1"
+}

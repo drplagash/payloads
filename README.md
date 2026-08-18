@@ -26,6 +26,12 @@ Este repositorio está pensado para humanos: abrir, entender, hacer clic y ver e
 - [`mips-cad9e90`](casos/tpot-mips-payload-cad9e90/)  
   Payload ELF32 MIPS promovido como muestra confirmada con evidencia y análisis.
 
+## Firmas high-signal publicadas
+
+- [`517 artifacts high-signal`](firmas/high-signal/) publicados como carpetas visibles.
+
+Cada carpeta tiene README humano y evidencia defangueada cuando está disponible.
+
 ## Firma confirmada
 
 - [`cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41`](firmas/cad9e90cb8998664e5b39e7336c2310016f5b29704296a1070d950fa40ea8e41/)  

