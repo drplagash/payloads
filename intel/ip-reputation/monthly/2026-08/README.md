@@ -1,6 +1,6 @@
 # IP / ASN / BPH Intel - Monthly 2026-08
 
-Generated UTC: `2026-08-20T10:37:45Z`
+Generated UTC: `2026-08-20T14:37:51Z`
 
 ## Summary
 
@@ -9,7 +9,7 @@ Generated UTC: `2026-08-20T10:37:45Z`
 | Sightings | `2408539` |
 | Unique IPs | `7776` |
 | Unique ASNs | `1303` |
-| DROP IP hits | `278` |
+| DROP IP hits | `279` |
 | Tor exit IP hits | `4` |
 | ASN-DROP ASNs | `0` |
 | BPH / suspicious ASNs | `0` |

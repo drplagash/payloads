@@ -1,6 +1,6 @@
 # IP / ASN / BPH Intel - Cumulative
 
-Generated UTC: `2026-08-20T10:38:04Z`
+Generated UTC: `2026-08-20T14:38:08Z`
 
 ## Summary
 
@@ -9,7 +9,7 @@ Generated UTC: `2026-08-20T10:38:04Z`
 | Sightings | `4267139` |
 | Unique IPs | `24409` |
 | Unique ASNs | `2219` |
-| DROP IP hits | `1263` |
+| DROP IP hits | `1264` |
 | Tor exit IP hits | `49` |
 | ASN-DROP ASNs | `0` |
 | BPH / suspicious ASNs | `0` |
