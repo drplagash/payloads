@@ -2,13 +2,13 @@
 
 Passive telemetry dashboard generated from Oraculo-observed attacks.
 
-**Last generated UTC:** `2026-08-20T14:37:40Z`
+**Last generated UTC:** `2026-08-20T18:37:39Z`
 
 ## Quick status
 
 | Window | Sightings | Unique IPs | Unique ASNs | DROP hits | Tor hits | High/Critical |
 |---|---:|---:|---:|---:|---:|---:|
-| Latest 24h | 62991 | 535 | 212 | 54 | 1 | 0 |
+| Latest 24h | 28615 | 290 | 135 | 36 | 1 | 0 |
 | Current month | 2408539 | 7776 | 1303 | 279 | 4 | 0 |
 | Cumulative | 4267139 | 24409 | 2219 | 1264 | 49 | 0 |
 
@@ -29,9 +29,9 @@ Passive telemetry dashboard generated from Oraculo-observed attacks.
 | Metric | Count |
 |---|---:|
 | High risk | 0 |
-| Medium risk | 55 |
-| Feed matches | 55 |
-| DROP matches | 54 |
+| Medium risk | 37 |
+| Feed matches | 37 |
+| DROP matches | 36 |
 | Tor matches | 1 |
 | ASN-DROP matches | 0 |
 | Curated BPH matches | 0 |
@@ -41,45 +41,45 @@ Passive telemetry dashboard generated from Oraculo-observed attacks.
 | IP | Attacks | Risk | Level | Reasons | ASN | Org | DROP | Tor | BPH |
 |---|---:|---:|---|---|---|---|---|---|---|
 | `91.92.40.44` | 2825 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `True` | `False` | `False` |
-| `92.118.39.77` | 1174 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `True` | `False` | `False` |
-| `77.90.185.21` | 497 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `True` | `False` | `False` |
-| `213.209.159.115` | 379 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS208137` | `Aneta Kovarova` | `True` | `False` | `False` |
-| `92.118.39.49` | 279 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `True` | `False` | `False` |
+| `92.118.39.77` | 537 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `True` | `False` | `False` |
+| `92.118.39.49` | 263 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `True` | `False` | `False` |
 | `193.32.162.27` | 228 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `True` | `False` | `False` |
-| `195.178.110.137` | 123 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `True` | `False` | `False` |
-| `45.135.193.159` | 59 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS51396` | `` | `True` | `False` | `False` |
+| `195.178.110.137` | 117 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `True` | `False` | `False` |
 | `176.120.22.123` | 49 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS198953` | `lir-ru-proton66-1-MNT` | `True` | `False` | `False` |
 | `45.142.193.145` | 45 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213388` | `` | `True` | `False` | `False` |
+| `94.154.43.24` | 33 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS219502` | `Storm Industries LLC` | `True` | `False` | `False` |
+| `213.209.159.66` | 30 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS208137` | `Aneta Kovarova` | `True` | `False` | `False` |
+| `204.76.203.49` | 28 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS51396` | `` | `True` | `False` | `False` |
 
 ## Latest 24h feed matches
 
 | IP | Attacks | Risk | ASN | Org | Feed hits |
 |---|---:|---:|---|---|---|
 | `91.92.40.44` | 2825 | 55 | `AS197170` | `TechTies Inc.` | `spamhaus_drop` |
-| `92.118.39.77` | 1174 | 55 | `AS47890` | `UNMANAGED LTD` | `spamhaus_drop` |
-| `77.90.185.21` | 497 | 55 | `AS213790` | `` | `spamhaus_drop` |
-| `213.209.159.115` | 379 | 55 | `AS208137` | `Aneta Kovarova` | `spamhaus_drop` |
-| `92.118.39.49` | 279 | 55 | `AS47890` | `UNMANAGED LTD` | `spamhaus_drop` |
+| `92.118.39.77` | 537 | 55 | `AS47890` | `UNMANAGED LTD` | `spamhaus_drop` |
+| `92.118.39.49` | 263 | 55 | `AS47890` | `UNMANAGED LTD` | `spamhaus_drop` |
 | `193.32.162.27` | 228 | 55 | `AS47890` | `UNMANAGED LTD` | `spamhaus_drop` |
-| `195.178.110.137` | 123 | 55 | `AS48090` | `AD-Tech` | `spamhaus_drop` |
-| `45.135.193.159` | 59 | 55 | `AS51396` | `` | `spamhaus_drop` |
+| `195.178.110.137` | 117 | 55 | `AS48090` | `AD-Tech` | `spamhaus_drop` |
 | `176.120.22.123` | 49 | 55 | `AS198953` | `lir-ru-proton66-1-MNT` | `spamhaus_drop` |
 | `45.142.193.145` | 45 | 55 | `AS213388` | `` | `spamhaus_drop` |
+| `94.154.43.24` | 33 | 55 | `AS219502` | `Storm Industries LLC` | `spamhaus_drop` |
+| `213.209.159.66` | 30 | 55 | `AS208137` | `Aneta Kovarova` | `spamhaus_drop` |
+| `204.76.203.49` | 28 | 55 | `AS51396` | `` | `spamhaus_drop` |
 
 ## Latest 24h ASN ranking
 
 | ASN | Org/name | Attacks | Unique IPs | Max risk | DROP hits | Tor exits | BPH |
 |---|---|---:|---:|---:|---:|---:|---|
-| `AS197170` | `TechTies Inc.` | 20830 | 10 | 55 | 5 | 0 | `False` |
-| `AS47890` | `UNMANAGED LTD` | 1718 | 5 | 55 | 5 | 0 | `False` |
-| `AS213790` | `` | 527 | 3 | 55 | 3 | 0 | `False` |
-| `AS208137` | `Aneta Kovarova` | 421 | 4 | 55 | 4 | 0 | `False` |
-| `AS51396` | `` | 181 | 9 | 55 | 9 | 0 | `False` |
-| `AS48090` | `AD-Tech` | 152 | 4 | 55 | 4 | 0 | `False` |
-| `AS219502` | `Storm Industries LLC` | 136 | 7 | 55 | 7 | 0 | `False` |
-| `AS213388` | `` | 121 | 5 | 55 | 5 | 0 | `False` |
+| `AS197170` | `TechTies Inc.` | 11218 | 6 | 55 | 3 | 0 | `False` |
+| `AS47890` | `UNMANAGED LTD` | 1028 | 3 | 55 | 3 | 0 | `False` |
+| `AS48090` | `AD-Tech` | 135 | 3 | 55 | 3 | 0 | `False` |
+| `AS51396` | `` | 91 | 5 | 55 | 5 | 0 | `False` |
+| `AS213388` | `` | 82 | 5 | 55 | 5 | 0 | `False` |
+| `AS219502` | `Storm Industries LLC` | 72 | 4 | 55 | 4 | 0 | `False` |
 | `AS198953` | `lir-ru-proton66-1-MNT` | 49 | 1 | 55 | 1 | 0 | `False` |
-| `AS207812` | `MNT-LIR-BG` | 38 | 3 | 55 | 3 | 0 | `False` |
+| `AS213790` | `` | 30 | 2 | 55 | 2 | 0 | `False` |
+| `AS208137` | `Aneta Kovarova` | 30 | 1 | 55 | 1 | 0 | `False` |
+| `AS204428` | `` | 16 | 1 | 55 | 1 | 0 | `False` |
 
 ## Machine-readable views
 
