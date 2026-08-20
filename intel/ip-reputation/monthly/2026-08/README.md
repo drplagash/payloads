@@ -1,15 +1,15 @@
 # IP / ASN / BPH Intel - Monthly 2026-08
 
-Generated UTC: `2026-08-19T22:38:05Z`
+Generated UTC: `2026-08-20T02:38:14Z`
 
 ## Summary
 
 | Metric | Value |
 |---|---:|
-| Sightings | `2399803` |
-| Unique IPs | `7725` |
-| Unique ASNs | `1292` |
-| DROP IP hits | `277` |
+| Sightings | `2408539` |
+| Unique IPs | `7776` |
+| Unique ASNs | `1303` |
+| DROP IP hits | `278` |
 | Tor exit IP hits | `4` |
 | ASN-DROP ASNs | `0` |
 | BPH / suspicious ASNs | `0` |
@@ -37,33 +37,33 @@ Generated UTC: `2026-08-19T22:38:05Z`
 | 16 | `91.92.40.37` | 4324 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `False` | `True` | `False` | `False` |
 | 17 | `91.92.40.46` | 4272 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `False` | `True` | `False` | `False` |
 | 18 | `193.32.162.27` | 3525 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `False` | `True` | `False` | `False` |
-| 19 | `195.178.110.26` | 2802 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
-| 20 | `195.178.110.137` | 2501 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
-| 21 | `80.94.92.55` | 2028 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `False` | `True` | `False` | `False` |
-| 22 | `195.178.110.232` | 1846 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
-| 23 | `80.94.95.211` | 1766 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS204428` | `` | `False` | `True` | `False` | `False` |
-| 24 | `45.148.10.240` | 1702 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
-| 25 | `195.178.110.217` | 1607 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
+| 19 | `91.92.40.44` | 2825 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `False` | `True` | `False` | `False` |
+| 20 | `195.178.110.26` | 2802 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
+| 21 | `195.178.110.137` | 2501 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
+| 22 | `80.94.92.55` | 2028 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `False` | `True` | `False` | `False` |
+| 23 | `195.178.110.232` | 1846 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
+| 24 | `80.94.95.211` | 1766 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS204428` | `` | `False` | `True` | `False` | `False` |
+| 25 | `45.148.10.240` | 1702 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `False` | `True` | `False` | `False` |
 
 ## Top ASNs by risk
 
 | Rank | ASN | ASN org/name | Attacks | Unique IPs | Max risk | Level | DROP hits | Tor exits | ASN-DROP | BPH |
 |---:|---|---|---:|---:|---:|---|---:|---:|---|---|
-| 1 | `AS197170` | `TechTies Inc.` | 149779 | 47 | 55 | `medium` | 34 | 0 | `False` | `False` |
-| 2 | `AS213790` | `` | 26263 | 9 | 55 | `medium` | 9 | 0 | `False` | `False` |
+| 1 | `AS197170` | `TechTies Inc.` | 155163 | 50 | 55 | `medium` | 35 | 0 | `False` | `False` |
+| 2 | `AS213790` | `` | 26269 | 9 | 55 | `medium` | 9 | 0 | `False` | `False` |
 | 3 | `AS208137` | `Aneta Kovarova` | 18893 | 9 | 55 | `medium` | 9 | 0 | `False` | `False` |
 | 4 | `AS47890` | `UNMANAGED LTD` | 18680 | 25 | 55 | `medium` | 23 | 0 | `False` | `False` |
-| 5 | `AS48090` | `AD-Tech` | 15555 | 19 | 55 | `medium` | 19 | 0 | `False` | `False` |
-| 6 | `AS215925` | `Administration` | 11797 | 27 | 55 | `medium` | 3 | 0 | `False` | `False` |
+| 5 | `AS48090` | `AD-Tech` | 15562 | 19 | 55 | `medium` | 19 | 0 | `False` | `False` |
+| 6 | `AS215925` | `Administration` | 11820 | 27 | 55 | `medium` | 3 | 0 | `False` | `False` |
 | 7 | `AS135377` | `` | 4866 | 58 | 55 | `medium` | 6 | 0 | `False` | `False` |
-| 8 | `AS219502` | `Storm Industries LLC` | 2732 | 34 | 55 | `medium` | 34 | 0 | `False` | `False` |
+| 8 | `AS219502` | `Storm Industries LLC` | 2739 | 34 | 55 | `medium` | 34 | 0 | `False` | `False` |
 | 9 | `AS202412` | `` | 2553 | 7 | 55 | `medium` | 7 | 0 | `False` | `False` |
-| 10 | `AS213388` | `` | 2436 | 7 | 55 | `medium` | 7 | 0 | `False` | `False` |
+| 10 | `AS213388` | `` | 2443 | 7 | 55 | `medium` | 7 | 0 | `False` | `False` |
 | 11 | `AS204428` | `` | 2084 | 6 | 55 | `medium` | 6 | 0 | `False` | `False` |
-| 12 | `AS51396` | `` | 2072 | 19 | 55 | `medium` | 19 | 0 | `False` | `False` |
-| 13 | `AS401626` | `` | 761 | 31 | 55 | `medium` | 31 | 0 | `False` | `False` |
-| 14 | `AS207812` | `MNT-LIR-BG` | 497 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
-| 15 | `AS205759` | `Administration` | 479 | 32 | 55 | `medium` | 32 | 0 | `False` | `False` |
+| 12 | `AS51396` | `` | 2078 | 19 | 55 | `medium` | 19 | 0 | `False` | `False` |
+| 13 | `AS401626` | `` | 777 | 31 | 55 | `medium` | 31 | 0 | `False` | `False` |
+| 14 | `AS207812` | `MNT-LIR-BG` | 511 | 5 | 55 | `medium` | 5 | 0 | `False` | `False` |
+| 15 | `AS205759` | `Administration` | 489 | 32 | 55 | `medium` | 32 | 0 | `False` | `False` |
 | 16 | `AS215930` | `` | 250 | 4 | 55 | `medium` | 4 | 0 | `False` | `False` |
 | 17 | `AS209605` | `` | 121 | 8 | 55 | `medium` | 8 | 0 | `False` | `False` |
 | 18 | `AS198953` | `lir-ru-proton66-1-MNT` | 92 | 3 | 55 | `medium` | 3 | 0 | `False` | `False` |

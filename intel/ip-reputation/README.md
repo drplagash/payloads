@@ -2,15 +2,15 @@
 
 Passive telemetry dashboard generated from Oraculo-observed attacks.
 
-**Last generated UTC:** `2026-08-19T22:37:48Z`
+**Last generated UTC:** `2026-08-20T02:38:04Z`
 
 ## Quick status
 
 | Window | Sightings | Unique IPs | Unique ASNs | DROP hits | Tor hits | High/Critical |
 |---|---:|---:|---:|---:|---:|---:|
-| Latest 24h | 122767 | 1312 | 361 | 89 | 1 | 0 |
-| Current month | 2399803 | 7725 | 1292 | 277 | 4 | 0 |
-| Cumulative | 4258403 | 24363 | 2211 | 1262 | 49 | 0 |
+| Latest 24h | 120878 | 1203 | 346 | 82 | 1 | 0 |
+| Current month | 2408539 | 7776 | 1303 | 278 | 4 | 0 |
+| Cumulative | 4267139 | 24409 | 2219 | 1263 | 49 | 0 |
 
 ## Download lists
 
@@ -29,9 +29,9 @@ Passive telemetry dashboard generated from Oraculo-observed attacks.
 | Metric | Count |
 |---|---:|
 | High risk | 0 |
-| Medium risk | 90 |
-| Feed matches | 90 |
-| DROP matches | 89 |
+| Medium risk | 83 |
+| Feed matches | 83 |
+| DROP matches | 82 |
 | Tor matches | 1 |
 | ASN-DROP matches | 0 |
 | Curated BPH matches | 0 |
@@ -43,10 +43,10 @@ Passive telemetry dashboard generated from Oraculo-observed attacks.
 | `91.92.40.202` | 7526 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `True` | `False` | `False` |
 | `45.156.87.13` | 7351 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `True` | `False` | `False` |
 | `45.153.34.112` | 5009 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `True` | `False` | `False` |
+| `91.92.40.44` | 2825 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS197170` | `TechTies Inc.` | `True` | `False` | `False` |
 | `92.118.39.77` | 2191 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `True` | `False` | `False` |
-| `213.209.159.115` | 1194 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS208137` | `Aneta Kovarova` | `True` | `False` | `False` |
-| `77.90.185.21` | 1035 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `True` | `False` | `False` |
-| `80.94.95.211` | 883 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS204428` | `` | `True` | `False` | `False` |
+| `213.209.159.115` | 1185 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS208137` | `Aneta Kovarova` | `True` | `False` | `False` |
+| `77.90.185.21` | 1027 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS213790` | `` | `True` | `False` | `False` |
 | `2.57.122.209` | 619 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS47890` | `UNMANAGED LTD` | `True` | `False` | `False` |
 | `93.123.109.228` | 396 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `True` | `False` | `False` |
 | `195.178.110.137` | 363 | 55 | `medium` | `repeated_attacks_ge_10;spamhaus_drop_match` | `AS48090` | `AD-Tech` | `True` | `False` | `False` |
@@ -58,10 +58,10 @@ Passive telemetry dashboard generated from Oraculo-observed attacks.
 | `91.92.40.202` | 7526 | 55 | `AS197170` | `TechTies Inc.` | `spamhaus_drop` |
 | `45.156.87.13` | 7351 | 55 | `AS197170` | `TechTies Inc.` | `spamhaus_drop` |
 | `45.153.34.112` | 5009 | 55 | `AS197170` | `TechTies Inc.` | `spamhaus_drop` |
+| `91.92.40.44` | 2825 | 55 | `AS197170` | `TechTies Inc.` | `spamhaus_drop` |
 | `92.118.39.77` | 2191 | 55 | `AS47890` | `UNMANAGED LTD` | `spamhaus_drop` |
-| `213.209.159.115` | 1194 | 55 | `AS208137` | `Aneta Kovarova` | `spamhaus_drop` |
-| `77.90.185.21` | 1035 | 55 | `AS213790` | `` | `spamhaus_drop` |
-| `80.94.95.211` | 883 | 55 | `AS204428` | `` | `spamhaus_drop` |
+| `213.209.159.115` | 1185 | 55 | `AS208137` | `Aneta Kovarova` | `spamhaus_drop` |
+| `77.90.185.21` | 1027 | 55 | `AS213790` | `` | `spamhaus_drop` |
 | `2.57.122.209` | 619 | 55 | `AS47890` | `UNMANAGED LTD` | `spamhaus_drop` |
 | `93.123.109.228` | 396 | 55 | `AS48090` | `AD-Tech` | `spamhaus_drop` |
 | `195.178.110.137` | 363 | 55 | `AS48090` | `AD-Tech` | `spamhaus_drop` |
@@ -70,16 +70,16 @@ Passive telemetry dashboard generated from Oraculo-observed attacks.
 
 | ASN | Org/name | Attacks | Unique IPs | Max risk | DROP hits | Tor exits | BPH |
 |---|---|---:|---:|---:|---:|---:|---|
-| `AS197170` | `TechTies Inc.` | 35491 | 11 | 55 | 7 | 0 | `False` |
-| `AS47890` | `UNMANAGED LTD` | 3459 | 10 | 55 | 10 | 0 | `False` |
-| `AS215925` | `Administration` | 1493 | 15 | 55 | 1 | 0 | `False` |
-| `AS208137` | `Aneta Kovarova` | 1278 | 4 | 55 | 4 | 0 | `False` |
-| `AS213790` | `` | 1110 | 3 | 55 | 3 | 0 | `False` |
-| `AS204428` | `` | 939 | 4 | 55 | 4 | 0 | `False` |
-| `AS48090` | `AD-Tech` | 843 | 7 | 55 | 7 | 0 | `False` |
-| `AS135377` | `` | 731 | 12 | 55 | 1 | 0 | `False` |
-| `AS51396` | `` | 474 | 12 | 55 | 12 | 0 | `False` |
-| `AS213388` | `` | 343 | 6 | 55 | 6 | 0 | `False` |
+| `AS197170` | `TechTies Inc.` | 40875 | 14 | 55 | 8 | 0 | `False` |
+| `AS47890` | `UNMANAGED LTD` | 3425 | 10 | 55 | 10 | 0 | `False` |
+| `AS215925` | `Administration` | 1323 | 13 | 55 | 1 | 0 | `False` |
+| `AS208137` | `Aneta Kovarova` | 1263 | 4 | 55 | 4 | 0 | `False` |
+| `AS213790` | `` | 1087 | 3 | 55 | 3 | 0 | `False` |
+| `AS48090` | `AD-Tech` | 827 | 5 | 55 | 5 | 0 | `False` |
+| `AS135377` | `` | 636 | 10 | 55 | 1 | 0 | `False` |
+| `AS51396` | `` | 423 | 12 | 55 | 12 | 0 | `False` |
+| `AS213388` | `` | 304 | 6 | 55 | 6 | 0 | `False` |
+| `AS219502` | `Storm Industries LLC` | 159 | 9 | 55 | 9 | 0 | `False` |
 
 ## Machine-readable views
 
